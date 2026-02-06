@@ -7,21 +7,22 @@ public class GameController : MonoBehaviour
     [SerializeField]
     public List<Wave> waves;
     public int waveIndex = 0; // tempoary variable to control what wave to spawn, later will be controlled by game logic
+    public PlayerData playerData;
 
     // Update is called once per frame
     void Update()
     {
-        #if UNITY_EDITOR
-        if (Input.GetKeyDown(KeyCode.Space)) // press space to spawn next wave (DEBUG)
-        {
-            if (waveIndex >= waves.Count) waveIndex = 0; // loop back to first wave
-            SpawnWave(waves[waveIndex].waveData, waves[waveIndex].factoryType);
-            waveIndex++;
-            GameObject proj = ProjectilePool.instance.GetPooledObjectOfType(ProjectileType.Basic); // test object pooling
-            proj.transform.position = Vector3.zero;
-            proj.SetActive(true);
-        }
-        #endif
+        // #if UNITY_EDITOR
+        // if (Input.GetKeyDown(KeyCode.Space)) // press space to spawn next wave (DEBUG)
+        // {
+        //     if (waveIndex >= waves.Count) waveIndex = 0; // loop back to first wave
+        //     SpawnWave(waves[waveIndex].waveData, waves[waveIndex].factoryType);
+        //     waveIndex++;
+        //     GameObject proj = ProjectilePool.Instance.GetPooledObject(); // test object pooling
+        //     proj.transform.position = Vector3.zero;
+        //     proj.SetActive(true);
+        // }
+        // #endif
     }
 
     public void SpawnWave(WaveData waveData, string factoryType)
