@@ -8,10 +8,10 @@ public class SimplePickup : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            if (abilityToGrant != null)
+            if (abilityToGrant)
             {
-                playerData.Player.GetComponent<IAbilityUser>().AddAbility(abilityToGrant);
-                Debug.Log($"Added ability: {abilityToGrant.AbilityName}");
+                Debug.Log($"sent ability: {abilityToGrant.AbilityName}");
+                playerData.AddAbility(abilityToGrant);
                 Dissapear(); // destroy pickup after granting ability
             }
             else
