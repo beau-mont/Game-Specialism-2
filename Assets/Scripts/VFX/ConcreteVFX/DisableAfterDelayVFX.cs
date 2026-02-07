@@ -3,6 +3,9 @@ using UnityEditor;
 using UnityEditor.UIElements;
 using UnityEngine.UIElements;
 
+/// <summary>
+/// A concrete implementation of a VFXStrategy, disables the entity after a set delay.
+/// </summary>
 [CreateAssetMenu(fileName = "DisableAfterDelayConfig", menuName = "VFX/DisableAfterDelay")]
 public class DisableAfterDelayVFX : VFXStrategy
 {

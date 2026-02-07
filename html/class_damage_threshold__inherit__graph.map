@@ -1,0 +1,5 @@
+<map id="DamageThreshold" name="DamageThreshold">
+<area shape="rect" id="node1" title="An abstract scriptableObject that provides methods and variables for systems to interact with thresho..." alt="" coords="5,131,147,267"/>
+<area shape="rect" id="node3" href="$class_sound_threshold.html" title="An example of a concrete damage threshold. replace this later with proper concrete classes." alt="" coords="11,315,141,509"/>
+<area shape="rect" id="node2" title=" " alt="" coords="11,5,141,83"/>
+</map>

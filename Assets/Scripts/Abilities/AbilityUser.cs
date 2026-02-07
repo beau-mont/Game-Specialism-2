@@ -4,7 +4,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 
 /// <summary>
-/// This class handles the use of abilities
+/// A monoBehavior that essentially provides an interface to manage the usage of abilities.
 /// </summary>
 public class IAbilityUser : MonoBehaviour
 {
@@ -60,3 +60,13 @@ public class IAbilityUser : MonoBehaviour
         // Debug.Log($"ability set to {currentAbility.AbilityName}");
     }
 }
+
+// public interface IAbilityUser
+// {
+//     List<IAbility> availableAbilities { get; set; }
+//     IAbility currentAbility { get; set; }
+//     void AddAbility(IAbility ability);
+//     void RemoveAbility(IAbility ability);
+//     void SetAbility(IAbility ability);
+//     void CycleAbility(IAbility ability);
+// }

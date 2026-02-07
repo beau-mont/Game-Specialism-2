@@ -1,0 +1,4 @@
+<map id="ProjectileComponent" name="ProjectileComponent">
+<area shape="rect" id="node1" title="A monoBehaviour to provide the behaviour for a generic projectile." alt="" coords="5,131,172,369"/>
+<area shape="rect" id="node2" title=" " alt="" coords="27,5,151,83"/>
+</map>

@@ -2,6 +2,9 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
+/// <summary>
+/// An interface for damageable entities.
+/// </summary>
 public interface IDamageable
 {
     float MaxHealth { get; } // todo: this variable doesn't need to be exposed
@@ -9,6 +12,10 @@ public interface IDamageable
     void Kill();
 }
 
+/// <summary>
+/// An interface for damage threshold effects.
+/// the purpose of this is to allow methods to be called when certain HP thresholds are met.
+/// </summary>
 public interface IDamageThreshold
 {
     [SerializeField]
@@ -16,6 +23,9 @@ public interface IDamageThreshold
     void CheckDamageThresholds();
 }
 
+/// <summary>
+/// An abstract scriptableObject that provides methods and variables for systems to interact with thresholds with
+/// </summary>
 [System.Serializable]
 public abstract class DamageThreshold : ScriptableObject
 {

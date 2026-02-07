@@ -1,0 +1,20 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" title=" " alt="" coords="5,208,135,235"/>
+<area shape="rect" id="node2" href="$class_damage_threshold.html" title="An abstract scriptableObject that provides methods and variables for systems to interact with thresho..." alt="" coords="183,31,324,57"/>
+<area shape="rect" id="node4" href="$class_i_ability.html" title="abstract class for ability containers" alt="" coords="219,107,287,133"/>
+<area shape="rect" id="node7" href="$class_i_pooled_v_f_x.html" title="VFX Scriptable object, use these because they create their own object pools. because they create thei..." alt="" coords="205,157,301,184"/>
+<area shape="rect" id="node10" href="$class_i_wave_factory.html" title="An abstract factory class" alt="" coords="199,208,308,235"/>
+<area shape="rect" id="node13" href="$class_player_data.html" title="Data about the player that other objects may need to access. there should only be one instance of thi..." alt="" coords="206,259,301,285"/>
+<area shape="rect" id="node14" href="$class_v_f_x_strategy.html" title="Abstract class defining VFXStrategy methods. TODO: make this an interface(?)" alt="" coords="202,309,305,336"/>
+<area shape="rect" id="node18" href="$class_wave_data.html" title="The wave data container, these store only enemies and the name of the wave. determining what events s..." alt="" coords="209,360,298,387"/>
+<area shape="rect" id="node3" href="$class_sound_threshold.html" title="An example of a concrete damage threshold. replace this later with proper concrete classes." alt="" coords="406,5,533,32"/>
+<area shape="rect" id="node5" href="$class_charged_projectile_ability.html" title="A container for an ability that charges up before firing" alt="" coords="380,56,559,83"/>
+<area shape="rect" id="node6" href="$class_projectile_ability.html" title="A container for a generic full auto projectile ability" alt="" coords="407,107,532,133"/>
+<area shape="rect" id="node8" href="$class_pooled_v_f_x.html" title="Defines a basic implimentation of pooling for all other objects. Other VFX should inherit from &lt;VFX&gt; ..." alt="" coords="423,157,515,184"/>
+<area shape="rect" id="node9" href="$class_basic_v_f_x_pool.html" title="A basic visual effect, when called this will return a copy of the gameobject from its pool." alt="" coords="615,157,725,184"/>
+<area shape="rect" id="node11" href="$class_concrete_base_wave_factory.html" title="A wave factory that provides behaviour for spawning a basic wave. there should only be one of these i..." alt="" coords="372,208,567,235"/>
+<area shape="rect" id="node12" href="$class_concrete_boss_factory.html" title="A wave factory that provides behaviour for spawning a boss wave. there should only be one of these in..." alt="" coords="390,259,549,285"/>
+<area shape="rect" id="node15" href="$class_disable_after_delay_v_f_x.html" title="A concrete implementation of a VFXStrategy, disables the entity after a set delay." alt="" coords="386,309,553,336"/>
+<area shape="rect" id="node16" href="$class_fade_v_f_x.html" title="A VFXStrategy for fading out a spriteRenderer along an animation curve." alt="" coords="430,360,509,387"/>
+<area shape="rect" id="node17" href="$class_scale_v_f_x.html" title="A VFXStrategy to scale an object along an animation curve." alt="" coords="428,411,511,437"/>
+</map>

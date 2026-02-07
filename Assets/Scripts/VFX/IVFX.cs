@@ -48,6 +48,10 @@ public class PooledVFX : IPooledVFX
     } 
 }
 
+/// <summary>
+/// Abstract class defining VFXStrategy methods.
+/// TODO: make this an interface(?)
+/// </summary>
 [System.Serializable]
 public abstract class VFXStrategy : ScriptableObject
 {

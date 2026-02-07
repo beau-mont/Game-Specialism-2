@@ -2,6 +2,9 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
+/// <summary>
+/// A monoBehaviour to provide the behaviour for a generic projectile.
+/// </summary>
 public class ProjectileComponent : MonoBehaviour
 {
     public string projectileName;
@@ -80,7 +83,11 @@ public class ProjectileComponent : MonoBehaviour
     }
 }
 
-public abstract class IProjectile : MonoBehaviour
+/// <summary>
+/// Projectile interface
+///  TODO: Rework this later to be a general effect interface and let individual classes implement their behaviors.
+/// </summary>
+public abstract class IProjectile : MonoBehaviour 
 {
     [Header("Abstract Properties")]
     public abstract string ProjectileName { get; }

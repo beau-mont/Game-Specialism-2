@@ -1,5 +1,9 @@
 using UnityEngine;
 
+/// <summary>
+/// An example of a concrete damage threshold.
+/// replace this later with proper concrete classes.
+/// </summary>
 [CreateAssetMenu(fileName = "SoundPlayer", menuName = "Player/DamageThresholds/SoundPlayer")]
 public class SoundThreshold : DamageThreshold // todo: COMPLETELY REWORK THIS, ITS JUST AN EXAMPLE
 {

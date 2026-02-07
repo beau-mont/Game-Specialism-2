@@ -1,0 +1,6 @@
+<map id="IAbilityUser" name="IAbilityUser">
+<area shape="rect" id="node1" title="A monoBehavior that essentially provides an interface to manage the usage of abilities." alt="" coords="44,404,195,555"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,198,129,275"/>
+<area shape="rect" id="node3" href="$class_i_ability.html" title="abstract class for ability containers" alt="" coords="153,132,315,341"/>
+<area shape="rect" id="node4" title=" " alt="" coords="169,5,299,83"/>
+</map>

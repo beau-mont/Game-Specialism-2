@@ -2,6 +2,10 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
+/// <summary>
+/// A generic enemy controller to implement IDamageable for prototyping.
+/// this is likely to be reworked or replaced at some point with a sort of decorator.
+/// </summary>
 public class GenericEnemyController : MonoBehaviour, IDamageable
 {
 

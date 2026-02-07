@@ -1,0 +1,6 @@
+<map id="IAbility" name="IAbility">
+<area shape="rect" id="node1" title="abstract class for ability containers" alt="" coords="110,131,271,340"/>
+<area shape="rect" id="node3" href="$class_charged_projectile_ability.html" title="A container for an ability that charges up before firing" alt="" coords="5,388,184,832"/>
+<area shape="rect" id="node4" href="$class_projectile_ability.html" title="A container for a generic full auto projectile ability" alt="" coords="208,425,368,795"/>
+<area shape="rect" id="node2" title=" " alt="" coords="126,5,255,83"/>
+</map>

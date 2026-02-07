@@ -1,0 +1,25 @@
+var class_projectile_ability =
+[
+    [ "ActivateAbility", "class_projectile_ability.html#a5771567956455fadc6888ef24376d6c3", null ],
+    [ "DeactivateAbility", "class_projectile_ability.html#a333d690e9b4ebb387ed20d2dd56bbedc", null ],
+    [ "HoldAbility", "class_projectile_ability.html#ac15c33231e8cd79fda06fd46c79cb099", null ],
+    [ "Reset", "class_projectile_ability.html#a77887f61de6aa4dd1b6ceaea096528c4", null ],
+    [ "TryFire", "class_projectile_ability.html#a8175b13d2e5ad5e88bfd537b5f9e05aa", null ],
+    [ "_abilityName", "class_projectile_ability.html#a1dbe5d56ca6d0569c9bf6cb4824fbfc2", null ],
+    [ "_isSingleUse", "class_projectile_ability.html#af8fd93039143295c18b34dd6bd267f21", null ],
+    [ "_projectilePool", "class_projectile_ability.html#aaf987695b573ddf640a05c59299fb5b2", null ],
+    [ "_projectilePrefab", "class_projectile_ability.html#a463aa32f65323a02c6c3371bd52bcbfd", null ],
+    [ "cooldownDuration", "class_projectile_ability.html#a898f4222c8e2fcdec06129316a2cae54", null ],
+    [ "excludeLayers", "class_projectile_ability.html#a7e62cb38d0bcfff034da5ce481aca0bb", null ],
+    [ "fireVFX", "class_projectile_ability.html#a1c0631cbaeedfb895e714417f6d7c90c", null ],
+    [ "hitLayers", "class_projectile_ability.html#ac77fbae22b39c693c4dc513ee02ccd05", null ],
+    [ "projectile", "class_projectile_ability.html#a9bb1751f2cbba13e53a7535c5cd22668", null ],
+    [ "projectileDamage", "class_projectile_ability.html#a943716eb97bee339261cd31b39612d3d", null ],
+    [ "projectileSpeed", "class_projectile_ability.html#a2e59db9888894b13a58e4851d90ef14b", null ],
+    [ "readyAt", "class_projectile_ability.html#a90ed6aed9b5dc86a45753a8e02911f70", null ],
+    [ "AbilityName", "class_projectile_ability.html#a77729cfb2778a0104c429750bb8ba839", null ],
+    [ "CooldownDuration", "class_projectile_ability.html#af2066ab6626a24916b571d089a1fa101", null ],
+    [ "IsSingleUse", "class_projectile_ability.html#a307587050f8d25e353abea48e2b64681", null ],
+    [ "ProjectilePool", "class_projectile_ability.html#a901a7883f697057cf570aa747cf2e49e", null ],
+    [ "ProjectilePrefab", "class_projectile_ability.html#a783c1a841df03e9673ff6ba93c9e459c", null ]
+];

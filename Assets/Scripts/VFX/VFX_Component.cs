@@ -2,7 +2,10 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VFX_Component : MonoBehaviour
+/// <summary>
+/// a monoBehavior that executes a list of VFXStrategies it is provided.
+/// </summary>
+public class VFX_Component : MonoBehaviour // TODO: Make a bunch of these private/static/const
 {
     [SerializeField] public List<VFXStrategy> strategies;
     public float modifier;

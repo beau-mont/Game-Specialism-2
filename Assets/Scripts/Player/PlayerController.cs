@@ -2,6 +2,10 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// The player controller, this provides behaviors for the player.
+/// currently depends on AbilityUser though it throws no errors, please remember to fix this dependency with an interface.
+/// </summary>
 public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
 {
     [Header("Config SO")]

@@ -2,6 +2,9 @@ using UnityEngine;
 using System.Collections.Generic;
 using System.ComponentModel;
 
+/// <summary>
+/// A container for a generic full auto projectile ability
+/// </summary>
 [CreateAssetMenu(fileName = "ProjectileAbility", menuName = "Abilities/ProjectileAbility")]
 public class ProjectileAbility : IAbility
 {

@@ -3,6 +3,9 @@ using UnityEngine;
 using System.Collections.Generic;
 using System.ComponentModel;
 
+/// <summary>
+/// A container for an ability that charges up before firing
+/// </summary>
 [CreateAssetMenu(fileName = "ChargedProjectileAbility", menuName = "Abilities/ChargedProjectileAbility")]
 public class ChargedProjectileAbility : IAbility
 {

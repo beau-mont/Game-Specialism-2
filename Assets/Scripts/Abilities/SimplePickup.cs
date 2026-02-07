@@ -1,5 +1,8 @@
 using UnityEngine;
 
+/// <summary>
+/// A simple pickup monoBehaviour, this is likely to be removed or reworked later for real functionality.
+/// </summary>
 public class SimplePickup : MonoBehaviour
 {
     public IAbility abilityToGrant;
@@ -11,8 +14,8 @@ public class SimplePickup : MonoBehaviour
             if (abilityToGrant)
             {
                 // Debug.Log($"sent ability: {abilityToGrant.AbilityName}");
-                playerData.AddAbility(abilityToGrant);
-                Dissapear(); // destroy pickup after granting ability
+                playerData.PlayerAbilityUser.AddAbility(abilityToGrant);
+                Disappear(); // destroy pickup after granting ability
             }
             else
             {
@@ -21,7 +24,7 @@ public class SimplePickup : MonoBehaviour
         }
     }
 
-    private void Dissapear()
+    private void Disappear()
     {
         Destroy(gameObject); // replace with fancy animation or something later
     }

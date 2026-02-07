@@ -1,0 +1,5 @@
+<map id="ConcreteBossFactory" name="ConcreteBossFactory">
+<area shape="rect" id="node1" title="A wave factory that provides behaviour for spawning a boss wave. there should only be one of these in..." alt="" coords="5,256,164,333"/>
+<area shape="rect" id="node2" href="$class_i_wave_factory.html" title="An abstract factory class" alt="" coords="21,131,148,208"/>
+<area shape="rect" id="node3" title=" " alt="" coords="20,5,149,83"/>
+</map>

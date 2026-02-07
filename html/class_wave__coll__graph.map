@@ -1,0 +1,6 @@
+<map id="Wave" name="Wave">
+<area shape="rect" id="node1" title="A custom class for storing wave data as a designated factory and the wave data to go along with it." alt="" coords="103,315,216,392"/>
+<area shape="rect" id="node2" href="$class_wave_data.html" title="The wave data container, these store only enemies and the name of the wave. determining what events s..." alt="" coords="103,175,215,252"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,20,135,97"/>
+<area shape="rect" id="node4" href="$class_wave_data_1_1_enemy_spawn.html" title="A data container storing a spawn location, rotation and prefab for an enemy to be created in." alt="" coords="159,5,341,112"/>
+</map>

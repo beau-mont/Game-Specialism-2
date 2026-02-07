@@ -2,6 +2,10 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
+/// <summary>
+/// Data about the player that other objects may need to access. there should only be one instance of this ever.
+/// TODO: rework with the new IDamageable interface.
+/// </summary>
 [CreateAssetMenu(fileName = "PlayerData", menuName = "Player/PlayerData")]
 public class PlayerData : ScriptableObject
 {
@@ -25,27 +29,4 @@ public class PlayerData : ScriptableObject
         Lives = MaxLives;
         CurrentVelocity = Vector2.zero;
     }
-
-    #region Ability relay methods
-    public void CycleAbility()
-    {
-        PlayerAbilityUser.CycleAbility();
-    }
-    public void SetAbility(string ability)
-    {
-        PlayerAbilityUser.SetAbility(ability);
-    }
-    public void AddAbility(IAbility ability)
-    {
-        PlayerAbilityUser.AddAbility(ability);
-    }
-    public void RemoveAbility(IAbility ability)
-    {
-        PlayerAbilityUser.RemoveAbility(ability);
-    }
-    public void RemoveAbility(string ability)
-    {
-        PlayerAbilityUser.RemoveAbility(ability);
-    }
-    #endregion
 }

@@ -1,0 +1,10 @@
+<map id="PlayerController" name="PlayerController">
+<area shape="rect" id="node1" title="The player controller, this provides behaviors for the player. currently depends on AbilityUser thoug..." alt="" coords="323,617,537,841"/>
+<area shape="rect" id="node5" href="$class_player_data.html" title="Data about the player that other objects may need to access. there should only be one instance of thi..." alt="" coords="123,904,260,1084"/>
+<area shape="rect" id="node2" title=" " alt="" coords="277,198,401,275"/>
+<area shape="rect" id="node7" href="$class_i_ability_user.html" title="A monoBehavior that essentially provides an interface to manage the usage of abilities." alt="" coords="129,404,280,555"/>
+<area shape="rect" id="node3" href="$interface_i_damageable.html" title="An interface for damageable entities." alt="" coords="376,433,511,525"/>
+<area shape="rect" id="node4" href="$interface_i_damage_threshold.html" title="An interface for damage threshold effects. the purpose of this is to allow methods to be called when ..." alt="" coords="535,441,749,518"/>
+<area shape="rect" id="node6" title=" " alt="" coords="5,5,135,83"/>
+<area shape="rect" id="node8" href="$class_i_ability.html" title="abstract class for ability containers" alt="" coords="92,132,253,341"/>
+</map>

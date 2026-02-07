@@ -1,0 +1,5 @@
+<map id="IDamageable" name="IDamageable">
+<area shape="rect" id="node1" title="An interface for damageable entities." alt="" coords="163,5,298,97"/>
+<area shape="rect" id="node2" href="$class_generic_enemy_controller.html" title="A generic enemy controller to implement IDamageable for prototyping. this is likely to be reworked or..." alt="" coords="5,153,219,391"/>
+<area shape="rect" id="node3" href="$class_player_controller.html" title="The player controller, this provides behaviors for the player. currently depends on AbilityUser thoug..." alt="" coords="243,145,456,399"/>
+</map>

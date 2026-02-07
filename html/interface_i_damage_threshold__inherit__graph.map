@@ -1,0 +1,4 @@
+<map id="IDamageThreshold" name="IDamageThreshold">
+<area shape="rect" id="node1" title="An interface for damage threshold effects. the purpose of this is to allow methods to be called when ..." alt="" coords="5,5,219,83"/>
+<area shape="rect" id="node2" href="$class_player_controller.html" title="The player controller, this provides behaviors for the player. currently depends on AbilityUser thoug..." alt="" coords="5,131,219,384"/>
+</map>

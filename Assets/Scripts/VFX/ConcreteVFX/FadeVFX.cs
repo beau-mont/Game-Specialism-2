@@ -7,8 +7,7 @@ using UnityEngine;
 using UnityEngine.Rendering.Universal;
 
 /// <summary>
-/// this is a strategy for fading out a gameobject
-/// since this is a strategy the client should create an instance of this.
+/// A VFXStrategy for fading out a spriteRenderer along an animation curve.
 /// </summary>
 [CreateAssetMenu(fileName = "FadeConfig", menuName = "VFX/Fade")]
 public class FadeVFX : VFXStrategy

@@ -1,0 +1,3 @@
+<map id="WaveData.EnemySpawn" name="WaveData.EnemySpawn">
+<area shape="rect" id="node1" title="A data container storing a spawn location, rotation and prefab for an enemy to be created in." alt="" coords="5,5,187,112"/>
+</map>

@@ -4,7 +4,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 
 /// <summary>
-/// Interface for Abilities
+/// abstract class for ability containers
 /// </summary>
 public abstract class IAbility : ScriptableObject
 {

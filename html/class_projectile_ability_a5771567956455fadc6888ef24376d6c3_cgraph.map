@@ -1,0 +1,6 @@
+<map id="ProjectileAbility.ActivateAbility" name="ProjectileAbility.ActivateAbility">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,187,47"/>
+<area shape="rect" id="node2" href="$class_projectile_ability.html#a8175b13d2e5ad5e88bfd537b5f9e05aa" title=" " alt="" coords="235,13,405,39"/>
+<area shape="rect" id="node3" href="$class_i_ability.html#a5b7f66e41426ba8fbe48f2ffc960fedc" title=" " alt="" coords="453,13,632,39"/>
+<area shape="rect" id="node4" href="$class_i_ability.html#aeabe1c2f1f16efb611dec040e9a4cff3" title=" " alt="" coords="680,13,864,39"/>
+</map>

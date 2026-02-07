@@ -1,0 +1,4 @@
+<map id="SimplePickup" name="SimplePickup">
+<area shape="rect" id="node1" title="A simple pickup monoBehaviour, this is likely to be removed or reworked later for real functionality." alt="" coords="5,131,160,237"/>
+<area shape="rect" id="node2" title=" " alt="" coords="21,5,145,83"/>
+</map>

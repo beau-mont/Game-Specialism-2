@@ -1,0 +1,4 @@
+<map id="IProjectile" name="IProjectile">
+<area shape="rect" id="node1" title="Projectile interface TODO: Rework this later to be a general effect interface and let individual clas..." alt="" coords="5,131,143,311"/>
+<area shape="rect" id="node2" title=" " alt="" coords="12,5,136,83"/>
+</map>

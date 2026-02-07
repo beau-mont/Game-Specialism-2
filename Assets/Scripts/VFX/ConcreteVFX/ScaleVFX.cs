@@ -2,6 +2,9 @@ using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
 
+/// <summary>
+/// A VFXStrategy to scale an object along an animation curve.
+/// </summary>
 [CreateAssetMenu(fileName = "ScaleConfig", menuName = "VFX/Scale")]
 public class ScaleVFX : VFXStrategy
 {
