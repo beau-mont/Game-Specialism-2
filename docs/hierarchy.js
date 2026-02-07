@@ -2,6 +2,9 @@ var hierarchy =
 [
     [ "WaveData.EnemySpawn", "class_wave_data_1_1_enemy_spawn.html", null ],
     [ "FactoryController", "class_factory_controller.html", null ],
+    [ "IAbilityUser", "interface_i_ability_user.html", [
+      [ "PlayerAbilityUser", "class_player_ability_user.html", null ]
+    ] ],
     [ "IDamageable", "interface_i_damageable.html", [
       [ "GenericEnemyController", "class_generic_enemy_controller.html", null ],
       [ "PlayerController", "class_player_controller.html", null ]
@@ -12,8 +15,8 @@ var hierarchy =
     [ "MonoBehaviour", null, [
       [ "GameController", "class_game_controller.html", null ],
       [ "GenericEnemyController", "class_generic_enemy_controller.html", null ],
-      [ "IAbilityUser", "class_i_ability_user.html", null ],
       [ "IProjectile", "class_i_projectile.html", null ],
+      [ "PlayerAbilityUser", "class_player_ability_user.html", null ],
       [ "PlayerController", "class_player_controller.html", null ],
       [ "ProjectileComponent", "class_projectile_component.html", null ],
       [ "SimplePickup", "class_simple_pickup.html", null ],

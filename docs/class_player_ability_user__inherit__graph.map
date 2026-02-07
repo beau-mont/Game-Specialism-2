@@ -1,0 +1,5 @@
+<map id="PlayerAbilityUser" name="PlayerAbilityUser">
+<area shape="rect" id="node1" title="A monoBehavior that essentially provides an interface to manage the usage of abilities." alt="" coords="74,175,218,369"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,27,129,105"/>
+<area shape="rect" id="node3" href="$interface_i_ability_user.html" title="ability user interface" alt="" coords="153,5,296,127"/>
+</map>

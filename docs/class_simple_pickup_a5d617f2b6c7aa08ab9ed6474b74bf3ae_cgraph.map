@@ -1,5 +1,5 @@
 <map id="SimplePickup.OnTriggerEnter2D" name="SimplePickup.OnTriggerEnter2D">
 <area shape="rect" id="node1" title=" " alt="" coords="5,31,232,57"/>
-<area shape="rect" id="node2" href="$class_i_ability_user.html#a32e14ff6fe30a4fe30dcfc854ef563e9" title=" " alt="" coords="285,5,453,32"/>
+<area shape="rect" id="node2" href="$interface_i_ability_user.html#a32e14ff6fe30a4fe30dcfc854ef563e9" title=" " alt="" coords="285,5,453,32"/>
 <area shape="rect" id="node3" href="$class_simple_pickup.html#aa6f3548d3b34d4eb04b325746c091363" title=" " alt="" coords="280,56,459,83"/>
 </map>

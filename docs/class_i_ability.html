@@ -118,12 +118,12 @@ Collaboration diagram for IAbility:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aba7c03a04911b74a45456055712c13be"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_ability.html#aba7c03a04911b74a45456055712c13be">ActivateAbility</a> (<a class="el" href="class_i_ability_user.html">IAbilityUser</a> user)</td></tr>
-<tr class="separator:aba7c03a04911b74a45456055712c13be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af87a7152e396b8991e1d8a969e175452"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_ability.html#af87a7152e396b8991e1d8a969e175452">DeactivateAbility</a> (<a class="el" href="class_i_ability_user.html">IAbilityUser</a> user)</td></tr>
-<tr class="separator:af87a7152e396b8991e1d8a969e175452"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61bed276b360aa3b50cdd1c5f1e77384"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_ability.html#a61bed276b360aa3b50cdd1c5f1e77384">HoldAbility</a> (<a class="el" href="class_i_ability_user.html">IAbilityUser</a> user)</td></tr>
-<tr class="separator:a61bed276b360aa3b50cdd1c5f1e77384"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a389f703a9b63db83d7386e000fbd8075"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_ability.html#a389f703a9b63db83d7386e000fbd8075">ActivateAbility</a> (GameObject user)</td></tr>
+<tr class="separator:a389f703a9b63db83d7386e000fbd8075"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b3c83a82f30abadf0673e1f36e94fd9"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_ability.html#a1b3c83a82f30abadf0673e1f36e94fd9">DeactivateAbility</a> (GameObject user)</td></tr>
+<tr class="separator:a1b3c83a82f30abadf0673e1f36e94fd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c1260d707fc79d9685323168692e021"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_ability.html#a0c1260d707fc79d9685323168692e021">HoldAbility</a> (GameObject user)</td></tr>
+<tr class="separator:a0c1260d707fc79d9685323168692e021"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1671e02099b3fb69338b11298d6f25f"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_ability.html#ac1671e02099b3fb69338b11298d6f25f">Reset</a> ()</td></tr>
 <tr class="separator:ac1671e02099b3fb69338b11298d6f25f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeabe1c2f1f16efb611dec040e9a4cff3"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_ability.html#aeabe1c2f1f16efb611dec040e9a4cff3">CreateNewObject</a> ()</td></tr>
@@ -150,8 +150,8 @@ Properties</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>abstract class for ability containers </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="aba7c03a04911b74a45456055712c13be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba7c03a04911b74a45456055712c13be">&#9670;&nbsp;</a></span>ActivateAbility()</h2>
+<a id="a389f703a9b63db83d7386e000fbd8075"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a389f703a9b63db83d7386e000fbd8075">&#9670;&nbsp;</a></span>ActivateAbility()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -162,7 +162,7 @@ Properties</h2></td></tr>
         <tr>
           <td class="memname">abstract void IAbility.ActivateAbility </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_i_ability_user.html">IAbilityUser</a>&#160;</td>
+          <td class="paramtype">GameObject&#160;</td>
           <td class="paramname"><em>user</em></td><td>)</td>
           <td></td>
         </tr>
@@ -174,14 +174,15 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="class_projectile_ability.html#a5771567956455fadc6888ef24376d6c3">ProjectileAbility</a>, and <a class="el" href="class_charged_projectile_ability.html#acc6edb3931eeb65e7293009672aa00c4">ChargedProjectileAbility</a>.</p>
+<p>Implemented in <a class="el" href="class_projectile_ability.html#a22a8800f153363853486df0bd80f7bc1">ProjectileAbility</a>, and <a class="el" href="class_charged_projectile_ability.html#a67feff8f07f4410da6bbd761f8f9ec43">ChargedProjectileAbility</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_i_ability_aba7c03a04911b74a45456055712c13be_icgraph.png" border="0" usemap="#aclass_i_ability_aba7c03a04911b74a45456055712c13be_icgraph" alt=""/></div>
-<map name="aclass_i_ability_aba7c03a04911b74a45456055712c13be_icgraph" id="aclass_i_ability_aba7c03a04911b74a45456055712c13be_icgraph">
-<area shape="rect" title=" " alt="" coords="231,5,397,32"/>
-<area shape="rect" href="class_player_controller.html#ae8bc83dffb99867a04be016473ed2c43" title=" " alt="" coords="5,5,183,32"/>
+<div class="center"><img src="class_i_ability_a389f703a9b63db83d7386e000fbd8075_icgraph.png" border="0" usemap="#aclass_i_ability_a389f703a9b63db83d7386e000fbd8075_icgraph" alt=""/></div>
+<map name="aclass_i_ability_a389f703a9b63db83d7386e000fbd8075_icgraph" id="aclass_i_ability_a389f703a9b63db83d7386e000fbd8075_icgraph">
+<area shape="rect" title=" " alt="" coords="459,13,625,39"/>
+<area shape="rect" href="class_player_controller.html#ab0fd365fe8fabadee83e233fbb425a5f" title=" " alt="" coords="231,5,411,47"/>
+<area shape="rect" href="class_player_controller.html#ae8bc83dffb99867a04be016473ed2c43" title=" " alt="" coords="5,13,183,39"/>
 </map>
 </div>
 
@@ -208,17 +209,17 @@ Here is the caller graph for this function:</div>
 <map name="aclass_i_ability_aeabe1c2f1f16efb611dec040e9a4cff3_icgraph" id="aclass_i_ability_aeabe1c2f1f16efb611dec040e9a4cff3_icgraph">
 <area shape="rect" title=" " alt="" coords="708,42,892,69"/>
 <area shape="rect" href="class_i_ability.html#a5b7f66e41426ba8fbe48f2ffc960fedc" title=" " alt="" coords="481,42,660,69"/>
-<area shape="rect" href="class_charged_projectile_ability.html#acc6edb3931eeb65e7293009672aa00c4" title=" " alt="" coords="252,5,433,47"/>
-<area shape="rect" href="class_projectile_ability.html#a8175b13d2e5ad5e88bfd537b5f9e05aa" title=" " alt="" coords="257,71,428,98"/>
-<area shape="rect" href="class_projectile_ability.html#a5771567956455fadc6888ef24376d6c3" title=" " alt="" coords="14,35,195,76"/>
-<area shape="rect" href="class_projectile_ability.html#ac15c33231e8cd79fda06fd46c79cb099" title=" " alt="" coords="5,101,204,127"/>
+<area shape="rect" href="class_charged_projectile_ability.html#a67feff8f07f4410da6bbd761f8f9ec43" title=" " alt="" coords="252,5,433,47"/>
+<area shape="rect" href="class_projectile_ability.html#a94a96bceb8d05fb99bfa61573fd8e3f7" title=" " alt="" coords="257,71,428,98"/>
+<area shape="rect" href="class_projectile_ability.html#a22a8800f153363853486df0bd80f7bc1" title=" " alt="" coords="14,35,195,76"/>
+<area shape="rect" href="class_projectile_ability.html#ae821224820fdd62121d4940b7487416e" title=" " alt="" coords="5,101,204,127"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="af87a7152e396b8991e1d8a969e175452"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af87a7152e396b8991e1d8a969e175452">&#9670;&nbsp;</a></span>DeactivateAbility()</h2>
+<a id="a1b3c83a82f30abadf0673e1f36e94fd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b3c83a82f30abadf0673e1f36e94fd9">&#9670;&nbsp;</a></span>DeactivateAbility()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -229,7 +230,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">abstract void IAbility.DeactivateAbility </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_i_ability_user.html">IAbilityUser</a>&#160;</td>
+          <td class="paramtype">GameObject&#160;</td>
           <td class="paramname"><em>user</em></td><td>)</td>
           <td></td>
         </tr>
@@ -241,14 +242,15 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="class_projectile_ability.html#a333d690e9b4ebb387ed20d2dd56bbedc">ProjectileAbility</a>, and <a class="el" href="class_charged_projectile_ability.html#a3028ba61acc0b539273f09e175749beb">ChargedProjectileAbility</a>.</p>
+<p>Implemented in <a class="el" href="class_projectile_ability.html#a36c95ba154e2dbd48177f3b6ee4eacd7">ProjectileAbility</a>, and <a class="el" href="class_charged_projectile_ability.html#a79a4c816d512a270b691a97bd799858c">ChargedProjectileAbility</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_i_ability_af87a7152e396b8991e1d8a969e175452_icgraph.png" border="0" usemap="#aclass_i_ability_af87a7152e396b8991e1d8a969e175452_icgraph" alt=""/></div>
-<map name="aclass_i_ability_af87a7152e396b8991e1d8a969e175452_icgraph" id="aclass_i_ability_af87a7152e396b8991e1d8a969e175452_icgraph">
-<area shape="rect" title=" " alt="" coords="231,5,413,32"/>
-<area shape="rect" href="class_player_controller.html#ae8bc83dffb99867a04be016473ed2c43" title=" " alt="" coords="5,5,183,32"/>
+<div class="center"><img src="class_i_ability_a1b3c83a82f30abadf0673e1f36e94fd9_icgraph.png" border="0" usemap="#aclass_i_ability_a1b3c83a82f30abadf0673e1f36e94fd9_icgraph" alt=""/></div>
+<map name="aclass_i_ability_a1b3c83a82f30abadf0673e1f36e94fd9_icgraph" id="aclass_i_ability_a1b3c83a82f30abadf0673e1f36e94fd9_icgraph">
+<area shape="rect" title=" " alt="" coords="459,13,641,39"/>
+<area shape="rect" href="class_player_controller.html#ab0fd365fe8fabadee83e233fbb425a5f" title=" " alt="" coords="231,5,411,47"/>
+<area shape="rect" href="class_player_controller.html#ae8bc83dffb99867a04be016473ed2c43" title=" " alt="" coords="5,13,183,39"/>
 </map>
 </div>
 
@@ -291,17 +293,17 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="class_i_ability_a5b7f66e41426ba8fbe48f2ffc960fedc_icgraph.png" border="0" usemap="#aclass_i_ability_a5b7f66e41426ba8fbe48f2ffc960fedc_icgraph" alt=""/></div>
 <map name="aclass_i_ability_a5b7f66e41426ba8fbe48f2ffc960fedc_icgraph" id="aclass_i_ability_a5b7f66e41426ba8fbe48f2ffc960fedc_icgraph">
 <area shape="rect" title=" " alt="" coords="481,42,660,69"/>
-<area shape="rect" href="class_charged_projectile_ability.html#acc6edb3931eeb65e7293009672aa00c4" title=" " alt="" coords="252,5,433,47"/>
-<area shape="rect" href="class_projectile_ability.html#a8175b13d2e5ad5e88bfd537b5f9e05aa" title=" " alt="" coords="257,71,428,98"/>
-<area shape="rect" href="class_projectile_ability.html#a5771567956455fadc6888ef24376d6c3" title=" " alt="" coords="14,35,195,76"/>
-<area shape="rect" href="class_projectile_ability.html#ac15c33231e8cd79fda06fd46c79cb099" title=" " alt="" coords="5,101,204,127"/>
+<area shape="rect" href="class_charged_projectile_ability.html#a67feff8f07f4410da6bbd761f8f9ec43" title=" " alt="" coords="252,5,433,47"/>
+<area shape="rect" href="class_projectile_ability.html#a94a96bceb8d05fb99bfa61573fd8e3f7" title=" " alt="" coords="257,71,428,98"/>
+<area shape="rect" href="class_projectile_ability.html#a22a8800f153363853486df0bd80f7bc1" title=" " alt="" coords="14,35,195,76"/>
+<area shape="rect" href="class_projectile_ability.html#ae821224820fdd62121d4940b7487416e" title=" " alt="" coords="5,101,204,127"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a61bed276b360aa3b50cdd1c5f1e77384"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a61bed276b360aa3b50cdd1c5f1e77384">&#9670;&nbsp;</a></span>HoldAbility()</h2>
+<a id="a0c1260d707fc79d9685323168692e021"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c1260d707fc79d9685323168692e021">&#9670;&nbsp;</a></span>HoldAbility()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -312,7 +314,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">abstract void IAbility.HoldAbility </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_i_ability_user.html">IAbilityUser</a>&#160;</td>
+          <td class="paramtype">GameObject&#160;</td>
           <td class="paramname"><em>user</em></td><td>)</td>
           <td></td>
         </tr>
@@ -324,14 +326,15 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="class_projectile_ability.html#ac15c33231e8cd79fda06fd46c79cb099">ProjectileAbility</a>, and <a class="el" href="class_charged_projectile_ability.html#af73bbb95bb810d2e9b41b4cc20acd9a2">ChargedProjectileAbility</a>.</p>
+<p>Implemented in <a class="el" href="class_projectile_ability.html#ae821224820fdd62121d4940b7487416e">ProjectileAbility</a>, and <a class="el" href="class_charged_projectile_ability.html#a76fa2a0c6cfc7466ebdb4e39a58d7532">ChargedProjectileAbility</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_i_ability_a61bed276b360aa3b50cdd1c5f1e77384_icgraph.png" border="0" usemap="#aclass_i_ability_a61bed276b360aa3b50cdd1c5f1e77384_icgraph" alt=""/></div>
-<map name="aclass_i_ability_a61bed276b360aa3b50cdd1c5f1e77384_icgraph" id="aclass_i_ability_a61bed276b360aa3b50cdd1c5f1e77384_icgraph">
-<area shape="rect" title=" " alt="" coords="231,5,373,32"/>
-<area shape="rect" href="class_player_controller.html#ae8bc83dffb99867a04be016473ed2c43" title=" " alt="" coords="5,5,183,32"/>
+<div class="center"><img src="class_i_ability_a0c1260d707fc79d9685323168692e021_icgraph.png" border="0" usemap="#aclass_i_ability_a0c1260d707fc79d9685323168692e021_icgraph" alt=""/></div>
+<map name="aclass_i_ability_a0c1260d707fc79d9685323168692e021_icgraph" id="aclass_i_ability_a0c1260d707fc79d9685323168692e021_icgraph">
+<area shape="rect" title=" " alt="" coords="459,13,601,39"/>
+<area shape="rect" href="class_player_controller.html#ab0fd365fe8fabadee83e233fbb425a5f" title=" " alt="" coords="231,5,411,47"/>
+<area shape="rect" href="class_player_controller.html#ae8bc83dffb99867a04be016473ed2c43" title=" " alt="" coords="5,13,183,39"/>
 </map>
 </div>
 

@@ -1,0 +1,6 @@
+<map id="ProjectileAbility.HoldAbility" name="ProjectileAbility.HoldAbility">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,204,32"/>
+<area shape="rect" id="node2" href="$class_projectile_ability.html#a94a96bceb8d05fb99bfa61573fd8e3f7" title=" " alt="" coords="252,5,423,32"/>
+<area shape="rect" id="node3" href="$class_i_ability.html#a5b7f66e41426ba8fbe48f2ffc960fedc" title=" " alt="" coords="471,5,649,32"/>
+<area shape="rect" id="node4" href="$class_i_ability.html#aeabe1c2f1f16efb611dec040e9a4cff3" title=" " alt="" coords="697,5,881,32"/>
+</map>

@@ -1,8 +1,8 @@
 var class_charged_projectile_ability =
 [
-    [ "ActivateAbility", "class_charged_projectile_ability.html#acc6edb3931eeb65e7293009672aa00c4", null ],
-    [ "DeactivateAbility", "class_charged_projectile_ability.html#a3028ba61acc0b539273f09e175749beb", null ],
-    [ "HoldAbility", "class_charged_projectile_ability.html#af73bbb95bb810d2e9b41b4cc20acd9a2", null ],
+    [ "ActivateAbility", "class_charged_projectile_ability.html#a67feff8f07f4410da6bbd761f8f9ec43", null ],
+    [ "DeactivateAbility", "class_charged_projectile_ability.html#a79a4c816d512a270b691a97bd799858c", null ],
+    [ "HoldAbility", "class_charged_projectile_ability.html#a76fa2a0c6cfc7466ebdb4e39a58d7532", null ],
     [ "Reset", "class_charged_projectile_ability.html#a2b434c80a386bf9337ec2fbb9f47a587", null ],
     [ "_abilityName", "class_charged_projectile_ability.html#ab2ff4e72285191b8fae7d4416b8c5d05", null ],
     [ "_isSingleUse", "class_charged_projectile_ability.html#a94ab2a246110e27ee8009bed54b53aff", null ],

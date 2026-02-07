@@ -1,10 +1,10 @@
 var class_projectile_ability =
 [
-    [ "ActivateAbility", "class_projectile_ability.html#a5771567956455fadc6888ef24376d6c3", null ],
-    [ "DeactivateAbility", "class_projectile_ability.html#a333d690e9b4ebb387ed20d2dd56bbedc", null ],
-    [ "HoldAbility", "class_projectile_ability.html#ac15c33231e8cd79fda06fd46c79cb099", null ],
+    [ "ActivateAbility", "class_projectile_ability.html#a22a8800f153363853486df0bd80f7bc1", null ],
+    [ "DeactivateAbility", "class_projectile_ability.html#a36c95ba154e2dbd48177f3b6ee4eacd7", null ],
+    [ "HoldAbility", "class_projectile_ability.html#ae821224820fdd62121d4940b7487416e", null ],
     [ "Reset", "class_projectile_ability.html#a77887f61de6aa4dd1b6ceaea096528c4", null ],
-    [ "TryFire", "class_projectile_ability.html#a8175b13d2e5ad5e88bfd537b5f9e05aa", null ],
+    [ "TryFire", "class_projectile_ability.html#a94a96bceb8d05fb99bfa61573fd8e3f7", null ],
     [ "_abilityName", "class_projectile_ability.html#a1dbe5d56ca6d0569c9bf6cb4824fbfc2", null ],
     [ "_isSingleUse", "class_projectile_ability.html#af8fd93039143295c18b34dd6bd267f21", null ],
     [ "_projectilePool", "class_projectile_ability.html#aaf987695b573ddf640a05c59299fb5b2", null ],
