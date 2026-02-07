@@ -1,10 +1,10 @@
 <map id="PlayerData" name="PlayerData">
-<area shape="rect" id="node1" title="Data about the player that other objects may need to access. there should only be one instance of thi..." alt="" coords="24,617,162,797"/>
-<area shape="rect" id="node3" href="$class_player_controller.html" title="The player controller, this provides behaviors for the player. currently depends on AbilityUser thoug..." alt="" coords="245,860,458,1084"/>
-<area shape="rect" id="node2" title=" " alt="" coords="23,5,152,83"/>
-<area shape="rect" id="node8" href="$class_i_ability.html" title="abstract class for ability containers" alt="" coords="119,132,280,341"/>
-<area shape="rect" id="node4" title=" " alt="" coords="604,198,728,275"/>
-<area shape="rect" id="node7" href="$class_i_ability_user.html" title="A monoBehavior that essentially provides an interface to manage the usage of abilities." alt="" coords="152,404,303,555"/>
-<area shape="rect" id="node5" href="$interface_i_damageable.html" title="An interface for damageable entities." alt="" coords="371,661,506,753"/>
-<area shape="rect" id="node6" href="$interface_i_damage_threshold.html" title="An interface for damage threshold effects. the purpose of this is to allow methods to be called when ..." alt="" coords="530,669,744,746"/>
+<area shape="rect" id="node1" title="Data about the player that other objects may need to access. there should only be one instance of thi..." alt="" coords="43,625,138,702"/>
+<area shape="rect" id="node3" href="$class_player_controller.html" title="The player controller, this provides behaviors for the player. currently depends on AbilityUser thoug..." alt="" coords="242,772,456,996"/>
+<area shape="rect" id="node2" title=" " alt="" coords="20,5,150,83"/>
+<area shape="rect" id="node8" href="$class_i_ability.html" title="abstract class for ability containers" alt="" coords="116,132,278,341"/>
+<area shape="rect" id="node4" title=" " alt="" coords="602,198,726,275"/>
+<area shape="rect" id="node7" href="$class_i_ability_user.html" title="A monoBehavior that essentially provides an interface to manage the usage of abilities." alt="" coords="150,404,300,555"/>
+<area shape="rect" id="node5" href="$interface_i_damageable.html" title="An interface for damageable entities." alt="" coords="368,617,503,709"/>
+<area shape="rect" id="node6" href="$interface_i_damage_threshold.html" title="An interface for damage threshold effects. the purpose of this is to allow methods to be called when ..." alt="" coords="528,625,741,702"/>
 </map>
