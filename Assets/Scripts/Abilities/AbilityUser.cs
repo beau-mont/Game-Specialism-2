@@ -25,7 +25,7 @@ public class IAbilityUser : MonoBehaviour
     {
         if (!availableAbilities.Any(a => a.AbilityName == ability.AbilityName))
         {
-            availableAbilities.Add(Instantiate(ability));
+            availableAbilities.Add(ability);
             // Debug.Log($"Added ability: {ability.AbilityName}");
         }
         else
