@@ -1,0 +1,4 @@
+<map id="IPooledVFX" name="IPooledVFX">
+<area shape="rect" id="node1" title="VFX Scriptable object, use these because they create their own object pools. because they create thei..." alt="" coords="5,131,167,237"/>
+<area shape="rect" id="node2" title=" " alt="" coords="21,5,151,83"/>
+</map>

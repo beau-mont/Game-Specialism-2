@@ -1,0 +1,5 @@
+<map id="ChargedProjectileAbility" name="ChargedProjectileAbility">
+<area shape="rect" id="node1" title="A container for an ability that charges up before firing" alt="" coords="5,388,184,832"/>
+<area shape="rect" id="node2" href="$class_i_ability.html" title="abstract class for ability containers" alt="" coords="14,131,175,340"/>
+<area shape="rect" id="node3" title=" " alt="" coords="30,5,159,83"/>
+</map>

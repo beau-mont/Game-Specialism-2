@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: SoundPlayer
+  m_EditorClassIdentifier: Assembly-CSharp::SoundThreshold
+  _lowThreshold: 0
+  _highThreshold: 0.5
+  audioClip: {fileID: 8300000, guid: c9ebc7c72d35badcfbab970bc3ec6c19, type: 3}
+  source: {fileID: 0}

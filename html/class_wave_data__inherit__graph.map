@@ -1,0 +1,4 @@
+<map id="WaveData" name="WaveData">
+<area shape="rect" id="node1" title="The wave data container, these store only enemies and the name of the wave. determining what events s..." alt="" coords="5,131,137,223"/>
+<area shape="rect" id="node2" title=" " alt="" coords="7,5,136,83"/>
+</map>

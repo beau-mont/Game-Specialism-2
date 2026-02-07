@@ -1,6 +1,11 @@
 using UnityEngine;
 using System.Collections.Generic;
 
+/// <summary>
+/// A wave factory that provides behaviour for spawning a basic wave.
+/// there should only be one of these in the asset list.
+/// </summary>
+[CreateAssetMenu(fileName = "BaseWaveFactory", menuName = "Wave/BaseWaveFactory")]
 public class ConcreteBaseWaveFactory : IWaveFactory // simple instantiation factory
 {
     public override string FactoryName => "Base Wave Factory";

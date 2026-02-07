@@ -1,0 +1,6 @@
+<map id="IPooledVFX" name="IPooledVFX">
+<area shape="rect" id="node1" title="VFX Scriptable object, use these because they create their own object pools. because they create thei..." alt="" coords="5,131,167,237"/>
+<area shape="rect" id="node3" href="$class_pooled_v_f_x.html" title="Defines a basic implimentation of pooling for all other objects. Other VFX should inherit from &lt;VFX&gt; ..." alt="" coords="5,285,167,392"/>
+<area shape="rect" id="node2" title=" " alt="" coords="21,5,151,83"/>
+<area shape="rect" id="node4" href="$class_basic_v_f_x_pool.html" title="A basic visual effect, when called this will return a copy of the gameobject from its pool." alt="" coords="31,440,141,561"/>
+</map>

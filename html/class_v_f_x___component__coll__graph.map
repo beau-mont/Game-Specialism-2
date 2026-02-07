@@ -1,0 +1,5 @@
+<map id="VFX_Component" name="VFX_Component">
+<area shape="rect" id="node1" title="a monoBehavior that executes a list of VFXStrategies it is provided." alt="" coords="70,204,201,340"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,35,129,112"/>
+<area shape="rect" id="node3" href="$class_v_f_x___data.html" title="instead of passing a ton of bullshit to the scriptable objects, create a data container class populat..." alt="" coords="154,5,255,141"/>
+</map>

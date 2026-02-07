@@ -1,0 +1,5 @@
+<map id="PooledVFX" name="PooledVFX">
+<area shape="rect" id="node1" title="Defines a basic implimentation of pooling for all other objects. Other VFX should inherit from &lt;VFX&gt; ..." alt="" coords="5,285,167,392"/>
+<area shape="rect" id="node2" href="$class_i_pooled_v_f_x.html" title="VFX Scriptable object, use these because they create their own object pools. because they create thei..." alt="" coords="5,131,167,237"/>
+<area shape="rect" id="node3" title=" " alt="" coords="21,5,151,83"/>
+</map>

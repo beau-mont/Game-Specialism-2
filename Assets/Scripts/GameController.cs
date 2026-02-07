@@ -1,27 +1,31 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// A basic game controller script for managing game state and whatnot
+/// </summary>
 public class GameController : MonoBehaviour
 {
     IWaveFactory waveFactory;
     [SerializeField]
     public List<Wave> waves;
-    public int waveIndex = 0; // tempoary variable to control what wave to spawn, later will be controlled by game logic
+    public int waveIndex = 0; // temporary variable to control what wave to spawn, later will be controlled by game logic
+    public PlayerData playerData;
 
     // Update is called once per frame
     void Update()
     {
-        #if UNITY_EDITOR
-        if (Input.GetKeyDown(KeyCode.Space)) // press space to spawn next wave (DEBUG)
-        {
-            if (waveIndex >= waves.Count) waveIndex = 0; // loop back to first wave
-            SpawnWave(waves[waveIndex].waveData, waves[waveIndex].factoryType);
-            waveIndex++;
-            GameObject proj = ProjectilePool.instance.GetPooledObjectOfType(ProjectileType.Basic); // test object pooling
-            proj.transform.position = Vector3.zero;
-            proj.SetActive(true);
-        }
-        #endif
+        // #if UNITY_EDITOR
+        // if (Input.GetKeyDown(KeyCode.Space)) // press space to spawn next wave (DEBUG)
+        // {
+        //     if (waveIndex >= waves.Count) waveIndex = 0; // loop back to first wave
+        //     SpawnWave(waves[waveIndex].waveData, waves[waveIndex].factoryType);
+        //     waveIndex++;
+        //     GameObject proj = ProjectilePool.Instance.GetPooledObject(); // test object pooling
+        //     proj.transform.position = Vector3.zero;
+        //     proj.SetActive(true);
+        // }
+        // #endif
     }
 
     public void SpawnWave(WaveData waveData, string factoryType)
@@ -41,11 +45,14 @@ public class GameController : MonoBehaviour
         var enemies = waveFactory.CreateWave(waveData);
         Debug.Log($"Spawned {enemies.Count} enemies for wave: {waveData.WaveName}");
     }
+}
 
-    [System.Serializable]
+/// <summary>
+/// A custom class for storing wave data as a designated factory and the wave data to go along with it.
+/// </summary>
+[System.Serializable]
     public class Wave
     {
         public WaveData waveData;
         public string factoryType = "Base Wave Factory";
     }
-}

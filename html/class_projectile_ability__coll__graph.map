@@ -1,0 +1,5 @@
+<map id="ProjectileAbility" name="ProjectileAbility">
+<area shape="rect" id="node1" title="A container for a generic full auto projectile ability" alt="" coords="6,388,166,759"/>
+<area shape="rect" id="node2" href="$class_i_ability.html" title="abstract class for ability containers" alt="" coords="5,131,167,340"/>
+<area shape="rect" id="node3" title=" " alt="" coords="21,5,151,83"/>
+</map>

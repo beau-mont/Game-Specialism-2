@@ -1,0 +1,5 @@
+<map id="GenericEnemyController" name="GenericEnemyController">
+<area shape="rect" id="node1" title="A generic enemy controller to implement IDamageable for prototyping. this is likely to be reworked or..." alt="" coords="37,145,250,384"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,13,129,90"/>
+<area shape="rect" id="node3" href="$interface_i_damageable.html" title="An interface for damageable entities." alt="" coords="153,5,288,97"/>
+</map>

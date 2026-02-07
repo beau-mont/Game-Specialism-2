@@ -1,0 +1,5 @@
+<map id="WaveData" name="WaveData">
+<area shape="rect" id="node1" title="The wave data container, these store only enemies and the name of the wave. determining what events s..." alt="" coords="103,175,215,252"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,20,135,97"/>
+<area shape="rect" id="node3" href="$class_wave_data_1_1_enemy_spawn.html" title="A data container storing a spawn location, rotation and prefab for an enemy to be created in." alt="" coords="159,5,341,112"/>
+</map>
