@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class ProjectileComponent : MonoBehaviour
@@ -8,6 +9,7 @@ public class ProjectileComponent : MonoBehaviour
     public LayerMask hitLayers;
     public LayerMask excludeLayers;
     public GameObject owner;
+    public List<BasicVFXPool> hitEffects;
     private Collider2D projectileCollider;
     private Rigidbody2D rb;
 
@@ -47,6 +49,13 @@ public class ProjectileComponent : MonoBehaviour
         {
             Debug.Log($"{projectileName} hit {other.gameObject.name}, dealing {damage} damage.");
             // Here you would typically apply damage to the hit object if it has a health component
+            foreach (var effect in hitEffects)
+            {
+                GameObject tempEffect = effect.GetPooledObject();
+                tempEffect.GetComponent<VFX_Component>().modifier = (speed + damage) / 10f;
+                tempEffect.transform.SetPositionAndRotation(transform.position, transform.rotation);
+                tempEffect.SetActive(true);
+            }
             gameObject.SetActive(false); // deactivate projectile on hit
         }
     }
@@ -60,4 +69,17 @@ public class ProjectileComponent : MonoBehaviour
         projectileName = null; // reset name
         gameObject.name = "Pooled Projectile";
     }
+}
+
+public abstract class IProjectile : MonoBehaviour
+{
+    [Header("Abstract Properties")]
+    public abstract string ProjectileName { get; }
+    public abstract float Speed { get; set; }
+    public float Damage { get; set; }
+    public float LifeTime { get; set; }
+    public LayerMask HitLayers { get; set; }
+    public LayerMask ExcludeLayers { get; set; }
+    public GameObject Owner { get; set; }
+    public List<IPooledVFX> HitVFX { get; set; }
 }

@@ -10,7 +10,7 @@ public class SimplePickup : MonoBehaviour
         {
             if (abilityToGrant)
             {
-                Debug.Log($"sent ability: {abilityToGrant.AbilityName}");
+                // Debug.Log($"sent ability: {abilityToGrant.AbilityName}");
                 playerData.AddAbility(abilityToGrant);
                 Dissapear(); // destroy pickup after granting ability
             }

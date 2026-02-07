@@ -27,6 +27,7 @@ public class ChargedProjectileAbility : IAbility
     public float maxScale = 2f;
     public LayerMask hitLayers;
     public LayerMask excludeLayers;
+    public List<BasicVFXPool> chargeVFX;
     private GameObject projectile;
     private float chargeTime = 0f;
     private Vector3 projectileInitialScale;
@@ -40,7 +41,7 @@ public class ChargedProjectileAbility : IAbility
     public override void ActivateAbility(IAbilityUser user)
     {
         if (ProjectilePool == null) ProjectilePool = new List<GameObject>(); // initialize pool if not already
-        Debug.Log($"{AbilityName} starting to charge on {user.name}");
+        // Debug.Log($"{AbilityName} starting to charge on {user.name}");
         projectile = null;
         chargeTime = 0f;
         multiplier = 0f;
@@ -64,7 +65,7 @@ public class ChargedProjectileAbility : IAbility
             projectileComponent.speed = math.lerp(baseSpeed, maxSpeed, multiplier);
             projectileComponent.damage = math.lerp(baseDamage, maxDamage, multiplier);
             projectile.transform.localScale = projectileInitialScale * math.lerp(1f, maxScale, multiplier);
-            Debug.Log($"{AbilityName} released on {user.name} with charge time of {chargeTime} seconds, speed: {projectileComponent.speed}, damage: {projectileComponent.damage}");
+            // Debug.Log($"{AbilityName} released on {user.name} with charge time of {chargeTime} seconds, speed: {projectileComponent.speed}, damage: {projectileComponent.damage}");
         }
         else
         {

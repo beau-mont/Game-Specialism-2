@@ -530,7 +530,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerData: {fileID: 11400000, guid: f45cb763de2a96db4a09887ee31eb15a, type: 2}
-  abilityUser: {fileID: 0}
+  abilityUser: {fileID: 689472445}
 --- !u!114 &689472445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1375,7 +1375,7 @@ Transform:
   m_GameObject: {fileID: 1958707076}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.11, y: -2.45, z: 0}
+  m_LocalPosition: {x: 2.21, y: -2.45, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1488,6 +1488,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1334524442}
+  - {fileID: 1670948102}
   - {fileID: 519420032}
   - {fileID: 619394802}
   - {fileID: 1637924516}
@@ -1495,4 +1496,3 @@ SceneRoots:
   - {fileID: 1958707080}
   - {fileID: 1620552667}
   - {fileID: 2083039512}
-  - {fileID: 1670948102}

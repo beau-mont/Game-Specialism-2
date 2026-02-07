@@ -108,7 +108,12 @@ MonoBehaviour:
   hitLayers:
     serializedVersion: 2
     m_Bits: 0
+  excludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
   owner: {fileID: 0}
+  hitEffects:
+  - {fileID: 11400000, guid: b3c6331e3027e8495b78299b199ec36a, type: 2}
 --- !u!58 &5500676121989978060
 CircleCollider2D:
   m_ObjectHideFlags: 0

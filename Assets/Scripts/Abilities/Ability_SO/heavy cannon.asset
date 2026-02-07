@@ -24,3 +24,4 @@ MonoBehaviour:
   excludeLayers:
     serializedVersion: 2
     m_Bits: 384
+  fireVFX: []

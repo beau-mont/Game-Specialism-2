@@ -26,7 +26,7 @@ public class IAbilityUser : MonoBehaviour
         if (!availableAbilities.Any(a => a.AbilityName == ability.AbilityName))
         {
             availableAbilities.Add(Instantiate(ability));
-            Debug.Log($"Added ability: {ability.AbilityName}");
+            // Debug.Log($"Added ability: {ability.AbilityName}");
         }
         else
         {
@@ -55,13 +55,13 @@ public class IAbilityUser : MonoBehaviour
     {
         if (availableAbilities.Count == 0)
         {
-            Debug.Log($"No abilities available to cycle to");
+            // Debug.Log($"No abilities available to cycle to");
             return;
         }
         
         int currentIndex = availableAbilities.IndexOf(currentAbility != null ? currentAbility : null);
         int nextIndex = (currentIndex + 1) % availableAbilities.Count;
         currentAbility = availableAbilities[nextIndex];
-        Debug.Log($"ability set to {currentAbility.AbilityName}");
+        // Debug.Log($"ability set to {currentAbility.AbilityName}");
     }
 }

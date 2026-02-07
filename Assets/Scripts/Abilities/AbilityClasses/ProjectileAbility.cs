@@ -22,6 +22,7 @@ public class ProjectileAbility : IAbility
     public float projectileDamage = 1f;
     public LayerMask hitLayers;
     public LayerMask excludeLayers;
+    public List<IPooledVFX> fireVFX;
     private GameObject projectile;
     private float readyAt = 0f;
 
@@ -32,7 +33,6 @@ public class ProjectileAbility : IAbility
 
     public override void ActivateAbility(IAbilityUser user)
     {
-        Debug.Log($"Try fire at {readyAt}");
         if (Time.time > readyAt) TryFire(user);
     }
 
@@ -66,8 +66,16 @@ public class ProjectileAbility : IAbility
             Debug.LogError("Pooled object does not have a ProjectileComponent.");
             return;
         }
-        Debug.Log($"{AbilityName} activated on {user.name}");
+        // Debug.Log($"{AbilityName} activated on {user.name}");
         projectile.SetActive(true);
+        if (fireVFX.Count > 0)
+        {
+            foreach (var vfx in fireVFX)
+            {
+                GameObject tempVFX = vfx.GetPooledObject();
+                tempVFX.transform.SetPositionAndRotation(user.transform.position, user.transform.rotation);
+            }
+        }
         readyAt = Time.time + CooldownDuration;
     }
 }
