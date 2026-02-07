@@ -13,20 +13,4 @@ public class PlayerData : ScriptableObject
     public GameObject Player;
     public IAbilityUser PlayerAbilityUser;
     public PlayerController PlayerController;
-    [Header("Health")]
-    public float MaxHealth;
-    public float Health; // maybe do int for health?
-    public int MaxLives;
-    public int Lives; 
-    [Header("Movement")]
-    public float MaxSpeed;
-    public float Acceleration;
-    public Vector2 CurrentVelocity;
-
-    public void Start()
-    {
-        Health = MaxHealth;
-        Lives = MaxLives;
-        CurrentVelocity = Vector2.zero;
-    }
 }
