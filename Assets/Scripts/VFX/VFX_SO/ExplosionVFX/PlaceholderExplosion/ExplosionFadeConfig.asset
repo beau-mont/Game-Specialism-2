@@ -39,8 +39,8 @@ MonoBehaviour:
   gradient:
     serializedVersion: 2
     key0: {r: 0.9548634, g: 1, b: 0, a: 1}
-    key1: {r: 0.972549, g: 0.7223115, b: 0.03529414, a: 0.7886896}
-    key2: {r: 0.5917819, g: 0.5917819, b: 0.5917819, a: 0}
+    key1: {r: 0.972549, g: 0.7223115, b: 0.03529414, a: 0.6175914}
+    key2: {r: 0.5917819, g: 0.5917819, b: 0.5917819, a: 0.5647059}
     key3: {r: 0.35092682, g: 0.35092682, b: 0.35092682, a: 0}
     key4: {r: 0, g: 0, b: 0, a: 0}
     key5: {r: 0, g: 0, b: 0, a: 0}
@@ -48,16 +48,16 @@ MonoBehaviour:
     key7: {r: 0, g: 0, b: 0, a: 0}
     ctime0: 0
     ctime1: 6999
-    ctime2: 45257
+    ctime2: 55963
     ctime3: 65535
     ctime4: 0
     ctime5: 0
     ctime6: 0
     ctime7: 0
     atime0: 0
-    atime1: 45518
-    atime2: 65535
-    atime3: 0
+    atime1: 40273
+    atime2: 60995
+    atime3: 65535
     atime4: 0
     atime5: 0
     atime6: 0
@@ -65,4 +65,4 @@ MonoBehaviour:
     m_Mode: 0
     m_ColorSpace: -1
     m_NumColorKeys: 4
-    m_NumAlphaKeys: 3
+    m_NumAlphaKeys: 4

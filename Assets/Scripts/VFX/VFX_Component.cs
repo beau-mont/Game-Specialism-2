@@ -48,7 +48,7 @@ public class VFX_Component : MonoBehaviour
 /// <summary>
 /// instead of passing a ton of bullshit to the scriptable objects, create a data container class
 /// populate on Start/OnEnable to minimise operations and then pass to strategies
-/// this means we dont need to create instances of scriptable objects which can lead to a memory leak
+/// this means we dont need to create instances of scriptable objects which can be troublesome to handle without causing memory leaks
 /// </summary>
 public class VFX_Data
 {

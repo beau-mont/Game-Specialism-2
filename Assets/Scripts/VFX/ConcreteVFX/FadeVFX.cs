@@ -34,7 +34,7 @@ public class FadeVFX : VFXStrategy
         if (Time.time < args.StartTime) return;
         float fadeValue = fadeCurve.Evaluate((Time.time - args.StartTime) / fadeCurve.keys.Last().time);
         args.sr.color = gradient.Evaluate(fadeValue);
-        Debug.Log($"Start time: {args.StartTime}. End time: {args.StartTime + fadeCurve.keys.Last().time}. Current time: {Time.time}. Percent complete: {(Time.time - args.StartTime) / fadeCurve.keys.Last().time * 100}% Fade curve: {fadeCurve}.");
+        //Debug.Log($"Start time: {args.StartTime}. End time: {args.StartTime + fadeCurve.keys.Last().time}. Current time: {Time.time}. Percent complete: {(Time.time - args.StartTime) / fadeCurve.keys.Last().time * 100}% Fade curve: {fadeCurve}.");
     }
 
     public override void End(VFX_Data args)
