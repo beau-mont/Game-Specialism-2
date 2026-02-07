@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['user_332',['User',['../class_v_f_x___data.html#a5f305070a736dadccc599cfe3e6ce47e',1,'VFX_Data']]]
+  ['vfxdata_320',['VFXData',['../class_v_f_x___component.html#a9f0fa0818fe191d23f8cedf58a46e8bf',1,'VFX_Component']]]
 ];

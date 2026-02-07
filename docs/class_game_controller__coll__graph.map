@@ -1,9 +1,9 @@
 <map id="GameController" name="GameController">
-<area shape="rect" id="node1" title="A basic game controller script for managing game state and whatnot" alt="" coords="112,1209,239,1316"/>
+<area shape="rect" id="node1" title="A basic game controller script for managing game state and whatnot" alt="" coords="112,1107,239,1213"/>
 <area shape="rect" id="node2" title=" " alt="" coords="559,198,683,275"/>
 <area shape="rect" id="node5" href="$class_player_controller.html" title="The player controller, this provides behaviors for the player. currently depends on AbilityUser thoug..." alt="" coords="431,680,645,904"/>
 <area shape="rect" id="node8" href="$class_i_ability_user.html" title="A monoBehavior that essentially provides an interface to manage the usage of abilities." alt="" coords="665,467,816,617"/>
-<area shape="rect" id="node3" href="$class_player_data.html" title="Data about the player that other objects may need to access. there should only be one instance of thi..." alt="" coords="572,967,709,1147"/>
+<area shape="rect" id="node3" href="$class_player_data.html" title="Data about the player that other objects may need to access. there should only be one instance of thi..." alt="" coords="593,967,688,1044"/>
 <area shape="rect" id="node4" title=" " alt="" coords="723,5,852,83"/>
 <area shape="rect" id="node9" href="$class_i_ability.html" title="abstract class for ability containers" alt="" coords="707,132,868,341"/>
 <area shape="rect" id="node10" href="$class_i_wave_factory.html" title="An abstract factory class" alt="" coords="5,365,132,443"/>

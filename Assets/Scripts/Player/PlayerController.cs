@@ -39,7 +39,6 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
             return;
         }
         playerData.PlayerController = this;
-        playerData.Start();
         playerData.Player = gameObject;
         currentHealth = MaxHealth;
     }
