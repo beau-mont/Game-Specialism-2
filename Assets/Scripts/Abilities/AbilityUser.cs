@@ -2,18 +2,20 @@ using System.Collections.Generic;
 using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 /// <summary>
 /// A monoBehavior that essentially provides an interface to manage the usage of abilities.
 /// </summary>
-public class IAbilityUser : MonoBehaviour
+public class PlayerAbilityUser : MonoBehaviour, IAbilityUser
 {
-    public List<IAbility> availableAbilities;
-    public IAbility currentAbility;
+    [SerializeField] private List<IAbility> availableAbilities;
+    public IAbility CurrentAbility { get; set; }
+    [SerializeField] private PlayerData playerData;
 
     void Start()
     {
-        
+        playerData.PlayerAbilityUser = this;
     }
     
     public void AddAbility(IAbility ability)
@@ -42,8 +44,14 @@ public class IAbilityUser : MonoBehaviour
     public void SetAbility(string ability)
     {
         IAbility toSet = availableAbilities.FirstOrDefault(a => a.AbilityName == ability);
-        if (toSet) currentAbility = toSet;
+        if (toSet) CurrentAbility = toSet;
         else Debug.LogError($"Ability {ability} not available for {gameObject.name}");
+    }
+
+    public void SetAbility(IAbility ability)
+    {
+        if (ability) CurrentAbility = ability;
+        else Debug.LogWarning($"attempt to set invalid ability");
     }
 
     public void CycleAbility()
@@ -54,19 +62,21 @@ public class IAbilityUser : MonoBehaviour
             return;
         }
         
-        int currentIndex = availableAbilities.IndexOf(currentAbility != null ? currentAbility : null);
+        int currentIndex = availableAbilities.IndexOf(CurrentAbility != null ? CurrentAbility : null);
         int nextIndex = (currentIndex + 1) % availableAbilities.Count;
-        currentAbility = availableAbilities[nextIndex];
+        CurrentAbility = availableAbilities[nextIndex];
         // Debug.Log($"ability set to {currentAbility.AbilityName}");
     }
 }
 
-// public interface IAbilityUser
-// {
-//     List<IAbility> availableAbilities { get; set; }
-//     IAbility currentAbility { get; set; }
-//     void AddAbility(IAbility ability);
-//     void RemoveAbility(IAbility ability);
-//     void SetAbility(IAbility ability);
-//     void CycleAbility(IAbility ability);
-// }
+/// <summary>
+/// ability user interface
+/// </summary>
+public interface IAbilityUser
+{
+    IAbility CurrentAbility { get; set; }
+    void AddAbility(IAbility ability);
+    void RemoveAbility(IAbility ability);
+    void SetAbility(string ability);
+    void CycleAbility();
+}

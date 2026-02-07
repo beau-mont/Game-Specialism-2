@@ -10,7 +10,6 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
 {
     [Header("Config SO")]
     [SerializeField] private PlayerData playerData; // global gameobject for access to player data
-    [SerializeField] private IAbilityUser abilityUser; // script that runs abilities, will throw exceptions if none is assigned
     [Header("Health")]
     public float maxHealthMod;
     [SerializeField] private float _MaxHealth;
@@ -26,13 +25,6 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
     
     void OnEnable()
     {
-        if (!abilityUser)
-        {
-            abilityUser = GetComponent<IAbilityUser>();
-            Debug.LogWarning($"{gameObject.name} has no abilityUser assigned in inspector; please assign one in the inspector");
-        }
-        if (!abilityUser) Debug.LogWarning($"No abilityUser attached to player object; please add one to the player object");
-        else playerData.PlayerAbilityUser = abilityUser;
         if (!playerData)
         {
             Debug.LogWarning($"{gameObject.name} has no player data assigned.");
@@ -46,44 +38,33 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
     // Update is called once per frame
     void Update()
     {
-        try // TODO: switch away from try-catch
-        {
-            if (!Input.GetKey(KeyCode.Space) && Input.GetKeyDown(KeyCode.Mouse1)) abilityUser.CycleAbility(); // TODO: Replace with a proper controller
-            if (!abilityUser.currentAbility) abilityUser.CycleAbility();
-        }
-        catch (Exception ex)
-        {
-            Debug.LogWarning($"{gameObject.name} cant cycle ability; {ex}");
-        }
+        ProcessAbilities();
+    }
 
-        try // TODO: Replace all of this with a proper controller and switch away from try-catch
-        {
-            if (Input.GetKeyDown(KeyCode.Space)) 
-            {
-                abilityUser.currentAbility.ActivateAbility(abilityUser);
-            }
-            if (Input.GetKey(KeyCode.Space))
-            {
-                abilityUser.currentAbility.HoldAbility(abilityUser);
-            }
-            if (Input.GetKeyUp(KeyCode.Space))
-            {
-                abilityUser.currentAbility.DeactivateAbility(abilityUser);
-                if (abilityUser.currentAbility.IsSingleUse)
-                {
-                    abilityUser.availableAbilities.RemoveAll(a => a == abilityUser.currentAbility);
-                    abilityUser.CycleAbility();
-                }
-            }
-        }
-        catch (Exception ex)
-        {
-            Debug.LogWarning($"{gameObject.name} caught exception processing fire input; {ex}");
-        }
+    void ProcessAbilities()
+    {
+        if (!playerData || playerData.PlayerAbilityUser == null) return; // if we cant use abilities then just forget aboot it
+        
+        if (!Input.GetKey(KeyCode.Space) && Input.GetKeyDown(KeyCode.Mouse1)) playerData.PlayerAbilityUser.CycleAbility(); // TODO: Replace with a proper controller
+        if (!playerData.PlayerAbilityUser.CurrentAbility) playerData.PlayerAbilityUser.CycleAbility();
 
-        if (currentHealth < 0f)
+        // TODO: Replace all of this with a proper controller
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            
+            playerData.PlayerAbilityUser.CurrentAbility.ActivateAbility(playerData.Player);
+        }
+        if (Input.GetKey(KeyCode.Space))
+        {
+            playerData.PlayerAbilityUser.CurrentAbility.HoldAbility(playerData.Player);
+        }
+        if (Input.GetKeyUp(KeyCode.Space))
+        {
+            playerData.PlayerAbilityUser.CurrentAbility.DeactivateAbility(playerData.Player);
+            if (playerData.PlayerAbilityUser.CurrentAbility.IsSingleUse)
+            {
+                playerData.PlayerAbilityUser.RemoveAbility(playerData.PlayerAbilityUser.CurrentAbility);
+                playerData.PlayerAbilityUser.CycleAbility();
+            }
         }
     }
 

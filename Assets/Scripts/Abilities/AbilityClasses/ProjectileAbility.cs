@@ -34,22 +34,22 @@ public class ProjectileAbility : IAbility
         readyAt = 0f;
     }
 
-    public override void ActivateAbility(IAbilityUser user)
+    public override void ActivateAbility(GameObject user)
     {
         if (Time.time > readyAt) TryFire(user);
     }
 
-    public override void DeactivateAbility(IAbilityUser user)
+    public override void DeactivateAbility(GameObject user)
     {
-        if (IsSingleUse) user.RemoveAbility(this);
+        // if (IsSingleUse) user.RemoveAbility(this); // This is handled by the ability user now.
     }
 
-    public override void HoldAbility(IAbilityUser user)
+    public override void HoldAbility(GameObject user)
     {
         if (Time.time > readyAt) TryFire(user);
     }
 
-    private void TryFire(IAbilityUser user)
+    private void TryFire(GameObject user)
     {
         projectile = null;
         projectile = GetPooledObject();

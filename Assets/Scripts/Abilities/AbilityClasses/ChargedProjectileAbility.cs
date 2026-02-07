@@ -41,7 +41,7 @@ public class ChargedProjectileAbility : IAbility
         
     }
 
-    public override void ActivateAbility(IAbilityUser user)
+    public override void ActivateAbility(GameObject user)
     {
         if (ProjectilePool == null) ProjectilePool = new List<GameObject>(); // initialize pool if not already
         // Debug.Log($"{AbilityName} starting to charge on {user.name}");
@@ -59,7 +59,7 @@ public class ChargedProjectileAbility : IAbility
         projectileInitialScale = projectile.transform.localScale;
         projectile.SetActive(true);
     }
-    public override void DeactivateAbility(IAbilityUser user)
+    public override void DeactivateAbility(GameObject user)
     {
         if (projectile.TryGetComponent<ProjectileComponent>(out var projectileComponent))
         {
@@ -75,10 +75,10 @@ public class ChargedProjectileAbility : IAbility
             Debug.LogError("Pooled object does not have a ProjectileComponent.");
             return;
         }
-        if (IsSingleUse) user.RemoveAbility(this);
+        // if (IsSingleUse) user.RemoveAbility(this); // this is now handled by the ability user
     }
 
-    public override void HoldAbility(IAbilityUser user)
+    public override void HoldAbility(GameObject user)
     {
         chargeTime += Time.deltaTime;
         multiplier = Mathf.Clamp01(chargeTime / maxChargeDuration);

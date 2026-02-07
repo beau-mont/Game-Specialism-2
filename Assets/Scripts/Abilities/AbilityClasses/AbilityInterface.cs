@@ -13,9 +13,9 @@ public abstract class IAbility : ScriptableObject
     public abstract bool IsSingleUse { get; }
     protected abstract GameObject ProjectilePrefab { get; } // assign in inspector or via code
     protected abstract List<GameObject> ProjectilePool { get; set; }
-    public abstract void ActivateAbility(IAbilityUser user);
-    public abstract void DeactivateAbility(IAbilityUser user);
-    public abstract void HoldAbility(IAbilityUser user);
+    public abstract void ActivateAbility(GameObject user);
+    public abstract void DeactivateAbility(GameObject user);
+    public abstract void HoldAbility(GameObject user);
     public abstract void Reset();
     
     protected GameObject GetPooledObject() // try fetch an inactive object from the pool
