@@ -8,6 +8,7 @@ public class PlayerData : ScriptableObject
     [Header("Config")]
     public GameObject Player;
     public IAbilityUser PlayerAbilityUser;
+    public PlayerController PlayerController;
     [Header("Health")]
     public float MaxHealth;
     public float Health; // maybe do int for health?

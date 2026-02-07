@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class ProjectileComponent : MonoBehaviour
@@ -47,8 +48,16 @@ public class ProjectileComponent : MonoBehaviour
     {
         if (((1 << other.gameObject.layer) & hitLayers) != 0) // check if collided layer is in hitLayers
         {
-            Debug.Log($"{projectileName} hit {other.gameObject.name}, dealing {damage} damage.");
             // Here you would typically apply damage to the hit object if it has a health component
+            if (other.gameObject.TryGetComponent<IDamageable>(out IDamageable damageable))
+            {
+                damageable.ModifyHealth(damage);
+            }
+            else
+            {
+                Debug.Log($"no IDamageable found on {other.gameObject.name}");
+            }
+
             foreach (var effect in hitEffects)
             {
                 GameObject tempEffect = effect.GetPooledObject();

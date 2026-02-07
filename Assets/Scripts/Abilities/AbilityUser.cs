@@ -13,12 +13,7 @@ public class IAbilityUser : MonoBehaviour
 
     void Start()
     {
-        List<IAbility> startAbilities = new List<IAbility>(); // swap out abilities given in inspector for new instances
-        foreach (var ability in availableAbilities)
-        {
-            startAbilities.Add(Instantiate(ability));
-        }
-        availableAbilities = startAbilities;
+        
     }
     
     public void AddAbility(IAbility ability)

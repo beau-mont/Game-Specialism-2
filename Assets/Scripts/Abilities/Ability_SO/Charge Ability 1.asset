@@ -15,7 +15,7 @@ MonoBehaviour:
   _abilityName: Plasma Bomb
   _isSingleUse: 1
   _projectilePrefab: {fileID: 3256352823242901472, guid: 899400b7d41b685fbabcf50ad3c9afcd, type: 3}
-  baseSpeed: 5
+  baseSpeed: 2
   baseDamage: 1
   maxSpeed: 10
   maxDamage: 10
@@ -27,3 +27,4 @@ MonoBehaviour:
   excludeLayers:
     serializedVersion: 2
     m_Bits: 384
+  chargeVFX: []
