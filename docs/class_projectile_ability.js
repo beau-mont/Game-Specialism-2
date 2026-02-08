@@ -1,10 +1,9 @@
 var class_projectile_ability =
 [
-    [ "ActivateAbility", "class_projectile_ability.html#a22a8800f153363853486df0bd80f7bc1", null ],
-    [ "DeactivateAbility", "class_projectile_ability.html#a36c95ba154e2dbd48177f3b6ee4eacd7", null ],
-    [ "HoldAbility", "class_projectile_ability.html#ae821224820fdd62121d4940b7487416e", null ],
-    [ "Reset", "class_projectile_ability.html#a77887f61de6aa4dd1b6ceaea096528c4", null ],
-    [ "TryFire", "class_projectile_ability.html#a94a96bceb8d05fb99bfa61573fd8e3f7", null ],
+    [ "ActivateAbility", "class_projectile_ability.html#a0106b2bc60906d167700aad7c1bc16b4", null ],
+    [ "DeactivateAbility", "class_projectile_ability.html#a3d51556a86cd49dd0a5d1180ee4b0c9a", null ],
+    [ "HoldAbility", "class_projectile_ability.html#a625e1cabf5a84fd3ba9231df10dd6109", null ],
+    [ "TryFire", "class_projectile_ability.html#a0bcc3c7fe4c0e9996ee3db4ee3341129", null ],
     [ "_abilityName", "class_projectile_ability.html#a1dbe5d56ca6d0569c9bf6cb4824fbfc2", null ],
     [ "_isSingleUse", "class_projectile_ability.html#af8fd93039143295c18b34dd6bd267f21", null ],
     [ "_projectilePool", "class_projectile_ability.html#aaf987695b573ddf640a05c59299fb5b2", null ],
@@ -17,6 +16,7 @@ var class_projectile_ability =
     [ "projectileDamage", "class_projectile_ability.html#a943716eb97bee339261cd31b39612d3d", null ],
     [ "projectileSpeed", "class_projectile_ability.html#a2e59db9888894b13a58e4851d90ef14b", null ],
     [ "readyAt", "class_projectile_ability.html#a90ed6aed9b5dc86a45753a8e02911f70", null ],
+    [ "AbilityMultipliers", "class_projectile_ability.html#ab96803cf6c21e313d229f8b0abc35c7f", null ],
     [ "AbilityName", "class_projectile_ability.html#a77729cfb2778a0104c429750bb8ba839", null ],
     [ "CooldownDuration", "class_projectile_ability.html#af2066ab6626a24916b571d089a1fa101", null ],
     [ "IsSingleUse", "class_projectile_ability.html#a307587050f8d25e353abea48e2b64681", null ],

@@ -1,0 +1,5 @@
+<map id="IPayload" name="IPayload">
+<area shape="rect" id="node1" title=" " alt="" coords="123,5,333,97"/>
+<area shape="rect" id="node2" href="$class_damage_payload.html" title=" " alt="" coords="5,153,216,259"/>
+<area shape="rect" id="node3" href="$class_explosion_payload.html" title=" " alt="" coords="240,145,451,267"/>
+</map>

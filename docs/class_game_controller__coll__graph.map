@@ -1,11 +1,14 @@
 <map id="GameController" name="GameController">
-<area shape="rect" id="node1" title="A basic game controller script for managing game state and whatnot" alt="" coords="67,588,194,695"/>
-<area shape="rect" id="node2" title=" " alt="" coords="122,13,246,90"/>
-<area shape="rect" id="node5" href="$class_player_controller.html" title="The player controller, this provides behaviors for the player. currently depends on AbilityUser thoug..." alt="" coords="386,147,600,385"/>
-<area shape="rect" id="node3" href="$class_player_data.html" title="Data about the player that other objects may need to access. there should only be one instance of thi..." alt="" coords="230,448,324,525"/>
-<area shape="rect" id="node4" title=" " alt="" coords="66,227,195,305"/>
-<area shape="rect" id="node9" href="$class_i_wave_factory.html" title="An abstract factory class" alt="" coords="67,448,194,525"/>
-<area shape="rect" id="node6" href="$interface_i_damageable.html" title="An interface for damageable entities." alt="" coords="326,5,460,97"/>
-<area shape="rect" id="node7" href="$interface_i_damage_threshold.html" title="An interface for damage threshold effects. the purpose of this is to allow methods to be called when ..." alt="" coords="485,13,698,90"/>
-<area shape="rect" id="node8" href="$interface_i_ability_user.html" title="ability user interface" alt="" coords="219,205,362,327"/>
+<area shape="rect" id="node1" title="A basic game controller script for managing game state and whatnot" alt="" coords="41,660,336,781"/>
+<area shape="rect" id="node2" title=" " alt="" coords="13,27,137,105"/>
+<area shape="rect" id="node5" href="$class_player_controller.html" title="The player controller, this provides behaviors for the player. currently depends on AbilityUser thoug..." alt="" coords="210,189,548,443"/>
+<area shape="rect" id="node3" href="$class_player_data.html" title="Data about the player that other objects may need to access. there should only be one instance of thi..." alt="" coords="378,513,540,590"/>
+<area shape="rect" id="node4" title=" " alt="" coords="56,277,185,355"/>
+<area shape="rect" id="node12" href="$class_i_wave_factory.html" title="An abstract factory class" alt="" coords="55,505,322,597"/>
+<area shape="rect" id="node6" href="$interface_i_damageable.html" title="An interface for damageable entities." alt="" coords="190,5,453,127"/>
+<area shape="rect" id="node7" href="$interface_i_damage_threshold.html" title="An interface for damage threshold effects. the purpose of this is to allow methods to be called when ..." alt="" coords="478,27,816,105"/>
+<area shape="rect" id="node8" href="$class_ability_multipliers.html" title="Ability multiplier container, stores a list of multipliers/modifiers that is passed to an ability to ..." alt="" coords="864,255,1060,377"/>
+<area shape="rect" id="node9" href="$class_projectile_multipliers.html" title="Projectile modifier container, this is passed to projectiles so they can implement what they need...." alt="" coords="856,13,1038,119"/>
+<area shape="rect" id="node10" href="$class_payload_multipliers.html" title="Payload modifier container, this is passed to payloads so they can implement what they need...." alt="" coords="1063,5,1250,127"/>
+<area shape="rect" id="node11" href="$interface_i_ability_user.html" title="ability user interface" alt="" coords="572,204,839,428"/>
 </map>

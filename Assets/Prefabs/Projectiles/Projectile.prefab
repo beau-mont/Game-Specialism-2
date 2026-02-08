@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1632578026509609425}
   - component: {fileID: 3193922625309889383}
-  - component: {fileID: 8645594997209175512}
   - component: {fileID: 5500676121989978060}
   - component: {fileID: 5540445113954967446}
+  - component: {fileID: 6405073146337355916}
+  - component: {fileID: 5609035424736218582}
   m_Layer: 8
   m_Name: Projectile
   m_TagString: Projectile
@@ -79,7 +80,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2807060500580849143, guid: 52c81cf526802726cabd93d01bdd06a3, type: 3}
+  m_Sprite: {fileID: 1375435117325979677, guid: 867eb58ac19b0ae4b968eb046d9073e1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -90,30 +91,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8645594997209175512
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3955307233564228219}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ccd7c062d2e96522a787f2f16cfd05d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  projectileName: 
-  speed: 0
-  damage: 0
-  hitLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  excludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  owner: {fileID: 0}
-  hitEffects:
-  - {fileID: 11400000, guid: b3c6331e3027e8495b78299b199ec36a, type: 2}
 --- !u!58 &5500676121989978060
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -177,3 +154,61 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &6405073146337355916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3955307233564228219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc60f913aba257bad41b07db54229d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileName: Base proj
+  payloads:
+  - {fileID: 11400000, guid: 640d70743f92923c2b44722889fcade4, type: 2}
+  abilityBehaviour: {fileID: 11400000, guid: 3da5a0b78b01e8581abf2b1bc8de169e, type: 2}
+  hitEffects:
+  - {fileID: 11400000, guid: b3c6331e3027e8495b78299b199ec36a, type: 2}
+  payloadMultipliers:
+    GlobalMultiplier: 0
+    DamageMultiplier: 0
+    RadiusMultiplier: 0
+    BurnMultiplier: 0
+  projectileMultipliers:
+    GlobalMultiplier: 0
+    SpeedMultiplier: 0
+    HomingMultiplier: 0
+  owner: {fileID: 0}
+  rb: {fileID: 5540445113954967446}
+--- !u!114 &5609035424736218582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3955307233564228219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc60f913aba257bad41b07db54229d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileName: Thick Projectile
+  payloads:
+  - {fileID: 11400000, guid: 640d70743f92923c2b44722889fcade4, type: 2}
+  abilityBehaviour: {fileID: 11400000, guid: 3da5a0b78b01e8581abf2b1bc8de169e, type: 2}
+  hitEffects:
+  - {fileID: 11400000, guid: b3c6331e3027e8495b78299b199ec36a, type: 2}
+  payloadMultipliers:
+    GlobalMultiplier: 0
+    DamageMultiplier: 0
+    RadiusMultiplier: 0
+    BurnMultiplier: 0
+  projectileMultipliers:
+    GlobalMultiplier: 0
+    SpeedMultiplier: 0
+    HomingMultiplier: 0
+  owner: {fileID: 0}
+  rb: {fileID: 5540445113954967446}

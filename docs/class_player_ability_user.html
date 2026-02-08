@@ -26,7 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Game Specialism 2
-   &#160;<span id="projectnumber">0.1</span>
+   &#160;<span id="projectnumber">0.1.2</span>
    </div>
    <div id="projectbrief">Single player space SHMUP</div>
   </td>
@@ -94,16 +94,16 @@ $(document).ready(function(){initNavTree('class_player_ability_user.html',''); i
 </div><!--header-->
 <div class="contents">
 
-<p>A monoBehavior that essentially provides an interface to manage the usage of abilities.  
+<p>A monoBehavior that manages the players abilities  
  <a href="class_player_ability_user.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for PlayerAbilityUser:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_player_ability_user__inherit__graph.png" border="0" usemap="#a_player_ability_user_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_player_ability_user_inherit__map" id="a_player_ability_user_inherit__map">
-<area shape="rect" title="A monoBehavior that essentially provides an interface to manage the usage of abilities." alt="" coords="74,175,218,369"/>
-<area shape="rect" title=" " alt="" coords="5,27,129,105"/>
-<area shape="rect" href="interface_i_ability_user.html" title="ability user interface" alt="" coords="153,5,296,127"/>
+<area shape="rect" title="A monoBehavior that manages the players abilities" alt="" coords="39,277,314,721"/>
+<area shape="rect" title=" " alt="" coords="5,79,129,156"/>
+<area shape="rect" href="interface_i_ability_user.html" title="ability user interface" alt="" coords="154,5,421,229"/>
 </map>
 </div>
 <div class="dynheader">
@@ -111,39 +111,62 @@ Collaboration diagram for PlayerAbilityUser:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_player_ability_user__coll__graph.png" border="0" usemap="#a_player_ability_user_coll__map" alt="Collaboration graph"/></div>
 <map name="a_player_ability_user_coll__map" id="a_player_ability_user_coll__map">
-<area shape="rect" title="A monoBehavior that essentially provides an interface to manage the usage of abilities." alt="" coords="22,588,166,768"/>
-<area shape="rect" title=" " alt="" coords="112,13,236,90"/>
-<area shape="rect" href="class_player_controller.html" title="The player controller, this provides behaviors for the player. currently depends on AbilityUser thoug..." alt="" coords="376,147,590,385"/>
-<area shape="rect" href="interface_i_ability_user.html" title="ability user interface" alt="" coords="56,205,198,327"/>
-<area shape="rect" href="class_player_data.html" title="Data about the player that other objects may need to access. there should only be one instance of thi..." alt="" coords="240,448,334,525"/>
-<area shape="rect" title=" " alt="" coords="222,227,352,305"/>
-<area shape="rect" href="interface_i_damageable.html" title="An interface for damageable entities." alt="" coords="316,5,450,97"/>
-<area shape="rect" href="interface_i_damage_threshold.html" title="An interface for damage threshold effects. the purpose of this is to allow methods to be called when ..." alt="" coords="475,13,688,90"/>
+<area shape="rect" title="A monoBehavior that manages the players abilities" alt="" coords="146,792,421,1207"/>
+<area shape="rect" title=" " alt="" coords="5,27,129,105"/>
+<area shape="rect" href="class_player_controller.html" title="The player controller, this provides behaviors for the player. currently depends on AbilityUser thoug..." alt="" coords="355,248,694,501"/>
+<area shape="rect" href="interface_i_ability_user.html" title="ability user interface" alt="" coords="65,263,331,487"/>
+<area shape="rect" href="class_player_data.html" title="Data about the player that other objects may need to access. there should only be one instance of thi..." alt="" coords="430,637,593,715"/>
+<area shape="rect" title=" " alt="" coords="835,27,964,105"/>
+<area shape="rect" href="class_abstract_ability.html" title="abstract class for abilities." alt="" coords="769,189,1051,560"/>
+<area shape="rect" href="interface_i_damageable.html" title="An interface for damageable entities." alt="" coords="173,5,436,127"/>
+<area shape="rect" href="interface_i_damage_threshold.html" title="An interface for damage threshold effects. the purpose of this is to allow methods to be called when ..." alt="" coords="461,27,799,105"/>
+<area shape="rect" href="class_ability_multipliers.html" title="Ability multiplier container, stores a list of multipliers/modifiers that is passed to an ability to ..." alt="" coords="1076,314,1272,435"/>
+<area shape="rect" href="class_projectile_multipliers.html" title="Projectile modifier container, this is passed to projectiles so they can implement what they need...." alt="" coords="1035,13,1217,119"/>
+<area shape="rect" href="class_payload_multipliers.html" title="Payload modifier container, this is passed to payloads so they can implement what they need...." alt="" coords="1242,5,1429,127"/>
+<area shape="rect" href="class_ability_container.html" title=" " alt="" coords="704,623,911,729"/>
 </map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad106931ebaff524a2503ce95510e2fdb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_ability_user.html#ad106931ebaff524a2503ce95510e2fdb">AddAbility</a> (<a class="el" href="class_i_ability.html">IAbility</a> ability)</td></tr>
-<tr class="separator:ad106931ebaff524a2503ce95510e2fdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11d7572401b9354e4851dbc001c4e439"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_ability_user.html#a11d7572401b9354e4851dbc001c4e439">RemoveAbility</a> (<a class="el" href="class_i_ability.html">IAbility</a> ability)</td></tr>
-<tr class="separator:a11d7572401b9354e4851dbc001c4e439"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55a2f5ac2285295a6d49bc4f4cfdacd3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_ability_user.html#a55a2f5ac2285295a6d49bc4f4cfdacd3">ActivateAbility</a> ()</td></tr>
+<tr class="separator:a55a2f5ac2285295a6d49bc4f4cfdacd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5675a8eac9745ed0ef21e34ba8d1a395"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_ability_user.html#a5675a8eac9745ed0ef21e34ba8d1a395">HoldAbility</a> ()</td></tr>
+<tr class="separator:a5675a8eac9745ed0ef21e34ba8d1a395"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac17ffc4e079e543df1009127c7bfa3be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_ability_user.html#ac17ffc4e079e543df1009127c7bfa3be">DeactivateAbility</a> ()</td></tr>
+<tr class="separator:ac17ffc4e079e543df1009127c7bfa3be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68688b2aaea0b650de9581ecdda2c28c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_ability_user.html#a68688b2aaea0b650de9581ecdda2c28c">AddAbility</a> (<a class="el" href="class_abstract_ability.html">AbstractAbility</a> ability)</td></tr>
+<tr class="separator:a68688b2aaea0b650de9581ecdda2c28c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9643b6bc74f342fb6b0b44737b2dcdb9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_ability_user.html#a9643b6bc74f342fb6b0b44737b2dcdb9">RemoveAbility</a> (<a class="el" href="class_abstract_ability.html">AbstractAbility</a> ability)</td></tr>
+<tr class="separator:a9643b6bc74f342fb6b0b44737b2dcdb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a257281e162a48917cd9547acdc430b1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_ability_user.html#a257281e162a48917cd9547acdc430b1e">RemoveAbility</a> (<a class="el" href="class_ability_container.html">AbilityContainer</a> ability)</td></tr>
+<tr class="separator:a257281e162a48917cd9547acdc430b1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad27ecb236b9280449d8c08e0e1de7efc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_ability_user.html#ad27ecb236b9280449d8c08e0e1de7efc">RemoveAbility</a> (string ability)</td></tr>
 <tr class="separator:ad27ecb236b9280449d8c08e0e1de7efc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4050d8becd876585556d33116276929f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_ability_user.html#a4050d8becd876585556d33116276929f">SetAbility</a> (string ability)</td></tr>
 <tr class="separator:a4050d8becd876585556d33116276929f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a673893a4faa962a5026c6b9419d880e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_ability_user.html#a673893a4faa962a5026c6b9419d880e3">SetAbility</a> (<a class="el" href="class_i_ability.html">IAbility</a> ability)</td></tr>
-<tr class="separator:a673893a4faa962a5026c6b9419d880e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a953224bdedde72bb6e9a6afb7acb8fcc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_ability_user.html#a953224bdedde72bb6e9a6afb7acb8fcc">SetAbility</a> (<a class="el" href="class_abstract_ability.html">AbstractAbility</a> ability)</td></tr>
+<tr class="separator:a953224bdedde72bb6e9a6afb7acb8fcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d8103024261a334115f5735fcbf45d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_ability_user.html#a0d8103024261a334115f5735fcbf45d4">SetAbility</a> (<a class="el" href="class_ability_container.html">AbilityContainer</a> ability)</td></tr>
+<tr class="separator:a0d8103024261a334115f5735fcbf45d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02a0e245f13375ca962642ba153bbd7a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_ability_user.html#a02a0e245f13375ca962642ba153bbd7a">CycleAbility</a> ()</td></tr>
 <tr class="separator:a02a0e245f13375ca962642ba153bbd7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:ac8c64f0d88be79c388851bdd0ecdb11c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_i_ability.html">IAbility</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_ability_user.html#ac8c64f0d88be79c388851bdd0ecdb11c">CurrentAbility</a><code> [get, set]</code></td></tr>
-<tr class="separator:ac8c64f0d88be79c388851bdd0ecdb11c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a178c1d003685fc1dae18011feaed6280"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ability_container.html">AbilityContainer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_ability_user.html#a178c1d003685fc1dae18011feaed6280">CurrentAbility</a><code> [get, set]</code></td></tr>
+<tr class="separator:a178c1d003685fc1dae18011feaed6280"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a7c381ff5925ff621ce5a50929b66dc"><td class="memItemLeft" align="right" valign="top">LayerMask&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_ability_user.html#a2a7c381ff5925ff621ce5a50929b66dc">TargetLayers</a><code> [get]</code></td></tr>
+<tr class="separator:a2a7c381ff5925ff621ce5a50929b66dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5948585ba0815c0ff2c799927a37baae"><td class="memItemLeft" align="right" valign="top">LayerMask&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_ability_user.html#a5948585ba0815c0ff2c799927a37baae">IgnoreLayers</a><code> [get]</code></td></tr>
+<tr class="separator:a5948585ba0815c0ff2c799927a37baae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_interface_i_ability_user"><td colspan="2" onclick="javascript:toggleInherit('properties_interface_i_ability_user')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="interface_i_ability_user.html">IAbilityUser</a></td></tr>
-<tr class="memitem:aaf891984a10ebd72a1f7625a771eb4a0 inherit properties_interface_i_ability_user"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_i_ability.html">IAbility</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_i_ability_user.html#aaf891984a10ebd72a1f7625a771eb4a0">CurrentAbility</a><code> [get, set]</code></td></tr>
-<tr class="separator:aaf891984a10ebd72a1f7625a771eb4a0 inherit properties_interface_i_ability_user"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5d32f737a5a5d7015b4a36bf291ba27 inherit properties_interface_i_ability_user"><td class="memItemLeft" align="right" valign="top">LayerMask&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_i_ability_user.html#aa5d32f737a5a5d7015b4a36bf291ba27">TargetLayers</a><code> [get]</code></td></tr>
+<tr class="separator:aa5d32f737a5a5d7015b4a36bf291ba27 inherit properties_interface_i_ability_user"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02250087c31756d5fc764f8a62c28521 inherit properties_interface_i_ability_user"><td class="memItemLeft" align="right" valign="top">LayerMask&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_i_ability_user.html#a02250087c31756d5fc764f8a62c28521">IgnoreLayers</a><code> [get]</code></td></tr>
+<tr class="separator:a02250087c31756d5fc764f8a62c28521 inherit properties_interface_i_ability_user"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb4e0d245aa023a4ffb68cee1dfb7022 inherit properties_interface_i_ability_user"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ability_container.html">AbilityContainer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_i_ability_user.html#aeb4e0d245aa023a4ffb68cee1dfb7022">CurrentAbility</a><code> [get, set]</code></td></tr>
+<tr class="separator:aeb4e0d245aa023a4ffb68cee1dfb7022 inherit properties_interface_i_ability_user"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -152,16 +175,50 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a5b595847292a9d5722f7997af5c84354"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_i_ability.html">IAbility</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_ability_user.html#a5b595847292a9d5722f7997af5c84354">availableAbilities</a></td></tr>
-<tr class="separator:a5b595847292a9d5722f7997af5c84354"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22a4e90f8406ec716dd140cb05c7a621"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_ability_container.html">AbilityContainer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_ability_user.html#a22a4e90f8406ec716dd140cb05c7a621">availableAbilities</a></td></tr>
+<tr class="separator:a22a4e90f8406ec716dd140cb05c7a621"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd9e94826f7c21f02ba1dce47b77eca9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ability_container.html">AbilityContainer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_ability_user.html#acd9e94826f7c21f02ba1dce47b77eca9">_CurrentAbility</a></td></tr>
+<tr class="separator:acd9e94826f7c21f02ba1dce47b77eca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec78f22bd31dea95e78dca93e6e5b6ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_player_data.html">PlayerData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_ability_user.html#aec78f22bd31dea95e78dca93e6e5b6ea">playerData</a></td></tr>
 <tr class="separator:aec78f22bd31dea95e78dca93e6e5b6ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56a9ab4b6b9a39c179d9c4dceabd33cc"><td class="memItemLeft" align="right" valign="top">LayerMask&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_ability_user.html#a56a9ab4b6b9a39c179d9c4dceabd33cc">_TargetLayers</a></td></tr>
+<tr class="separator:a56a9ab4b6b9a39c179d9c4dceabd33cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ff3b1e1b81c967e097c66d898eebf39"><td class="memItemLeft" align="right" valign="top">LayerMask&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_ability_user.html#a7ff3b1e1b81c967e097c66d898eebf39">_IgnoreLayers</a></td></tr>
+<tr class="separator:a7ff3b1e1b81c967e097c66d898eebf39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A monoBehavior that essentially provides an interface to manage the usage of abilities. </p>
+<div class="textblock"><p>A monoBehavior that manages the players abilities </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="ad106931ebaff524a2503ce95510e2fdb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad106931ebaff524a2503ce95510e2fdb">&#9670;&nbsp;</a></span>AddAbility()</h2>
+<a id="a55a2f5ac2285295a6d49bc4f4cfdacd3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55a2f5ac2285295a6d49bc4f4cfdacd3">&#9670;&nbsp;</a></span>ActivateAbility()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlayerAbilityUser.ActivateAbility </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_i_ability_user.html#afeb22843c92ada33a71482739e68780b">IAbilityUser</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_player_ability_user_a55a2f5ac2285295a6d49bc4f4cfdacd3_cgraph.png" border="0" usemap="#aclass_player_ability_user_a55a2f5ac2285295a6d49bc4f4cfdacd3_cgraph" alt=""/></div>
+<map name="aclass_player_ability_user_a55a2f5ac2285295a6d49bc4f4cfdacd3_cgraph" id="aclass_player_ability_user_a55a2f5ac2285295a6d49bc4f4cfdacd3_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,240,32"/>
+<area shape="rect" href="class_abstract_ability.html#acc0bda6c4172a3e7904d9c010e0d3db2" title=" " alt="" coords="288,5,504,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a68688b2aaea0b650de9581ecdda2c28c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68688b2aaea0b650de9581ecdda2c28c">&#9670;&nbsp;</a></span>AddAbility()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -169,14 +226,14 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void PlayerAbilityUser.AddAbility </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_i_ability.html">IAbility</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="class_abstract_ability.html">AbstractAbility</a>&#160;</td>
           <td class="paramname"><em>ability</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="interface_i_ability_user.html#a32e14ff6fe30a4fe30dcfc854ef563e9">IAbilityUser</a>.</p>
+<p>Implements <a class="el" href="interface_i_ability_user.html#a547874f0794614574a1a5226272dbcce">IAbilityUser</a>.</p>
 
 </div>
 </div>
@@ -196,11 +253,88 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="interface_i_ability_user.html#af5fd546588ae17f7b09a717c01e2361c">IAbilityUser</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_player_ability_user_a02a0e245f13375ca962642ba153bbd7a_cgraph.png" border="0" usemap="#aclass_player_ability_user_a02a0e245f13375ca962642ba153bbd7a_cgraph" alt=""/></div>
+<map name="aclass_player_ability_user_a02a0e245f13375ca962642ba153bbd7a_cgraph" id="aclass_player_ability_user_a02a0e245f13375ca962642ba153bbd7a_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,221,32"/>
+<area shape="rect" href="class_player_ability_user.html#a4050d8becd876585556d33116276929f" title=" " alt="" coords="269,5,471,32"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_player_ability_user_a02a0e245f13375ca962642ba153bbd7a_icgraph.png" border="0" usemap="#aclass_player_ability_user_a02a0e245f13375ca962642ba153bbd7a_icgraph" alt=""/></div>
+<map name="aclass_player_ability_user_a02a0e245f13375ca962642ba153bbd7a_icgraph" id="aclass_player_ability_user_a02a0e245f13375ca962642ba153bbd7a_icgraph">
+<area shape="rect" title=" " alt="" coords="304,5,520,32"/>
+<area shape="rect" href="class_player_ability_user.html#ac17ffc4e079e543df1009127c7bfa3be" title=" " alt="" coords="5,5,256,32"/>
+</map>
+</div>
 
 </div>
 </div>
-<a id="a11d7572401b9354e4851dbc001c4e439"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11d7572401b9354e4851dbc001c4e439">&#9670;&nbsp;</a></span>RemoveAbility() <span class="overload">[1/2]</span></h2>
+<a id="ac17ffc4e079e543df1009127c7bfa3be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac17ffc4e079e543df1009127c7bfa3be">&#9670;&nbsp;</a></span>DeactivateAbility()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlayerAbilityUser.DeactivateAbility </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_i_ability_user.html#a53140cd3f175aee525323e673181bcea">IAbilityUser</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_player_ability_user_ac17ffc4e079e543df1009127c7bfa3be_cgraph.png" border="0" usemap="#aclass_player_ability_user_ac17ffc4e079e543df1009127c7bfa3be_cgraph" alt=""/></div>
+<map name="aclass_player_ability_user_ac17ffc4e079e543df1009127c7bfa3be_cgraph" id="aclass_player_ability_user_ac17ffc4e079e543df1009127c7bfa3be_cgraph">
+<area shape="rect" title=" " alt="" coords="5,56,256,83"/>
+<area shape="rect" href="class_player_ability_user.html#a02a0e245f13375ca962642ba153bbd7a" title=" " alt="" coords="313,5,529,32"/>
+<area shape="rect" href="class_abstract_ability.html#a79c8a732979c67e0b5597e89ec2d216b" title=" " alt="" coords="305,56,538,83"/>
+<area shape="rect" href="class_player_ability_user.html#a9643b6bc74f342fb6b0b44737b2dcdb9" title=" " alt="" coords="304,107,539,133"/>
+<area shape="rect" href="class_player_ability_user.html#a4050d8becd876585556d33116276929f" title=" " alt="" coords="587,5,788,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a5675a8eac9745ed0ef21e34ba8d1a395"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5675a8eac9745ed0ef21e34ba8d1a395">&#9670;&nbsp;</a></span>HoldAbility()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlayerAbilityUser.HoldAbility </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_i_ability_user.html#a2dc28af09230b68b0354d67d917e933c">IAbilityUser</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_player_ability_user_a5675a8eac9745ed0ef21e34ba8d1a395_cgraph.png" border="0" usemap="#aclass_player_ability_user_a5675a8eac9745ed0ef21e34ba8d1a395_cgraph" alt=""/></div>
+<map name="aclass_player_ability_user_a5675a8eac9745ed0ef21e34ba8d1a395_cgraph" id="aclass_player_ability_user_a5675a8eac9745ed0ef21e34ba8d1a395_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,216,32"/>
+<area shape="rect" href="class_abstract_ability.html#af92b8e79db78b223dc0bd4719769f759" title=" " alt="" coords="264,5,456,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a257281e162a48917cd9547acdc430b1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a257281e162a48917cd9547acdc430b1e">&#9670;&nbsp;</a></span>RemoveAbility() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -208,19 +342,47 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void PlayerAbilityUser.RemoveAbility </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_i_ability.html">IAbility</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="class_ability_container.html">AbilityContainer</a>&#160;</td>
           <td class="paramname"><em>ability</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="interface_i_ability_user.html#a5ed55ee41948d146d95f009b405523ae">IAbilityUser</a>.</p>
+</div>
+</div>
+<a id="a9643b6bc74f342fb6b0b44737b2dcdb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9643b6bc74f342fb6b0b44737b2dcdb9">&#9670;&nbsp;</a></span>RemoveAbility() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlayerAbilityUser.RemoveAbility </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_abstract_ability.html">AbstractAbility</a>&#160;</td>
+          <td class="paramname"><em>ability</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_i_ability_user.html#add06f11fa55df3acacbcbee67725d52f">IAbilityUser</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_player_ability_user_a9643b6bc74f342fb6b0b44737b2dcdb9_icgraph.png" border="0" usemap="#aclass_player_ability_user_a9643b6bc74f342fb6b0b44737b2dcdb9_icgraph" alt=""/></div>
+<map name="aclass_player_ability_user_a9643b6bc74f342fb6b0b44737b2dcdb9_icgraph" id="aclass_player_ability_user_a9643b6bc74f342fb6b0b44737b2dcdb9_icgraph">
+<area shape="rect" title=" " alt="" coords="304,31,539,57"/>
+<area shape="rect" href="class_player_ability_user.html#ac17ffc4e079e543df1009127c7bfa3be" title=" " alt="" coords="5,5,256,32"/>
+<area shape="rect" href="class_player_ability_user.html#ad27ecb236b9280449d8c08e0e1de7efc" title=" " alt="" coords="13,56,248,83"/>
+</map>
+</div>
 
 </div>
 </div>
 <a id="ad27ecb236b9280449d8c08e0e1de7efc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad27ecb236b9280449d8c08e0e1de7efc">&#9670;&nbsp;</a></span>RemoveAbility() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad27ecb236b9280449d8c08e0e1de7efc">&#9670;&nbsp;</a></span>RemoveAbility() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -234,11 +396,20 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_player_ability_user_ad27ecb236b9280449d8c08e0e1de7efc_cgraph.png" border="0" usemap="#aclass_player_ability_user_ad27ecb236b9280449d8c08e0e1de7efc_cgraph" alt=""/></div>
+<map name="aclass_player_ability_user_ad27ecb236b9280449d8c08e0e1de7efc_cgraph" id="aclass_player_ability_user_ad27ecb236b9280449d8c08e0e1de7efc_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,240,32"/>
+<area shape="rect" href="class_player_ability_user.html#a9643b6bc74f342fb6b0b44737b2dcdb9" title=" " alt="" coords="288,5,523,32"/>
+</map>
+</div>
 
 </div>
 </div>
-<a id="a673893a4faa962a5026c6b9419d880e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a673893a4faa962a5026c6b9419d880e3">&#9670;&nbsp;</a></span>SetAbility() <span class="overload">[1/2]</span></h2>
+<a id="a0d8103024261a334115f5735fcbf45d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d8103024261a334115f5735fcbf45d4">&#9670;&nbsp;</a></span>SetAbility() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -246,7 +417,25 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void PlayerAbilityUser.SetAbility </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_i_ability.html">IAbility</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="class_ability_container.html">AbilityContainer</a>&#160;</td>
+          <td class="paramname"><em>ability</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a953224bdedde72bb6e9a6afb7acb8fcc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a953224bdedde72bb6e9a6afb7acb8fcc">&#9670;&nbsp;</a></span>SetAbility() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlayerAbilityUser.SetAbility </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_abstract_ability.html">AbstractAbility</a>&#160;</td>
           <td class="paramname"><em>ability</em></td><td>)</td>
           <td></td>
         </tr>
@@ -256,7 +445,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a4050d8becd876585556d33116276929f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4050d8becd876585556d33116276929f">&#9670;&nbsp;</a></span>SetAbility() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4050d8becd876585556d33116276929f">&#9670;&nbsp;</a></span>SetAbility() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -272,6 +461,16 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="interface_i_ability_user.html#a7e1bf104651535e5bb55c9913140cddb">IAbilityUser</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_player_ability_user_a4050d8becd876585556d33116276929f_icgraph.png" border="0" usemap="#aclass_player_ability_user_a4050d8becd876585556d33116276929f_icgraph" alt=""/></div>
+<map name="aclass_player_ability_user_a4050d8becd876585556d33116276929f_icgraph" id="aclass_player_ability_user_a4050d8becd876585556d33116276929f_icgraph">
+<area shape="rect" title=" " alt="" coords="568,5,769,32"/>
+<area shape="rect" href="class_player_ability_user.html#a02a0e245f13375ca962642ba153bbd7a" title=" " alt="" coords="304,5,520,32"/>
+<area shape="rect" href="class_player_ability_user.html#ac17ffc4e079e543df1009127c7bfa3be" title=" " alt="" coords="5,5,256,32"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -301,8 +500,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a5b595847292a9d5722f7997af5c84354"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b595847292a9d5722f7997af5c84354">&#9670;&nbsp;</a></span>availableAbilities</h2>
+<a id="acd9e94826f7c21f02ba1dce47b77eca9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd9e94826f7c21f02ba1dce47b77eca9">&#9670;&nbsp;</a></span>_CurrentAbility</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -311,7 +510,73 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">List&lt;<a class="el" href="class_i_ability.html">IAbility</a>&gt; PlayerAbilityUser.availableAbilities</td>
+          <td class="memname"><a class="el" href="class_ability_container.html">AbilityContainer</a> PlayerAbilityUser._CurrentAbility</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7ff3b1e1b81c967e097c66d898eebf39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ff3b1e1b81c967e097c66d898eebf39">&#9670;&nbsp;</a></span>_IgnoreLayers</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">LayerMask PlayerAbilityUser._IgnoreLayers</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a56a9ab4b6b9a39c179d9c4dceabd33cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56a9ab4b6b9a39c179d9c4dceabd33cc">&#9670;&nbsp;</a></span>_TargetLayers</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">LayerMask PlayerAbilityUser._TargetLayers</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a22a4e90f8406ec716dd140cb05c7a621"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22a4e90f8406ec716dd140cb05c7a621">&#9670;&nbsp;</a></span>availableAbilities</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_ability_container.html">AbilityContainer</a>&gt; PlayerAbilityUser.availableAbilities</td>
         </tr>
       </table>
   </td>
@@ -346,8 +611,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Property Documentation</h2>
-<a id="ac8c64f0d88be79c388851bdd0ecdb11c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac8c64f0d88be79c388851bdd0ecdb11c">&#9670;&nbsp;</a></span>CurrentAbility</h2>
+<a id="a178c1d003685fc1dae18011feaed6280"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a178c1d003685fc1dae18011feaed6280">&#9670;&nbsp;</a></span>CurrentAbility</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -356,12 +621,56 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_i_ability.html">IAbility</a> PlayerAbilityUser.CurrentAbility</td>
+          <td class="memname"><a class="el" href="class_ability_container.html">AbilityContainer</a> PlayerAbilityUser.CurrentAbility</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5948585ba0815c0ff2c799927a37baae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5948585ba0815c0ff2c799927a37baae">&#9670;&nbsp;</a></span>IgnoreLayers</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">LayerMask PlayerAbilityUser.IgnoreLayers</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2a7c381ff5925ff621ce5a50929b66dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a7c381ff5925ff621ce5a50929b66dc">&#9670;&nbsp;</a></span>TargetLayers</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">LayerMask PlayerAbilityUser.TargetLayers</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -377,7 +686,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_player_ability_user.html">PlayerAbilityUser</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sun Feb 8 2026 20:55:33 for Game Specialism 2 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

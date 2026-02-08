@@ -26,7 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Game Specialism 2
-   &#160;<span id="projectnumber">0.1</span>
+   &#160;<span id="projectnumber">0.1.2</span>
    </div>
    <div id="projectbrief">Single player space SHMUP</div>
   </td>
@@ -90,12 +90,21 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 : <a class="el" href="class_charged_projectile_ability.html#ab2ff4e72285191b8fae7d4416b8c5d05">ChargedProjectileAbility</a>
 , <a class="el" href="class_projectile_ability.html#a1dbe5d56ca6d0569c9bf6cb4824fbfc2">ProjectileAbility</a>
 </li>
+<li>_cooldownDuration
+: <a class="el" href="class_charged_projectile_ability.html#aa48059f926e3b1b2f4cea5f1cf6d1d0e">ChargedProjectileAbility</a>
+</li>
+<li>_CurrentAbility
+: <a class="el" href="class_player_ability_user.html#acd9e94826f7c21f02ba1dce47b77eca9">PlayerAbilityUser</a>
+</li>
 <li>_damageThresholds
 : <a class="el" href="class_generic_enemy_controller.html#acc9e888fe16a9d0303098f13ae5a8171">GenericEnemyController</a>
 , <a class="el" href="class_player_controller.html#af26e992aab2d38660317f4ecd4c6cd1e">PlayerController</a>
 </li>
 <li>_highThreshold
 : <a class="el" href="class_sound_threshold.html#a15ea7065c0283abd809b47cfa8ebcaba">SoundThreshold</a>
+</li>
+<li>_IgnoreLayers
+: <a class="el" href="class_player_ability_user.html#a7ff3b1e1b81c967e097c66d898eebf39">PlayerAbilityUser</a>
 </li>
 <li>_isSingleUse
 : <a class="el" href="class_charged_projectile_ability.html#a94ab2a246110e27ee8009bed54b53aff">ChargedProjectileAbility</a>
@@ -104,10 +113,6 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <li>_lowThreshold
 : <a class="el" href="class_sound_threshold.html#ae0156717dfe52c70d3fd93e4b4f11e49">SoundThreshold</a>
 </li>
-<li>_MaxHealth
-: <a class="el" href="class_generic_enemy_controller.html#a9e31d0a23e846e0627651fa97d3627f7">GenericEnemyController</a>
-, <a class="el" href="class_player_controller.html#a39331ba819e9ad2dc92260b821085f5f">PlayerController</a>
-</li>
 <li>_projectilePool
 : <a class="el" href="class_charged_projectile_ability.html#a7778252fb8d5ffa62e558d697af824e6">ChargedProjectileAbility</a>
 , <a class="el" href="class_projectile_ability.html#aaf987695b573ddf640a05c59299fb5b2">ProjectileAbility</a>
@@ -115,6 +120,9 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <li>_projectilePrefab
 : <a class="el" href="class_charged_projectile_ability.html#ae7d8a9b2cae90a6af1f5c4ae0977e726">ChargedProjectileAbility</a>
 , <a class="el" href="class_projectile_ability.html#a463aa32f65323a02c6c3371bd52bcbfd">ProjectileAbility</a>
+</li>
+<li>_TargetLayers
+: <a class="el" href="class_player_ability_user.html#a56a9ab4b6b9a39c179d9c4dceabd33cc">PlayerAbilityUser</a>
 </li>
 <li>_vfxPool
 : <a class="el" href="class_basic_v_f_x_pool.html#a2f6f92f48c9ebaf7e60f173953b5667d">BasicVFXPool</a>
@@ -126,38 +134,58 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 
 
 <h3><a id="index_a"></a>- a -</h3><ul>
+<li>Ability
+: <a class="el" href="class_ability_container.html#a70f31aa4828a5fa6c4b12b9b247e37ab">AbilityContainer</a>
+</li>
+<li>abilityBehaviour
+: <a class="el" href="class_ability_decorator.html#ab885820c19cb107afa743deff145ef27">AbilityDecorator</a>
+</li>
+<li>AbilityMultipliers
+: <a class="el" href="class_player_data.html#a7803d2322424620cbd71a7690fe9094c">PlayerData</a>
+</li>
 <li>abilityToGrant
-: <a class="el" href="class_simple_pickup.html#acb1978d60dda6ae9c7d3cb8d1e4a7b41">SimplePickup</a>
+: <a class="el" href="class_simple_pickup.html#a844cce1a2668dbbc8125b34014b9d13b">SimplePickup</a>
+</li>
+<li>AccuracyMultiplier
+: <a class="el" href="class_ability_multipliers.html#abf40b35e21ea75a20b8a64eceaccb3ac">AbilityMultipliers</a>
 </li>
 <li>audioClip
 : <a class="el" href="class_sound_threshold.html#a49c03d78b83528afa17fd3f29aafdc5f">SoundThreshold</a>
 </li>
 <li>availableAbilities
-: <a class="el" href="class_player_ability_user.html#a5b595847292a9d5722f7997af5c84354">PlayerAbilityUser</a>
+: <a class="el" href="class_player_ability_user.html#a22a4e90f8406ec716dd140cb05c7a621">PlayerAbilityUser</a>
 </li>
 </ul>
 
 
 <h3><a id="index_b"></a>- b -</h3><ul>
 <li>baseDamage
-: <a class="el" href="class_charged_projectile_ability.html#a0b08b0ff94c8d79a9f652d0b30a99f2b">ChargedProjectileAbility</a>
+: <a class="el" href="class_damage_payload.html#a1d29ada14a8b32e3cc0bddf40d6ea15b">DamagePayload</a>
 </li>
-<li>baseSpeed
-: <a class="el" href="class_charged_projectile_ability.html#a31d0e707216de22e7466d85a435cd0c7">ChargedProjectileAbility</a>
+<li>baseDamageMult
+: <a class="el" href="class_charged_projectile_ability.html#a92994c5c80608f2bf7ec19c6e929bc89">ChargedProjectileAbility</a>
+</li>
+<li>baseSpeedMult
+: <a class="el" href="class_charged_projectile_ability.html#a3794345e318dc43a8fc4d07595fb20ff">ChargedProjectileAbility</a>
+</li>
+<li>BonusProjectiles
+: <a class="el" href="class_ability_multipliers.html#aa173e15d581972f0c4fef0c98fecf283">AbilityMultipliers</a>
+</li>
+<li>BurnMultiplier
+: <a class="el" href="class_payload_multipliers.html#a468c7fab1e27e823751f3b1192d3fbe4">PayloadMultipliers</a>
 </li>
 </ul>
 
 
 <h3><a id="index_c"></a>- c -</h3><ul>
-<li>chargeTime
-: <a class="el" href="class_charged_projectile_ability.html#aedc5a273e135dcd331ac1d1d3bc5afe7">ChargedProjectileAbility</a>
-</li>
 <li>chargeVFX
-: <a class="el" href="class_charged_projectile_ability.html#a1608d3a67e1247acf2b9152d7d1dfca8">ChargedProjectileAbility</a>
+: <a class="el" href="class_charged_projectile_ability.html#af59e712074de47da86911c5e6aef1998">ChargedProjectileAbility</a>
 </li>
 <li>cooldownDuration
-: <a class="el" href="class_charged_projectile_ability.html#ae27c6d355efb000fd53f2a13d73a7b33">ChargedProjectileAbility</a>
-, <a class="el" href="class_projectile_ability.html#a898f4222c8e2fcdec06129316a2cae54">ProjectileAbility</a>
+: <a class="el" href="class_projectile_ability.html#a898f4222c8e2fcdec06129316a2cae54">ProjectileAbility</a>
+</li>
+<li>CooldownMultiplier
+: <a class="el" href="class_ability_multipliers.html#a7b154ffea1279395cd1ce777d3d0d377">AbilityMultipliers</a>
 </li>
 <li>currentHealth
 : <a class="el" href="class_generic_enemy_controller.html#abe0dd68ad039d2264fc99f2ef21f2de3">GenericEnemyController</a>
@@ -167,8 +195,8 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 
 
 <h3><a id="index_d"></a>- d -</h3><ul>
-<li>damage
-: <a class="el" href="class_projectile_component.html#a912745e5efb8f75cf0f1018e1e63031b">ProjectileComponent</a>
+<li>DamageMultiplier
+: <a class="el" href="class_payload_multipliers.html#aa81465d362c7495cb2f15f4ba87926d9">PayloadMultipliers</a>
 </li>
 <li>deathVFX
 : <a class="el" href="class_generic_enemy_controller.html#a352127a4375370fe8beb70088f20444b">GenericEnemyController</a>
@@ -187,10 +215,11 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <li>enemySpawns
 : <a class="el" href="class_wave_data.html#a79a1868ed3f3823fff7aea6fc60fedcb">WaveData</a>
 </li>
+<li>ExcludeLayers
+: <a class="el" href="class_ability_container.html#ae41966f062f6b50c1da06291f04e999a">AbilityContainer</a>
+</li>
 <li>excludeLayers
-: <a class="el" href="class_charged_projectile_ability.html#a9caadc2d590e0f0344fef127dadff5a9">ChargedProjectileAbility</a>
-, <a class="el" href="class_projectile_ability.html#a7e62cb38d0bcfff034da5ce481aca0bb">ProjectileAbility</a>
-, <a class="el" href="class_projectile_component.html#afbe6c70c3d1a21aeb96dc99a14c56ea8">ProjectileComponent</a>
+: <a class="el" href="class_projectile_ability.html#a7e62cb38d0bcfff034da5ce481aca0bb">ProjectileAbility</a>
 </li>
 </ul>
 
@@ -206,12 +235,18 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 : <a class="el" href="class_fade_v_f_x.html#a4b00596baa7116c908deb0ed8f0e2176">FadeVFX</a>
 </li>
 <li>fireVFX
-: <a class="el" href="class_projectile_ability.html#a1c0631cbaeedfb895e714417f6d7c90c">ProjectileAbility</a>
+: <a class="el" href="class_charged_projectile_ability.html#a226e4fcfe39a6101db1eb6dca5f8d6fa">ChargedProjectileAbility</a>
+, <a class="el" href="class_projectile_ability.html#a1c0631cbaeedfb895e714417f6d7c90c">ProjectileAbility</a>
 </li>
 </ul>
 
 
 <h3><a id="index_g"></a>- g -</h3><ul>
+<li>GlobalMultiplier
+: <a class="el" href="class_ability_multipliers.html#aa50f9d69ff49b9889fa15a39b0eeacf5">AbilityMultipliers</a>
+, <a class="el" href="class_payload_multipliers.html#acd4543bee386b901893601db7cb293a6">PayloadMultipliers</a>
+, <a class="el" href="class_projectile_multipliers.html#a8ae54589df5c4f156f7da17ddfeb459f">ProjectileMultipliers</a>
+</li>
 <li>gradient
 : <a class="el" href="class_fade_v_f_x.html#a8536b122d2823359443f2f0fd6e8bda1">FadeVFX</a>
 </li>
@@ -220,19 +255,30 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 
 <h3><a id="index_h"></a>- h -</h3><ul>
 <li>hitEffects
-: <a class="el" href="class_projectile_component.html#add3f591eed5ce99cd8908e7ed71d229c">ProjectileComponent</a>
+: <a class="el" href="class_ability_decorator.html#a326f9c9b551374796d3320534fc2bf7d">AbilityDecorator</a>
 </li>
 <li>hitLayers
-: <a class="el" href="class_charged_projectile_ability.html#a31dfba711caea478ce6f12203866d5b6">ChargedProjectileAbility</a>
-, <a class="el" href="class_projectile_ability.html#ac77fbae22b39c693c4dc513ee02ccd05">ProjectileAbility</a>
-, <a class="el" href="class_projectile_component.html#a4bfab19cb0af521847b7d5c7fe5749dd">ProjectileComponent</a>
+: <a class="el" href="class_projectile_ability.html#ac77fbae22b39c693c4dc513ee02ccd05">ProjectileAbility</a>
+</li>
+<li>HomingMultiplier
+: <a class="el" href="class_projectile_multipliers.html#ac539cfc8aca2f59499908225f1b587f4">ProjectileMultipliers</a>
 </li>
 </ul>
 
 
 <h3><a id="index_i"></a>- i -</h3><ul>
+<li>IncludeLayers
+: <a class="el" href="class_ability_container.html#ae6b86479e02a94ab51ec151850f88fb1">AbilityContainer</a>
+</li>
 <li>init
 : <a class="el" href="class_v_f_x___component.html#a9b32fb9361539a5610554b9cb18123bf">VFX_Component</a>
+</li>
+</ul>
+
+
+<h3><a id="index_l"></a>- l -</h3><ul>
+<li>LastFired
+: <a class="el" href="class_ability_container.html#ab9242561ae22ad1fd7bb5e6b60f79ffa">AbilityContainer</a>
 </li>
 </ul>
 
@@ -241,39 +287,49 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <li>maxChargeDuration
 : <a class="el" href="class_charged_projectile_ability.html#affa32d5dc7509b3dadf910600d2a200e">ChargedProjectileAbility</a>
 </li>
-<li>maxDamage
-: <a class="el" href="class_charged_projectile_ability.html#a3e44449091eab26270439a5e9c7859bf">ChargedProjectileAbility</a>
+<li>maxDamageMult
+: <a class="el" href="class_charged_projectile_ability.html#a907dbbdae53fde6a1a2947164583bd41">ChargedProjectileAbility</a>
+</li>
+<li>MaxHealth
+: <a class="el" href="class_generic_enemy_controller.html#a696d8831614c056c0b8ecf6b0ebd6a74">GenericEnemyController</a>
+, <a class="el" href="class_player_controller.html#aa11a30203d2caa2193fff366f6ed66fa">PlayerController</a>
 </li>
 <li>maxHealthMod
 : <a class="el" href="class_generic_enemy_controller.html#a25c3e3219d684be91c249b0c29b4c204">GenericEnemyController</a>
 , <a class="el" href="class_player_controller.html#adf6caf6f3e827555d5eaf870f5e70c7c">PlayerController</a>
 </li>
-<li>maxScale
-: <a class="el" href="class_charged_projectile_ability.html#a0e4e1f1f969913c3cf81208e14ad315a">ChargedProjectileAbility</a>
+<li>maxScaleMult
+: <a class="el" href="class_charged_projectile_ability.html#a00510b85fac644eddbf424858bdb0785">ChargedProjectileAbility</a>
 </li>
-<li>maxSpeed
-: <a class="el" href="class_charged_projectile_ability.html#ac43d78790bf9bafce6058c5b71c0165c">ChargedProjectileAbility</a>
+<li>maxSpeedMult
+: <a class="el" href="class_charged_projectile_ability.html#a089a9bec44b10b62b05940bf42a4cafe">ChargedProjectileAbility</a>
 </li>
-<li>modifier
-: <a class="el" href="class_v_f_x___component.html#aa27ec32f66d213b53cb4ed96e0d0a0ca">VFX_Component</a>
+<li>multipliers
+: <a class="el" href="class_v_f_x___component.html#aa151e26b00a293959a437d393cd6b6aa">VFX_Component</a>
 </li>
-<li>Modifier
-: <a class="el" href="class_v_f_x___data.html#a1f57250a148a899786e229e02f08fac2">VFX_Data</a>
-</li>
-<li>multiplier
-: <a class="el" href="class_charged_projectile_ability.html#a8c1c3ed1b4bb8b0a8a9b4726a1088ae1">ChargedProjectileAbility</a>
+<li>Multipliers
+: <a class="el" href="class_v_f_x___data.html#a7bb86a4ecffadda723d01c757d50a990">VFX_Data</a>
 </li>
 </ul>
 
 
 <h3><a id="index_o"></a>- o -</h3><ul>
 <li>owner
-: <a class="el" href="class_projectile_component.html#adda23e4b3c3d43e9a78f624d7c8eadf5">ProjectileComponent</a>
+: <a class="el" href="class_ability_decorator.html#a8358e70ca0cbbfc8c5aab124d7fe71a6">AbilityDecorator</a>
 </li>
 </ul>
 
 
 <h3><a id="index_p"></a>- p -</h3><ul>
+<li>payloadMultipliers
+: <a class="el" href="class_ability_decorator.html#a337c8c00e7ac1b974708239e19119feb">AbilityDecorator</a>
+</li>
+<li>PayloadMultipliers
+: <a class="el" href="class_ability_multipliers.html#af27b62006214c966568dae5ac53d9902">AbilityMultipliers</a>
+</li>
+<li>payloads
+: <a class="el" href="class_ability_decorator.html#a82c9f9ecf5e9d60b9a5cb26aee0903a6">AbilityDecorator</a>
+</li>
 <li>Player
 : <a class="el" href="class_player_data.html#a357838777fe7358fbe3fad8b74523f04">PlayerData</a>
 </li>
@@ -291,20 +347,19 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 , <a class="el" href="class_simple_pickup.html#a2d9b7a350d45a8da85198399fbb4fd45">SimplePickup</a>
 </li>
 <li>projectile
-: <a class="el" href="class_charged_projectile_ability.html#a951358795d3b79586e79ce6172e6f1a5">ChargedProjectileAbility</a>
-, <a class="el" href="class_projectile_ability.html#a9bb1751f2cbba13e53a7535c5cd22668">ProjectileAbility</a>
-</li>
-<li>projectileCollider
-: <a class="el" href="class_projectile_component.html#afe2e9ee18a4185987c9505c91696bfb4">ProjectileComponent</a>
+: <a class="el" href="class_projectile_ability.html#a9bb1751f2cbba13e53a7535c5cd22668">ProjectileAbility</a>
 </li>
 <li>projectileDamage
 : <a class="el" href="class_projectile_ability.html#a943716eb97bee339261cd31b39612d3d">ProjectileAbility</a>
 </li>
-<li>projectileInitialScale
-: <a class="el" href="class_charged_projectile_ability.html#a58af107e30d372e7d210492eb0ad52c8">ChargedProjectileAbility</a>
+<li>projectileMultipliers
+: <a class="el" href="class_ability_decorator.html#a200d63eaad254d4fe469e33131922400">AbilityDecorator</a>
+</li>
+<li>ProjectileMultipliers
+: <a class="el" href="class_ability_multipliers.html#ae02e3ba2954cb7f837ae0766af874889">AbilityMultipliers</a>
 </li>
 <li>projectileName
-: <a class="el" href="class_projectile_component.html#a06c54af1fc561d08ea4435842e2487fd">ProjectileComponent</a>
+: <a class="el" href="class_ability_decorator.html#aca8696f6c99a9726f83d86eb9e163623">AbilityDecorator</a>
 </li>
 <li>projectileSpeed
 : <a class="el" href="class_projectile_ability.html#a2e59db9888894b13a58e4851d90ef14b">ProjectileAbility</a>
@@ -313,8 +368,11 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 
 
 <h3><a id="index_r"></a>- r -</h3><ul>
+<li>RadiusMultiplier
+: <a class="el" href="class_payload_multipliers.html#ab95e7a47f6f39f1bd15536049a614ae6">PayloadMultipliers</a>
+</li>
 <li>rb
-: <a class="el" href="class_projectile_component.html#ab3d1519fa4c1de3436730925e72f7676">ProjectileComponent</a>
+: <a class="el" href="class_ability_decorator.html#a4e9dbff3c63c4836c45035566c25f5e0">AbilityDecorator</a>
 </li>
 <li>readyAt
 : <a class="el" href="class_projectile_ability.html#a90ed6aed9b5dc86a45753a8e02911f70">ProjectileAbility</a>
@@ -339,7 +397,10 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 : <a class="el" href="class_wave_data_1_1_enemy_spawn.html#ae95d35d606b57dd2c07df2e5c0b6511d">WaveData.EnemySpawn</a>
 </li>
 <li>speed
-: <a class="el" href="class_projectile_component.html#a1b330c2c8aafd5925f26b0be8e6f6168">ProjectileComponent</a>
+: <a class="el" href="class_simple_projectile.html#a891b3ae810326ba73b6a1a12777f7620">SimpleProjectile</a>
+</li>
+<li>SpeedMultiplier
+: <a class="el" href="class_projectile_multipliers.html#aca12bac7879ba40d65b6375eb6d96e78">ProjectileMultipliers</a>
 </li>
 <li>sr
 : <a class="el" href="class_v_f_x___data.html#a9e804d47383a2b093569843bdd79a78e">VFX_Data</a>
@@ -389,7 +450,7 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sun Feb 8 2026 20:55:33 for Game Specialism 2 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

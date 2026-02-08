@@ -6,7 +6,7 @@ using System.ComponentModel;
 /// A container for a generic full auto projectile ability
 /// </summary>
 [CreateAssetMenu(fileName = "ProjectileAbility", menuName = "Abilities/ProjectileAbility")]
-public class ProjectileAbility : IAbility
+public class ProjectileAbility : AbstractAbility 
 {
     [Header("Inherited Variables")]
     [SerializeField] private string _abilityName;
@@ -14,6 +14,7 @@ public class ProjectileAbility : IAbility
     public override string AbilityName => _abilityName;
     [SerializeField] private bool _isSingleUse;
     public override bool IsSingleUse => _isSingleUse;
+    public override AbilityMultipliers AbilityMultipliers { get; set; }
     [SerializeField] private float cooldownDuration;
     public override float CooldownDuration => cooldownDuration;
     [SerializeField] private GameObject _projectilePrefab;
@@ -29,46 +30,39 @@ public class ProjectileAbility : IAbility
     private GameObject projectile;
     private float readyAt = 0f;
 
-    public override void Reset()
+    public override void ActivateAbility(GameObject user, AbilityMultipliers abilityMultipliers, AbilityContainer abilityContainer)
     {
-        readyAt = 0f;
+        if (Time.time > readyAt) TryFire(user, abilityMultipliers, abilityContainer);
     }
-
-    public override void ActivateAbility(GameObject user)
+    public override void HoldAbility(GameObject user, AbilityMultipliers abilityMultipliers, AbilityContainer abilityContainer)
     {
-        if (Time.time > readyAt) TryFire(user);
+        if (Time.time > readyAt) TryFire(user, abilityMultipliers, abilityContainer);
     }
-
-    public override void DeactivateAbility(GameObject user)
+    public override void DeactivateAbility(GameObject user, AbilityMultipliers abilityMultipliers, AbilityContainer abilityContainer)
     {
         // if (IsSingleUse) user.RemoveAbility(this); // This is handled by the ability user now.
     }
 
-    public override void HoldAbility(GameObject user)
+    private void TryFire(GameObject user, AbilityMultipliers abilityMultipliers, AbilityContainer abilityContainer)
     {
-        if (Time.time > readyAt) TryFire(user);
-    }
-
-    private void TryFire(GameObject user)
-    {
+        ProjectilePool ??= new List<GameObject>(); // initialize pool if not already
         projectile = null;
         projectile = GetPooledObject();
-        if (projectile.TryGetComponent<ProjectileComponent>(out var projectileComponent))
-        {
-            projectileComponent.projectileName = AbilityName + " Projectile"; // Configure projectile
-            projectileComponent.speed = projectileSpeed;
-            projectileComponent.damage = projectileDamage;
-            projectileComponent.owner = user.gameObject;
-            projectileComponent.hitLayers = hitLayers;
-            projectileComponent.excludeLayers = excludeLayers;
-            projectile.transform.position = user.transform.position + user.transform.up * 0.5f; // spawn in front of user
-            projectile.transform.rotation = user.transform.rotation;
-        }
-        else
-        {
-            Debug.LogError("Pooled object does not have a ProjectileComponent.");
-            return;
-        }
+        // if (projectile.TryGetComponent<ProjectileComponent>(out var projectileComponent))
+        // {
+        //     projectileComponent.projectileName = AbilityName + " Projectile"; // Configure projectile
+        //     projectileComponent.speed = projectileSpeed;
+        //     projectileComponent.Damage = projectileDamage;
+        //     projectileComponent.owner = user;
+        //     projectileComponent.hitLayers = hitLayers;
+        //     projectileComponent.excludeLayers = excludeLayers;
+        //     projectile.transform.SetPositionAndRotation(user.transform.position + user.transform.up * 0.5f, user.transform.rotation);
+        // }
+        // else
+        // {
+        //     Debug.LogError("Pooled object does not have a ProjectileComponent.");
+        //     return;
+        // }
         // Debug.Log($"{AbilityName} activated on {user.name}");
         projectile.SetActive(true);
         if (fireVFX.Count > 0)

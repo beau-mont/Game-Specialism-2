@@ -8,7 +8,7 @@ using UnityEngine;
 public class VFX_Component : MonoBehaviour // TODO: Make a bunch of these private/static/const
 {
     [SerializeField] public List<VFXStrategy> strategies;
-    public float modifier;
+    public PayloadMultipliers multipliers = new();
     private VFX_Data VFXData = new();
     private bool init = false;
 
@@ -23,7 +23,7 @@ public class VFX_Component : MonoBehaviour // TODO: Make a bunch of these privat
         }
         VFXData.StartTime = Time.time;
         if (VFXData.StartTime <= 0) VFXData.StartTime = 0.1f;
-        VFXData.Modifier = modifier;
+        VFXData.Multipliers = multipliers;
         foreach (var strategy in strategies)
         {
             strategy.Begin(VFXData);
@@ -59,5 +59,5 @@ public class VFX_Data
     public float StartTime;
     public SpriteRenderer sr;
     public Vector3 Scale;
-    public float Modifier;
+    public PayloadMultipliers Multipliers;
 }

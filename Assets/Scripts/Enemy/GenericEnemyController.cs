@@ -14,10 +14,9 @@ public class GenericEnemyController : MonoBehaviour, IDamageable
 
     [Header("Health")] // Health related variables
     public float maxHealthMod;
-    [SerializeField] private float _MaxHealth;
     // when you ask for this objects max health it returns the max health plus the modifier.
     // this means we keep a base max health but we can still modify it easily with rouge-like abilities down the road.
-    public float MaxHealth { get => _MaxHealth + maxHealthMod; } 
+    [SerializeField] private float MaxHealth; 
     public float currentHealth;
     [SerializeReference, SerializeField] private List<DamageThreshold> _damageThresholds;
     public List<DamageThreshold> DamageThresholds { get => _damageThresholds; set => _damageThresholds = value; }
@@ -39,8 +38,18 @@ public class GenericEnemyController : MonoBehaviour, IDamageable
     {
         currentHealth -= health;
         if (currentHealth <= 0f) Kill();
-        if (currentHealth > MaxHealth) currentHealth = MaxHealth;
+        if (currentHealth > (MaxHealth + maxHealthMod)) currentHealth = MaxHealth + maxHealthMod;
         CheckDamageThresholds();
+    }
+
+    public void ModifyMaxHealth(float value)
+    {
+        maxHealthMod += value;
+    }
+
+    public void ResetMaxHealth()
+    {
+        maxHealthMod = 0;
     }
 
     public void Kill()

@@ -1,7 +1,7 @@
 <map id="IAbility.GetPooledObject" name="IAbility.GetPooledObject">
-<area shape="rect" id="node1" title=" " alt="" coords="481,42,660,69"/>
-<area shape="rect" id="node2" href="$class_charged_projectile_ability.html#a67feff8f07f4410da6bbd761f8f9ec43" title=" " alt="" coords="252,5,433,47"/>
-<area shape="rect" id="node3" href="$class_projectile_ability.html#a94a96bceb8d05fb99bfa61573fd8e3f7" title=" " alt="" coords="257,71,428,98"/>
-<area shape="rect" id="node4" href="$class_projectile_ability.html#a22a8800f153363853486df0bd80f7bc1" title=" " alt="" coords="14,35,195,76"/>
-<area shape="rect" id="node5" href="$class_projectile_ability.html#ae821224820fdd62121d4940b7487416e" title=" " alt="" coords="5,101,204,127"/>
+<area shape="rect" id="node1" title=" " alt="" coords="601,31,780,57"/>
+<area shape="rect" id="node2" href="$class_charged_projectile_ability.html#acab54b2de84c5c072fbc9b433552b265" title=" " alt="" coords="276,5,553,32"/>
+<area shape="rect" id="node3" href="$class_projectile_ability.html#a8064a26c62d24b77f0e9d227ed803cd2" title=" " alt="" coords="329,56,500,83"/>
+<area shape="rect" id="node4" href="$class_projectile_ability.html#a50953f1f70e24f4b247e893eed4302c5" title=" " alt="" coords="5,31,228,57"/>
+<area shape="rect" id="node5" href="$class_projectile_ability.html#a26d0062e5d614599a7394afd1a944673" title=" " alt="" coords="17,81,216,108"/>
 </map>

@@ -1,0 +1,4 @@
+<map id="AbilityDecorator.OnCollisionEnter2D" name="AbilityDecorator.OnCollisionEnter2D">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,263,32"/>
+<area shape="rect" id="node2" href="$class_abstract_payload.html#ac3fb5fede379afcab5e3de9f349eab92" title="Applies its unique payload effect to the target, making use of PayloadMultipliers." alt="" coords="311,5,497,32"/>
+</map>

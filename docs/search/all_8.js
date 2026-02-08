@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['highthreshold_74',['HighThreshold',['../class_damage_threshold.html#acac95c2cdd795235bc9b2ab36ab19cc0',1,'DamageThreshold.HighThreshold()'],['../class_sound_threshold.html#a1d8c216537c297dd97f476cdad57938c',1,'SoundThreshold.HighThreshold()']]],
-  ['hiteffects_75',['hitEffects',['../class_projectile_component.html#add3f591eed5ce99cd8908e7ed71d229c',1,'ProjectileComponent']]],
-  ['hitlayers_76',['HitLayers',['../class_i_projectile.html#aa2f32befd24ffa352b9787796c356975',1,'IProjectile']]],
-  ['hitlayers_77',['hitLayers',['../class_charged_projectile_ability.html#a31dfba711caea478ce6f12203866d5b6',1,'ChargedProjectileAbility.hitLayers()'],['../class_projectile_ability.html#ac77fbae22b39c693c4dc513ee02ccd05',1,'ProjectileAbility.hitLayers()'],['../class_projectile_component.html#a4bfab19cb0af521847b7d5c7fe5749dd',1,'ProjectileComponent.hitLayers()']]],
-  ['hitvfx_78',['HitVFX',['../class_i_projectile.html#ad1ffc565629e14a9a063b7bd4e713c93',1,'IProjectile']]],
-  ['holdability_79',['HoldAbility',['../class_i_ability.html#a0c1260d707fc79d9685323168692e021',1,'IAbility.HoldAbility()'],['../class_charged_projectile_ability.html#a76fa2a0c6cfc7466ebdb4e39a58d7532',1,'ChargedProjectileAbility.HoldAbility()'],['../class_projectile_ability.html#ae821224820fdd62121d4940b7487416e',1,'ProjectileAbility.HoldAbility()']]]
+  ['highthreshold_95',['HighThreshold',['../class_damage_threshold.html#acac95c2cdd795235bc9b2ab36ab19cc0',1,'DamageThreshold.HighThreshold()'],['../class_sound_threshold.html#a1d8c216537c297dd97f476cdad57938c',1,'SoundThreshold.HighThreshold()']]],
+  ['hiteffect_96',['HitEffect',['../class_abstract_payload.html#ac3fb5fede379afcab5e3de9f349eab92',1,'AbstractPayload.HitEffect()'],['../class_damage_payload.html#a0b557fcae3c2c8118781fe688b252ce3',1,'DamagePayload.HitEffect()']]],
+  ['hiteffects_97',['hitEffects',['../class_ability_decorator.html#a326f9c9b551374796d3320534fc2bf7d',1,'AbilityDecorator']]],
+  ['hitlayers_98',['hitLayers',['../class_projectile_ability.html#ac77fbae22b39c693c4dc513ee02ccd05',1,'ProjectileAbility']]],
+  ['holdability_99',['HoldAbility',['../class_abstract_ability.html#af92b8e79db78b223dc0bd4719769f759',1,'AbstractAbility.HoldAbility()'],['../class_charged_projectile_ability.html#a47313039a9ef5455aad4338fd2ebf580',1,'ChargedProjectileAbility.HoldAbility()'],['../class_projectile_ability.html#a625e1cabf5a84fd3ba9231df10dd6109',1,'ProjectileAbility.HoldAbility()'],['../class_player_ability_user.html#a5675a8eac9745ed0ef21e34ba8d1a395',1,'PlayerAbilityUser.HoldAbility()'],['../interface_i_ability_user.html#a2dc28af09230b68b0354d67d917e933c',1,'IAbilityUser.HoldAbility()']]],
+  ['homingmultiplier_100',['HomingMultiplier',['../class_projectile_multipliers.html#ac539cfc8aca2f59499908225f1b587f4',1,'ProjectileMultipliers']]]
 ];

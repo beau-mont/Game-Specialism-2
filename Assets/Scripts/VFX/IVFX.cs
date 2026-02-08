@@ -18,7 +18,7 @@ public abstract class IPooledVFX : ScriptableObject
 }
 
 /// <summary>
-/// Defines a basic implimentation of pooling for all other objects.
+/// Defines a basic implementation of pooling for all other objects.
 /// Other VFX should inherit from <VFX> and not <IVFX> but other objects should get VFX from <IVFX>
 /// </summary>
 public class PooledVFX : IPooledVFX
@@ -58,17 +58,17 @@ public abstract class VFXStrategy : ScriptableObject
     /// <summary>
     /// Set the starting conditions for the VFX
     /// </summary>
-    /// <param name="args">VFX data, update the class when you need to move more information here</param>
+    /// <param name="args">VFX_data, update the class when you need to move more information here.</param>
     public abstract void Begin(VFX_Data args);
     /// <summary>
     /// Process the VFX
     /// </summary>
-    /// <param name="args">VFX data, update the class when you need to move more information here</param>
+    /// <param name="args">VFX_data, update the class when you need to move more information here.</param>
     public abstract void Process(VFX_Data args);
     /// <summary>
     /// Reset the VFX object to starting condition
     /// </summary>
-    /// <param name="args">VFX data, update the class when you need to move more information here</param>
+    /// <param name="args">VFX_data, update the class when you need to move more information here.</param>
     public abstract void End(VFX_Data args);
 }
 

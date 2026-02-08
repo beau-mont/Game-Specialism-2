@@ -1,0 +1,3 @@
+<map id="ProjectileMultipliers" name="ProjectileMultipliers">
+<area shape="rect" id="node1" title="Projectile modifier container, this is passed to projectiles so they can implement what they need...." alt="" coords="5,5,188,112"/>
+</map>

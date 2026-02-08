@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['factorycontroller_180',['FactoryController',['../class_factory_controller.html',1,'']]],
-  ['fadevfx_181',['FadeVFX',['../class_fade_v_f_x.html',1,'']]]
+  ['enemyspawn_214',['EnemySpawn',['../class_wave_data_1_1_enemy_spawn.html',1,'WaveData']]]
 ];

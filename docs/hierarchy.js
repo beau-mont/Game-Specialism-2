@@ -1,5 +1,7 @@
 var hierarchy =
 [
+    [ "AbilityContainer", "class_ability_container.html", null ],
+    [ "AbilityMultipliers", "class_ability_multipliers.html", null ],
     [ "WaveData.EnemySpawn", "class_wave_data_1_1_enemy_spawn.html", null ],
     [ "FactoryController", "class_factory_controller.html", null ],
     [ "IAbilityUser", "interface_i_ability_user.html", [
@@ -13,22 +15,29 @@ var hierarchy =
       [ "PlayerController", "class_player_controller.html", null ]
     ] ],
     [ "MonoBehaviour", null, [
+      [ "AbilityDecorator", "class_ability_decorator.html", null ],
       [ "GameController", "class_game_controller.html", null ],
       [ "GenericEnemyController", "class_generic_enemy_controller.html", null ],
-      [ "IProjectile", "class_i_projectile.html", null ],
       [ "PlayerAbilityUser", "class_player_ability_user.html", null ],
       [ "PlayerController", "class_player_controller.html", null ],
-      [ "ProjectileComponent", "class_projectile_component.html", null ],
       [ "SimplePickup", "class_simple_pickup.html", null ],
       [ "VFX_Component", "class_v_f_x___component.html", null ]
     ] ],
+    [ "PayloadMultipliers", "class_payload_multipliers.html", null ],
+    [ "ProjectileMultipliers", "class_projectile_multipliers.html", null ],
     [ "ScriptableObject", null, [
-      [ "DamageThreshold", "class_damage_threshold.html", [
-        [ "SoundThreshold", "class_sound_threshold.html", null ]
-      ] ],
-      [ "IAbility", "class_i_ability.html", [
+      [ "AbstractAbility", "class_abstract_ability.html", [
         [ "ChargedProjectileAbility", "class_charged_projectile_ability.html", null ],
         [ "ProjectileAbility", "class_projectile_ability.html", null ]
+      ] ],
+      [ "AbstractAbilityBehaviour", "class_abstract_ability_behaviour.html", [
+        [ "SimpleProjectile", "class_simple_projectile.html", null ]
+      ] ],
+      [ "AbstractPayload", "class_abstract_payload.html", [
+        [ "DamagePayload", "class_damage_payload.html", null ]
+      ] ],
+      [ "DamageThreshold", "class_damage_threshold.html", [
+        [ "SoundThreshold", "class_sound_threshold.html", null ]
       ] ],
       [ "IPooledVFX", "class_i_pooled_v_f_x.html", [
         [ "PooledVFX", "class_pooled_v_f_x.html", [

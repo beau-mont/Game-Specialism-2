@@ -1,5 +1,8 @@
 <map id="ChargedProjectileAbility" name="ChargedProjectileAbility">
-<area shape="rect" id="node1" title="A container for an ability that charges up before firing" alt="" coords="5,388,184,832"/>
-<area shape="rect" id="node2" href="$class_i_ability.html" title="abstract class for ability containers" alt="" coords="14,131,175,340"/>
-<area shape="rect" id="node3" title=" " alt="" coords="30,5,159,83"/>
+<area shape="rect" id="node1" title="A container for an ability that charges up before firing" alt="" coords="27,1056,309,1559"/>
+<area shape="rect" id="node2" href="$class_abstract_ability.html" title="abstract class for abilities." alt="" coords="5,277,288,648"/>
+<area shape="rect" id="node3" title=" " alt="" coords="98,5,227,83"/>
+<area shape="rect" id="node6" href="$class_i_pooled_v_f_x.html" title="VFX Scriptable object, use these because they create their own object pools. because they create thei..." alt="" coords="185,132,487,253"/>
+<area shape="rect" id="node4" href="$class_basic_v_f_x_pool.html" title="A basic visual effect, when called this will return a copy of the gameobject from its pool." alt="" coords="197,843,445,979"/>
+<area shape="rect" id="node5" href="$class_pooled_v_f_x.html" title="Defines a basic implementation of pooling for all other objects. Other VFX should inherit from &lt;VFX&gt; ..." alt="" coords="184,672,488,793"/>
 </map>

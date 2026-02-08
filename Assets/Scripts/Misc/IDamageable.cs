@@ -7,8 +7,23 @@ using UnityEngine;
 /// </summary>
 public interface IDamageable
 {
-    float MaxHealth { get; } // todo: this variable doesn't need to be exposed
-    void ModifyHealth(float health);
+    /// <summary>
+    /// Removes value from currentHealth.
+    /// </summary>
+    /// <param name="value">How much to reduce health by; set negative to heal.</param>
+    void ModifyHealth(float value);
+    /// <summary>
+    /// Adds to maxHealthMod.
+    /// </summary>
+    /// <param name="value">how much to add to the max health; set negative to reduce.</param>
+    void ModifyMaxHealth(float value);
+    /// <summary>
+    /// Resets maxHealthMod to zero.
+    /// </summary>
+    void ResetMaxHealth();
+    /// <summary>
+    /// Kills the object.
+    /// </summary>
     void Kill();
 }
 

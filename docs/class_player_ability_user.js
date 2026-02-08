@@ -1,13 +1,23 @@
 var class_player_ability_user =
 [
-    [ "AddAbility", "class_player_ability_user.html#ad106931ebaff524a2503ce95510e2fdb", null ],
+    [ "ActivateAbility", "class_player_ability_user.html#a55a2f5ac2285295a6d49bc4f4cfdacd3", null ],
+    [ "AddAbility", "class_player_ability_user.html#a68688b2aaea0b650de9581ecdda2c28c", null ],
     [ "CycleAbility", "class_player_ability_user.html#a02a0e245f13375ca962642ba153bbd7a", null ],
-    [ "RemoveAbility", "class_player_ability_user.html#a11d7572401b9354e4851dbc001c4e439", null ],
+    [ "DeactivateAbility", "class_player_ability_user.html#ac17ffc4e079e543df1009127c7bfa3be", null ],
+    [ "HoldAbility", "class_player_ability_user.html#a5675a8eac9745ed0ef21e34ba8d1a395", null ],
+    [ "RemoveAbility", "class_player_ability_user.html#a257281e162a48917cd9547acdc430b1e", null ],
+    [ "RemoveAbility", "class_player_ability_user.html#a9643b6bc74f342fb6b0b44737b2dcdb9", null ],
     [ "RemoveAbility", "class_player_ability_user.html#ad27ecb236b9280449d8c08e0e1de7efc", null ],
-    [ "SetAbility", "class_player_ability_user.html#a673893a4faa962a5026c6b9419d880e3", null ],
+    [ "SetAbility", "class_player_ability_user.html#a0d8103024261a334115f5735fcbf45d4", null ],
+    [ "SetAbility", "class_player_ability_user.html#a953224bdedde72bb6e9a6afb7acb8fcc", null ],
     [ "SetAbility", "class_player_ability_user.html#a4050d8becd876585556d33116276929f", null ],
     [ "Start", "class_player_ability_user.html#ab534a57f34c1af7c3d0c2577d884c328", null ],
-    [ "availableAbilities", "class_player_ability_user.html#a5b595847292a9d5722f7997af5c84354", null ],
+    [ "_CurrentAbility", "class_player_ability_user.html#acd9e94826f7c21f02ba1dce47b77eca9", null ],
+    [ "_IgnoreLayers", "class_player_ability_user.html#a7ff3b1e1b81c967e097c66d898eebf39", null ],
+    [ "_TargetLayers", "class_player_ability_user.html#a56a9ab4b6b9a39c179d9c4dceabd33cc", null ],
+    [ "availableAbilities", "class_player_ability_user.html#a22a4e90f8406ec716dd140cb05c7a621", null ],
     [ "playerData", "class_player_ability_user.html#aec78f22bd31dea95e78dca93e6e5b6ea", null ],
-    [ "CurrentAbility", "class_player_ability_user.html#ac8c64f0d88be79c388851bdd0ecdb11c", null ]
+    [ "CurrentAbility", "class_player_ability_user.html#a178c1d003685fc1dae18011feaed6280", null ],
+    [ "IgnoreLayers", "class_player_ability_user.html#a5948585ba0815c0ff2c799927a37baae", null ],
+    [ "TargetLayers", "class_player_ability_user.html#a2a7c381ff5925ff621ce5a50929b66dc", null ]
 ];

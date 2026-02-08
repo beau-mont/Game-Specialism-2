@@ -13,4 +13,5 @@ public class PlayerData : ScriptableObject
     public GameObject Player;
     public IAbilityUser PlayerAbilityUser;
     public PlayerController PlayerController;
+    public AbilityMultipliers AbilityMultipliers;
 }

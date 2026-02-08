@@ -5,7 +5,7 @@ using UnityEngine;
 /// </summary>
 public class SimplePickup : MonoBehaviour
 {
-    public IAbility abilityToGrant;
+    public AbstractAbility  abilityToGrant;
     [SerializeField] private PlayerData playerData;
     private void OnTriggerEnter2D(Collider2D collision)
     {
