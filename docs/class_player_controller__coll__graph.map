@@ -1,10 +1,12 @@
 <map id="PlayerController" name="PlayerController">
-<area shape="rect" id="node1" title="The player controller, this provides behaviors for the player. currently depends on AbilityUser thoug..." alt="" coords="323,617,537,841"/>
-<area shape="rect" id="node5" href="$class_player_data.html" title="Data about the player that other objects may need to access. there should only be one instance of thi..." alt="" coords="144,904,239,981"/>
-<area shape="rect" id="node2" title=" " alt="" coords="277,198,401,275"/>
-<area shape="rect" id="node7" href="$class_i_ability_user.html" title="A monoBehavior that essentially provides an interface to manage the usage of abilities." alt="" coords="129,404,280,555"/>
-<area shape="rect" id="node3" href="$interface_i_damageable.html" title="An interface for damageable entities." alt="" coords="376,433,511,525"/>
-<area shape="rect" id="node4" href="$interface_i_damage_threshold.html" title="An interface for damage threshold effects. the purpose of this is to allow methods to be called when ..." alt="" coords="535,441,749,518"/>
-<area shape="rect" id="node6" title=" " alt="" coords="5,5,135,83"/>
-<area shape="rect" id="node8" href="$class_i_ability.html" title="abstract class for ability containers" alt="" coords="92,132,253,341"/>
+<area shape="rect" id="node1" title="The player controller, this provides behaviors for the player. currently depends on AbilityUser thoug..." alt="" coords="670,189,1009,443"/>
+<area shape="rect" id="node5" href="$class_player_data.html" title="Data about the player that other objects may need to access. there should only be one instance of thi..." alt="" coords="431,505,594,583"/>
+<area shape="rect" id="node2" title=" " alt="" coords="560,27,684,105"/>
+<area shape="rect" id="node3" href="$interface_i_damageable.html" title="An interface for damageable entities." alt="" coords="708,5,971,127"/>
+<area shape="rect" id="node4" href="$interface_i_damage_threshold.html" title="An interface for damage threshold effects. the purpose of this is to allow methods to be called when ..." alt="" coords="995,27,1334,105"/>
+<area shape="rect" id="node6" title=" " alt="" coords="5,277,135,355"/>
+<area shape="rect" id="node7" href="$class_ability_multipliers.html" title="Ability multiplier container, stores a list of multipliers/modifiers that is passed to an ability to ..." alt="" coords="159,255,355,377"/>
+<area shape="rect" id="node8" href="$class_projectile_multipliers.html" title="Projectile modifier container, this is passed to projectiles so they can implement what they need...." alt="" coords="48,13,231,119"/>
+<area shape="rect" id="node9" href="$class_payload_multipliers.html" title="Payload modifier container, this is passed to payloads so they can implement what they need...." alt="" coords="255,5,442,127"/>
+<area shape="rect" id="node10" href="$interface_i_ability_user.html" title="ability user interface" alt="" coords="379,204,646,428"/>
 </map>

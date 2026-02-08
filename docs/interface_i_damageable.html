@@ -26,7 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Game Specialism 2
-   &#160;<span id="projectnumber">0.1</span>
+   &#160;<span id="projectnumber">0.1.2</span>
    </div>
    <div id="projectbrief">Single player space SHMUP</div>
   </td>
@@ -85,7 +85,6 @@ $(document).ready(function(){initNavTree('interface_i_damageable.html',''); init
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#properties">Properties</a> &#124;
 <a href="interface_i_damageable-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">IDamageable Interface Reference</div>  </div>
@@ -99,9 +98,9 @@ Inheritance diagram for IDamageable:</div>
 <div class="dyncontent">
 <div class="center"><img src="interface_i_damageable__inherit__graph.png" border="0" usemap="#a_i_damageable_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_i_damageable_inherit__map" id="a_i_damageable_inherit__map">
-<area shape="rect" title="An interface for damageable entities." alt="" coords="163,5,298,97"/>
-<area shape="rect" href="class_generic_enemy_controller.html" title="A generic enemy controller to implement IDamageable for prototyping. this is likely to be reworked or..." alt="" coords="5,153,219,391"/>
-<area shape="rect" href="class_player_controller.html" title="The player controller, this provides behaviors for the player. currently depends on AbilityUser thoug..." alt="" coords="243,145,456,399"/>
+<area shape="rect" title="An interface for damageable entities." alt="" coords="225,5,487,127"/>
+<area shape="rect" href="class_generic_enemy_controller.html" title="A generic enemy controller to implement IDamageable for prototyping. this is likely to be reworked or..." alt="" coords="5,182,344,435"/>
+<area shape="rect" href="class_player_controller.html" title="The player controller, this provides behaviors for the player. currently depends on AbilityUser thoug..." alt="" coords="368,175,707,443"/>
 </map>
 </div>
 <div class="dynheader">
@@ -109,21 +108,24 @@ Collaboration diagram for IDamageable:</div>
 <div class="dyncontent">
 <div class="center"><img src="interface_i_damageable__coll__graph.png" border="0" usemap="#a_i_damageable_coll__map" alt="Collaboration graph"/></div>
 <map name="a_i_damageable_coll__map" id="a_i_damageable_coll__map">
-<area shape="rect" title="An interface for damageable entities." alt="" coords="5,5,140,97"/>
+<area shape="rect" title="An interface for damageable entities." alt="" coords="5,5,268,127"/>
 </map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af6c2ba6246b23c49c30949c8d385e572"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_i_damageable.html#af6c2ba6246b23c49c30949c8d385e572">ModifyHealth</a> (float health)</td></tr>
-<tr class="separator:af6c2ba6246b23c49c30949c8d385e572"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1293ee80748b016b517da5b51451c048"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_i_damageable.html#a1293ee80748b016b517da5b51451c048">ModifyHealth</a> (float value)</td></tr>
+<tr class="memdesc:a1293ee80748b016b517da5b51451c048"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes value from currentHealth.  <a href="interface_i_damageable.html#a1293ee80748b016b517da5b51451c048">More...</a><br /></td></tr>
+<tr class="separator:a1293ee80748b016b517da5b51451c048"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1067f1e6ea3bb83f302b3c272474a2b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_i_damageable.html#a1067f1e6ea3bb83f302b3c272474a2b9">ModifyMaxHealth</a> (float value)</td></tr>
+<tr class="memdesc:a1067f1e6ea3bb83f302b3c272474a2b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds to maxHealthMod.  <a href="interface_i_damageable.html#a1067f1e6ea3bb83f302b3c272474a2b9">More...</a><br /></td></tr>
+<tr class="separator:a1067f1e6ea3bb83f302b3c272474a2b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82412dde16916265c1ecc2eabdf08234"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_i_damageable.html#a82412dde16916265c1ecc2eabdf08234">ResetMaxHealth</a> ()</td></tr>
+<tr class="memdesc:a82412dde16916265c1ecc2eabdf08234"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets maxHealthMod to zero.  <a href="interface_i_damageable.html#a82412dde16916265c1ecc2eabdf08234">More...</a><br /></td></tr>
+<tr class="separator:a82412dde16916265c1ecc2eabdf08234"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c07ef96ce628fbb0c2ab5d552730bde"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_i_damageable.html#a5c07ef96ce628fbb0c2ab5d552730bde">Kill</a> ()</td></tr>
+<tr class="memdesc:a5c07ef96ce628fbb0c2ab5d552730bde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Kills the object.  <a href="interface_i_damageable.html#a5c07ef96ce628fbb0c2ab5d552730bde">More...</a><br /></td></tr>
 <tr class="separator:a5c07ef96ce628fbb0c2ab5d552730bde"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
-Properties</h2></td></tr>
-<tr class="memitem:a4ee7de77d2db4046000b28e0e745a2d5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_i_damageable.html#a4ee7de77d2db4046000b28e0e745a2d5">MaxHealth</a><code> [get]</code></td></tr>
-<tr class="separator:a4ee7de77d2db4046000b28e0e745a2d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An interface for damageable entities. </p>
@@ -143,12 +145,14 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Kills the object. </p>
+
 <p>Implemented in <a class="el" href="class_player_controller.html#a1951a5a9cade0b01ac33e1e24a77a9d0">PlayerController</a>, and <a class="el" href="class_generic_enemy_controller.html#a21b235171815a20d28f4ccc839e0c56e">GenericEnemyController</a>.</p>
 
 </div>
 </div>
-<a id="af6c2ba6246b23c49c30949c8d385e572"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6c2ba6246b23c49c30949c8d385e572">&#9670;&nbsp;</a></span>ModifyHealth()</h2>
+<a id="a1293ee80748b016b517da5b51451c048"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1293ee80748b016b517da5b51451c048">&#9670;&nbsp;</a></span>ModifyHealth()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -157,36 +161,70 @@ Properties</h2></td></tr>
           <td class="memname">void IDamageable.ModifyHealth </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>health</em></td><td>)</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="class_player_controller.html#a39754c63b05aff4913a5b0e21ef52bd7">PlayerController</a>, and <a class="el" href="class_generic_enemy_controller.html#a11d2125c574c6038518ba69bddc2c3ef">GenericEnemyController</a>.</p>
+<p>Removes value from currentHealth. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>How much to reduce health by; set negative to heal.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="class_player_controller.html#a394ad75e9c15037e9081511ead5e7038">PlayerController</a>, and <a class="el" href="class_generic_enemy_controller.html#a11d2125c574c6038518ba69bddc2c3ef">GenericEnemyController</a>.</p>
 
 </div>
 </div>
-<h2 class="groupheader">Property Documentation</h2>
-<a id="a4ee7de77d2db4046000b28e0e745a2d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ee7de77d2db4046000b28e0e745a2d5">&#9670;&nbsp;</a></span>MaxHealth</h2>
+<a id="a1067f1e6ea3bb83f302b3c272474a2b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1067f1e6ea3bb83f302b3c272474a2b9">&#9670;&nbsp;</a></span>ModifyMaxHealth()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float IDamageable.MaxHealth</td>
+          <td class="memname">void IDamageable.ModifyMaxHealth </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+
+<p>Adds to maxHealthMod. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>how much to add to the max health; set negative to reduce.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="class_player_controller.html#a4800c35de23de2289c6b8b5e4ed0229d">PlayerController</a>, and <a class="el" href="class_generic_enemy_controller.html#acceb80be80c8b5624625dda048ae11e3">GenericEnemyController</a>.</p>
+
+</div>
+</div>
+<a id="a82412dde16916265c1ecc2eabdf08234"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82412dde16916265c1ecc2eabdf08234">&#9670;&nbsp;</a></span>ResetMaxHealth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IDamageable.ResetMaxHealth </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Resets maxHealthMod to zero. </p>
+
+<p>Implemented in <a class="el" href="class_player_controller.html#a6b9793f6acc8c0774ef4eac3fc2a2595">PlayerController</a>, and <a class="el" href="class_generic_enemy_controller.html#a37a682f5729c88b3cf005368c1d60b06">GenericEnemyController</a>.</p>
 
 </div>
 </div>
@@ -199,7 +237,7 @@ Properties</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="interface_i_damageable.html">IDamageable</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sun Feb 8 2026 20:55:33 for Game Specialism 2 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

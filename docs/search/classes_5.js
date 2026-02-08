@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['gamecontroller_182',['GameController',['../class_game_controller.html',1,'']]],
-  ['genericenemycontroller_183',['GenericEnemyController',['../class_generic_enemy_controller.html',1,'']]]
+  ['factorycontroller_215',['FactoryController',['../class_factory_controller.html',1,'']]],
+  ['fadevfx_216',['FadeVFX',['../class_fade_v_f_x.html',1,'']]]
 ];

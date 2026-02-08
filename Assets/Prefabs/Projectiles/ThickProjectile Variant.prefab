@@ -48,17 +48,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3193922625309889383, guid: c3a01e70ac931823a9b477ec82c71594, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 1375435117325979677, guid: 867eb58ac19b0ae4b968eb046d9073e1, type: 3}
     - target: {fileID: 3955307233564228219, guid: c3a01e70ac931823a9b477ec82c71594, type: 3}
       propertyPath: m_Name
       value: ThickProjectile Variant
-      objectReference: {fileID: 0}
-    - target: {fileID: 3955307233564228219, guid: c3a01e70ac931823a9b477ec82c71594, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -1,5 +1,6 @@
 var dir_f13b41af88cf68434578284aaf699e39 =
 [
+    [ "[OBSOLETE]", "dir_dfa5d4e9c8a981741b4d1d918bfbc21e.html", "dir_dfa5d4e9c8a981741b4d1d918bfbc21e" ],
     [ "Abilities", "dir_ebe48340aecbad4981a51369f14ec615.html", "dir_ebe48340aecbad4981a51369f14ec615" ],
     [ "Enemy", "dir_4b8640857bf8216535587707011924da.html", "dir_4b8640857bf8216535587707011924da" ],
     [ "Misc", "dir_baf85a528212cb5cb397bfd05e0bd3c6.html", "dir_baf85a528212cb5cb397bfd05e0bd3c6" ],

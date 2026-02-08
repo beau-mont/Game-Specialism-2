@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['projectilename_341',['ProjectileName',['../class_i_projectile.html#a3cbdcebfebe717d0c51abba6fa1c2a75',1,'IProjectile']]],
-  ['projectilepool_342',['ProjectilePool',['../class_i_ability.html#ae2214b7d84e4a01bf19c42e1836100fc',1,'IAbility.ProjectilePool()'],['../class_charged_projectile_ability.html#a14f99d5a34a91780359e5350368810bb',1,'ChargedProjectileAbility.ProjectilePool()'],['../class_projectile_ability.html#a901a7883f697057cf570aa747cf2e49e',1,'ProjectileAbility.ProjectilePool()']]],
-  ['projectileprefab_343',['ProjectilePrefab',['../class_i_ability.html#aaaa05c0da6c4fcdf7bd83a10626ebb12',1,'IAbility.ProjectilePrefab()'],['../class_charged_projectile_ability.html#a7363e68b37f72cff966a381883876ba4',1,'ChargedProjectileAbility.ProjectilePrefab()'],['../class_projectile_ability.html#a783c1a841df03e9673ff6ba93c9e459c',1,'ProjectileAbility.ProjectilePrefab()']]]
+  ['upgradename_409',['UpgradeName',['../class_ability_upgrade.html#a4ed805d9892d98869cdf60aa0545501c',1,'AbilityUpgrade.UpgradeName()'],['../class_damage_boost.html#a00a19add306d5a983e376082eea04a40',1,'DamageBoost.UpgradeName()'],['../class_passive_upgrade.html#a498c979faf2476c6bd6bdb05b21be29c',1,'PassiveUpgrade.UpgradeName()']]]
 ];

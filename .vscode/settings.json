@@ -67,5 +67,8 @@
         "*.sln": "*.csproj",
     },
     "dotnet.defaultSolution": "Game-Specialism-2.sln",
-    "github.copilot.chat.agent.autoFix": true
+    "github.copilot.chat.agent.autoFix": true,
+    "cSpell.ignoreWords": [
+        "GRAAAAAAAH"
+    ]
 }

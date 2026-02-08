@@ -1,0 +1,5 @@
+<map id="ProjectileAbility.TryFire" name="ProjectileAbility.TryFire">
+<area shape="rect" id="node1" title=" " alt="" coords="276,31,447,57"/>
+<area shape="rect" id="node2" href="$class_projectile_ability.html#a50953f1f70e24f4b247e893eed4302c5" title=" " alt="" coords="5,5,228,32"/>
+<area shape="rect" id="node3" href="$class_projectile_ability.html#a26d0062e5d614599a7394afd1a944673" title=" " alt="" coords="17,56,216,83"/>
+</map>

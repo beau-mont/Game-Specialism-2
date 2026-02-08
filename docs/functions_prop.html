@@ -26,7 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Game Specialism 2
-   &#160;<span id="projectnumber">0.1</span>
+   &#160;<span id="projectnumber">0.1.2</span>
    </div>
    <div id="projectbrief">Single player space SHMUP</div>
   </td>
@@ -86,9 +86,14 @@ $(document).ready(function(){initNavTree('functions_prop.html',''); initResizabl
 &#160;
 
 <h3><a id="index_a"></a>- a -</h3><ul>
+<li>AbilityMultipliers
+: <a class="el" href="class_abstract_ability.html#ac12298efabbbca4414a0f4db8cdba808">AbstractAbility</a>
+, <a class="el" href="class_charged_projectile_ability.html#af07f4901838f8fb8b17386356a225ef7">ChargedProjectileAbility</a>
+, <a class="el" href="class_projectile_ability.html#ab96803cf6c21e313d229f8b0abc35c7f">ProjectileAbility</a>
+</li>
 <li>AbilityName
-: <a class="el" href="class_charged_projectile_ability.html#a0daba14bed12ba720f52eaf4667ec933">ChargedProjectileAbility</a>
-, <a class="el" href="class_i_ability.html#acbf935a14fd5a8336e82eb98033a083e">IAbility</a>
+: <a class="el" href="class_abstract_ability.html#a4402f2f1e5270d0fcc8a3df42dd45dde">AbstractAbility</a>
+, <a class="el" href="class_charged_projectile_ability.html#a0daba14bed12ba720f52eaf4667ec933">ChargedProjectileAbility</a>
 , <a class="el" href="class_projectile_ability.html#a77729cfb2778a0104c429750bb8ba839">ProjectileAbility</a>
 </li>
 <li>Active
@@ -100,28 +105,22 @@ $(document).ready(function(){initNavTree('functions_prop.html',''); initResizabl
 
 <h3><a id="index_c"></a>- c -</h3><ul>
 <li>CooldownDuration
-: <a class="el" href="class_charged_projectile_ability.html#a1cfaedcf0cdba3b592f83a3807c62b05">ChargedProjectileAbility</a>
-, <a class="el" href="class_i_ability.html#adea1951b0fc835e159dca404366f3a07">IAbility</a>
+: <a class="el" href="class_abstract_ability.html#ae4f21a2e3d97f01619e70247f687e410">AbstractAbility</a>
+, <a class="el" href="class_charged_projectile_ability.html#a1cfaedcf0cdba3b592f83a3807c62b05">ChargedProjectileAbility</a>
 , <a class="el" href="class_projectile_ability.html#af2066ab6626a24916b571d089a1fa101">ProjectileAbility</a>
+</li>
+<li>CurrentAbility
+: <a class="el" href="interface_i_ability_user.html#aeb4e0d245aa023a4ffb68cee1dfb7022">IAbilityUser</a>
+, <a class="el" href="class_player_ability_user.html#a178c1d003685fc1dae18011feaed6280">PlayerAbilityUser</a>
 </li>
 </ul>
 
 
 <h3><a id="index_d"></a>- d -</h3><ul>
-<li>Damage
-: <a class="el" href="class_i_projectile.html#a341b7549e1089eababf75a43c238baa0">IProjectile</a>
-</li>
 <li>DamageThresholds
 : <a class="el" href="class_generic_enemy_controller.html#afb737178914a16f3f301208df845f0b0">GenericEnemyController</a>
 , <a class="el" href="interface_i_damage_threshold.html#a330fad066ee1ca0af5254bcc89a94b41">IDamageThreshold</a>
 , <a class="el" href="class_player_controller.html#a5bd47048b9758cc293de924006a10cff">PlayerController</a>
-</li>
-</ul>
-
-
-<h3><a id="index_e"></a>- e -</h3><ul>
-<li>ExcludeLayers
-: <a class="el" href="class_i_projectile.html#ae8146beb7c821ffc66f9c5223fc7cf45">IProjectile</a>
 </li>
 </ul>
 
@@ -140,28 +139,23 @@ $(document).ready(function(){initNavTree('functions_prop.html',''); initResizabl
 : <a class="el" href="class_damage_threshold.html#acac95c2cdd795235bc9b2ab36ab19cc0">DamageThreshold</a>
 , <a class="el" href="class_sound_threshold.html#a1d8c216537c297dd97f476cdad57938c">SoundThreshold</a>
 </li>
-<li>HitLayers
-: <a class="el" href="class_i_projectile.html#aa2f32befd24ffa352b9787796c356975">IProjectile</a>
-</li>
-<li>HitVFX
-: <a class="el" href="class_i_projectile.html#ad1ffc565629e14a9a063b7bd4e713c93">IProjectile</a>
-</li>
 </ul>
 
 
 <h3><a id="index_i"></a>- i -</h3><ul>
+<li>IgnoreLayers
+: <a class="el" href="interface_i_ability_user.html#a02250087c31756d5fc764f8a62c28521">IAbilityUser</a>
+, <a class="el" href="class_player_ability_user.html#a5948585ba0815c0ff2c799927a37baae">PlayerAbilityUser</a>
+</li>
 <li>IsSingleUse
-: <a class="el" href="class_charged_projectile_ability.html#a376f7c22363332e43679eb39ac197f6b">ChargedProjectileAbility</a>
-, <a class="el" href="class_i_ability.html#ad1e4bb5604377758ac9e751bde5f79f6">IAbility</a>
+: <a class="el" href="class_abstract_ability.html#a81f95876daba32218417d60c0e5f2967">AbstractAbility</a>
+, <a class="el" href="class_charged_projectile_ability.html#a376f7c22363332e43679eb39ac197f6b">ChargedProjectileAbility</a>
 , <a class="el" href="class_projectile_ability.html#a307587050f8d25e353abea48e2b64681">ProjectileAbility</a>
 </li>
 </ul>
 
 
 <h3><a id="index_l"></a>- l -</h3><ul>
-<li>LifeTime
-: <a class="el" href="class_i_projectile.html#a5f69cee394cb1912e1f255525a796d52">IProjectile</a>
-</li>
 <li>LowThreshold
 : <a class="el" href="class_damage_threshold.html#a2d0b06927bfdb7ee56dbde295f3b4f52">DamageThreshold</a>
 , <a class="el" href="class_sound_threshold.html#af3fa2bd57b55474b69a600caa657c71a">SoundThreshold</a>
@@ -169,42 +163,24 @@ $(document).ready(function(){initNavTree('functions_prop.html',''); initResizabl
 </ul>
 
 
-<h3><a id="index_m"></a>- m -</h3><ul>
-<li>MaxHealth
-: <a class="el" href="class_generic_enemy_controller.html#a696d8831614c056c0b8ecf6b0ebd6a74">GenericEnemyController</a>
-, <a class="el" href="interface_i_damageable.html#a4ee7de77d2db4046000b28e0e745a2d5">IDamageable</a>
-, <a class="el" href="class_player_controller.html#aa11a30203d2caa2193fff366f6ed66fa">PlayerController</a>
-</li>
-</ul>
-
-
-<h3><a id="index_o"></a>- o -</h3><ul>
-<li>Owner
-: <a class="el" href="class_i_projectile.html#a821687ee149be9a8cf38e1aa5cbbaf1a">IProjectile</a>
-</li>
-</ul>
-
-
 <h3><a id="index_p"></a>- p -</h3><ul>
-<li>ProjectileName
-: <a class="el" href="class_i_projectile.html#a3cbdcebfebe717d0c51abba6fa1c2a75">IProjectile</a>
-</li>
 <li>ProjectilePool
-: <a class="el" href="class_charged_projectile_ability.html#a14f99d5a34a91780359e5350368810bb">ChargedProjectileAbility</a>
-, <a class="el" href="class_i_ability.html#ae2214b7d84e4a01bf19c42e1836100fc">IAbility</a>
+: <a class="el" href="class_abstract_ability.html#a75ee87babf3450395fa183dacdc2449e">AbstractAbility</a>
+, <a class="el" href="class_charged_projectile_ability.html#a14f99d5a34a91780359e5350368810bb">ChargedProjectileAbility</a>
 , <a class="el" href="class_projectile_ability.html#a901a7883f697057cf570aa747cf2e49e">ProjectileAbility</a>
 </li>
 <li>ProjectilePrefab
-: <a class="el" href="class_charged_projectile_ability.html#a7363e68b37f72cff966a381883876ba4">ChargedProjectileAbility</a>
-, <a class="el" href="class_i_ability.html#aaaa05c0da6c4fcdf7bd83a10626ebb12">IAbility</a>
+: <a class="el" href="class_abstract_ability.html#a28e3d806f266fd701d74b4a4901216a0">AbstractAbility</a>
+, <a class="el" href="class_charged_projectile_ability.html#a7363e68b37f72cff966a381883876ba4">ChargedProjectileAbility</a>
 , <a class="el" href="class_projectile_ability.html#a783c1a841df03e9673ff6ba93c9e459c">ProjectileAbility</a>
 </li>
 </ul>
 
 
-<h3><a id="index_s"></a>- s -</h3><ul>
-<li>Speed
-: <a class="el" href="class_i_projectile.html#a5ddd5ad489de116a41812f5c6658059c">IProjectile</a>
+<h3><a id="index_t"></a>- t -</h3><ul>
+<li>TargetLayers
+: <a class="el" href="interface_i_ability_user.html#aa5d32f737a5a5d7015b4a36bf291ba27">IAbilityUser</a>
+, <a class="el" href="class_player_ability_user.html#a2a7c381ff5925ff621ce5a50929b66dc">PlayerAbilityUser</a>
 </li>
 </ul>
 
@@ -226,7 +202,7 @@ $(document).ready(function(){initNavTree('functions_prop.html',''); initResizabl
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sun Feb 8 2026 20:55:33 for Game Specialism 2 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

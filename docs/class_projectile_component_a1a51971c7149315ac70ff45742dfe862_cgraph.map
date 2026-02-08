@@ -1,0 +1,5 @@
+<map id="ProjectileComponent.OnCollisionEnter2D" name="ProjectileComponent.OnCollisionEnter2D">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,293,32"/>
+<area shape="rect" id="node2" href="$class_projectile_component.html#a84f38dd91e90db86a3ea70788ea1263f" title=" " alt="" coords="341,5,609,32"/>
+<area shape="rect" id="node3" href="$interface_i_damageable.html#a1293ee80748b016b517da5b51451c048" title="Removes value from currentHealth." alt="" coords="657,5,857,32"/>
+</map>

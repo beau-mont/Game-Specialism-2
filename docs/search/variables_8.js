@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['hiteffects_286',['hitEffects',['../class_projectile_component.html#add3f591eed5ce99cd8908e7ed71d229c',1,'ProjectileComponent']]],
-  ['hitlayers_287',['hitLayers',['../class_charged_projectile_ability.html#a31dfba711caea478ce6f12203866d5b6',1,'ChargedProjectileAbility.hitLayers()'],['../class_projectile_ability.html#ac77fbae22b39c693c4dc513ee02ccd05',1,'ProjectileAbility.hitLayers()'],['../class_projectile_component.html#a4bfab19cb0af521847b7d5c7fe5749dd',1,'ProjectileComponent.hitLayers()']]]
+  ['hiteffects_342',['hitEffects',['../class_ability_decorator.html#a326f9c9b551374796d3320534fc2bf7d',1,'AbilityDecorator']]],
+  ['hitlayers_343',['hitLayers',['../class_projectile_ability.html#ac77fbae22b39c693c4dc513ee02ccd05',1,'ProjectileAbility']]],
+  ['homingmultiplier_344',['HomingMultiplier',['../class_projectile_multipliers.html#ac539cfc8aca2f59499908225f1b587f4',1,'ProjectileMultipliers']]]
 ];

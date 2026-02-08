@@ -1,0 +1,5 @@
+<map id="AbilityMultipliers" name="AbilityMultipliers">
+<area shape="rect" id="node1" title="Ability multiplier container, stores a list of multipliers/modifiers that is passed to an ability to ..." alt="" coords="103,189,299,311"/>
+<area shape="rect" id="node2" href="$class_projectile_multipliers.html" title="Projectile modifier container, this is passed to projectiles so they can implement what they need...." alt="" coords="5,13,188,119"/>
+<area shape="rect" id="node3" href="$class_payload_multipliers.html" title="Payload modifier container, this is passed to payloads so they can implement what they need...." alt="" coords="213,5,399,127"/>
+</map>

@@ -10,13 +10,12 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
 {
     [Header("Config SO")]
     [SerializeField] private PlayerData playerData; // global gameobject for access to player data
-    [SerializeField] private IAbilityUser abilityUser; // script that runs abilities, will throw exceptions if none is assigned
     [Header("Health")]
     public float maxHealthMod;
-    [SerializeField] private float _MaxHealth;
+    //[SerializeField] private float _MaxHealth;
     // when you ask for this objects max health it returns the max health plus the modifier.
     // this means we keep a base max health but we can still modify it easily with rouge-like abilities down the road.
-    public float MaxHealth { get => _MaxHealth + maxHealthMod; } 
+    [SerializeField] private float MaxHealth;
     public float currentHealth;
     [SerializeReference, SerializeField] private List<DamageThreshold> _damageThresholds;
     public List<DamageThreshold> DamageThresholds { get => _damageThresholds; set => _damageThresholds = value; }
@@ -26,19 +25,12 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
     
     void OnEnable()
     {
-        if (!abilityUser)
-        {
-            abilityUser = GetComponent<IAbilityUser>();
-            Debug.LogWarning($"{gameObject.name} has no abilityUser assigned in inspector; please assign one in the inspector");
-        }
-        if (!abilityUser) Debug.LogWarning($"No abilityUser attached to player object; please add one to the player object");
-        else playerData.PlayerAbilityUser = abilityUser;
         if (!playerData)
         {
             Debug.LogWarning($"{gameObject.name} has no player data assigned.");
             return;
         }
-        playerData.PlayerController = this;
+        playerData.PlayerController = this; // add yourself to the player data
         playerData.Player = gameObject;
         currentHealth = MaxHealth;
     }
@@ -46,54 +38,48 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
     // Update is called once per frame
     void Update()
     {
-        try // TODO: switch away from try-catch
-        {
-            if (!Input.GetKey(KeyCode.Space) && Input.GetKeyDown(KeyCode.Mouse1)) abilityUser.CycleAbility(); // TODO: Replace with a proper controller
-            if (!abilityUser.currentAbility) abilityUser.CycleAbility();
-        }
-        catch (Exception ex)
-        {
-            Debug.LogWarning($"{gameObject.name} cant cycle ability; {ex}");
-        }
+        ProcessAbilities();
+    }
 
-        try // TODO: Replace all of this with a proper controller and switch away from try-catch
-        {
-            if (Input.GetKeyDown(KeyCode.Space)) 
-            {
-                abilityUser.currentAbility.ActivateAbility(abilityUser);
-            }
-            if (Input.GetKey(KeyCode.Space))
-            {
-                abilityUser.currentAbility.HoldAbility(abilityUser);
-            }
-            if (Input.GetKeyUp(KeyCode.Space))
-            {
-                abilityUser.currentAbility.DeactivateAbility(abilityUser);
-                if (abilityUser.currentAbility.IsSingleUse)
-                {
-                    abilityUser.availableAbilities.RemoveAll(a => a == abilityUser.currentAbility);
-                    abilityUser.CycleAbility();
-                }
-            }
-        }
-        catch (Exception ex)
-        {
-            Debug.LogWarning($"{gameObject.name} caught exception processing fire input; {ex}");
-        }
+    void ProcessAbilities()
+    {
+        if (!playerData || playerData.PlayerAbilityUser == null) return; // if we cant use abilities then just forget aboot it
+        
+        if (!Input.GetKey(KeyCode.Space) && Input.GetKeyDown(KeyCode.Mouse1)) playerData.PlayerAbilityUser.CycleAbility(); // TODO: Replace with a proper controller
+        if (!playerData.PlayerAbilityUser.CurrentAbility.Ability) playerData.PlayerAbilityUser.CycleAbility();
 
-        if (currentHealth < 0f)
+        // TODO: Replace all of this with a proper controller and move ability usage to the PlayerAbilityUser
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            
+            playerData.PlayerAbilityUser.ActivateAbility();
+        }
+        if (Input.GetKey(KeyCode.Space))
+        {
+            playerData.PlayerAbilityUser.HoldAbility();
+        }
+        if (Input.GetKeyUp(KeyCode.Space))
+        {
+            playerData.PlayerAbilityUser.DeactivateAbility();
         }
     }
 
     #region Damageable
-    public void ModifyHealth(float health)
+    public void ModifyHealth(float value)
     {
-        currentHealth -= health;
+        currentHealth -= value;
         if (currentHealth <= 0f) Kill();
-        if (currentHealth > MaxHealth) currentHealth = MaxHealth;
+        if (currentHealth > (MaxHealth + maxHealthMod)) currentHealth = MaxHealth + maxHealthMod;
         CheckDamageThresholds();
+    }
+
+    public void ModifyMaxHealth(float value)
+    {
+        maxHealthMod += value;
+    }
+
+    public void ResetMaxHealth()
+    {
+        maxHealthMod = 0;
     }
 
     public void Kill()

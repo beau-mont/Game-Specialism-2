@@ -1,10 +1,10 @@
 var class_i_ability =
 [
-    [ "ActivateAbility", "class_i_ability.html#aba7c03a04911b74a45456055712c13be", null ],
+    [ "ActivateAbility", "class_i_ability.html#a00b3c8c78e43c8384dbc7e3f08b7ea74", null ],
     [ "CreateNewObject", "class_i_ability.html#aeabe1c2f1f16efb611dec040e9a4cff3", null ],
-    [ "DeactivateAbility", "class_i_ability.html#af87a7152e396b8991e1d8a969e175452", null ],
+    [ "DeactivateAbility", "class_i_ability.html#ad37987e2999f177a60547184aaeb95c0", null ],
     [ "GetPooledObject", "class_i_ability.html#a5b7f66e41426ba8fbe48f2ffc960fedc", null ],
-    [ "HoldAbility", "class_i_ability.html#a61bed276b360aa3b50cdd1c5f1e77384", null ],
+    [ "HoldAbility", "class_i_ability.html#ab2ac105042c6428ed1c136e92ff25989", null ],
     [ "Reset", "class_i_ability.html#ac1671e02099b3fb69338b11298d6f25f", null ],
     [ "AbilityName", "class_i_ability.html#acbf935a14fd5a8336e82eb98033a083e", null ],
     [ "CooldownDuration", "class_i_ability.html#adea1951b0fc835e159dca404366f3a07", null ],

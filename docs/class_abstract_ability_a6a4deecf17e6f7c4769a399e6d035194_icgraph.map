@@ -1,0 +1,8 @@
+<map id="AbstractAbility.CreateNewObject" name="AbstractAbility.CreateNewObject">
+<area shape="rect" id="node1" title=" " alt="" coords="853,42,1088,69"/>
+<area shape="rect" id="node2" href="$class_abstract_ability.html#a3a929b05e7f37c77cbbfb7ef85380fbf" title=" " alt="" coords="576,42,805,69"/>
+<area shape="rect" id="node3" href="$class_charged_projectile_ability.html#ab72e75e51b6b5bff1f760021644af784" title=" " alt="" coords="276,5,528,47"/>
+<area shape="rect" id="node4" href="$class_projectile_ability.html#a0bcc3c7fe4c0e9996ee3db4ee3341129" title=" " alt="" coords="317,71,487,98"/>
+<area shape="rect" id="node5" href="$class_projectile_ability.html#a0106b2bc60906d167700aad7c1bc16b4" title=" " alt="" coords="5,46,228,73"/>
+<area shape="rect" id="node6" href="$class_projectile_ability.html#a625e1cabf5a84fd3ba9231df10dd6109" title=" " alt="" coords="17,97,216,123"/>
+</map>

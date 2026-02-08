@@ -1,0 +1,4 @@
+<map id="ProjectileComponent.DamageThing" name="ProjectileComponent.DamageThing">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,223,47"/>
+<area shape="rect" id="node2" href="$interface_i_damageable.html#a1293ee80748b016b517da5b51451c048" title="Removes value from currentHealth." alt="" coords="271,13,471,39"/>
+</map>
