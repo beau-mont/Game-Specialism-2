@@ -5,5 +5,12 @@ var dir_c7fafc839a0585736011c21bdabf2a37 =
     ] ],
     [ "PlayerData.cs", "_player_data_8cs.html", [
       [ "PlayerData", "class_player_data.html", "class_player_data" ]
+    ] ],
+    [ "UpgradeManager.cs", "_upgrade_manager_8cs.html", [
+      [ "UpgradeManager", "class_upgrade_manager.html", "class_upgrade_manager" ],
+      [ "UpgradeTree", "class_upgrade_tree.html", "class_upgrade_tree" ]
+    ] ],
+    [ "UpgradeSO.cs", "_upgrade_s_o_8cs.html", [
+      [ "Upgrade", "class_upgrade.html", "class_upgrade" ]
     ] ]
 ];

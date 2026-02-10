@@ -1,0 +1,3 @@
+<map id="AbilityBehaviourMultipliers" name="AbilityBehaviourMultipliers">
+<area shape="rect" id="node1" title="Projectile modifier container, this is passed to projectiles so they can implement what they need...." alt="" coords="5,5,280,185"/>
+</map>

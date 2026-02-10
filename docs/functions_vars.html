@@ -92,6 +92,7 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 </li>
 <li>_cooldownDuration
 : <a class="el" href="class_charged_projectile_ability.html#aa48059f926e3b1b2f4cea5f1cf6d1d0e">ChargedProjectileAbility</a>
+, <a class="el" href="class_projectile_ability.html#a5122f6e86e86b4cf015b9a9dc5d66eef">ProjectileAbility</a>
 </li>
 <li>_CurrentAbility
 : <a class="el" href="class_player_ability_user.html#acd9e94826f7c21f02ba1dce47b77eca9">PlayerAbilityUser</a>
@@ -140,8 +141,14 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <li>abilityBehaviour
 : <a class="el" href="class_ability_decorator.html#ab885820c19cb107afa743deff145ef27">AbilityDecorator</a>
 </li>
+<li>abilityBehaviourMultipliers
+: <a class="el" href="class_ability_decorator.html#ab0ce09eeddaa93e7b5fbd76105e33f26">AbilityDecorator</a>
+</li>
+<li>AbilityBehaviourMultipliers
+: <a class="el" href="class_ability_multipliers.html#aea7636a014c1cc60646874baf7776b51">AbilityMultipliers</a>
+</li>
 <li>AbilityMultipliers
-: <a class="el" href="class_player_data.html#a7803d2322424620cbd71a7690fe9094c">PlayerData</a>
+: <a class="el" href="class_player_multipliers.html#aa2b35b16bb17da4f62a3819b6dae7062">PlayerMultipliers</a>
 </li>
 <li>abilityToGrant
 : <a class="el" href="class_simple_pickup.html#a844cce1a2668dbbc8125b34014b9d13b">SimplePickup</a>
@@ -149,11 +156,20 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <li>AccuracyMultiplier
 : <a class="el" href="class_ability_multipliers.html#abf40b35e21ea75a20b8a64eceaccb3ac">AbilityMultipliers</a>
 </li>
+<li>AddMultipliers
+: <a class="el" href="class_upgrade.html#a20d499a713937e72d3fd70dbf54763d9">Upgrade</a>
+</li>
+<li>attackAction
+: <a class="el" href="class_player_controller.html#aa95b3b2cba4d8294c0f09a7c05c32d72">PlayerController</a>
+</li>
 <li>audioClip
 : <a class="el" href="class_sound_threshold.html#a49c03d78b83528afa17fd3f29aafdc5f">SoundThreshold</a>
 </li>
 <li>availableAbilities
 : <a class="el" href="class_player_ability_user.html#a22a4e90f8406ec716dd140cb05c7a621">PlayerAbilityUser</a>
+</li>
+<li>availableTrees
+: <a class="el" href="class_upgrade_manager.html#a5e1e0f2118258cdbba01a0b222ce78f8">UpgradeManager</a>
 </li>
 </ul>
 
@@ -164,6 +180,9 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 </li>
 <li>baseDamageMult
 : <a class="el" href="class_charged_projectile_ability.html#a92994c5c80608f2bf7ec19c6e929bc89">ChargedProjectileAbility</a>
+</li>
+<li>baseMoveSpeed
+: <a class="el" href="class_player_controller.html#a879b71c2f584dcbe2ead4d8e9bd86bd2">PlayerController</a>
 </li>
 <li>baseSpeedMult
 : <a class="el" href="class_charged_projectile_ability.html#a3794345e318dc43a8fc4d07595fb20ff">ChargedProjectileAbility</a>
@@ -180,9 +199,6 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <h3><a id="index_c"></a>- c -</h3><ul>
 <li>chargeVFX
 : <a class="el" href="class_charged_projectile_ability.html#af59e712074de47da86911c5e6aef1998">ChargedProjectileAbility</a>
-</li>
-<li>cooldownDuration
-: <a class="el" href="class_projectile_ability.html#a898f4222c8e2fcdec06129316a2cae54">ProjectileAbility</a>
 </li>
 <li>CooldownMultiplier
 : <a class="el" href="class_ability_multipliers.html#a7b154ffea1279395cd1ce777d3d0d377">AbilityMultipliers</a>
@@ -218,9 +234,6 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <li>ExcludeLayers
 : <a class="el" href="class_ability_container.html#ae41966f062f6b50c1da06291f04e999a">AbilityContainer</a>
 </li>
-<li>excludeLayers
-: <a class="el" href="class_projectile_ability.html#a7e62cb38d0bcfff034da5ce481aca0bb">ProjectileAbility</a>
-</li>
 </ul>
 
 
@@ -243,9 +256,10 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 
 <h3><a id="index_g"></a>- g -</h3><ul>
 <li>GlobalMultiplier
-: <a class="el" href="class_ability_multipliers.html#aa50f9d69ff49b9889fa15a39b0eeacf5">AbilityMultipliers</a>
+: <a class="el" href="class_ability_behaviour_multipliers.html#a22ac81ec1d66c16a0074cbaf7f755e72">AbilityBehaviourMultipliers</a>
+, <a class="el" href="class_ability_multipliers.html#aa50f9d69ff49b9889fa15a39b0eeacf5">AbilityMultipliers</a>
 , <a class="el" href="class_payload_multipliers.html#acd4543bee386b901893601db7cb293a6">PayloadMultipliers</a>
-, <a class="el" href="class_projectile_multipliers.html#a8ae54589df5c4f156f7da17ddfeb459f">ProjectileMultipliers</a>
+, <a class="el" href="class_player_multipliers.html#aebf3915125a277aa9a45abda8d0d505f">PlayerMultipliers</a>
 </li>
 <li>gradient
 : <a class="el" href="class_fade_v_f_x.html#a8536b122d2823359443f2f0fd6e8bda1">FadeVFX</a>
@@ -257,11 +271,8 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <li>hitEffects
 : <a class="el" href="class_ability_decorator.html#a326f9c9b551374796d3320534fc2bf7d">AbilityDecorator</a>
 </li>
-<li>hitLayers
-: <a class="el" href="class_projectile_ability.html#ac77fbae22b39c693c4dc513ee02ccd05">ProjectileAbility</a>
-</li>
 <li>HomingMultiplier
-: <a class="el" href="class_projectile_multipliers.html#ac539cfc8aca2f59499908225f1b587f4">ProjectileMultipliers</a>
+: <a class="el" href="class_ability_behaviour_multipliers.html#aa59722db54f60f823f3746312d0f54a4">AbilityBehaviourMultipliers</a>
 </li>
 </ul>
 
@@ -279,6 +290,9 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <h3><a id="index_l"></a>- l -</h3><ul>
 <li>LastFired
 : <a class="el" href="class_ability_container.html#ab9242561ae22ad1fd7bb5e6b60f79ffa">AbilityContainer</a>
+</li>
+<li>lifetime
+: <a class="el" href="class_ability_decorator.html#af2f735116302f49c97e004a734a766c4">AbilityDecorator</a>
 </li>
 </ul>
 
@@ -304,6 +318,12 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <li>maxSpeedMult
 : <a class="el" href="class_charged_projectile_ability.html#a089a9bec44b10b62b05940bf42a4cafe">ChargedProjectileAbility</a>
 </li>
+<li>moveAction
+: <a class="el" href="class_player_controller.html#af99cddccf0395badc734b368261b7d85">PlayerController</a>
+</li>
+<li>MoveSpeedMultiplier
+: <a class="el" href="class_player_multipliers.html#ad10e4c949524303091fc2bb7f2128071">PlayerMultipliers</a>
+</li>
 <li>multipliers
 : <a class="el" href="class_v_f_x___component.html#aa151e26b00a293959a437d393cd6b6aa">VFX_Component</a>
 </li>
@@ -314,6 +334,9 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 
 
 <h3><a id="index_o"></a>- o -</h3><ul>
+<li>obtainedUpgrades
+: <a class="el" href="class_upgrade_manager.html#a13276731a40b85fa4420de9aa19b1bed">UpgradeManager</a>
+</li>
 <li>owner
 : <a class="el" href="class_ability_decorator.html#a8358e70ca0cbbfc8c5aab124d7fe71a6">AbilityDecorator</a>
 </li>
@@ -345,24 +368,16 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 , <a class="el" href="class_player_ability_user.html#aec78f22bd31dea95e78dca93e6e5b6ea">PlayerAbilityUser</a>
 , <a class="el" href="class_player_controller.html#a7d17e5310468c24a4ab15ac696e61cec">PlayerController</a>
 , <a class="el" href="class_simple_pickup.html#a2d9b7a350d45a8da85198399fbb4fd45">SimplePickup</a>
+, <a class="el" href="class_upgrade_manager.html#a6eedf9896da5cd39571d8036dfc4b54e">UpgradeManager</a>
 </li>
-<li>projectile
-: <a class="el" href="class_projectile_ability.html#a9bb1751f2cbba13e53a7535c5cd22668">ProjectileAbility</a>
+<li>PlayerMultipliers
+: <a class="el" href="class_upgrade_manager.html#a5f44478e7ed0238e067a566b615e62b5">UpgradeManager</a>
 </li>
-<li>projectileDamage
-: <a class="el" href="class_projectile_ability.html#a943716eb97bee339261cd31b39612d3d">ProjectileAbility</a>
-</li>
-<li>projectileMultipliers
-: <a class="el" href="class_ability_decorator.html#a200d63eaad254d4fe469e33131922400">AbilityDecorator</a>
-</li>
-<li>ProjectileMultipliers
-: <a class="el" href="class_ability_multipliers.html#ae02e3ba2954cb7f837ae0766af874889">AbilityMultipliers</a>
+<li>PlayerUpgradeManager
+: <a class="el" href="class_player_data.html#aeed6d2c57f8a2f5e70786ad51e8bab28">PlayerData</a>
 </li>
 <li>projectileName
 : <a class="el" href="class_ability_decorator.html#aca8696f6c99a9726f83d86eb9e163623">AbilityDecorator</a>
-</li>
-<li>projectileSpeed
-: <a class="el" href="class_projectile_ability.html#a2e59db9888894b13a58e4851d90ef14b">ProjectileAbility</a>
 </li>
 </ul>
 
@@ -373,9 +388,7 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 </li>
 <li>rb
 : <a class="el" href="class_ability_decorator.html#a4e9dbff3c63c4836c45035566c25f5e0">AbilityDecorator</a>
-</li>
-<li>readyAt
-: <a class="el" href="class_projectile_ability.html#a90ed6aed9b5dc86a45753a8e02911f70">ProjectileAbility</a>
+, <a class="el" href="class_player_controller.html#af656c35d14d18c09958ce86e6fb874d1">PlayerController</a>
 </li>
 </ul>
 
@@ -396,11 +409,14 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <li>SpawnRotation
 : <a class="el" href="class_wave_data_1_1_enemy_spawn.html#ae95d35d606b57dd2c07df2e5c0b6511d">WaveData.EnemySpawn</a>
 </li>
+<li>spawnTime
+: <a class="el" href="class_ability_decorator.html#a348630da9974d697ceecaa53157f05d6">AbilityDecorator</a>
+</li>
 <li>speed
-: <a class="el" href="class_simple_projectile.html#a891b3ae810326ba73b6a1a12777f7620">SimpleProjectile</a>
+: <a class="el" href="class_simple_ability_behaviour.html#aaab6fee9050767ff5d1ec1949548b33d">SimpleAbilityBehaviour</a>
 </li>
 <li>SpeedMultiplier
-: <a class="el" href="class_projectile_multipliers.html#aca12bac7879ba40d65b6375eb6d96e78">ProjectileMultipliers</a>
+: <a class="el" href="class_ability_behaviour_multipliers.html#ac3e1874072f8a2ae830abbe051656495">AbilityBehaviourMultipliers</a>
 </li>
 <li>sr
 : <a class="el" href="class_v_f_x___data.html#a9e804d47383a2b093569843bdd79a78e">VFX_Data</a>
@@ -414,7 +430,29 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 </ul>
 
 
+<h3><a id="index_t"></a>- t -</h3><ul>
+<li>TreeDescription
+: <a class="el" href="class_upgrade_tree.html#a2873a58fe78c80d35cb7e233f40cef75">UpgradeTree</a>
+</li>
+<li>TreeName
+: <a class="el" href="class_upgrade_tree.html#a646aaee09a68aee72a6c0d1167ba5602">UpgradeTree</a>
+</li>
+</ul>
+
+
 <h3><a id="index_u"></a>- u -</h3><ul>
+<li>UpgradeDescription
+: <a class="el" href="class_upgrade.html#a43c5f51f5689bdb58d4ac0902c6f2306">Upgrade</a>
+</li>
+<li>UpgradeName
+: <a class="el" href="class_upgrade.html#a97fde7adce1c113f141048f8798235ff">Upgrade</a>
+</li>
+<li>Upgrades
+: <a class="el" href="class_upgrade_tree.html#aed672987caab5c10026563bdd2243094">UpgradeTree</a>
+</li>
+<li>upgradeToAdd
+: <a class="el" href="class_simple_pickup.html#acb4cc80a8ceef2c67669b8aded5ebf3a">SimplePickup</a>
+</li>
 <li>User
 : <a class="el" href="class_v_f_x___data.html#a5f305070a736dadccc599cfe3e6ce47e">VFX_Data</a>
 </li>
@@ -450,7 +488,7 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Feb 8 2026 20:55:33 for Game Specialism 2 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Tue Feb 10 2026 18:05:54 for Game Specialism 2 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

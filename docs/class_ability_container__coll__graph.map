@@ -1,5 +1,5 @@
 <map id="AbilityContainer" name="AbilityContainer">
-<area shape="rect" id="node1" title=" " alt="" coords="43,565,250,672"/>
-<area shape="rect" id="node2" href="$class_abstract_ability.html" title="abstract class for abilities." alt="" coords="5,132,288,503"/>
+<area shape="rect" id="node1" title=" " alt="" coords="43,536,250,643"/>
+<area shape="rect" id="node2" href="$class_abstract_ability.html" title="abstract class for abilities." alt="" coords="5,132,288,473"/>
 <area shape="rect" id="node3" title=" " alt="" coords="82,5,211,83"/>
 </map>

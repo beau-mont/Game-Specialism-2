@@ -1,3 +1,3 @@
 <map id="PayloadMultipliers" name="PayloadMultipliers">
-<area shape="rect" id="node1" title="Payload modifier container, this is passed to payloads so they can implement what they need...." alt="" coords="5,5,192,127"/>
+<area shape="rect" id="node1" title="Payload modifier container, this is passed to payloads so they can implement what they need...." alt="" coords="5,5,223,200"/>
 </map>

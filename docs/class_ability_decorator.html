@@ -100,7 +100,7 @@ Inheritance diagram for AbilityDecorator:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ability_decorator__inherit__graph.png" border="0" usemap="#a_ability_decorator_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_ability_decorator_inherit__map" id="a_ability_decorator_inherit__map">
-<area shape="rect" title="AbilityDecorator combines functionality from a list of AbstractPayload&#39;s and an AbstractAbilityBehavi..." alt="" coords="5,131,316,369"/>
+<area shape="rect" title="AbilityDecorator combines functionality from a list of AbstractPayload&#39;s and an AbstractAbilityBehavi..." alt="" coords="5,131,316,413"/>
 <area shape="rect" title=" " alt="" coords="99,5,223,83"/>
 </map>
 </div>
@@ -109,16 +109,16 @@ Collaboration diagram for AbilityDecorator:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ability_decorator__coll__graph.png" border="0" usemap="#a_ability_decorator_coll__map" alt="Collaboration graph"/></div>
 <map name="a_ability_decorator_coll__map" id="a_ability_decorator_coll__map">
-<area shape="rect" title="AbilityDecorator combines functionality from a list of AbstractPayload&#39;s and an AbstractAbilityBehavi..." alt="" coords="363,853,621,1019"/>
-<area shape="rect" title=" " alt="" coords="33,684,157,761"/>
+<area shape="rect" title="AbilityDecorator combines functionality from a list of AbstractPayload&#39;s and an AbstractAbilityBehavi..." alt="" coords="365,927,624,1121"/>
+<area shape="rect" title=" " alt="" coords="33,728,157,805"/>
 <area shape="rect" href="class_abstract_payload.html" title="An abstract class defining a method for all payloads to use" alt="" coords="5,277,371,369"/>
 <area shape="rect" title=" " alt="" coords="319,5,449,83"/>
 <area shape="rect" href="class_i_pooled_v_f_x.html" title="VFX Scriptable object, use these because they create their own object pools. because they create thei..." alt="" coords="233,132,535,253"/>
-<area shape="rect" href="class_abstract_ability_behaviour.html" title="An abstract class defining a method for processing an abilities behaviour." alt="" coords="395,539,746,631"/>
-<area shape="rect" href="class_projectile_multipliers.html" title="Projectile modifier container, this is passed to projectiles so they can implement what they need...." alt="" coords="686,669,869,776"/>
-<area shape="rect" href="class_basic_v_f_x_pool.html" title="A basic visual effect, when called this will return a copy of the gameobject from its pool." alt="" coords="243,655,491,791"/>
+<area shape="rect" href="class_abstract_ability_behaviour.html" title="An abstract class defining a method for processing an abilities behaviour." alt="" coords="412,539,703,645"/>
+<area shape="rect" href="class_ability_behaviour_multipliers.html" title="Projectile modifier container, this is passed to projectiles so they can implement what they need...." alt="" coords="688,677,963,857"/>
+<area shape="rect" href="class_basic_v_f_x_pool.html" title="A basic visual effect, when called this will return a copy of the gameobject from its pool." alt="" coords="245,699,493,835"/>
 <area shape="rect" href="class_pooled_v_f_x.html" title="Defines a basic implementation of pooling for all other objects. Other VFX should inherit from &lt;VFX&gt; ..." alt="" coords="232,393,536,515"/>
-<area shape="rect" href="class_payload_multipliers.html" title="Payload modifier container, this is passed to payloads so they can implement what they need...." alt="" coords="893,662,1080,783"/>
+<area shape="rect" href="class_payload_multipliers.html" title="Payload modifier container, this is passed to payloads so they can implement what they need...." alt="" coords="987,669,1205,864"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -130,8 +130,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ab885820c19cb107afa743deff145ef27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a337c8c00e7ac1b974708239e19119feb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_payload_multipliers.html">PayloadMultipliers</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ability_decorator.html#a337c8c00e7ac1b974708239e19119feb">payloadMultipliers</a></td></tr>
 <tr class="separator:a337c8c00e7ac1b974708239e19119feb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a200d63eaad254d4fe469e33131922400"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_projectile_multipliers.html">ProjectileMultipliers</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ability_decorator.html#a200d63eaad254d4fe469e33131922400">projectileMultipliers</a></td></tr>
-<tr class="separator:a200d63eaad254d4fe469e33131922400"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0ce09eeddaa93e7b5fbd76105e33f26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ability_behaviour_multipliers.html">AbilityBehaviourMultipliers</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ability_decorator.html#ab0ce09eeddaa93e7b5fbd76105e33f26">abilityBehaviourMultipliers</a></td></tr>
+<tr class="separator:ab0ce09eeddaa93e7b5fbd76105e33f26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8358e70ca0cbbfc8c5aab124d7fe71a6"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ability_decorator.html#a8358e70ca0cbbfc8c5aab124d7fe71a6">owner</a></td></tr>
 <tr class="separator:a8358e70ca0cbbfc8c5aab124d7fe71a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -154,6 +154,10 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a326f9c9b551374796d3320534fc2bf7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e9dbff3c63c4836c45035566c25f5e0"><td class="memItemLeft" align="right" valign="top">Rigidbody2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ability_decorator.html#a4e9dbff3c63c4836c45035566c25f5e0">rb</a></td></tr>
 <tr class="separator:a4e9dbff3c63c4836c45035566c25f5e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2f735116302f49c97e004a734a766c4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ability_decorator.html#af2f735116302f49c97e004a734a766c4">lifetime</a> = 1f</td></tr>
+<tr class="separator:af2f735116302f49c97e004a734a766c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a348630da9974d697ceecaa53157f05d6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ability_decorator.html#a348630da9974d697ceecaa53157f05d6">spawnTime</a></td></tr>
+<tr class="separator:a348630da9974d697ceecaa53157f05d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="class_ability_decorator.html" title="AbilityDecorator combines functionality from a list of AbstractPayload&#39;s and an AbstractAbilityBehavi...">AbilityDecorator</a> combines functionality from a list of <a class="el" href="class_abstract_payload.html" title="An abstract class defining a method for all payloads to use">AbstractPayload</a>'s and an <a class="el" href="class_abstract_ability_behaviour.html" title="An abstract class defining a method for processing an abilities behaviour.">AbstractAbilityBehaviour</a>. It also passes modifiers to them that they can interpret in their own way. </p>
@@ -164,7 +168,7 @@ Private Attributes</h2></td></tr>
     <tr><td class="paramname">abilityBehaviour</td><td>a ScriptableObject's that inherits <a class="el" href="class_abstract_ability_behaviour.html" title="An abstract class defining a method for processing an abilities behaviour.">AbstractAbilityBehaviour</a>, this is used to describe how the ability moves.</td></tr>
     <tr><td class="paramname">hitEffects</td><td>an array of VFX to spawn when the ability hits something.</td></tr>
     <tr><td class="paramname">payloadMultipliers</td><td>a data container that stores multipliers to modify <a class="el" href="class_abstract_payload.html" title="An abstract class defining a method for all payloads to use">AbstractPayload</a>'s behaviour.</td></tr>
-    <tr><td class="paramname">projectileMultipliers</td><td>a data container that stores multipliers to modify <a class="el" href="class_abstract_ability_behaviour.html" title="An abstract class defining a method for processing an abilities behaviour.">AbstractAbilityBehaviour</a>'s behaviour.</td></tr>
+    <tr><td class="paramname"><a class="el" href="class_ability_behaviour_multipliers.html" title="Projectile modifier container, this is passed to projectiles so they can implement what they need....">AbilityBehaviourMultipliers</a></td><td>a data container that stores multipliers to modify <a class="el" href="class_abstract_ability_behaviour.html" title="An abstract class defining a method for processing an abilities behaviour.">AbstractAbilityBehaviour</a>'s behaviour.</td></tr>
     <tr><td class="paramname">owner</td><td>the GameObject that fired the ability.</td></tr>
     <tr><td class="paramname">rb</td><td>the rigidbody attached to the ability</td></tr>
   </table>
@@ -284,7 +288,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="class_ability_decorator_a93c3fb6cdb0d7765ab8668394fa52197_cgraph.png" border="0" usemap="#aclass_ability_decorator_a93c3fb6cdb0d7765ab8668394fa52197_cgraph" alt=""/></div>
 <map name="aclass_ability_decorator_a93c3fb6cdb0d7765ab8668394fa52197_cgraph" id="aclass_ability_decorator_a93c3fb6cdb0d7765ab8668394fa52197_cgraph">
 <area shape="rect" title=" " alt="" coords="5,5,184,32"/>
-<area shape="rect" href="class_abstract_ability_behaviour.html#a7cd5076654446d43727ac4a1e1d77646" title=" " alt="" coords="232,5,469,32"/>
+<area shape="rect" href="class_abstract_ability_behaviour.html#ad7d8e8d10ca5486aa0a495e8ef3952e5" title=" " alt="" coords="232,5,469,32"/>
 </map>
 </div>
 
@@ -305,6 +309,20 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="ab0ce09eeddaa93e7b5fbd76105e33f26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0ce09eeddaa93e7b5fbd76105e33f26">&#9670;&nbsp;</a></span>abilityBehaviourMultipliers</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ability_behaviour_multipliers.html">AbilityBehaviourMultipliers</a> AbilityDecorator.abilityBehaviourMultipliers</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a326f9c9b551374796d3320534fc2bf7d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a326f9c9b551374796d3320534fc2bf7d">&#9670;&nbsp;</a></span>hitEffects</h2>
 
@@ -316,6 +334,28 @@ Here is the call graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_basic_v_f_x_pool.html">BasicVFXPool</a> [] AbilityDecorator.hitEffects</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af2f735116302f49c97e004a734a766c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2f735116302f49c97e004a734a766c4">&#9670;&nbsp;</a></span>lifetime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float AbilityDecorator.lifetime = 1f</td>
         </tr>
       </table>
   </td>
@@ -369,20 +409,6 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a200d63eaad254d4fe469e33131922400"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a200d63eaad254d4fe469e33131922400">&#9670;&nbsp;</a></span>projectileMultipliers</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_projectile_multipliers.html">ProjectileMultipliers</a> AbilityDecorator.projectileMultipliers</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="aca8696f6c99a9726f83d86eb9e163623"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aca8696f6c99a9726f83d86eb9e163623">&#9670;&nbsp;</a></span>projectileName</h2>
 
@@ -427,6 +453,28 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a348630da9974d697ceecaa53157f05d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a348630da9974d697ceecaa53157f05d6">&#9670;&nbsp;</a></span>spawnTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float AbilityDecorator.spawnTime</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>Assets/Scripts/Abilities/Components/<a class="el" href="_ability_decorator_8cs.html">AbilityDecorator.cs</a></li>
 </ul>
@@ -436,7 +484,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_ability_decorator.html">AbilityDecorator</a></li>
-    <li class="footer">Generated on Sun Feb 8 2026 20:55:33 for Game Specialism 2 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Tue Feb 10 2026 18:05:54 for Game Specialism 2 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

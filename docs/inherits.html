@@ -90,19 +90,24 @@ $(document).ready(function(){initNavTree('hierarchy.html',''); initResizable(); 
 <div class="textblock">
 <p><a href="hierarchy.html">Go to the textual class hierarchy</a></p>
 </div><table border="0" cellspacing="10" cellpadding="0">
-<tr><td><img src="inherit_graph_0.png" border="0" usemap="#a_ability_container" alt=""/>
+<tr><td><img src="inherit_graph_0.png" border="0" usemap="#a_ability_behaviour_multipliers" alt=""/>
+<map name="a_ability_behaviour_multipliers" id="a_ability_behaviour_multipliers">
+<area shape="rect" href="class_ability_behaviour_multipliers.html" title="Projectile modifier container, this is passed to projectiles so they can implement what they need...." alt="" coords="5,5,204,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_1.png" border="0" usemap="#a_ability_container" alt=""/>
 <map name="a_ability_container" id="a_ability_container">
 <area shape="rect" href="class_ability_container.html" title=" " alt="" coords="5,5,132,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_1.png" border="0" usemap="#a_ability_multipliers" alt=""/>
+<tr><td><img src="inherit_graph_2.png" border="0" usemap="#a_ability_multipliers" alt=""/>
 <map name="a_ability_multipliers" id="a_ability_multipliers">
 <area shape="rect" href="class_ability_multipliers.html" title="Ability multiplier container, stores a list of multipliers/modifiers that is passed to an ability to ..." alt="" coords="5,5,139,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_2.png" border="0" usemap="#a_abstract_ability" alt=""/>
+<tr><td><img src="inherit_graph_3.png" border="0" usemap="#a_abstract_ability" alt=""/>
 <map name="a_abstract_ability" id="a_abstract_ability">
-<area shape="rect" title=" " alt="" coords="5,259,135,285"/>
+<area shape="rect" title=" " alt="" coords="5,284,135,311"/>
 <area shape="rect" href="class_abstract_ability.html" title="abstract class for abilities." alt="" coords="215,56,334,83"/>
 <area shape="rect" href="class_abstract_ability_behaviour.html" title="An abstract class defining a method for processing an abilities behaviour." alt="" coords="183,107,367,133"/>
 <area shape="rect" href="class_abstract_payload.html" title="An abstract class defining a method for all payloads to use" alt="" coords="211,157,338,184"/>
@@ -110,11 +115,12 @@ $(document).ready(function(){initNavTree('hierarchy.html',''); initResizable(); 
 <area shape="rect" href="class_i_pooled_v_f_x.html" title="VFX Scriptable object, use these because they create their own object pools. because they create thei..." alt="" coords="227,259,323,285"/>
 <area shape="rect" href="class_i_wave_factory.html" title="An abstract factory class" alt="" coords="220,309,329,336"/>
 <area shape="rect" href="class_player_data.html" title="Data about the player that other objects may need to access. there should only be one instance of thi..." alt="" coords="227,360,322,387"/>
-<area shape="rect" href="class_v_f_x_strategy.html" title="Abstract class defining VFXStrategy methods. TODO: make this an interface(?)" alt="" coords="223,411,326,437"/>
-<area shape="rect" href="class_wave_data.html" title="The wave data container, these store only enemies and the name of the wave. determining what events s..." alt="" coords="230,461,319,488"/>
+<area shape="rect" href="class_upgrade.html" title=" " alt="" coords="236,411,313,437"/>
+<area shape="rect" href="class_v_f_x_strategy.html" title="Abstract class defining VFXStrategy methods. TODO: make this an interface(?)" alt="" coords="223,461,326,488"/>
+<area shape="rect" href="class_wave_data.html" title="The wave data container, these store only enemies and the name of the wave. determining what events s..." alt="" coords="230,512,319,539"/>
 <area shape="rect" href="class_charged_projectile_ability.html" title="A container for an ability that charges up before firing" alt="" coords="423,5,601,32"/>
 <area shape="rect" href="class_projectile_ability.html" title="A container for a generic full auto projectile ability" alt="" coords="449,56,575,83"/>
-<area shape="rect" href="class_simple_projectile.html" title="Flies in a straight line, it moves upwards at speed * Multiplier" alt="" coords="448,107,576,133"/>
+<area shape="rect" href="class_simple_ability_behaviour.html" title="Flies in a straight line, it moves upwards at speed * Multiplier" alt="" coords="425,107,599,133"/>
 <area shape="rect" href="class_damage_payload.html" title="A basic damage payload. deals damage * Multiplier to any IDamageable it hits." alt="" coords="448,157,576,184"/>
 <area shape="rect" href="class_sound_threshold.html" title="An example of a concrete damage threshold. replace this later with proper concrete classes." alt="" coords="449,208,575,235"/>
 <area shape="rect" href="class_pooled_v_f_x.html" title="Defines a basic implementation of pooling for all other objects. Other VFX should inherit from &lt;VFX&gt; ..." alt="" coords="466,259,558,285"/>
@@ -126,12 +132,12 @@ $(document).ready(function(){initNavTree('hierarchy.html',''); initResizable(); 
 <area shape="rect" href="class_scale_v_f_x.html" title="A VFXStrategy to scale an object along an animation curve." alt="" coords="471,512,553,539"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_3.png" border="0" usemap="#a_factory_controller" alt=""/>
+<tr><td><img src="inherit_graph_4.png" border="0" usemap="#a_factory_controller" alt=""/>
 <map name="a_factory_controller" id="a_factory_controller">
 <area shape="rect" href="class_factory_controller.html" title="A static class that provides a static method to recall a wave factory by name from the asset list." alt="" coords="5,5,139,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_4.png" border="0" usemap="#a_i_ability_user" alt=""/>
+<tr><td><img src="inherit_graph_5.png" border="0" usemap="#a_i_ability_user" alt=""/>
 <map name="a_i_ability_user" id="a_i_ability_user">
 <area shape="rect" href="interface_i_ability_user.html" title="ability user interface" alt="" coords="29,5,127,32"/>
 <area shape="rect" href="class_player_ability_user.html" title="A monoBehavior that manages the players abilities" alt="" coords="222,5,357,32"/>
@@ -139,34 +145,40 @@ $(document).ready(function(){initNavTree('hierarchy.html',''); initResizable(); 
 <area shape="rect" href="class_generic_enemy_controller.html" title="A generic enemy controller to implement IDamageable for prototyping. this is likely to be reworked or..." alt="" coords="199,107,380,133"/>
 <area shape="rect" href="class_player_controller.html" title="The player controller, this provides behaviors for the player. currently depends on AbilityUser thoug..." alt="" coords="226,56,353,83"/>
 <area shape="rect" href="interface_i_damage_threshold.html" title="An interface for damage threshold effects. the purpose of this is to allow methods to be called when ..." alt="" coords="5,56,151,83"/>
-<area shape="rect" title=" " alt="" coords="16,157,140,184"/>
-<area shape="rect" href="class_ability_decorator.html" title="AbilityDecorator combines functionality from a list of AbstractPayload&#39;s and an AbstractAbilityBehavi..." alt="" coords="225,208,353,235"/>
-<area shape="rect" href="class_game_controller.html" title="A basic game controller script for managing game state and whatnot" alt="" coords="227,259,352,285"/>
-<area shape="rect" href="class_simple_pickup.html" title="A simple pickup monoBehaviour, this is likely to be removed or reworked later for real functionality." alt="" coords="235,309,344,336"/>
-<area shape="rect" href="class_v_f_x___component.html" title="a monoBehavior that executes a list of VFXStrategies it is provided." alt="" coords="224,157,355,184"/>
+<area shape="rect" title=" " alt="" coords="16,183,140,209"/>
+<area shape="rect" href="class_ability_decorator.html" title="AbilityDecorator combines functionality from a list of AbstractPayload&#39;s and an AbstractAbilityBehavi..." alt="" coords="225,360,353,387"/>
+<area shape="rect" href="class_game_controller.html" title="A basic game controller script for managing game state and whatnot" alt="" coords="227,157,352,184"/>
+<area shape="rect" href="class_simple_pickup.html" title="A simple pickup monoBehaviour, this is likely to be removed or reworked later for real functionality." alt="" coords="235,208,344,235"/>
+<area shape="rect" href="class_upgrade_manager.html" title=" " alt="" coords="222,259,357,285"/>
+<area shape="rect" href="class_v_f_x___component.html" title="a monoBehavior that executes a list of VFXStrategies it is provided." alt="" coords="224,309,355,336"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_5.png" border="0" usemap="#a_payload_multipliers" alt=""/>
+<tr><td><img src="inherit_graph_6.png" border="0" usemap="#a_payload_multipliers" alt=""/>
 <map name="a_payload_multipliers" id="a_payload_multipliers">
 <area shape="rect" href="class_payload_multipliers.html" title="Payload modifier container, this is passed to payloads so they can implement what they need...." alt="" coords="5,5,148,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_6.png" border="0" usemap="#a_projectile_multipliers" alt=""/>
-<map name="a_projectile_multipliers" id="a_projectile_multipliers">
-<area shape="rect" href="class_projectile_multipliers.html" title="Projectile modifier container, this is passed to projectiles so they can implement what they need...." alt="" coords="5,5,157,32"/>
+<tr><td><img src="inherit_graph_7.png" border="0" usemap="#a_player_multipliers" alt=""/>
+<map name="a_player_multipliers" id="a_player_multipliers">
+<area shape="rect" href="class_player_multipliers.html" title=" " alt="" coords="5,5,137,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_7.png" border="0" usemap="#a_v_f_x___data" alt=""/>
+<tr><td><img src="inherit_graph_8.png" border="0" usemap="#a_upgrade_tree" alt=""/>
+<map name="a_upgrade_tree" id="a_upgrade_tree">
+<area shape="rect" href="class_upgrade_tree.html" title=" " alt="" coords="5,5,109,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_9.png" border="0" usemap="#a_v_f_x___data" alt=""/>
 <map name="a_v_f_x___data" id="a_v_f_x___data">
 <area shape="rect" href="class_v_f_x___data.html" title="instead of passing a ton of bullshit to the scriptable objects, create a data container class populat..." alt="" coords="5,5,92,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_8.png" border="0" usemap="#a_wave" alt=""/>
+<tr><td><img src="inherit_graph_10.png" border="0" usemap="#a_wave" alt=""/>
 <map name="a_wave" id="a_wave">
 <area shape="rect" href="class_wave.html" title="A custom class for storing wave data as a designated factory and the wave data to go along with it." alt="" coords="5,5,64,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_9.png" border="0" usemap="#a_wave_data_8_enemy_spawn" alt=""/>
+<tr><td><img src="inherit_graph_11.png" border="0" usemap="#a_wave_data_8_enemy_spawn" alt=""/>
 <map name="a_wave_data_8_enemy_spawn" id="a_wave_data_8_enemy_spawn">
 <area shape="rect" href="class_wave_data_1_1_enemy_spawn.html" title="A data container storing a spawn location, rotation and prefab for an enemy to be created in." alt="" coords="5,5,187,32"/>
 </map>
@@ -177,7 +189,7 @@ $(document).ready(function(){initNavTree('hierarchy.html',''); initResizable(); 
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Feb 8 2026 20:55:33 for Game Specialism 2 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Tue Feb 10 2026 18:05:54 for Game Specialism 2 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

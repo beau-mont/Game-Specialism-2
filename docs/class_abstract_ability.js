@@ -5,7 +5,6 @@ var class_abstract_ability =
     [ "DeactivateAbility", "class_abstract_ability.html#a79c8a732979c67e0b5597e89ec2d216b", null ],
     [ "GetPooledObject", "class_abstract_ability.html#a3a929b05e7f37c77cbbfb7ef85380fbf", null ],
     [ "HoldAbility", "class_abstract_ability.html#af92b8e79db78b223dc0bd4719769f759", null ],
-    [ "AbilityMultipliers", "class_abstract_ability.html#ac12298efabbbca4414a0f4db8cdba808", null ],
     [ "AbilityName", "class_abstract_ability.html#a4402f2f1e5270d0fcc8a3df42dd45dde", null ],
     [ "CooldownDuration", "class_abstract_ability.html#ae4f21a2e3d97f01619e70247f687e410", null ],
     [ "IsSingleUse", "class_abstract_ability.html#a81f95876daba32218417d60c0e5f2967", null ],

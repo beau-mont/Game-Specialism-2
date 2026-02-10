@@ -1,4 +1,6 @@
 <map id="PlayerAbilityUser.ActivateAbility" name="PlayerAbilityUser.ActivateAbility">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,240,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,240,57"/>
 <area shape="rect" id="node2" href="$class_abstract_ability.html#acc0bda6c4172a3e7904d9c010e0d3db2" title=" " alt="" coords="288,5,504,32"/>
+<area shape="rect" id="node3" href="$class_player_ability_user.html#a02a0e245f13375ca962642ba153bbd7a" title=" " alt="" coords="288,56,504,83"/>
+<area shape="rect" id="node4" href="$class_player_ability_user.html#a4050d8becd876585556d33116276929f" title=" " alt="" coords="552,56,753,83"/>
 </map>

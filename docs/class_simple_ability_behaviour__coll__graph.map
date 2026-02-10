@@ -1,0 +1,5 @@
+<map id="SimpleAbilityBehaviour" name="SimpleAbilityBehaviour">
+<area shape="rect" id="node1" title="Flies in a straight line, it moves upwards at speed * Multiplier" alt="" coords="5,285,316,392"/>
+<area shape="rect" id="node2" href="$class_abstract_ability_behaviour.html" title="An abstract class defining a method for processing an abilities behaviour." alt="" coords="15,131,306,237"/>
+<area shape="rect" id="node3" title=" " alt="" coords="96,5,225,83"/>
+</map>
