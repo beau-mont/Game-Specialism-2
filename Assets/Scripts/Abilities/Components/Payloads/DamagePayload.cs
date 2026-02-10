@@ -14,7 +14,6 @@ public class DamagePayload : AbstractPayload
         {
             damageable.ModifyHealth(baseDamage * mult);
             Debug.Log($"dealt {baseDamage * mult} damage");
-            Debug.Log(mod);
         }
     }
 }

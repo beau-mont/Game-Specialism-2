@@ -14,13 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ProjectileAbility
   _abilityName: Machine Gun
   _isSingleUse: 0
-  cooldownDuration: 0.1
+  _cooldownDuration: 0.1
   _projectilePrefab: {fileID: 3955307233564228219, guid: c3a01e70ac931823a9b477ec82c71594, type: 3}
-  projectileSpeed: 10
-  projectileDamage: 1
-  hitLayers:
-    serializedVersion: 2
-    m_Bits: 64
-  excludeLayers:
-    serializedVersion: 2
-    m_Bits: 384
+  fireVFX: []

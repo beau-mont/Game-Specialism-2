@@ -6,20 +6,21 @@ using UnityEngine;
 public class SimplePickup : MonoBehaviour
 {
     public AbstractAbility  abilityToGrant;
+    public Upgrade upgradeToAdd;
     [SerializeField] private PlayerData playerData;
-    private void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
             if (abilityToGrant)
             {
-                // Debug.Log($"sent ability: {abilityToGrant.AbilityName}");
                 playerData.PlayerAbilityUser.AddAbility(abilityToGrant);
                 Disappear(); // destroy pickup after granting ability
             }
-            else
+            if (upgradeToAdd)
             {
-                Debug.LogError($"{gameObject.name} has no abilityToGrant.");
+                playerData.PlayerUpgradeManager.AddUpgrade(upgradeToAdd);
+                Disappear(); // destroy pickup after granting upgrade
             }
         }
     }

@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 /// <summary>
 /// The player controller, this provides behaviors for the player.
@@ -19,10 +20,21 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
     public float currentHealth;
     [SerializeReference, SerializeField] private List<DamageThreshold> _damageThresholds;
     public List<DamageThreshold> DamageThresholds { get => _damageThresholds; set => _damageThresholds = value; }
+    [Header("Settings")]
+    public float baseMoveSpeed;
     [Header("VFX")]
     [SerializeField] private List<IPooledVFX> deathVFX;
+    private Rigidbody2D rb;
+    InputAction moveAction;
+    InputAction attackAction;
 
-    
+    void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        moveAction = InputSystem.actions.FindAction("Move");
+        attackAction = InputSystem.actions.FindAction("Attack");
+    }
+
     void OnEnable()
     {
         if (!playerData)
@@ -30,8 +42,11 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
             Debug.LogWarning($"{gameObject.name} has no player data assigned.");
             return;
         }
-        playerData.PlayerController = this; // add yourself to the player data
-        playerData.Player = gameObject;
+        if (playerData)
+        {
+            playerData.Player = gameObject;
+            playerData.PlayerController = this;
+        }
         currentHealth = MaxHealth;
     }
 
@@ -39,14 +54,30 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
     void Update()
     {
         ProcessAbilities();
+        ProcessMovement();
+    }
+
+    void ProcessMovement()
+    {
+        Vector2 moveInput = moveAction.ReadValue<Vector2>();
+        float moveMultiplier = 1 + playerData.PlayerUpgradeManager.PlayerMultipliers.GlobalMultiplier + playerData.PlayerUpgradeManager.PlayerMultipliers.MoveSpeedMultiplier;
+        if (rb)
+            rb.linearVelocity = moveInput * (baseMoveSpeed * moveMultiplier);
+        else
+        {
+            Debug.LogWarning($"No rigidbody on player");
+        }
     }
 
     void ProcessAbilities()
     {
         if (!playerData || playerData.PlayerAbilityUser == null) return; // if we cant use abilities then just forget aboot it
         
-        if (!Input.GetKey(KeyCode.Space) && Input.GetKeyDown(KeyCode.Mouse1)) playerData.PlayerAbilityUser.CycleAbility(); // TODO: Replace with a proper controller
-        if (!playerData.PlayerAbilityUser.CurrentAbility.Ability) playerData.PlayerAbilityUser.CycleAbility();
+        if (Input.GetKeyDown(KeyCode.Mouse1))// TODO: Replace with a proper controller
+        {
+            playerData.PlayerAbilityUser.CycleAbility();
+            if (Input.GetKey(KeyCode.Space)) playerData.PlayerAbilityUser.ActivateAbility();
+        } 
 
         // TODO: Replace all of this with a proper controller and move ability usage to the PlayerAbilityUser
         if (Input.GetKeyDown(KeyCode.Space))
