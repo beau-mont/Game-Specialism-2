@@ -25,7 +25,7 @@ public class GenericEnemyController : MonoBehaviour, IDamageable
 
     void Start()
     {
-        
+        currentHealth = MaxHealth + maxHealthMod;
     }
 
     void Update()

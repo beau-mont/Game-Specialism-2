@@ -1,6 +1,6 @@
 <map id="VFX_Component" name="VFX_Component">
-<area shape="rect" id="node1" title="a monoBehavior that executes a list of VFXStrategies it is provided." alt="" coords="58,373,298,495"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,211,129,289"/>
-<area shape="rect" id="node3" href="$class_v_f_x___data.html" title="instead of passing a ton of bullshit to the scriptable objects, create a data container class populat..." alt="" coords="287,189,439,311"/>
-<area shape="rect" id="node4" href="$class_payload_multipliers.html" title="Payload modifier container, this is passed to payloads so they can implement what they need...." alt="" coords="106,5,293,127"/>
+<area shape="rect" id="node1" title="a monoBehavior that executes a list of VFXStrategies it is provided." alt="" coords="58,447,298,568"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,285,129,362"/>
+<area shape="rect" id="node3" href="$class_v_f_x___data.html" title="instead of passing a ton of bullshit to the scriptable objects, create a data container class populat..." alt="" coords="287,263,439,384"/>
+<area shape="rect" id="node4" href="$class_payload_multipliers.html" title="Payload modifier container, this is passed to payloads so they can implement what they need...." alt="" coords="91,5,308,200"/>
 </map>

@@ -15,7 +15,6 @@ public class ChargedProjectileAbility : AbstractAbility
     public override string AbilityName => _abilityName; // name of the ability (for devs)
     [SerializeField] private bool _isSingleUse;
     public override bool IsSingleUse => _isSingleUse;
-    public override AbilityMultipliers AbilityMultipliers { get; set; }
     [SerializeField] private GameObject _projectilePrefab;
     protected override GameObject ProjectilePrefab => _projectilePrefab;
     private List<GameObject> _projectilePool = new List<GameObject>();
@@ -62,11 +61,11 @@ public class ChargedProjectileAbility : AbstractAbility
             RadiusMultiplier = abilityMultipliers.PayloadMultipliers.RadiusMultiplier + math.lerp(baseDamageMult, maxDamageMult / 2f, chargeMult),
             BurnMultiplier = abilityMultipliers.PayloadMultipliers.BurnMultiplier + math.lerp(baseDamageMult, maxDamageMult / 2f, chargeMult)
         };
-        ProjectileMultipliers projectileMult = new() // combine provided multipliers with charge bonuses
+        AbilityBehaviourMultipliers projectileMult = new() // combine provided multipliers with charge bonuses
         { 
-            GlobalMultiplier = abilityMultipliers.ProjectileMultipliers.GlobalMultiplier,
-            SpeedMultiplier = abilityMultipliers.ProjectileMultipliers.SpeedMultiplier + math.lerp(baseSpeedMult, maxSpeedMult, chargeMult),
-            HomingMultiplier = abilityMultipliers.ProjectileMultipliers.HomingMultiplier + math.lerp(baseSpeedMult, maxSpeedMult / 2f, chargeMult)
+            GlobalMultiplier = abilityMultipliers.AbilityBehaviourMultipliers.GlobalMultiplier,
+            SpeedMultiplier = abilityMultipliers.AbilityBehaviourMultipliers.SpeedMultiplier + math.lerp(baseSpeedMult, maxSpeedMult, chargeMult),
+            HomingMultiplier = abilityMultipliers.AbilityBehaviourMultipliers.HomingMultiplier + math.lerp(baseSpeedMult, maxSpeedMult / 2f, chargeMult)
         };
 
         GameObject projectile = GetPooledObject();
@@ -75,7 +74,7 @@ public class ChargedProjectileAbility : AbstractAbility
         if (projectile.TryGetComponent<AbilityDecorator>(out var abilityDecorator))
         {
             abilityDecorator.payloadMultipliers = payloadMult;
-            abilityDecorator.projectileMultipliers = projectileMult;
+            abilityDecorator.abilityBehaviourMultipliers = projectileMult;
         }        
         if (projectile.TryGetComponent<Collider2D>(out var collider2D))
         {

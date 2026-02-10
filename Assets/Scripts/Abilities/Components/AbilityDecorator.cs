@@ -10,7 +10,7 @@ using UnityEngine;
 /// <param name="abilityBehaviour">a ScriptableObject's that inherits AbstractAbilityBehaviour, this is used to describe how the ability moves.</param>
 /// <param name="hitEffects">an array of VFX to spawn when the ability hits something.</param>
 /// <param name="payloadMultipliers">a data container that stores multipliers to modify AbstractPayload's behaviour.</param>
-/// <param name="projectileMultipliers">a data container that stores multipliers to modify AbstractAbilityBehaviour's behaviour.</param>
+/// <param name="AbilityBehaviourMultipliers">a data container that stores multipliers to modify AbstractAbilityBehaviour's behaviour.</param>
 /// <param name="owner">the GameObject that fired the ability.</param>
 /// <param name="rb">the rigidbody attached to the ability</param>
 public class AbilityDecorator : MonoBehaviour // GRAAAAAAAH I FUCKING LOVE DOCUMENTATION
@@ -22,19 +22,22 @@ public class AbilityDecorator : MonoBehaviour // GRAAAAAAAH I FUCKING LOVE DOCUM
     [SerializeField] private BasicVFXPool[] hitEffects;
     [Header("Modifiers")]
     public PayloadMultipliers payloadMultipliers;
-    public ProjectileMultipliers projectileMultipliers;
+    public AbilityBehaviourMultipliers abilityBehaviourMultipliers;
     [Header("Settings")]
     [HideInInspector] public GameObject owner;
     [SerializeField] private Rigidbody2D rb;
+    [SerializeField] private float lifetime = 1f;
+    private float spawnTime;
 
     void OnEnable()
     {
-        
+        spawnTime = Time.time;
     }
 
     void Update()
     {
-        abilityBehaviour.Process(gameObject, rb, projectileMultipliers);
+        abilityBehaviour.Process(gameObject, rb, abilityBehaviourMultipliers);
+        if (Time.time > spawnTime + lifetime) gameObject.SetActive(false);
     }
 
     void OnDisable()

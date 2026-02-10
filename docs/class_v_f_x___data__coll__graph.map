@@ -1,4 +1,4 @@
 <map id="VFX_Data" name="VFX_Data">
-<area shape="rect" id="node1" title="instead of passing a ton of bullshit to the scriptable objects, create a data container class populat..." alt="" coords="23,189,175,311"/>
-<area shape="rect" id="node2" href="$class_payload_multipliers.html" title="Payload modifier container, this is passed to payloads so they can implement what they need...." alt="" coords="5,5,192,127"/>
+<area shape="rect" id="node1" title="instead of passing a ton of bullshit to the scriptable objects, create a data container class populat..." alt="" coords="38,263,190,384"/>
+<area shape="rect" id="node2" href="$class_payload_multipliers.html" title="Payload modifier container, this is passed to payloads so they can implement what they need...." alt="" coords="5,5,223,200"/>
 </map>

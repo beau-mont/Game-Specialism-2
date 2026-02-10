@@ -84,6 +84,7 @@ $(document).ready(function(){initNavTree('class_ability_multipliers.html',''); i
 
 <div class="header">
   <div class="summary">
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="class_ability_multipliers-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -98,18 +99,25 @@ Collaboration diagram for AbilityMultipliers:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ability_multipliers__coll__graph.png" border="0" usemap="#a_ability_multipliers_coll__map" alt="Collaboration graph"/></div>
 <map name="a_ability_multipliers_coll__map" id="a_ability_multipliers_coll__map">
-<area shape="rect" title="Ability multiplier container, stores a list of multipliers/modifiers that is passed to an ability to ..." alt="" coords="103,189,299,311"/>
-<area shape="rect" href="class_projectile_multipliers.html" title="Projectile modifier container, this is passed to projectiles so they can implement what they need...." alt="" coords="5,13,188,119"/>
-<area shape="rect" href="class_payload_multipliers.html" title="Payload modifier container, this is passed to payloads so they can implement what they need...." alt="" coords="213,5,399,127"/>
+<area shape="rect" title="Ability multiplier container, stores a list of multipliers/modifiers that is passed to an ability to ..." alt="" coords="173,263,381,457"/>
+<area shape="rect" href="class_ability_behaviour_multipliers.html" title="Projectile modifier container, this is passed to projectiles so they can implement what they need...." alt="" coords="5,13,280,193"/>
+<area shape="rect" href="class_payload_multipliers.html" title="Payload modifier container, this is passed to payloads so they can implement what they need...." alt="" coords="305,5,522,200"/>
 </map>
 </div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a3a094bbce285f1d770813d0833575735"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ability_multipliers.html">AbilityMultipliers</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ability_multipliers.html#a3a094bbce285f1d770813d0833575735">operator+</a> (<a class="el" href="class_ability_multipliers.html">AbilityMultipliers</a> a, <a class="el" href="class_ability_multipliers.html">AbilityMultipliers</a> b)</td></tr>
+<tr class="separator:a3a094bbce285f1d770813d0833575735"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a993b06717d0d81dd8649128fe191bd36"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ability_multipliers.html">AbilityMultipliers</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ability_multipliers.html#a993b06717d0d81dd8649128fe191bd36">operator-</a> (<a class="el" href="class_ability_multipliers.html">AbilityMultipliers</a> a, <a class="el" href="class_ability_multipliers.html">AbilityMultipliers</a> b)</td></tr>
+<tr class="separator:a993b06717d0d81dd8649128fe191bd36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:af27b62006214c966568dae5ac53d9902"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_payload_multipliers.html">PayloadMultipliers</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ability_multipliers.html#af27b62006214c966568dae5ac53d9902">PayloadMultipliers</a></td></tr>
 <tr class="separator:af27b62006214c966568dae5ac53d9902"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae02e3ba2954cb7f837ae0766af874889"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_projectile_multipliers.html">ProjectileMultipliers</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ability_multipliers.html#ae02e3ba2954cb7f837ae0766af874889">ProjectileMultipliers</a></td></tr>
-<tr class="separator:ae02e3ba2954cb7f837ae0766af874889"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea7636a014c1cc60646874baf7776b51"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ability_behaviour_multipliers.html">AbilityBehaviourMultipliers</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ability_multipliers.html#aea7636a014c1cc60646874baf7776b51">AbilityBehaviourMultipliers</a></td></tr>
+<tr class="separator:aea7636a014c1cc60646874baf7776b51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa50f9d69ff49b9889fa15a39b0eeacf5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ability_multipliers.html#aa50f9d69ff49b9889fa15a39b0eeacf5">GlobalMultiplier</a></td></tr>
 <tr class="separator:aa50f9d69ff49b9889fa15a39b0eeacf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b154ffea1279395cd1ce777d3d0d377"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ability_multipliers.html#a7b154ffea1279395cd1ce777d3d0d377">CooldownMultiplier</a></td></tr>
@@ -131,7 +139,94 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 <p>when implementing these multiply the base value by (1 + GlobalMultiplier + &lt;relevant multipliers&gt; + ect)</p>
-</div><h2 class="groupheader">Member Data Documentation</h2>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a3a094bbce285f1d770813d0833575735"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a094bbce285f1d770813d0833575735">&#9670;&nbsp;</a></span>operator+()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_ability_multipliers.html">AbilityMultipliers</a> AbilityMultipliers.operator+ </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ability_multipliers.html">AbilityMultipliers</a>&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_ability_multipliers.html">AbilityMultipliers</a>&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a993b06717d0d81dd8649128fe191bd36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a993b06717d0d81dd8649128fe191bd36">&#9670;&nbsp;</a></span>operator-()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_ability_multipliers.html">AbilityMultipliers</a> AbilityMultipliers.operator- </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ability_multipliers.html">AbilityMultipliers</a>&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_ability_multipliers.html">AbilityMultipliers</a>&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aea7636a014c1cc60646874baf7776b51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea7636a014c1cc60646874baf7776b51">&#9670;&nbsp;</a></span>AbilityBehaviourMultipliers</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ability_behaviour_multipliers.html">AbilityBehaviourMultipliers</a> AbilityMultipliers.AbilityBehaviourMultipliers</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="abf40b35e21ea75a20b8a64eceaccb3ac"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abf40b35e21ea75a20b8a64eceaccb3ac">&#9670;&nbsp;</a></span>AccuracyMultiplier</h2>
 
@@ -202,20 +297,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ae02e3ba2954cb7f837ae0766af874889"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae02e3ba2954cb7f837ae0766af874889">&#9670;&nbsp;</a></span>ProjectileMultipliers</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_projectile_multipliers.html">ProjectileMultipliers</a> AbilityMultipliers.ProjectileMultipliers</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>Assets/Scripts/Abilities/AbilityClasses/<a class="el" href="_ability_interface_8cs.html">AbilityInterface.cs</a></li>
 </ul>
@@ -225,7 +306,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_ability_multipliers.html">AbilityMultipliers</a></li>
-    <li class="footer">Generated on Sun Feb 8 2026 20:55:33 for Game Specialism 2 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Tue Feb 10 2026 18:05:54 for Game Specialism 2 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

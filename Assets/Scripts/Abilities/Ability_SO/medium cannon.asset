@@ -14,13 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ProjectileAbility
   _abilityName: Medium Cannon
   _isSingleUse: 0
-  cooldownDuration: 0.25
+  _cooldownDuration: 0.2
   _projectilePrefab: {fileID: 3955307233564228219, guid: c3a01e70ac931823a9b477ec82c71594, type: 3}
-  projectileSpeed: 5
-  projectileDamage: 2
-  hitLayers:
-    serializedVersion: 2
-    m_Bits: 64
-  excludeLayers:
-    serializedVersion: 2
-    m_Bits: 384
+  fireVFX: []

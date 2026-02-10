@@ -1,4 +1,5 @@
 <map id="PlayerAbilityUser.CycleAbility" name="PlayerAbilityUser.CycleAbility">
-<area shape="rect" id="node1" title=" " alt="" coords="304,5,520,32"/>
-<area shape="rect" id="node2" href="$class_player_ability_user.html#ac17ffc4e079e543df1009127c7bfa3be" title=" " alt="" coords="5,5,256,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="304,31,520,57"/>
+<area shape="rect" id="node2" href="$class_player_ability_user.html#a55a2f5ac2285295a6d49bc4f4cfdacd3" title=" " alt="" coords="13,5,248,32"/>
+<area shape="rect" id="node3" href="$class_player_ability_user.html#ac17ffc4e079e543df1009127c7bfa3be" title=" " alt="" coords="5,56,256,83"/>
 </map>

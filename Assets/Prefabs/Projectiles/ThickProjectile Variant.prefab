@@ -52,7 +52,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: ThickProjectile Variant
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5609035424736218582, guid: c3a01e70ac931823a9b477ec82c71594, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

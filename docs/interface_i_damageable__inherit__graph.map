@@ -1,5 +1,5 @@
 <map id="IDamageable" name="IDamageable">
 <area shape="rect" id="node1" title="An interface for damageable entities." alt="" coords="225,5,487,127"/>
-<area shape="rect" id="node2" href="$class_generic_enemy_controller.html" title="A generic enemy controller to implement IDamageable for prototyping. this is likely to be reworked or..." alt="" coords="5,182,344,435"/>
-<area shape="rect" id="node3" href="$class_player_controller.html" title="The player controller, this provides behaviors for the player. currently depends on AbilityUser thoug..." alt="" coords="368,175,707,443"/>
+<area shape="rect" id="node2" href="$class_generic_enemy_controller.html" title="A generic enemy controller to implement IDamageable for prototyping. this is likely to be reworked or..." alt="" coords="5,226,344,479"/>
+<area shape="rect" id="node3" href="$class_player_controller.html" title="The player controller, this provides behaviors for the player. currently depends on AbilityUser thoug..." alt="" coords="368,175,707,531"/>
 </map>

@@ -1,4 +1,8 @@
 var searchData=
 [
-  ['vfxdata_384',['VFXData',['../class_v_f_x___component.html#a9f0fa0818fe191d23f8cedf58a46e8bf',1,'VFX_Component']]]
+  ['upgradedescription_419',['UpgradeDescription',['../class_upgrade.html#a43c5f51f5689bdb58d4ac0902c6f2306',1,'Upgrade']]],
+  ['upgradename_420',['UpgradeName',['../class_upgrade.html#a97fde7adce1c113f141048f8798235ff',1,'Upgrade']]],
+  ['upgrades_421',['Upgrades',['../class_upgrade_tree.html#aed672987caab5c10026563bdd2243094',1,'UpgradeTree']]],
+  ['upgradetoadd_422',['upgradeToAdd',['../class_simple_pickup.html#acb4cc80a8ceef2c67669b8aded5ebf3a',1,'SimplePickup']]],
+  ['user_423',['User',['../class_v_f_x___data.html#a5f305070a736dadccc599cfe3e6ce47e',1,'VFX_Data']]]
 ];
