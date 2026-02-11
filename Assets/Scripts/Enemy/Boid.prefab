@@ -134,8 +134,8 @@ MonoBehaviour:
   rb: {fileID: 5643934238133987056}
   boidSystem: {fileID: 0}
   maxHealthMod: 0
-  maxHealth: 1.5
-  health: 1.5
+  maxHealth: 2
+  health: 2
   neighbors: []
 --- !u!114 &-2868641085258228079
 MonoBehaviour:

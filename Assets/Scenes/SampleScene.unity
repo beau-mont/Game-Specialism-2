@@ -304,7 +304,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 382744091df1bc4ad91bd5cbea15f190, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerData: {fileID: 11400000, guid: f45cb763de2a96db4a09887ee31eb15a, type: 2}
   followTarget: {fileID: 412937422}
   maxSpeed: 7
   noiseMultiplier: 0.5
@@ -362,7 +361,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 0.16078432}
+  m_Color: {r: 1, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -981,7 +980,8 @@ MonoBehaviour:
   currentHealth: 5
   _damageThresholds: []
   baseMoveSpeed: 7.5
-  deathVFX: []
+  deathVFX:
+  - {fileID: 11400000, guid: b3c6331e3027e8495b78299b199ec36a, type: 2}
 --- !u!114 &689472445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2344,7 +2344,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 382744091df1bc4ad91bd5cbea15f190, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerData: {fileID: 11400000, guid: f45cb763de2a96db4a09887ee31eb15a, type: 2}
   followTarget: {fileID: 1734248486}
   maxSpeed: 7
   noiseMultiplier: 0.5
@@ -2402,7 +2401,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 0.16078432}
+  m_Color: {r: 1, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

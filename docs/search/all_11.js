@@ -26,9 +26,10 @@ var searchData=
   ['spawnwave_229',['SpawnWave',['../class_game_controller.html#abb0857d7934e8d9f95f7fe3f19d03baa',1,'GameController']]],
   ['speed_230',['speed',['../class_simple_ability_behaviour.html#aaab6fee9050767ff5d1ec1949548b33d',1,'SimpleAbilityBehaviour']]],
   ['speedmultiplier_231',['SpeedMultiplier',['../class_ability_behaviour_multipliers.html#ac3e1874072f8a2ae830abbe051656495',1,'AbilityBehaviourMultipliers']]],
-  ['sr_232',['sr',['../class_v_f_x___data.html#a9e804d47383a2b093569843bdd79a78e',1,'VFX_Data']]],
-  ['start_233',['Start',['../class_player_ability_user.html#ab534a57f34c1af7c3d0c2577d884c328',1,'PlayerAbilityUser.Start()'],['../class_boid_forcefield.html#a00ee072a3edd55a54868a0d625e603a5',1,'BoidForcefield.Start()'],['../class_damage_threshold.html#ac030161951bb02f497dbb5e6f6ecec3f',1,'DamageThreshold.Start()'],['../class_sound_threshold.html#a2f1d456533e85c5039cfab5356e53910',1,'SoundThreshold.Start()'],['../class_player_controller.html#ae1117d9c4da3193181cddad2c814e467',1,'PlayerController.Start()'],['../class_upgrade_manager.html#a46964307daddb87555a856e61e863a1f',1,'UpgradeManager.Start()'],['../class_debug_ability_display.html#a926d58ec84e15e259a56ae014a7c9427',1,'DebugAbilityDisplay.Start()']]],
-  ['starttime_234',['StartTime',['../class_v_f_x___data.html#a33ed759d920108ce7df7efcdc73f5043',1,'VFX_Data']]],
-  ['strategies_235',['strategies',['../class_v_f_x___component.html#af488e5c004fa52fb64b08d45a74c8fac',1,'VFX_Component']]],
-  ['strength_236',['strength',['../class_boid_forcefield.html#a6d2d8dd5608d983169a32b904ef31831',1,'BoidForcefield']]]
+  ['spread_232',['spread',['../class_projectile_ability.html#ae451721cacd2688836e76c0b209bc742',1,'ProjectileAbility']]],
+  ['sr_233',['sr',['../class_v_f_x___data.html#a9e804d47383a2b093569843bdd79a78e',1,'VFX_Data']]],
+  ['start_234',['Start',['../class_player_ability_user.html#ab534a57f34c1af7c3d0c2577d884c328',1,'PlayerAbilityUser.Start()'],['../class_boid_forcefield.html#a00ee072a3edd55a54868a0d625e603a5',1,'BoidForcefield.Start()'],['../class_damage_threshold.html#ac030161951bb02f497dbb5e6f6ecec3f',1,'DamageThreshold.Start()'],['../class_sound_threshold.html#a2f1d456533e85c5039cfab5356e53910',1,'SoundThreshold.Start()'],['../class_player_controller.html#ae1117d9c4da3193181cddad2c814e467',1,'PlayerController.Start()'],['../class_upgrade_manager.html#a46964307daddb87555a856e61e863a1f',1,'UpgradeManager.Start()'],['../class_debug_ability_display.html#a926d58ec84e15e259a56ae014a7c9427',1,'DebugAbilityDisplay.Start()']]],
+  ['starttime_235',['StartTime',['../class_v_f_x___data.html#a33ed759d920108ce7df7efcdc73f5043',1,'VFX_Data']]],
+  ['strategies_236',['strategies',['../class_v_f_x___component.html#af488e5c004fa52fb64b08d45a74c8fac',1,'VFX_Component']]],
+  ['strength_237',['strength',['../class_boid_forcefield.html#a6d2d8dd5608d983169a32b904ef31831',1,'BoidForcefield']]]
 ];

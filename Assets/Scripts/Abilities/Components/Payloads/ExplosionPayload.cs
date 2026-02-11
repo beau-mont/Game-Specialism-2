@@ -22,6 +22,7 @@ public class AOEDamagePayload : AbstractPayload
                 return;
             if (hit.TryGetComponent<IDamageable>(out var damageable))
             {
+                Debug.Log($"explosion dealt {baseDamage.Evaluate((projectile.transform.position - projectile.transform.position).magnitude) * damageMult} damage");
                 damageable.ModifyHealth(baseDamage.Evaluate((projectile.transform.position - projectile.transform.position).magnitude) * damageMult);
             }
         }

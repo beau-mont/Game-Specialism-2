@@ -25,7 +25,7 @@ public class AbilityDecorator : MonoBehaviour // GRAAAAAAAH I FUCKING LOVE DOCUM
     public PayloadMultipliers payloadMultipliers;
     public AbilityBehaviourMultipliers abilityBehaviourMultipliers;
     [Header("Settings")]
-    [HideInInspector] public GameObject owner;
+    public GameObject owner;
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private float lifetime = 1f;
     private float spawnTime;
@@ -49,18 +49,20 @@ public class AbilityDecorator : MonoBehaviour // GRAAAAAAAH I FUCKING LOVE DOCUM
 
     void OnCollisionEnter2D(Collision2D other)
     {
-        foreach (AbstractPayload payload in payloads)
+        if (other.gameObject.layer != LayerMask.NameToLayer("Projectile"))
         {
-            payload.HitEffect(gameObject, other.gameObject, payloadMultipliers);
-        }
-        
-        foreach (var effect in hitEffects)
-        {
-            GameObject tempEffect = effect.GetPooledObject();
-            tempEffect.GetComponent<VFX_Component>().multipliers = payloadMultipliers;
-            tempEffect.transform.SetPositionAndRotation(transform.position, transform.rotation);
-            tempEffect.SetActive(true);
-        }
-        gameObject.SetActive(false); // deactivate projectile on hit
+            foreach (AbstractPayload payload in payloads)
+            {
+                payload.HitEffect(gameObject, other.gameObject, payloadMultipliers);
+            }
+            foreach (var effect in hitEffects)
+            {
+                GameObject tempEffect = effect.GetPooledObject();
+                tempEffect.GetComponent<VFX_Component>().multipliers = payloadMultipliers;
+                tempEffect.transform.SetPositionAndRotation(transform.position, transform.rotation);
+                tempEffect.SetActive(true);
+            }
+            gameObject.SetActive(false); // deactivate projectile on hit
+        }            
     }
 }
