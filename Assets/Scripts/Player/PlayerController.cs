@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
     [Header("Settings")]
     public float baseMoveSpeed;
     [Header("VFX")]
-    [SerializeField] private List<IPooledVFX> deathVFX;
+    [SerializeField] private List<PooledVFX> deathVFX;
     private Rigidbody2D rb;
     InputAction moveAction;
     InputAction attackAction;

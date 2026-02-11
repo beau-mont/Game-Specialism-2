@@ -9,7 +9,7 @@ var class_generic_enemy_controller =
     [ "Update", "class_generic_enemy_controller.html#a8a3b0ce0d6416f2bde6c9c3393261ca9", null ],
     [ "_damageThresholds", "class_generic_enemy_controller.html#acc9e888fe16a9d0303098f13ae5a8171", null ],
     [ "currentHealth", "class_generic_enemy_controller.html#abe0dd68ad039d2264fc99f2ef21f2de3", null ],
-    [ "deathVFX", "class_generic_enemy_controller.html#a352127a4375370fe8beb70088f20444b", null ],
+    [ "deathVFX", "class_generic_enemy_controller.html#a26134e400ed4492efbe67bbe73117a4e", null ],
     [ "MaxHealth", "class_generic_enemy_controller.html#a696d8831614c056c0b8ecf6b0ebd6a74", null ],
     [ "maxHealthMod", "class_generic_enemy_controller.html#a25c3e3219d684be91c249b0c29b4c204", null ],
     [ "playerData", "class_generic_enemy_controller.html#afd87efc8db2798198d607e22c156bf07", null ],

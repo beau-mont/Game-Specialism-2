@@ -17,6 +17,7 @@ var hierarchy =
     ] ],
     [ "MonoBehaviour", null, [
       [ "AbilityDecorator", "class_ability_decorator.html", null ],
+      [ "DebugAbilityDisplay", "class_debug_ability_display.html", null ],
       [ "GameController", "class_game_controller.html", null ],
       [ "GenericEnemyController", "class_generic_enemy_controller.html", null ],
       [ "PlayerAbilityUser", "class_player_ability_user.html", null ],
@@ -41,16 +42,13 @@ var hierarchy =
       [ "DamageThreshold", "class_damage_threshold.html", [
         [ "SoundThreshold", "class_sound_threshold.html", null ]
       ] ],
-      [ "IPooledVFX", "class_i_pooled_v_f_x.html", [
-        [ "PooledVFX", "class_pooled_v_f_x.html", [
-          [ "BasicVFXPool", "class_basic_v_f_x_pool.html", null ]
-        ] ]
-      ] ],
       [ "IWaveFactory", "class_i_wave_factory.html", [
         [ "ConcreteBaseWaveFactory", "class_concrete_base_wave_factory.html", null ],
         [ "ConcreteBossFactory", "class_concrete_boss_factory.html", null ]
       ] ],
       [ "PlayerData", "class_player_data.html", null ],
+      [ "PooledSFX", "class_pooled_s_f_x.html", null ],
+      [ "PooledVFX", "class_pooled_v_f_x.html", null ],
       [ "Upgrade", "class_upgrade.html", null ],
       [ "VFXStrategy", "class_v_f_x_strategy.html", [
         [ "DisableAfterDelayVFX", "class_disable_after_delay_v_f_x.html", null ],

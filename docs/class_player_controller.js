@@ -14,7 +14,7 @@ var class_player_controller =
     [ "attackAction", "class_player_controller.html#aa95b3b2cba4d8294c0f09a7c05c32d72", null ],
     [ "baseMoveSpeed", "class_player_controller.html#a879b71c2f584dcbe2ead4d8e9bd86bd2", null ],
     [ "currentHealth", "class_player_controller.html#ae5aeb12c3428a159217f344f65e0157c", null ],
-    [ "deathVFX", "class_player_controller.html#a58634bc8c367ddf295d551032b45161c", null ],
+    [ "deathVFX", "class_player_controller.html#a4be2ae284cb114d1c538b701e44c86e6", null ],
     [ "MaxHealth", "class_player_controller.html#aa11a30203d2caa2193fff366f6ed66fa", null ],
     [ "maxHealthMod", "class_player_controller.html#adf6caf6f3e827555d5eaf870f5e70c7c", null ],
     [ "moveAction", "class_player_controller.html#af99cddccf0395badc734b368261b7d85", null ],

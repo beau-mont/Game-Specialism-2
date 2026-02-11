@@ -14,4 +14,5 @@ public class PlayerData : ScriptableObject
     public IAbilityUser PlayerAbilityUser;
     public PlayerController PlayerController;
     public UpgradeManager PlayerUpgradeManager;
+    public float BonusEnemyHealth;
 }

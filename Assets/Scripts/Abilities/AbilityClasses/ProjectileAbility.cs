@@ -21,7 +21,7 @@ public class ProjectileAbility : AbstractAbility
     private List<GameObject> _projectilePool = new List<GameObject>();
     protected override List<GameObject> ProjectilePool { get => _projectilePool; set => _projectilePool = value; }
     [Header("Custom Variables")]
-    public List<IPooledVFX> fireVFX;
+    public List<PooledVFX> fireVFX;
 
     public override void ActivateAbility(GameObject user, AbilityMultipliers abilityMultipliers, AbilityContainer abilityContainer)
     {

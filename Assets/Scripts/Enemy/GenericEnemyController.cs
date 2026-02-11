@@ -21,7 +21,7 @@ public class GenericEnemyController : MonoBehaviour, IDamageable
     [SerializeReference, SerializeField] private List<DamageThreshold> _damageThresholds;
     public List<DamageThreshold> DamageThresholds { get => _damageThresholds; set => _damageThresholds = value; }
     [Header("VFX")]
-    [SerializeField] private List<IPooledVFX> deathVFX;
+    [SerializeField] private List<PooledVFX> deathVFX;
 
     void Start()
     {

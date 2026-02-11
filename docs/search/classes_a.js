@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['upgrade_255',['Upgrade',['../class_upgrade.html',1,'']]],
-  ['upgrademanager_256',['UpgradeManager',['../class_upgrade_manager.html',1,'']]],
-  ['upgradetree_257',['UpgradeTree',['../class_upgrade_tree.html',1,'']]]
+  ['vfx_5fcomponent_262',['VFX_Component',['../class_v_f_x___component.html',1,'']]],
+  ['vfx_5fdata_263',['VFX_Data',['../class_v_f_x___data.html',1,'']]],
+  ['vfxstrategy_264',['VFXStrategy',['../class_v_f_x_strategy.html',1,'']]]
 ];

@@ -19,7 +19,7 @@ public class AbilityDecorator : MonoBehaviour // GRAAAAAAAH I FUCKING LOVE DOCUM
     [SerializeField] private string projectileName;
     public AbstractPayload[] payloads;
     public AbstractAbilityBehaviour abilityBehaviour;
-    [SerializeField] private BasicVFXPool[] hitEffects;
+    [SerializeField] private PooledVFX[] hitEffects;
     [Header("Modifiers")]
     public PayloadMultipliers payloadMultipliers;
     public AbilityBehaviourMultipliers abilityBehaviourMultipliers;

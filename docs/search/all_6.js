@@ -8,5 +8,5 @@ var searchData=
   ['fadecurve_88',['fadeCurve',['../class_fade_v_f_x.html#a4b00596baa7116c908deb0ed8f0e2176',1,'FadeVFX']]],
   ['fadevfx_89',['FadeVFX',['../class_fade_v_f_x.html',1,'']]],
   ['fadevfx_2ecs_90',['FadeVFX.cs',['../_fade_v_f_x_8cs.html',1,'']]],
-  ['firevfx_91',['fireVFX',['../class_charged_projectile_ability.html#a226e4fcfe39a6101db1eb6dca5f8d6fa',1,'ChargedProjectileAbility.fireVFX()'],['../class_projectile_ability.html#a1c0631cbaeedfb895e714417f6d7c90c',1,'ProjectileAbility.fireVFX()']]]
+  ['firevfx_91',['fireVFX',['../class_charged_projectile_ability.html#a25d9ea61ed7d291f288dd1c7d9604811',1,'ChargedProjectileAbility.fireVFX()'],['../class_projectile_ability.html#aafe6fe3ec50b73f95cb7447173c41c2d',1,'ProjectileAbility.fireVFX()']]]
 ];
