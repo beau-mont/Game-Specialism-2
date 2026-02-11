@@ -4,6 +4,7 @@ var class_player_controller =
     [ "Kill", "class_player_controller.html#a1951a5a9cade0b01ac33e1e24a77a9d0", null ],
     [ "ModifyHealth", "class_player_controller.html#a394ad75e9c15037e9081511ead5e7038", null ],
     [ "ModifyMaxHealth", "class_player_controller.html#a4800c35de23de2289c6b8b5e4ed0229d", null ],
+    [ "OnDisable", "class_player_controller.html#af001771e3b5664ddb261fbb3d291e07e", null ],
     [ "OnEnable", "class_player_controller.html#aaa4c116062d555349d4853488b3cbf93", null ],
     [ "ProcessAbilities", "class_player_controller.html#ab0fd365fe8fabadee83e233fbb425a5f", null ],
     [ "ProcessMovement", "class_player_controller.html#aa91ee5f344c8d449eae64242572699be", null ],

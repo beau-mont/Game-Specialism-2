@@ -1,0 +1,5 @@
+<map id="BoidEntity" name="BoidEntity">
+<area shape="rect" id="node1" title=" " alt="" coords="37,175,314,472"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,27,129,105"/>
+<area shape="rect" id="node3" href="$interface_i_damageable.html" title="An interface for damageable entities." alt="" coords="153,5,416,127"/>
+</map>

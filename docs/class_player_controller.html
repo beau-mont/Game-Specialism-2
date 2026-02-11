@@ -102,7 +102,7 @@ Inheritance diagram for PlayerController:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_player_controller__inherit__graph.png" border="0" usemap="#a_player_controller_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_player_controller_inherit__map" id="a_player_controller_inherit__map">
-<area shape="rect" title="The player controller, this provides behaviors for the player. currently depends on AbilityUser thoug..." alt="" coords="115,175,454,531"/>
+<area shape="rect" title="The player controller, this provides behaviors for the player. currently depends on AbilityUser thoug..." alt="" coords="115,175,454,545"/>
 <area shape="rect" title=" " alt="" coords="5,27,129,105"/>
 <area shape="rect" href="interface_i_damageable.html" title="An interface for damageable entities." alt="" coords="153,5,416,127"/>
 <area shape="rect" href="interface_i_damage_threshold.html" title="An interface for damage threshold effects. the purpose of this is to allow methods to be called when ..." alt="" coords="441,27,779,105"/>
@@ -113,20 +113,20 @@ Collaboration diagram for PlayerController:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_player_controller__coll__graph.png" border="0" usemap="#a_player_controller_coll__map" alt="Collaboration graph"/></div>
 <map name="a_player_controller_coll__map" id="a_player_controller_coll__map">
-<area shape="rect" title="The player controller, this provides behaviors for the player. currently depends on AbilityUser thoug..." alt="" coords="115,719,454,1060"/>
-<area shape="rect" href="class_player_data.html" title="Data about the player that other objects may need to access. there should only be one instance of thi..." alt="" coords="455,1130,618,1207"/>
+<area shape="rect" title="The player controller, this provides behaviors for the player. currently depends on AbilityUser thoug..." alt="" coords="115,719,454,1075"/>
+<area shape="rect" href="class_player_data.html" title="Data about the player that other objects may need to access. there should only be one instance of thi..." alt="" coords="437,1137,636,1229"/>
 <area shape="rect" title=" " alt="" coords="5,549,129,627"/>
-<area shape="rect" href="class_upgrade_manager.html" title=" " alt="" coords="601,1277,872,1399"/>
+<area shape="rect" href="class_upgrade_manager.html" title=" " alt="" coords="601,1292,872,1413"/>
 <area shape="rect" href="interface_i_damageable.html" title="An interface for damageable entities." alt="" coords="153,527,416,649"/>
 <area shape="rect" href="interface_i_damage_threshold.html" title="An interface for damage threshold effects. the purpose of this is to allow methods to be called when ..." alt="" coords="441,549,779,627"/>
 <area shape="rect" title=" " alt="" coords="807,549,936,627"/>
-<area shape="rect" href="class_upgrade.html" title=" " alt="" coords="865,843,1072,935"/>
+<area shape="rect" href="class_upgrade.html" title=" " alt="" coords="865,851,1072,943"/>
 <area shape="rect" href="class_player_multipliers.html" title=" " alt="" coords="961,520,1256,656"/>
 <area shape="rect" href="class_ability_multipliers.html" title="Ability multiplier container, stores a list of multipliers/modifiers that is passed to an ability to ..." alt="" coords="1005,263,1213,457"/>
 <area shape="rect" href="class_ability_behaviour_multipliers.html" title="Projectile modifier container, this is passed to projectiles so they can implement what they need...." alt="" coords="837,13,1111,193"/>
 <area shape="rect" href="class_payload_multipliers.html" title="Payload modifier container, this is passed to payloads so they can implement what they need...." alt="" coords="1136,5,1353,200"/>
-<area shape="rect" href="class_upgrade_tree.html" title=" " alt="" coords="798,1123,977,1215"/>
-<area shape="rect" href="interface_i_ability_user.html" title="ability user interface" alt="" coords="574,777,841,1001"/>
+<area shape="rect" href="class_upgrade_tree.html" title=" " alt="" coords="798,1137,977,1229"/>
+<area shape="rect" href="interface_i_ability_user.html" title="ability user interface" alt="" coords="574,785,841,1009"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -170,6 +170,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:ae1117d9c4da3193181cddad2c814e467"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa4c116062d555349d4853488b3cbf93"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_controller.html#aaa4c116062d555349d4853488b3cbf93">OnEnable</a> ()</td></tr>
 <tr class="separator:aaa4c116062d555349d4853488b3cbf93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af001771e3b5664ddb261fbb3d291e07e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_controller.html#af001771e3b5664ddb261fbb3d291e07e">OnDisable</a> ()</td></tr>
+<tr class="separator:af001771e3b5664ddb261fbb3d291e07e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8bc83dffb99867a04be016473ed2c43"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_controller.html#ae8bc83dffb99867a04be016473ed2c43">Update</a> ()</td></tr>
 <tr class="separator:ae8bc83dffb99867a04be016473ed2c43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa91ee5f344c8d449eae64242572699be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_controller.html#aa91ee5f344c8d449eae64242572699be">ProcessMovement</a> ()</td></tr>
@@ -318,6 +320,31 @@ Here is the call graph for this function:</div>
 </dl>
 
 <p>Implements <a class="el" href="interface_i_damageable.html#a1067f1e6ea3bb83f302b3c272474a2b9">IDamageable</a>.</p>
+
+</div>
+</div>
+<a id="af001771e3b5664ddb261fbb3d291e07e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af001771e3b5664ddb261fbb3d291e07e">&#9670;&nbsp;</a></span>OnDisable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlayerController.OnDisable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -740,7 +767,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_player_controller.html">PlayerController</a></li>
-    <li class="footer">Generated on Tue Feb 10 2026 19:57:15 for Game Specialism 2 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Wed Feb 11 2026 17:28:39 for Game Specialism 2 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

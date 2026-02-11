@@ -1,0 +1,9 @@
+<map id="BoidEntity" name="BoidEntity">
+<area shape="rect" id="node1" title=" " alt="" coords="48,764,325,1047"/>
+<area shape="rect" id="node2" title=" " alt="" coords="12,5,136,83"/>
+<area shape="rect" id="node4" href="$class_boid_controller.html" title=" " alt="" coords="50,301,322,701"/>
+<area shape="rect" id="node5" href="$class_boid_forcefield.html" title=" " alt="" coords="112,132,236,239"/>
+<area shape="rect" id="node3" href="$interface_i_damageable.html" title="An interface for damageable entities." alt="" coords="347,441,610,562"/>
+<area shape="rect" id="node6" href="$class_pooled_boids.html" title=" " alt="" coords="260,132,502,239"/>
+<area shape="rect" id="node7" title=" " alt="" coords="316,5,446,83"/>
+</map>

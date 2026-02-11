@@ -1,6 +1,20 @@
 var searchData=
 [
-  ['textobject_423',['textObject',['../class_debug_ability_display.html#a1a21d83d687bf4f4402c80811d36de56',1,'DebugAbilityDisplay']]],
-  ['treedescription_424',['TreeDescription',['../class_upgrade_tree.html#a2873a58fe78c80d35cb7e233f40cef75',1,'UpgradeTree']]],
-  ['treename_425',['TreeName',['../class_upgrade_tree.html#a646aaee09a68aee72a6c0d1167ba5602',1,'UpgradeTree']]]
+  ['scale_493',['Scale',['../class_v_f_x___data.html#a0fbc556479e6c5123e1ecdb2dea21e2b',1,'VFX_Data']]],
+  ['scalecurve_494',['ScaleCurve',['../class_scale_v_f_x.html#acb44de9bd7f11c42058b9d806ebea0f0',1,'ScaleVFX']]],
+  ['separationdistance_495',['separationDistance',['../class_boid_controller.html#aa2f3b1645b87f08b11c0512c416be189',1,'BoidController']]],
+  ['separationweight_496',['separationWeight',['../class_boid_controller.html#ac970fb56823a1881160b68fc352a4ad3',1,'BoidController']]],
+  ['sfxpool_497',['SFXPool',['../class_pooled_s_f_x.html#a5125fa1fdad95dc21d1023370e17d1d2',1,'PooledSFX']]],
+  ['sfxprefab_498',['SFXPrefab',['../class_pooled_s_f_x.html#a98c99cc5a35a20d6206009d2fd444f94',1,'PooledSFX']]],
+  ['source_499',['source',['../class_sound_threshold.html#a640ed9068b968a4a807a70231353bcaa',1,'SoundThreshold']]],
+  ['spawnlocation_500',['SpawnLocation',['../class_wave_data_1_1_enemy_spawn.html#a0d09f3df02d3f7d0f8716e306b62112c',1,'WaveData::EnemySpawn']]],
+  ['spawnradius_501',['spawnRadius',['../class_boid_controller.html#abc0ed1bf1a033754daf7b35a0c736cc9',1,'BoidController']]],
+  ['spawnrotation_502',['SpawnRotation',['../class_wave_data_1_1_enemy_spawn.html#ae95d35d606b57dd2c07df2e5c0b6511d',1,'WaveData::EnemySpawn']]],
+  ['spawntime_503',['spawnTime',['../class_ability_decorator.html#a348630da9974d697ceecaa53157f05d6',1,'AbilityDecorator']]],
+  ['speed_504',['speed',['../class_simple_ability_behaviour.html#aaab6fee9050767ff5d1ec1949548b33d',1,'SimpleAbilityBehaviour']]],
+  ['speedmultiplier_505',['SpeedMultiplier',['../class_ability_behaviour_multipliers.html#ac3e1874072f8a2ae830abbe051656495',1,'AbilityBehaviourMultipliers']]],
+  ['sr_506',['sr',['../class_v_f_x___data.html#a9e804d47383a2b093569843bdd79a78e',1,'VFX_Data']]],
+  ['starttime_507',['StartTime',['../class_v_f_x___data.html#a33ed759d920108ce7df7efcdc73f5043',1,'VFX_Data']]],
+  ['strategies_508',['strategies',['../class_v_f_x___component.html#af488e5c004fa52fb64b08d45a74c8fac',1,'VFX_Component']]],
+  ['strength_509',['strength',['../class_boid_forcefield.html#a6d2d8dd5608d983169a32b904ef31831',1,'BoidForcefield']]]
 ];

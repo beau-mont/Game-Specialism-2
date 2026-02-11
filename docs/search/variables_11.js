@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['upgradedescription_426',['UpgradeDescription',['../class_upgrade.html#a43c5f51f5689bdb58d4ac0902c6f2306',1,'Upgrade']]],
-  ['upgradename_427',['UpgradeName',['../class_upgrade.html#a97fde7adce1c113f141048f8798235ff',1,'Upgrade']]],
-  ['upgrades_428',['Upgrades',['../class_upgrade_tree.html#aed672987caab5c10026563bdd2243094',1,'UpgradeTree']]],
-  ['upgradetoadd_429',['upgradeToAdd',['../class_simple_pickup.html#acb4cc80a8ceef2c67669b8aded5ebf3a',1,'SimplePickup']]],
-  ['user_430',['User',['../class_v_f_x___data.html#a5f305070a736dadccc599cfe3e6ce47e',1,'VFX_Data']]]
+  ['targetposition_510',['targetPosition',['../class_boid_controller.html#aadda32ffb1b20dd90490c3d2c0a8ac23',1,'BoidController']]],
+  ['textobject_511',['textObject',['../class_debug_ability_display.html#a1a21d83d687bf4f4402c80811d36de56',1,'DebugAbilityDisplay']]],
+  ['treedescription_512',['TreeDescription',['../class_upgrade_tree.html#a2873a58fe78c80d35cb7e233f40cef75',1,'UpgradeTree']]],
+  ['treename_513',['TreeName',['../class_upgrade_tree.html#a646aaee09a68aee72a6c0d1167ba5602',1,'UpgradeTree']]]
 ];
