@@ -4,7 +4,7 @@ using UnityEngine;
 /// <summary>
 /// Defines a basic implementation of pooling for all other objects.
 /// </summary>
-[CreateAssetMenu(fileName = "PooledVFX", menuName = "VFX/PooledVFX")]
+[CreateAssetMenu(fileName = "PooledVFX", menuName = "VFX/PooledVFX"), System.Serializable]
 public class PooledVFX : ScriptableObject
 {
     [SerializeField] private GameObject VFXPrefab;

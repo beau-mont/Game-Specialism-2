@@ -48,6 +48,12 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
             playerData.PlayerController = this;
         }
         currentHealth = MaxHealth;
+        DamageableList.objects.Add(gameObject);
+    }
+
+    void OnDisable()
+    {
+        DamageableList.objects.Remove(gameObject);
     }
 
     // Update is called once per frame

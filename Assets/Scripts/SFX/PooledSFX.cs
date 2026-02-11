@@ -4,7 +4,7 @@ using System.Collections.Generic;
 /// <summary>
 /// a static class that can be used to fetch SFX
 /// </summary>
-[CreateAssetMenu(fileName = "PooledSFX", menuName = "SFX/PooledSFX")]
+[CreateAssetMenu(fileName = "PooledSFX", menuName = "SFX/PooledSFX"), System.Serializable]
 public class PooledSFX : ScriptableObject
 {
     [SerializeField] private static GameObject SFXPrefab;
