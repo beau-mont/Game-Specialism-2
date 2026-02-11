@@ -21,16 +21,17 @@ public class GenericEnemyController : MonoBehaviour, IDamageable
     [SerializeReference, SerializeField] private List<DamageThreshold> _damageThresholds;
     public List<DamageThreshold> DamageThresholds { get => _damageThresholds; set => _damageThresholds = value; }
     [Header("VFX")]
-    [SerializeField] private List<IPooledVFX> deathVFX;
+    [SerializeField] private List<PooledVFX> deathVFX;
 
-    void Start()
+    void OnEnable()
     {
+        DamageableList.objects.Add(gameObject);
         currentHealth = MaxHealth + maxHealthMod;
     }
 
-    void Update()
+    void OnDisable()
     {
-        
+        DamageableList.objects.Remove(gameObject);
     }
 
     #region Damageable

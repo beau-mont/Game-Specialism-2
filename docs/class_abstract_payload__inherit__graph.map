@@ -1,5 +1,6 @@
 <map id="AbstractPayload" name="AbstractPayload">
-<area shape="rect" id="node1" title="An abstract class defining a method for all payloads to use" alt="" coords="5,131,371,223"/>
-<area shape="rect" id="node3" href="$class_damage_payload.html" title="A basic damage payload. deals damage * Multiplier to any IDamageable it hits." alt="" coords="53,271,323,377"/>
-<area shape="rect" id="node2" title=" " alt="" coords="123,5,253,83"/>
+<area shape="rect" id="node1" title="An abstract class defining a method for all payloads to use" alt="" coords="104,131,469,223"/>
+<area shape="rect" id="node3" href="$class_a_o_e_damage_payload.html" title="THIS IS SO CURSED PLEASE GOD CHANGE THIS LATER" alt="" coords="5,271,275,377"/>
+<area shape="rect" id="node4" href="$class_damage_payload.html" title="A basic damage payload. deals damage * Multiplier to any IDamageable it hits." alt="" coords="299,271,568,377"/>
+<area shape="rect" id="node2" title=" " alt="" coords="222,5,351,83"/>
 </map>

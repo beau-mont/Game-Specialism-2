@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,7 +6,7 @@ using UnityEngine;
 /// </summary>
 public class VFX_Component : MonoBehaviour // TODO: Make a bunch of these private/static/const
 {
-    [SerializeField] public List<VFXStrategy> strategies;
+    [SerializeField] private List<VFXStrategy> strategies;
     public PayloadMultipliers multipliers = new();
     private VFX_Data VFXData = new();
     private bool init = false;
@@ -61,3 +60,28 @@ public class VFX_Data
     public Vector3 Scale;
     public PayloadMultipliers Multipliers;
 }
+
+/// <summary>
+/// Abstract class defining VFXStrategy methods.
+/// TODO: make this an interface(?)
+/// </summary>
+[System.Serializable]
+public abstract class VFXStrategy : ScriptableObject
+{
+    /// <summary>
+    /// Set the starting conditions for the VFX
+    /// </summary>
+    /// <param name="args">VFX_data, update the class when you need to move more information here.</param>
+    public abstract void Begin(VFX_Data args);
+    /// <summary>
+    /// Process the VFX
+    /// </summary>
+    /// <param name="args">VFX_data, update the class when you need to move more information here.</param>
+    public abstract void Process(VFX_Data args);
+    /// <summary>
+    /// Reset the VFX object to starting condition
+    /// </summary>
+    /// <param name="args">VFX_data, update the class when you need to move more information here.</param>
+    public abstract void End(VFX_Data args);
+}
+

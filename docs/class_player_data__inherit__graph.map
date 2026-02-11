@@ -1,4 +1,4 @@
 <map id="PlayerData" name="PlayerData">
-<area shape="rect" id="node1" title="Data about the player that other objects may need to access. there should only be one instance of thi..." alt="" coords="5,131,312,252"/>
+<area shape="rect" id="node1" title="Data about the player that other objects may need to access. there should only be one instance of thi..." alt="" coords="5,131,312,267"/>
 <area shape="rect" id="node2" title=" " alt="" coords="94,5,223,83"/>
 </map>

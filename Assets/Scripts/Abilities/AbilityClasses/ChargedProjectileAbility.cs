@@ -28,8 +28,8 @@ public class ChargedProjectileAbility : AbstractAbility
     [SerializeField] private float maxDamageMult = 2f;
     [SerializeField] private float maxChargeDuration = 3f;
     [SerializeField] private float maxScaleMult = 1f;
-    public BasicVFXPool[] chargeVFX;
-    public BasicVFXPool[] fireVFX;
+    public PooledVFX[] chargeVFX;
+    public PooledVFX[] fireVFX;
 
     public override void ActivateAbility(GameObject user, AbilityMultipliers abilityMultipliers, AbilityContainer abilityContainer)
     {

@@ -45,7 +45,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_ability_decorator_8cs.html",
-"class_projectile_ability.html#af8fd93039143295c18b34dd6bd267f21"
+"class_player_controller.html#a085293fc43a0320e14ab82e6b053aa4d"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

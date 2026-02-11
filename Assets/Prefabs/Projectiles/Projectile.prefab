@@ -170,15 +170,16 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 640d70743f92923c2b44722889fcade4, type: 2}
   abilityBehaviour: {fileID: 11400000, guid: 3da5a0b78b01e8581abf2b1bc8de169e, type: 2}
   hitEffects:
-  - {fileID: 11400000, guid: b3c6331e3027e8495b78299b199ec36a, type: 2}
+  - {fileID: 11400000, guid: 1c74a87f704c43f899bb98897e599907, type: 2}
   payloadMultipliers:
     GlobalMultiplier: 0
     DamageMultiplier: 0
     RadiusMultiplier: 0
     BurnMultiplier: 0
-  projectileMultipliers:
+  abilityBehaviourMultipliers:
     GlobalMultiplier: 0
     SpeedMultiplier: 0
     HomingMultiplier: 0
   owner: {fileID: 0}
   rb: {fileID: 5540445113954967446}
+  lifetime: 1

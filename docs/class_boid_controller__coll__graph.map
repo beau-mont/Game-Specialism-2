@@ -1,0 +1,7 @@
+<map id="BoidController" name="BoidController">
+<area shape="rect" id="node1" title=" " alt="" coords="6,301,278,701"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,129,83"/>
+<area shape="rect" id="node3" href="$class_boid_forcefield.html" title=" " alt="" coords="80,132,204,239"/>
+<area shape="rect" id="node4" href="$class_pooled_boids.html" title=" " alt="" coords="228,132,469,239"/>
+<area shape="rect" id="node5" title=" " alt="" coords="284,5,413,83"/>
+</map>

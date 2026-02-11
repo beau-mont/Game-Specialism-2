@@ -1,25 +1,10 @@
 var searchData=
 [
-  ['scale_169',['Scale',['../class_v_f_x___data.html#a0fbc556479e6c5123e1ecdb2dea21e2b',1,'VFX_Data']]],
-  ['scalecurve_170',['ScaleCurve',['../class_scale_v_f_x.html#acb44de9bd7f11c42058b9d806ebea0f0',1,'ScaleVFX']]],
-  ['scalevfx_171',['ScaleVFX',['../class_scale_v_f_x.html',1,'']]],
-  ['scalevfx_2ecs_172',['ScaleVFX.cs',['../_scale_v_f_x_8cs.html',1,'']]],
-  ['setability_173',['SetAbility',['../class_player_ability_user.html#a4050d8becd876585556d33116276929f',1,'PlayerAbilityUser.SetAbility(string ability)'],['../class_player_ability_user.html#a953224bdedde72bb6e9a6afb7acb8fcc',1,'PlayerAbilityUser.SetAbility(AbstractAbility ability)'],['../class_player_ability_user.html#a0d8103024261a334115f5735fcbf45d4',1,'PlayerAbilityUser.SetAbility(AbilityContainer ability)'],['../interface_i_ability_user.html#a7e1bf104651535e5bb55c9913140cddb',1,'IAbilityUser.SetAbility()']]],
-  ['simpleabilitybehaviour_174',['SimpleAbilityBehaviour',['../class_simple_ability_behaviour.html',1,'']]],
-  ['simpleabilitybehaviour_2ecs_175',['SimpleAbilityBehaviour.cs',['../_simple_ability_behaviour_8cs.html',1,'']]],
-  ['simplepickup_176',['SimplePickup',['../class_simple_pickup.html',1,'']]],
-  ['simplepickup_2ecs_177',['SimplePickup.cs',['../_simple_pickup_8cs.html',1,'']]],
-  ['soundthreshold_178',['SoundThreshold',['../class_sound_threshold.html',1,'']]],
-  ['soundthreshold_2ecs_179',['SoundThreshold.cs',['../_sound_threshold_8cs.html',1,'']]],
-  ['source_180',['source',['../class_sound_threshold.html#a640ed9068b968a4a807a70231353bcaa',1,'SoundThreshold']]],
-  ['spawnlocation_181',['SpawnLocation',['../class_wave_data_1_1_enemy_spawn.html#a0d09f3df02d3f7d0f8716e306b62112c',1,'WaveData::EnemySpawn']]],
-  ['spawnrotation_182',['SpawnRotation',['../class_wave_data_1_1_enemy_spawn.html#ae95d35d606b57dd2c07df2e5c0b6511d',1,'WaveData::EnemySpawn']]],
-  ['spawntime_183',['spawnTime',['../class_ability_decorator.html#a348630da9974d697ceecaa53157f05d6',1,'AbilityDecorator']]],
-  ['spawnwave_184',['SpawnWave',['../class_game_controller.html#abb0857d7934e8d9f95f7fe3f19d03baa',1,'GameController']]],
-  ['speed_185',['speed',['../class_simple_ability_behaviour.html#aaab6fee9050767ff5d1ec1949548b33d',1,'SimpleAbilityBehaviour']]],
-  ['speedmultiplier_186',['SpeedMultiplier',['../class_ability_behaviour_multipliers.html#ac3e1874072f8a2ae830abbe051656495',1,'AbilityBehaviourMultipliers']]],
-  ['sr_187',['sr',['../class_v_f_x___data.html#a9e804d47383a2b093569843bdd79a78e',1,'VFX_Data']]],
-  ['start_188',['Start',['../class_player_ability_user.html#ab534a57f34c1af7c3d0c2577d884c328',1,'PlayerAbilityUser.Start()'],['../class_generic_enemy_controller.html#a59ef2317dc6b32865da3996d2ec1582f',1,'GenericEnemyController.Start()'],['../class_damage_threshold.html#ac030161951bb02f497dbb5e6f6ecec3f',1,'DamageThreshold.Start()'],['../class_sound_threshold.html#a2f1d456533e85c5039cfab5356e53910',1,'SoundThreshold.Start()'],['../class_player_controller.html#ae1117d9c4da3193181cddad2c814e467',1,'PlayerController.Start()'],['../class_upgrade_manager.html#a46964307daddb87555a856e61e863a1f',1,'UpgradeManager.Start()']]],
-  ['starttime_189',['StartTime',['../class_v_f_x___data.html#a33ed759d920108ce7df7efcdc73f5043',1,'VFX_Data']]],
-  ['strategies_190',['strategies',['../class_v_f_x___component.html#af488e5c004fa52fb64b08d45a74c8fac',1,'VFX_Component']]]
+  ['radius_199',['radius',['../class_boid_forcefield.html#a84508f63a95a21ad161a0b6551410a1f',1,'BoidForcefield']]],
+  ['radiusmultiplier_200',['RadiusMultiplier',['../class_payload_multipliers.html#ab95e7a47f6f39f1bd15536049a614ae6',1,'PayloadMultipliers']]],
+  ['rb_201',['rb',['../class_ability_decorator.html#a4e9dbff3c63c4836c45035566c25f5e0',1,'AbilityDecorator.rb()'],['../class_boid_entity.html#a131631eda6351736de43c6f511de0538',1,'BoidEntity.rb()'],['../class_player_controller.html#af656c35d14d18c09958ce86e6fb874d1',1,'PlayerController.rb()']]],
+  ['refreshboidlist_202',['RefreshBoidList',['../class_boid_controller.html#a7fc6b03f177ae6d549dc8febf99654c7',1,'BoidController']]],
+  ['removeability_203',['RemoveAbility',['../class_player_ability_user.html#a9643b6bc74f342fb6b0b44737b2dcdb9',1,'PlayerAbilityUser.RemoveAbility(AbstractAbility ability)'],['../class_player_ability_user.html#a257281e162a48917cd9547acdc430b1e',1,'PlayerAbilityUser.RemoveAbility(AbilityContainer ability)'],['../class_player_ability_user.html#ad27ecb236b9280449d8c08e0e1de7efc',1,'PlayerAbilityUser.RemoveAbility(string ability)'],['../interface_i_ability_user.html#add06f11fa55df3acacbcbee67725d52f',1,'IAbilityUser.RemoveAbility()']]],
+  ['removeupgrade_204',['RemoveUpgrade',['../class_upgrade_manager.html#a2953a0d45a5481eb61407471c3e72577',1,'UpgradeManager']]],
+  ['resetmaxhealth_205',['ResetMaxHealth',['../class_boid_entity.html#a202dd015fbb4890f65d8debffaa08c15',1,'BoidEntity.ResetMaxHealth()'],['../class_generic_enemy_controller.html#a37a682f5729c88b3cf005368c1d60b06',1,'GenericEnemyController.ResetMaxHealth()'],['../interface_i_damageable.html#a82412dde16916265c1ecc2eabdf08234',1,'IDamageable.ResetMaxHealth()'],['../class_player_controller.html#a6b9793f6acc8c0774ef4eac3fc2a2595',1,'PlayerController.ResetMaxHealth()']]]
 ];

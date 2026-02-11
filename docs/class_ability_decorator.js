@@ -6,7 +6,7 @@ var class_ability_decorator =
     [ "Update", "class_ability_decorator.html#a93c3fb6cdb0d7765ab8668394fa52197", null ],
     [ "abilityBehaviour", "class_ability_decorator.html#ab885820c19cb107afa743deff145ef27", null ],
     [ "abilityBehaviourMultipliers", "class_ability_decorator.html#ab0ce09eeddaa93e7b5fbd76105e33f26", null ],
-    [ "hitEffects", "class_ability_decorator.html#a326f9c9b551374796d3320534fc2bf7d", null ],
+    [ "hitEffects", "class_ability_decorator.html#a8e3bd03fb343732146704bea3563d797", null ],
     [ "lifetime", "class_ability_decorator.html#af2f735116302f49c97e004a734a766c4", null ],
     [ "owner", "class_ability_decorator.html#a8358e70ca0cbbfc8c5aab124d7fe71a6", null ],
     [ "payloadMultipliers", "class_ability_decorator.html#a337c8c00e7ac1b974708239e19119feb", null ],

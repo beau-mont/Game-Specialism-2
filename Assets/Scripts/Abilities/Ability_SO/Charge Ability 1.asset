@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _abilityName: Plasma Bomb
   _isSingleUse: 1
-  _projectilePrefab: {fileID: 3256352823242901472, guid: 899400b7d41b685fbabcf50ad3c9afcd, type: 3}
+  _projectilePrefab: {fileID: 4967816617517551688, guid: 04bb4cd1a515346c0b8e6281110f1fbf, type: 3}
   _cooldownDuration: 1
   baseSpeedMult: 0
   maxSpeedMult: 1

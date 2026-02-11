@@ -1,0 +1,25 @@
+var class_boid_controller =
+[
+    [ "Alignment", "class_boid_controller.html#a6950181b2766a9eed84703c76540696d", null ],
+    [ "Cohesion", "class_boid_controller.html#adea93059159cdb830fe86a3508c60f0a", null ],
+    [ "EvaluateBoid", "class_boid_controller.html#af50494df2ccdbe34f8804813f90c72d5", null ],
+    [ "FixedUpdate", "class_boid_controller.html#ad420e45a792467e0e409e2883673a7e7", null ],
+    [ "OnDisable", "class_boid_controller.html#ae730175fee31d1048eeabc68890e2262", null ],
+    [ "OnEnable", "class_boid_controller.html#aa4164237bb01a473f8fa618cef71e1d0", null ],
+    [ "RefreshBoidList", "class_boid_controller.html#a7fc6b03f177ae6d549dc8febf99654c7", null ],
+    [ "Separation", "class_boid_controller.html#a43cf509ca820998a0e45223e55970ddb", null ],
+    [ "alignmentWeight", "class_boid_controller.html#a5bd25fb1d717cb825daf23232ac601e9", null ],
+    [ "allBoids", "class_boid_controller.html#a02fc7574f52cebee5ae7d31ccb6c8e07", null ],
+    [ "boidCount", "class_boid_controller.html#ac2ecdda71eda7b4ea6d20628f4b6bc35", null ],
+    [ "boidPool", "class_boid_controller.html#a2c8981ae0c476814e9acc43121329e38", null ],
+    [ "boids", "class_boid_controller.html#a887bd57749d55ea90aabd9904eb9fd85", null ],
+    [ "cohesionWeight", "class_boid_controller.html#ae9ec7849f938e36a683664fbdbc9e564", null ],
+    [ "followTarget", "class_boid_controller.html#aead717d42f020cdd1dfed673e23ede11", null ],
+    [ "forcefields", "class_boid_controller.html#a623fdc449fcc1ec63a5e441a1309cefe", null ],
+    [ "maxSpeed", "class_boid_controller.html#abec030bc6f540265bc013394141c672b", null ],
+    [ "noiseMultiplier", "class_boid_controller.html#a5259d85aaff48dbd2c1225679d203657", null ],
+    [ "separationDistance", "class_boid_controller.html#aa2f3b1645b87f08b11c0512c416be189", null ],
+    [ "separationWeight", "class_boid_controller.html#ac970fb56823a1881160b68fc352a4ad3", null ],
+    [ "spawnRadius", "class_boid_controller.html#abc0ed1bf1a033754daf7b35a0c736cc9", null ],
+    [ "targetPosition", "class_boid_controller.html#aadda32ffb1b20dd90490c3d2c0a8ac23", null ]
+];

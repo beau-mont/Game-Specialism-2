@@ -13,7 +13,7 @@
 //     public LayerMask hitLayers;
 //     public LayerMask excludeLayers;
 //     public GameObject owner;
-//     public List<BasicVFXPool> hitEffects;
+//     public List<PooledVFX> hitEffects;
 //     private Collider2D projectileCollider;
 //     private Rigidbody2D rb;
 

@@ -10,7 +10,5 @@ var searchData=
   ['_5flowthreshold_7',['_lowThreshold',['../class_sound_threshold.html#ae0156717dfe52c70d3fd93e4b4f11e49',1,'SoundThreshold']]],
   ['_5fprojectilepool_8',['_projectilePool',['../class_charged_projectile_ability.html#a7778252fb8d5ffa62e558d697af824e6',1,'ChargedProjectileAbility._projectilePool()'],['../class_projectile_ability.html#aaf987695b573ddf640a05c59299fb5b2',1,'ProjectileAbility._projectilePool()']]],
   ['_5fprojectileprefab_9',['_projectilePrefab',['../class_charged_projectile_ability.html#ae7d8a9b2cae90a6af1f5c4ae0977e726',1,'ChargedProjectileAbility._projectilePrefab()'],['../class_projectile_ability.html#a463aa32f65323a02c6c3371bd52bcbfd',1,'ProjectileAbility._projectilePrefab()']]],
-  ['_5ftargetlayers_10',['_TargetLayers',['../class_player_ability_user.html#a56a9ab4b6b9a39c179d9c4dceabd33cc',1,'PlayerAbilityUser']]],
-  ['_5fvfxpool_11',['_vfxPool',['../class_basic_v_f_x_pool.html#a2f6f92f48c9ebaf7e60f173953b5667d',1,'BasicVFXPool']]],
-  ['_5fvfxprefab_12',['_vfxPrefab',['../class_basic_v_f_x_pool.html#a531c6073b5c3c1f68c0270a65bdc0c8e',1,'BasicVFXPool']]]
+  ['_5ftargetlayers_10',['_TargetLayers',['../class_player_ability_user.html#a56a9ab4b6b9a39c179d9c4dceabd33cc',1,'PlayerAbilityUser']]]
 ];

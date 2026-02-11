@@ -17,7 +17,7 @@ public class ScaleVFX : VFXStrategy
     public override void Process(VFX_Data args)
     {
         if (Time.time < args.StartTime) return;
-        float mult = 1+ args.Multipliers.GlobalMultiplier + args.Multipliers.DamageMultiplier;
+        float mult = 1 + args.Multipliers.GlobalMultiplier + args.Multipliers.RadiusMultiplier;
         float scaleValue = ScaleCurve.Evaluate((Time.time - args.StartTime) / ScaleCurve.keys.Last().time) * mult;
         args.User.transform.localScale = args.Scale * scaleValue;
     }

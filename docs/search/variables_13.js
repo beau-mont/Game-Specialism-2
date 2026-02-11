@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['wavedata_425',['waveData',['../class_wave.html#adbb032fe7305b5a0c45c5ae8e88df247',1,'Wave']]],
-  ['wavefactory_426',['waveFactory',['../class_game_controller.html#a97a420b2ef8992f4e75601a3be8c7def',1,'GameController']]],
-  ['waveindex_427',['waveIndex',['../class_game_controller.html#a35dd6063d14fd7bcebb3dc1520435925',1,'GameController']]],
-  ['wavename_428',['WaveName',['../class_wave_data.html#ae8b23cf247eb67e37c9cfb41d5967104',1,'WaveData']]],
-  ['waves_429',['waves',['../class_game_controller.html#a9122c3cec87609c680192750ad504ca6',1,'GameController']]]
+  ['vfxdata_519',['VFXData',['../class_v_f_x___component.html#a9f0fa0818fe191d23f8cedf58a46e8bf',1,'VFX_Component']]],
+  ['vfxpool_520',['VFXPool',['../class_pooled_v_f_x.html#a02ad2207e6ee37d38ba964cfa26f7ee8',1,'PooledVFX']]],
+  ['vfxprefab_521',['VFXPrefab',['../class_pooled_v_f_x.html#abbb9ac771b5cec2fdd422d8076c5540e',1,'PooledVFX']]]
 ];

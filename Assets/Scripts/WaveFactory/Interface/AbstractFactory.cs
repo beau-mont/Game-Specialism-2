@@ -14,7 +14,7 @@ public abstract class IWaveFactory : ScriptableObject // abstract factory class
 /// The wave data container, these store only enemies and the name of the wave.
 /// determining what events should happen when a wave begins is done by a concrete factory.
 /// </summary>
-[CreateAssetMenu(fileName = "New Wave", menuName = "Enemy Wave"), System.Serializable]
+[CreateAssetMenu(fileName = "New Wave", menuName = "Wave/Enemy Wave"), System.Serializable]
 public class WaveData : ScriptableObject  // wave data container
 {
     public string WaveName;

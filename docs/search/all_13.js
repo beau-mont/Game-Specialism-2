@@ -1,10 +1,14 @@
 var searchData=
 [
-  ['vfx_5fcomponent_206',['VFX_Component',['../class_v_f_x___component.html',1,'']]],
-  ['vfx_5fcomponent_2ecs_207',['VFX_Component.cs',['../_v_f_x___component_8cs.html',1,'']]],
-  ['vfx_5fdata_208',['VFX_Data',['../class_v_f_x___data.html',1,'']]],
-  ['vfxdata_209',['VFXData',['../class_v_f_x___component.html#a9f0fa0818fe191d23f8cedf58a46e8bf',1,'VFX_Component']]],
-  ['vfxpool_210',['VFXPool',['../class_basic_v_f_x_pool.html#ae2a3dd75a31bdd111f09f242e0c181f1',1,'BasicVFXPool.VFXPool()'],['../class_i_pooled_v_f_x.html#ad9774ca25f0ec6298f6f0602a0439ee8',1,'IPooledVFX.VFXPool()'],['../class_pooled_v_f_x.html#af3fddf26c91cef3c871ae6fb313a95fb',1,'PooledVFX.VFXPool()']]],
-  ['vfxprefab_211',['VFXPrefab',['../class_basic_v_f_x_pool.html#afc78c07d4edfb774b7690bd6b3758913',1,'BasicVFXPool.VFXPrefab()'],['../class_i_pooled_v_f_x.html#a0a0acc8c82eb893b77c7a2dc3d02b379',1,'IPooledVFX.VFXPrefab()'],['../class_pooled_v_f_x.html#ab0bbefb11ea59a711c09a995559e9cda',1,'PooledVFX.VFXPrefab()']]],
-  ['vfxstrategy_212',['VFXStrategy',['../class_v_f_x_strategy.html',1,'']]]
+  ['update_243',['Update',['../class_v_f_x___component.html#a167dc01c0a95909a146fe8e47ef8e13c',1,'VFX_Component.Update()'],['../class_debug_ability_display.html#acc632c183807dbb384723fe8d6e2e791',1,'DebugAbilityDisplay.Update()'],['../class_ability_decorator.html#a93c3fb6cdb0d7765ab8668394fa52197',1,'AbilityDecorator.Update()'],['../class_boid_entity.html#a71494d8ad8d85a7df817e51e751101f9',1,'BoidEntity.Update()'],['../class_boid_forcefield.html#acdf1e3517e0adb761ae39972e6a246d9',1,'BoidForcefield.Update()'],['../class_game_controller.html#a5a89277529cadb49af7d55eba3bbf056',1,'GameController.Update()'],['../class_player_controller.html#ae8bc83dffb99867a04be016473ed2c43',1,'PlayerController.Update()']]],
+  ['upgrade_244',['Upgrade',['../class_upgrade.html',1,'']]],
+  ['upgradedescription_245',['UpgradeDescription',['../class_upgrade.html#a43c5f51f5689bdb58d4ac0902c6f2306',1,'Upgrade']]],
+  ['upgrademanager_246',['UpgradeManager',['../class_upgrade_manager.html',1,'']]],
+  ['upgrademanager_2ecs_247',['UpgradeManager.cs',['../_upgrade_manager_8cs.html',1,'']]],
+  ['upgradename_248',['UpgradeName',['../class_upgrade.html#a97fde7adce1c113f141048f8798235ff',1,'Upgrade']]],
+  ['upgrades_249',['Upgrades',['../class_upgrade_tree.html#aed672987caab5c10026563bdd2243094',1,'UpgradeTree']]],
+  ['upgradeso_2ecs_250',['UpgradeSO.cs',['../_upgrade_s_o_8cs.html',1,'']]],
+  ['upgradetoadd_251',['upgradeToAdd',['../class_simple_pickup.html#acb4cc80a8ceef2c67669b8aded5ebf3a',1,'SimplePickup']]],
+  ['upgradetree_252',['UpgradeTree',['../class_upgrade_tree.html',1,'']]],
+  ['user_253',['User',['../class_v_f_x___data.html#a5f305070a736dadccc599cfe3e6ce47e',1,'VFX_Data']]]
 ];

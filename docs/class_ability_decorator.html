@@ -109,16 +109,14 @@ Collaboration diagram for AbilityDecorator:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ability_decorator__coll__graph.png" border="0" usemap="#a_ability_decorator_coll__map" alt="Collaboration graph"/></div>
 <map name="a_ability_decorator_coll__map" id="a_ability_decorator_coll__map">
-<area shape="rect" title="AbilityDecorator combines functionality from a list of AbstractPayload&#39;s and an AbstractAbilityBehavi..." alt="" coords="365,927,624,1121"/>
-<area shape="rect" title=" " alt="" coords="33,728,157,805"/>
-<area shape="rect" href="class_abstract_payload.html" title="An abstract class defining a method for all payloads to use" alt="" coords="5,277,371,369"/>
-<area shape="rect" title=" " alt="" coords="319,5,449,83"/>
-<area shape="rect" href="class_i_pooled_v_f_x.html" title="VFX Scriptable object, use these because they create their own object pools. because they create thei..." alt="" coords="233,132,535,253"/>
-<area shape="rect" href="class_abstract_ability_behaviour.html" title="An abstract class defining a method for processing an abilities behaviour." alt="" coords="412,539,703,645"/>
-<area shape="rect" href="class_ability_behaviour_multipliers.html" title="Projectile modifier container, this is passed to projectiles so they can implement what they need...." alt="" coords="688,677,963,857"/>
-<area shape="rect" href="class_basic_v_f_x_pool.html" title="A basic visual effect, when called this will return a copy of the gameobject from its pool." alt="" coords="245,699,493,835"/>
-<area shape="rect" href="class_pooled_v_f_x.html" title="Defines a basic implementation of pooling for all other objects. Other VFX should inherit from &lt;VFX&gt; ..." alt="" coords="232,393,536,515"/>
-<area shape="rect" href="class_payload_multipliers.html" title="Payload modifier container, this is passed to payloads so they can implement what they need...." alt="" coords="987,669,1205,864"/>
+<area shape="rect" title="AbilityDecorator combines functionality from a list of AbstractPayload&#39;s and an AbstractAbilityBehavi..." alt="" coords="679,389,938,584"/>
+<area shape="rect" title=" " alt="" coords="5,191,129,268"/>
+<area shape="rect" href="class_abstract_payload.html" title="An abstract class defining a method for all payloads to use" alt="" coords="154,183,519,275"/>
+<area shape="rect" title=" " alt="" coords="600,5,729,83"/>
+<area shape="rect" href="class_pooled_v_f_x.html" title="Defines a basic implementation of pooling for all other objects." alt="" coords="544,176,785,283"/>
+<area shape="rect" href="class_abstract_ability_behaviour.html" title="An abstract class defining a method for processing an abilities behaviour." alt="" coords="810,176,1101,283"/>
+<area shape="rect" href="class_ability_behaviour_multipliers.html" title="Projectile modifier container, this is passed to projectiles so they can implement what they need...." alt="" coords="1125,139,1399,319"/>
+<area shape="rect" href="class_payload_multipliers.html" title="Payload modifier container, this is passed to payloads so they can implement what they need...." alt="" coords="1424,132,1641,327"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -150,8 +148,8 @@ Private Member Functions</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:aca8696f6c99a9726f83d86eb9e163623"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ability_decorator.html#aca8696f6c99a9726f83d86eb9e163623">projectileName</a></td></tr>
 <tr class="separator:aca8696f6c99a9726f83d86eb9e163623"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a326f9c9b551374796d3320534fc2bf7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_basic_v_f_x_pool.html">BasicVFXPool</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ability_decorator.html#a326f9c9b551374796d3320534fc2bf7d">hitEffects</a></td></tr>
-<tr class="separator:a326f9c9b551374796d3320534fc2bf7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e3bd03fb343732146704bea3563d797"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pooled_v_f_x.html">PooledVFX</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ability_decorator.html#a8e3bd03fb343732146704bea3563d797">hitEffects</a></td></tr>
+<tr class="separator:a8e3bd03fb343732146704bea3563d797"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e9dbff3c63c4836c45035566c25f5e0"><td class="memItemLeft" align="right" valign="top">Rigidbody2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ability_decorator.html#a4e9dbff3c63c4836c45035566c25f5e0">rb</a></td></tr>
 <tr class="separator:a4e9dbff3c63c4836c45035566c25f5e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2f735116302f49c97e004a734a766c4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ability_decorator.html#af2f735116302f49c97e004a734a766c4">lifetime</a> = 1f</td></tr>
@@ -171,6 +169,7 @@ Private Attributes</h2></td></tr>
     <tr><td class="paramname"><a class="el" href="class_ability_behaviour_multipliers.html" title="Projectile modifier container, this is passed to projectiles so they can implement what they need....">AbilityBehaviourMultipliers</a></td><td>a data container that stores multipliers to modify <a class="el" href="class_abstract_ability_behaviour.html" title="An abstract class defining a method for processing an abilities behaviour.">AbstractAbilityBehaviour</a>'s behaviour.</td></tr>
     <tr><td class="paramname">owner</td><td>the GameObject that fired the ability.</td></tr>
     <tr><td class="paramname">rb</td><td>the rigidbody attached to the ability</td></tr>
+    <tr><td class="paramname">lifetime</td><td>the lifetime of the ability object, the ability object will disable itself after this amount of time has passed. set to zero for unlimited lifetime.</td></tr>
   </table>
   </dd>
 </dl>
@@ -323,8 +322,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a326f9c9b551374796d3320534fc2bf7d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a326f9c9b551374796d3320534fc2bf7d">&#9670;&nbsp;</a></span>hitEffects</h2>
+<a id="a8e3bd03fb343732146704bea3563d797"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e3bd03fb343732146704bea3563d797">&#9670;&nbsp;</a></span>hitEffects</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -333,7 +332,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_basic_v_f_x_pool.html">BasicVFXPool</a> [] AbilityDecorator.hitEffects</td>
+          <td class="memname"><a class="el" href="class_pooled_v_f_x.html">PooledVFX</a> [] AbilityDecorator.hitEffects</td>
         </tr>
       </table>
   </td>
@@ -484,7 +483,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_ability_decorator.html">AbilityDecorator</a></li>
-    <li class="footer">Generated on Tue Feb 10 2026 18:05:54 for Game Specialism 2 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Wed Feb 11 2026 17:28:39 for Game Specialism 2 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

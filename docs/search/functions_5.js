@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['getfactory_306',['GetFactory',['../class_factory_controller.html#a0788f2b803310a08ae77b775d9d929ad',1,'FactoryController']]],
-  ['getpooledobject_307',['GetPooledObject',['../class_abstract_ability.html#a3a929b05e7f37c77cbbfb7ef85380fbf',1,'AbstractAbility.GetPooledObject()'],['../class_i_pooled_v_f_x.html#a056dcf209c5ade760ceb54984bb84fbb',1,'IPooledVFX.GetPooledObject()'],['../class_pooled_v_f_x.html#ad9a8811aa956bfccb1bdc1cd4ba88618',1,'PooledVFX.GetPooledObject()']]]
+  ['fixedupdate_372',['FixedUpdate',['../class_boid_controller.html#ad420e45a792467e0e409e2883673a7e7',1,'BoidController']]]
 ];

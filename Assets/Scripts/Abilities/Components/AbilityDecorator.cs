@@ -13,13 +13,14 @@ using UnityEngine;
 /// <param name="AbilityBehaviourMultipliers">a data container that stores multipliers to modify AbstractAbilityBehaviour's behaviour.</param>
 /// <param name="owner">the GameObject that fired the ability.</param>
 /// <param name="rb">the rigidbody attached to the ability</param>
+/// <param name="lifetime">the lifetime of the ability object, the ability object will disable itself after this amount of time has passed. set to zero for unlimited lifetime.</param>
 public class AbilityDecorator : MonoBehaviour // GRAAAAAAAH I FUCKING LOVE DOCUMENTATION
 {
     [Header("Properties")]
     [SerializeField] private string projectileName;
     public AbstractPayload[] payloads;
     public AbstractAbilityBehaviour abilityBehaviour;
-    [SerializeField] private BasicVFXPool[] hitEffects;
+    [SerializeField] private PooledVFX[] hitEffects;
     [Header("Modifiers")]
     public PayloadMultipliers payloadMultipliers;
     public AbilityBehaviourMultipliers abilityBehaviourMultipliers;
@@ -36,8 +37,9 @@ public class AbilityDecorator : MonoBehaviour // GRAAAAAAAH I FUCKING LOVE DOCUM
 
     void Update()
     {
-        abilityBehaviour.Process(gameObject, rb, abilityBehaviourMultipliers);
-        if (Time.time > spawnTime + lifetime) gameObject.SetActive(false);
+        if (abilityBehaviour)
+            abilityBehaviour.Process(gameObject, rb, abilityBehaviourMultipliers);
+        if (lifetime != 0 && Time.time > spawnTime + lifetime) gameObject.SetActive(false);
     }
 
     void OnDisable()

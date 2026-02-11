@@ -27,6 +27,11 @@ public interface IDamageable
     void Kill();
 }
 
+public static class DamageableList
+{
+    public static List<GameObject> objects = new();
+}
+
 /// <summary>
 /// An interface for damage threshold effects.
 /// the purpose of this is to allow methods to be called when certain HP thresholds are met.

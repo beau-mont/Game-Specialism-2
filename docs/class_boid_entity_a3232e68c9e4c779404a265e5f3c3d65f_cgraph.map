@@ -1,0 +1,4 @@
+<map id="BoidEntity.ModifyHealth" name="BoidEntity.ModifyHealth">
+<area shape="rect" id="node1" title="Removes value from currentHealth." alt="" coords="5,5,184,32"/>
+<area shape="rect" id="node2" href="$class_boid_entity.html#adf74d863673364777f5a7846bedb3a0f" title="Kills the object." alt="" coords="232,5,344,32"/>
+</map>
