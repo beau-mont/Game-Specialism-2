@@ -10,6 +10,7 @@ var class_projectile_ability =
     [ "_projectilePool", "class_projectile_ability.html#aaf987695b573ddf640a05c59299fb5b2", null ],
     [ "_projectilePrefab", "class_projectile_ability.html#a463aa32f65323a02c6c3371bd52bcbfd", null ],
     [ "fireVFX", "class_projectile_ability.html#aafe6fe3ec50b73f95cb7447173c41c2d", null ],
+    [ "spread", "class_projectile_ability.html#ae451721cacd2688836e76c0b209bc742", null ],
     [ "AbilityName", "class_projectile_ability.html#a77729cfb2778a0104c429750bb8ba839", null ],
     [ "CooldownDuration", "class_projectile_ability.html#af2066ab6626a24916b571d089a1fa101", null ],
     [ "IsSingleUse", "class_projectile_ability.html#a307587050f8d25e353abea48e2b64681", null ],

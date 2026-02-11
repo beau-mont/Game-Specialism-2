@@ -73,6 +73,7 @@ public class ChargedProjectileAbility : AbstractAbility
         projectile.transform.localScale = Vector3.one * (1f + math.lerp(0f, maxScaleMult, chargeMult));
         if (projectile.TryGetComponent<AbilityDecorator>(out var abilityDecorator))
         {
+            abilityDecorator.owner = user;
             abilityDecorator.payloadMultipliers = payloadMult;
             abilityDecorator.abilityBehaviourMultipliers = projectileMult;
         }        

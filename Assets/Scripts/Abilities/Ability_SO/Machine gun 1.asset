@@ -17,3 +17,4 @@ MonoBehaviour:
   _cooldownDuration: 0.1
   _projectilePrefab: {fileID: 3955307233564228219, guid: c3a01e70ac931823a9b477ec82c71594, type: 3}
   fireVFX: []
+  spread: 5

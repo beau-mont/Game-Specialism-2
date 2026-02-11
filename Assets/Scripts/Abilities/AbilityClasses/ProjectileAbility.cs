@@ -6,7 +6,7 @@ using System.ComponentModel;
 /// A container for a generic full auto projectile ability
 /// </summary>
 [CreateAssetMenu(fileName = "ProjectileAbility", menuName = "Abilities/ProjectileAbility")]
-public class ProjectileAbility : AbstractAbility 
+public class ProjectileAbility : AbstractAbility
 {
     [Header("Inherited Variables")]
     [SerializeField] private string _abilityName;
@@ -22,6 +22,7 @@ public class ProjectileAbility : AbstractAbility
     protected override List<GameObject> ProjectilePool { get => _projectilePool; set => _projectilePool = value; }
     [Header("Custom Variables")]
     public List<PooledVFX> fireVFX;
+    public float spread;
 
     public override void ActivateAbility(GameObject user, AbilityMultipliers abilityMultipliers, AbilityContainer abilityContainer)
     {
@@ -33,33 +34,39 @@ public class ProjectileAbility : AbstractAbility
     }
     public override void DeactivateAbility(GameObject user, AbilityMultipliers abilityMultipliers, AbilityContainer abilityContainer)
     {
-        
+
     }
 
     private void TryFire(GameObject user, AbilityMultipliers abilityMultipliers, AbilityContainer abilityContainer)
     {
-        GameObject projectile = GetPooledObject();
-        projectile.transform.SetPositionAndRotation(user.transform.position + (user.transform.up * 0.5f), user.transform.rotation);
-        if (projectile.TryGetComponent<AbilityDecorator>(out var abilityDecorator))
+        for (int i = 0; i < 1 + abilityMultipliers.BonusProjectiles; i++)
         {
-            abilityDecorator.payloadMultipliers = abilityMultipliers.PayloadMultipliers;
-            abilityDecorator.abilityBehaviourMultipliers = abilityMultipliers.AbilityBehaviourMultipliers;
-        }        
-        if (projectile.TryGetComponent<Collider2D>(out var collider2D))
-        {
-            collider2D.includeLayers = abilityContainer.IncludeLayers;
-            collider2D.excludeLayers = abilityContainer.ExcludeLayers;
+            GameObject projectile = GetPooledObject();
+            float spreadMult = 1 + abilityMultipliers.GlobalMultiplier + abilityMultipliers.AccuracyMultiplier;
+            projectile.transform.SetPositionAndRotation(user.transform.position + (user.transform.up * 0.5f), user.transform.rotation);
+            projectile.transform.Rotate(user.transform.forward, Random.Range(-spread, spread) * (1 + abilityMultipliers.BonusProjectiles) / spreadMult); // for every bonus projectile, increase spread by 5 degrees
+            if (projectile.TryGetComponent<AbilityDecorator>(out var abilityDecorator))
+            {
+                abilityDecorator.owner = user;
+                abilityDecorator.payloadMultipliers = abilityMultipliers.PayloadMultipliers;
+                abilityDecorator.abilityBehaviourMultipliers = abilityMultipliers.AbilityBehaviourMultipliers;
+            }
+            if (projectile.TryGetComponent<Collider2D>(out var collider2D))
+            {
+                collider2D.includeLayers = abilityContainer.IncludeLayers;
+                collider2D.excludeLayers = abilityContainer.ExcludeLayers;
+            }
+
+            foreach (var vfx in fireVFX) // spawn fire vfx
+            {
+                GameObject temp = vfx.GetPooledObject();
+                temp.transform.SetPositionAndRotation(user.transform.position, user.transform.rotation);
+                if (temp.TryGetComponent<VFX_Component>(out var comp))
+                    comp.multipliers = abilityMultipliers.PayloadMultipliers;
+                temp.SetActive(true);
+            }
+            abilityContainer.LastFired = Time.time;
+            projectile.SetActive(true);
         }
-        
-        foreach(var vfx in fireVFX) // spawn fire vfx
-        {
-            GameObject temp = vfx.GetPooledObject();
-            temp.transform.SetPositionAndRotation(user.transform.position, user.transform.rotation);
-            if (temp.TryGetComponent<VFX_Component>(out var comp))
-                comp.multipliers = abilityMultipliers.PayloadMultipliers;
-            temp.SetActive(true);
-        }
-        abilityContainer.LastFired = Time.time;
-        projectile.SetActive(true);
     }
 }
