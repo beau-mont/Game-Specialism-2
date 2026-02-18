@@ -15,7 +15,7 @@ public class ConcreteBossFactory : IWaveFactory // specialized factory for boss 
         List<GameObject> spawnedEnemies = new List<GameObject>();
         foreach (var spawn in waveData.enemySpawns)
         {
-            spawnedEnemies.Add(GameObject.Instantiate(spawn.EnemyPrefab, spawn.SpawnLocation + Vector3.up, spawn.SpawnRotation));
+            spawnedEnemies.Add(GameObject.Instantiate(spawn.EnemyPrefab, spawn.SpawnLocation, spawn.SpawnRotation));
         }
         // Additional logic for boss waves will be added here
         return spawnedEnemies;

@@ -25,7 +25,7 @@ public class BoidEntity : MonoBehaviour, IDamageable
         Vector2 diff = rb.linearVelocity.normalized;
         float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0f, 0f, rot_z - 90);
-        neighbors.RemoveAll(a=> a == null);
+        neighbors.RemoveAll(a => a == null || !a.isActiveAndEnabled);
     }
 
     void OnTriggerEnter2D(Collider2D collision)
