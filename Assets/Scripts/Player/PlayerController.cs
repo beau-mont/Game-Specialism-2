@@ -27,12 +27,20 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
     private Rigidbody2D rb;
     InputAction moveAction;
     InputAction attackAction;
+    InputAction switchAction;
+    InputAction parryAction;
+    InputAction specialAction;
+    InputAction pauseAction;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         moveAction = InputSystem.actions.FindAction("Move");
         attackAction = InputSystem.actions.FindAction("Attack");
+        switchAction = InputSystem.actions.FindAction("Switch");
+        parryAction = InputSystem.actions.FindAction("Parry");
+        specialAction = InputSystem.actions.FindAction("Special");
+        pauseAction = InputSystem.actions.FindAction("Pause");
     }
 
     void OnEnable()
@@ -76,25 +84,26 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
     }
 
     void ProcessAbilities()
-    {
+    { 
         if (!playerData || playerData.PlayerAbilityUser == null) return; // if we cant use abilities then just forget aboot it
         
-        if (Input.GetKeyDown(KeyCode.Mouse1))// TODO: Replace with a proper controller
+        if (switchAction.WasPressedThisFrame())// TODO: Replace with a proper controller
         {
+            if (attackAction.IsPressed()) playerData.PlayerAbilityUser.DeactivateAbility();
             playerData.PlayerAbilityUser.CycleAbility();
-            if (Input.GetKey(KeyCode.Space)) playerData.PlayerAbilityUser.ActivateAbility();
+            if (attackAction.IsPressed()) playerData.PlayerAbilityUser.ActivateAbility();
         } 
 
         // TODO: Replace all of this with a proper controller and move ability usage to the PlayerAbilityUser
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (attackAction.WasPressedThisFrame())
         {
             playerData.PlayerAbilityUser.ActivateAbility();
         }
-        if (Input.GetKey(KeyCode.Space))
+        else if (attackAction.IsPressed())
         {
             playerData.PlayerAbilityUser.HoldAbility();
         }
-        if (Input.GetKeyUp(KeyCode.Space))
+        else if (attackAction.WasReleasedThisFrame())
         {
             playerData.PlayerAbilityUser.DeactivateAbility();
         }
@@ -124,6 +133,7 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
         Debug.Log($"{gameObject.name} has died");
         foreach (var vfx in deathVFX)
         {
+            if (vfx == null) continue;
             GameObject temp = vfx.GetPooledObject();
             temp.transform.SetPositionAndRotation(transform.position, transform.rotation);
         }

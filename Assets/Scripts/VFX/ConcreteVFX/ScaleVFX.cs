@@ -5,25 +5,34 @@ using UnityEngine;
 /// <summary>
 /// A VFXStrategy to scale an object along an animation curve.
 /// </summary>
-[CreateAssetMenu(fileName = "ScaleConfig", menuName = "VFX/Scale")]
 public class ScaleVFX : VFXStrategy
 {
-    public AnimationCurve ScaleCurve;
-    public override void Begin(VFX_Data args)
+    private PayloadMultipliers _multipliers = new();
+    public override PayloadMultipliers Multipliers { get => _multipliers; set => _multipliers = value; }
+    public AnimationCurve xScaleCurve;
+    public AnimationCurve yScaleCurve;
+    public AnimationCurve zScaleCurve;
+    private Vector3 startScale;
+    private float startTime;
+    void OnEnable()
     {
-        args.User.transform.localScale = args.Scale;
+        startTime = Time.time;
+        startScale = transform.localScale;
     }
 
-    public override void Process(VFX_Data args)
+    void Update()
     {
-        if (Time.time < args.StartTime) return;
-        float mult = 1 + args.Multipliers.GlobalMultiplier + args.Multipliers.RadiusMultiplier;
-        float scaleValue = ScaleCurve.Evaluate((Time.time - args.StartTime) / ScaleCurve.keys.Last().time) * mult;
-        args.User.transform.localScale = args.Scale * scaleValue;
+        //if (Time.time < startTime) return;
+        float mult = 1 + Multipliers.GlobalMultiplier + Multipliers.RadiusMultiplier;
+        float xScaleValue = startScale.x * (xScaleCurve.Evaluate((Time.time - startTime) / xScaleCurve.keys.Last().time) * mult);
+        float yScaleValue = startScale.y * (yScaleCurve.Evaluate((Time.time - startTime) / yScaleCurve.keys.Last().time) * mult);
+        float zScaleValue = startScale.z * (zScaleCurve.Evaluate((Time.time - startTime) / zScaleCurve.keys.Last().time) * mult);
+        Debug.Log($"Time: {(Time.time - startTime) / zScaleCurve.keys.Last().time}. Scale: {new Vector3(xScaleValue, yScaleValue, zScaleValue)}.");
+        transform.localScale = new Vector3(xScaleValue, yScaleValue, zScaleValue);
     }
 
-    public override void End(VFX_Data args)
+    void OnDisable()
     {
-        args.User.transform.localScale = args.Scale;
+        transform.localScale = startScale;
     }
 }

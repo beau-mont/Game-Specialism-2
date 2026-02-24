@@ -7,6 +7,7 @@ using UnityEngine;
 /// </summary>
 /// <param name="projectileName">the name of this projectile, only used for debugging.</param>
 /// <param name="payloads">an array of ScriptableObject's that inherit AbstractPayload, they describe what to do when hitting something.</param>
+/// <param name="damage">the base damage of this ability</param>
 /// <param name="abilityBehaviour">a ScriptableObject's that inherits AbstractAbilityBehaviour, this is used to describe how the ability moves.</param>
 /// <param name="hitEffects">an array of VFX to spawn when the ability hits something.</param>
 /// <param name="payloadMultipliers">a data container that stores multipliers to modify AbstractPayload's behaviour.</param>
@@ -18,9 +19,9 @@ public class AbilityDecorator : MonoBehaviour // GRAAAAAAAH I FUCKING LOVE DOCUM
 {
     [Header("Properties")]
     [SerializeField] private string projectileName;
-    public AbstractPayload[] payloads;
-    public AbstractAbilityBehaviour abilityBehaviour;
-    [SerializeField] private PooledVFX[] hitEffects;
+    [SerializeField] private AbstractPayload[] payloads;
+    [SerializeField] private AbstractAbilityBehaviour abilityBehaviour;
+    [SerializeField] private PooledVFX[] hitVFX;
     [Header("Modifiers")]
     public PayloadMultipliers payloadMultipliers;
     public AbilityBehaviourMultipliers abilityBehaviourMultipliers;
@@ -33,6 +34,11 @@ public class AbilityDecorator : MonoBehaviour // GRAAAAAAAH I FUCKING LOVE DOCUM
     void OnEnable()
     {
         spawnTime = Time.time;
+        if (!rb) rb = GetComponent<Rigidbody2D>();
+        if (TryGetComponent<VFXComponent>(out var vfx))
+        {
+            vfx.multipliers = payloadMultipliers;
+        }
     }
 
     void Update()
@@ -49,20 +55,17 @@ public class AbilityDecorator : MonoBehaviour // GRAAAAAAAH I FUCKING LOVE DOCUM
 
     void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.layer != LayerMask.NameToLayer("Projectile"))
+        foreach (AbstractPayload payload in payloads)
         {
-            foreach (AbstractPayload payload in payloads)
-            {
-                payload.HitEffect(gameObject, other.gameObject, payloadMultipliers);
-            }
-            foreach (var effect in hitEffects)
-            {
-                GameObject tempEffect = effect.GetPooledObject();
-                tempEffect.GetComponent<VFX_Component>().multipliers = payloadMultipliers;
-                tempEffect.transform.SetPositionAndRotation(transform.position, transform.rotation);
-                tempEffect.SetActive(true);
-            }
-            gameObject.SetActive(false); // deactivate projectile on hit
-        }            
+            payload.HitEffect(gameObject, other.gameObject, payloadMultipliers);
+        }
+        foreach (var effect in hitVFX)
+        {
+            GameObject tempEffect = effect.GetPooledObject();
+            tempEffect.GetComponent<VFXComponent>().multipliers = payloadMultipliers;
+            tempEffect.transform.SetPositionAndRotation(transform.position, transform.rotation);
+            tempEffect.SetActive(true);
+        }
+        gameObject.SetActive(false); // deactivate projectile on hit
     }
 }

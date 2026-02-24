@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 309c8b9849d59bd4a9fa813aba8de7a4, type: 3}
+  m_Name: Coachgun Scatter
+  m_EditorClassIdentifier: 
+  _abilityName: Coachgun Scatter
+  _isSingleUse: 0
+  _cooldownDuration: 0.5
+  _projectilePrefab: {fileID: 5026910479251447630, guid: b91d864005838074e9857c40269ac85c, type: 3}
+  fireVFX: []
+  pelletCount: 6
+  spreadPerPellet: 2.5
