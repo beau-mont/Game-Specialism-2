@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.InputSystem;
 
 /// <summary>
@@ -31,6 +32,10 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
     InputAction parryAction;
     InputAction specialAction;
     InputAction pauseAction;
+    public UnityAction<HitProcArgs> OnHit;
+    public UnityAction OnDamage;
+    public UnityAction OnParry;
+    public UnityAction OnDeath;
 
     void Start()
     {
