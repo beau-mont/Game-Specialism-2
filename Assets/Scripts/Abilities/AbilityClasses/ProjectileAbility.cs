@@ -56,17 +56,18 @@ public class ProjectileAbility : AbstractAbility
                 collider2D.includeLayers = abilityContainer.IncludeLayers;
                 collider2D.excludeLayers = abilityContainer.ExcludeLayers;
             }
-
-            foreach (var vfx in fireVFX) // spawn fire vfx
-            {
-                GameObject temp = vfx.GetPooledObject();
-                temp.transform.SetPositionAndRotation(user.transform.position, user.transform.rotation);
-                if (temp.TryGetComponent<VFX_Component>(out var comp))
-                    comp.multipliers = abilityMultipliers.PayloadMultipliers;
-                temp.SetActive(true);
-            }
+         
             abilityContainer.LastFired = Time.time;
             projectile.SetActive(true);
+        }
+
+        foreach (var vfx in fireVFX) // spawn fire vfx
+        {
+            GameObject temp = vfx.GetPooledObject();
+            temp.transform.SetPositionAndRotation(user.transform.position, user.transform.rotation);
+            if (temp.TryGetComponent<VFXComponent>(out var comp))
+                comp.multipliers = abilityMultipliers.PayloadMultipliers;
+            temp.SetActive(true);
         }
     }
 }

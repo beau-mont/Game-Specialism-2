@@ -6,26 +6,28 @@ using UnityEngine.UIElements;
 /// <summary>
 /// A concrete implementation of a VFXStrategy, disables the entity after a set delay.
 /// </summary>
-[CreateAssetMenu(fileName = "DisableAfterDelayConfig", menuName = "VFX/DisableAfterDelay")]
 public class DisableAfterDelayVFX : VFXStrategy
 {
+    private PayloadMultipliers _multipliers = new();
+    public override PayloadMultipliers Multipliers { get => _multipliers; set => _multipliers = value; }
     public float Delay;
-    public override void Begin(VFX_Data args)
+    private float startTime;
+    private void OnEnable()
     {
-        
+        startTime = Time.time;
     }
 
-    public override void Process(VFX_Data args)
+    void Update()
     {
-        if (Time.time < args.StartTime) return;
-        if (Time.time > args.StartTime + Delay)
+        if (Time.time < startTime) return;
+        if (Time.time > startTime + Delay)
         {
             // Debug.Log($"VFX Disabling {args.User.name}");
-            args.User.SetActive(false);
+            gameObject.SetActive(false);
         }
     }
 
-    public override void End(VFX_Data args)
+    void OnDisable()
     {
         
     }

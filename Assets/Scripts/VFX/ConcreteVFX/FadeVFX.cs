@@ -9,39 +9,35 @@ using UnityEngine.Rendering.Universal;
 /// <summary>
 /// A VFXStrategy for fading out a spriteRenderer along an animation curve.
 /// </summary>
-[CreateAssetMenu(fileName = "FadeConfig", menuName = "VFX/Fade")]
 public class FadeVFX : VFXStrategy
 {
-    public AnimationCurve fadeCurve;
+    private PayloadMultipliers _multipliers = new();
+    public override PayloadMultipliers Multipliers { get => _multipliers; set => _multipliers = value; }
+    public float fadeTime;
     public Gradient gradient;
-    public override void Begin(VFX_Data args)
+    public SpriteRenderer sr;
+    private Color startColor;
+    private float startTime;
+    void OnEnable()
     {
-        if (!args.sr)
-        {
-            Debug.LogError($"no sprite renderer detected on {args.User.name}");
-            return;
-        }
+        if (!sr) sr = GetComponent<SpriteRenderer>();
+        startTime = Time.time;
+        startColor = sr.color;
     }
 
-    public override void Process(VFX_Data args)
+    void Update()
     {
-        if (!args.sr)
+        if (!sr)
         {
-            Debug.LogError($"no sprite renderer detected on {args.User.name}");
+            Debug.LogError($"no sprite renderer detected on {gameObject.name}");
             return;
         }
-        if (Time.time < args.StartTime) return;
-        float fadeValue = fadeCurve.Evaluate((Time.time - args.StartTime) / fadeCurve.keys.Last().time);
-        args.sr.color = gradient.Evaluate(fadeValue);
-        //Debug.Log($"Start time: {args.StartTime}. End time: {args.StartTime + fadeCurve.keys.Last().time}. Current time: {Time.time}. Percent complete: {(Time.time - args.StartTime) / fadeCurve.keys.Last().time * 100}% Fade curve: {fadeCurve}.");
+        if (Time.time < startTime) return;
+        sr.color = gradient.Evaluate((Time.time - startTime) / fadeTime);
     }
 
-    public override void End(VFX_Data args)
+    void OnDisable()
     {
-        if (!args.sr)
-        {
-            Debug.LogError($"no sprite renderer detected on {args.User.name}");
-            return;
-        }
+        sr.color = startColor;
     }
 }

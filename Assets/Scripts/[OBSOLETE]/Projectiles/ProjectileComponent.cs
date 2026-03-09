@@ -64,7 +64,7 @@
 //             foreach (var effect in hitEffects)
 //             {
 //                 GameObject tempEffect = effect.GetPooledObject();
-//                 //tempEffect.GetComponent<VFX_Component>().modifier = (speed + Damage) / 10f;
+//                 //tempEffect.GetComponent<VFXComponent>().modifier = (speed + Damage) / 10f;
 //                 tempEffect.transform.SetPositionAndRotation(transform.position, transform.rotation);
 //                 tempEffect.SetActive(true);
 //             }

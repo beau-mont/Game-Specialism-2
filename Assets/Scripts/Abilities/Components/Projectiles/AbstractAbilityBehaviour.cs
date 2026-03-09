@@ -3,7 +3,7 @@ using UnityEngine;
 /// <summary>
 /// An abstract class defining a method for processing an abilities behaviour.
 /// </summary>
-public abstract class AbstractAbilityBehaviour : ScriptableObject
+public abstract class AbstractAbilityBehaviour : MonoBehaviour
 {
     public abstract void Process(GameObject ability, Rigidbody2D rb, AbilityBehaviourMultipliers mod);
 }

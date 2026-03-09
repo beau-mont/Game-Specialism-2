@@ -38,7 +38,7 @@ public class ChargedProjectileAbility : AbstractAbility
         {
             GameObject temp = vfx.GetPooledObject();
             temp.transform.SetPositionAndRotation(user.transform.position, user.transform.rotation);
-            if (temp.TryGetComponent<VFX_Component>(out var comp))
+            if (temp.TryGetComponent<VFXComponent>(out var comp))
                 comp.multipliers = abilityMultipliers.PayloadMultipliers;
             temp.SetActive(true);
         }
@@ -87,7 +87,7 @@ public class ChargedProjectileAbility : AbstractAbility
         {
             GameObject temp = vfx.GetPooledObject();
             temp.transform.SetPositionAndRotation(user.transform.position, user.transform.rotation);
-            if (temp.TryGetComponent<VFX_Component>(out var comp))
+            if (temp.TryGetComponent<VFXComponent>(out var comp))
                 comp.multipliers = abilityMultipliers.PayloadMultipliers;
             temp.SetActive(true);
         }
