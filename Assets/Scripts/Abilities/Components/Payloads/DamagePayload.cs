@@ -12,7 +12,7 @@ public class DamagePayload : AbstractPayload
         if (target.TryGetComponent<IDamageable>(out var damageable))
         {
             damageable.ModifyHealth(damage * mult);
-            Debug.Log($"dealt {damage * mult} damage");
+            //Debug.Log($"dealt {damage * mult} damage");
         }
     }
 }

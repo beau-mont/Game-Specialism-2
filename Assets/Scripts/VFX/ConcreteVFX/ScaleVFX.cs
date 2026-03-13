@@ -27,7 +27,7 @@ public class ScaleVFX : VFXStrategy
         float xScaleValue = startScale.x * (xScaleCurve.Evaluate(Time.time - startTime) * mult);
         float yScaleValue = startScale.y * (yScaleCurve.Evaluate(Time.time - startTime) * mult);
         float zScaleValue = startScale.z * (zScaleCurve.Evaluate(Time.time - startTime) * mult);
-        Debug.Log($"Time: {(Time.time - startTime) / zScaleCurve.keys.Last().time}. Scale: {new Vector3(xScaleValue, yScaleValue, zScaleValue)}. mult: {mult}.");
+        //Debug.Log($"Time: {(Time.time - startTime) / zScaleCurve.keys.Last().time}. Scale: {new Vector3(xScaleValue, yScaleValue, zScaleValue)}. mult: {mult}.");
         transform.localScale = new Vector3(xScaleValue, yScaleValue, zScaleValue);
     }
 

@@ -23,6 +23,10 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
     public List<DamageThreshold> DamageThresholds { get => _damageThresholds; set => _damageThresholds = value; }
     [Header("Settings")]
     public float baseMoveSpeed;
+    public float maxX;
+    public float maxY;
+    public float minX;
+    public float minY;
     [Header("VFX")]
     [SerializeField] private List<PooledVFX> deathVFX;
     private Rigidbody2D rb;
@@ -32,10 +36,12 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
     InputAction parryAction;
     InputAction specialAction;
     InputAction pauseAction;
-    public UnityAction<HitProcArgs> OnHit;
     public UnityAction OnDamage;
-    public UnityAction OnParry;
-    public UnityAction OnDeath;
+    public UnityAction<bool> OnParry; // bool is true if parry was successful, false if it missed.
+    public UnityAction OnKillSpecial;
+    public UnityAction OnParrySpecial;
+    public UnityAction OnQuickStep;
+    public UnityAction OnKill;
 
     void Start()
     {
@@ -86,6 +92,10 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
         {
             Debug.LogWarning($"No rigidbody on player");
         }
+        if (transform.position.x > maxX) transform.position = new Vector3(maxX, transform.position.y, transform.position.z);
+        if (transform.position.x < minX) transform.position = new Vector3(minX, transform.position.y, transform.position.z);
+        if (transform.position.y > maxY) transform.position = new Vector3(transform.position.x, maxY, transform.position.z);
+        if (transform.position.y < minY) transform.position = new Vector3(transform.position.x, minY, transform.position.z);
     }
 
     void ProcessAbilities()

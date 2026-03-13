@@ -8,6 +8,7 @@ public class BoidEntity : MonoBehaviour, IDamageable
     public BoidController boidSystem;
     [SerializeField] private float maxHealthMod;
     [SerializeField] private float maxHealth;
+    [SerializeField] private PooledVFX[] deathVFX;
     public float health;
     public List<BoidEntity> neighbors;
 
@@ -63,6 +64,12 @@ public class BoidEntity : MonoBehaviour, IDamageable
 
     public void Kill()
     {
+        foreach (var effect in deathVFX)
+        {
+            GameObject tempEffect = effect.GetPooledObject();
+            tempEffect.transform.SetPositionAndRotation(transform.position, transform.rotation);
+            tempEffect.SetActive(true);
+        }
         gameObject.SetActive(false);
     }
 

@@ -6,44 +6,51 @@ using UnityEngine;
 /// </summary>
 public class GameController : MonoBehaviour
 {
-    IWaveFactory waveFactory;
-    [SerializeField]
-    public List<Wave> waves;
+    [SerializeField] public List<Wave> waves;
+    private List<GameObject> activeEnemies = new();
     public int waveIndex = 0; // temporary variable to control what wave to spawn, later will be controlled by game logic
     public PlayerData playerData;
 
     // Update is called once per frame
     void Update()
     {
-        // #if UNITY_EDITOR
-        // if (Input.GetKeyDown(KeyCode.Space)) // press space to spawn next wave (DEBUG)
-        // {
-        //     if (waveIndex >= waves.Count) waveIndex = 0; // loop back to first wave
-        //     SpawnWave(waves[waveIndex].waveData, waves[waveIndex].factoryType);
-        //     waveIndex++;
-        //     GameObject proj = ProjectilePool.Instance.GetPooledObject(); // test object pooling
-        //     proj.transform.position = Vector3.zero;
-        //     proj.SetActive(true);
-        // }
-        // #endif
+        if (Input.GetKeyDown(KeyCode.Space)) // temporary input to spawn waves, later will be controlled by game logic
+        {
+            if (waveIndex < waves.Count)
+            {
+                SpawnWave(waves[waveIndex]);
+                waveIndex++;
+            }
+            else
+            {
+                Debug.Log("No more waves to spawn.");
+            }
+        }
+        
+        activeEnemies.RemoveAll(a => a == null || !a.activeInHierarchy); 
+        if (activeEnemies.Count == 0 && waveIndex < waves.Count) // temporary win condition, later will be controlled by game logic
+        {
+            SpawnWave(waves[waveIndex]);
+            waveIndex++;
+        }
     }
 
-    public void SpawnWave(WaveData waveData, string factoryType)
+    public void SpawnWave(Wave wave)
     {
-        if (!waveData || waveData.enemySpawns.Length == 0) 
+        if (!wave.waveData || wave.waveData.enemySpawns.Length == 0) 
         {
             Debug.Log("Invalid/Null wave data provided.");
             return; 
         }
-        if (!waveFactory || waveFactory.FactoryName != factoryType) 
-        {
-            Destroy(waveFactory);
-            Debug.Log("destroyed previous factory instance.");
-            waveFactory = FactoryController.GetFactory(factoryType); // reset factory if type has changed
-        }
-        Debug.Log($"Using factory: {waveFactory.FactoryName} to spawn wave: {waveData.WaveName}");
-        var enemies = waveFactory.CreateWave(waveData);
-        Debug.Log($"Spawned {enemies.Count} enemies for wave: {waveData.WaveName}");
+        // if (!waveFactory || waveFactory.FactoryName != factoryType) 
+        // {
+        //     Destroy(waveFactory);
+        //     Debug.Log("destroyed previous factory instance.");
+        //     waveFactory = FactoryController.GetFactory(factoryType); // reset factory if type has changed
+        // }
+        
+        activeEnemies.RemoveAll(a => a == null || !a.activeInHierarchy); // remove any null or inactive enemies from the list (enemies that have been destroyed)
+        activeEnemies.AddRange(wave.factory.CreateWave(wave.waveData));
     }
 }
 
@@ -54,5 +61,6 @@ public class GameController : MonoBehaviour
     public class Wave
     {
         public WaveData waveData;
-        public string factoryType = "Base Wave Factory";
+        // public string factoryType = "Base Wave Factory";
+        public IWaveFactory factory;
     }

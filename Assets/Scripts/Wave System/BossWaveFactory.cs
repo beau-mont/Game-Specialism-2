@@ -5,7 +5,7 @@ using System.Collections.Generic;
 /// A wave factory that provides behaviour for spawning a boss wave.
 /// there should only be one of these in the asset list.
 /// </summary>
-[CreateAssetMenu(fileName = "BaseWaveFactory", menuName = "Wave/BossWaveFactory")]
+[CreateAssetMenu(fileName = "BossWaveFactory", menuName = "Wave/BossWaveFactory")]
 public class ConcreteBossFactory : IWaveFactory // specialized factory for boss waves
 {
     public override string FactoryName => "Boss Wave Factory";

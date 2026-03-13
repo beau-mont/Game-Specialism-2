@@ -5,5 +5,5 @@ using UnityEngine;
 /// </summary>
 public abstract class AbstractAbilityBehaviour : MonoBehaviour
 {
-    public abstract void Process(GameObject ability, Rigidbody2D rb, AbilityBehaviourMultipliers mod);
+    public abstract AbilityBehaviourMultipliers Multipliers { get; set; }
 }

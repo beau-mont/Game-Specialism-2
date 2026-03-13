@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9d4a483e066dd6ae2b23b961e254a9ff, type: 3}
-  m_Name: Machine gun 1
-  m_EditorClassIdentifier: Assembly-CSharp::ProjectileAbility
-  _abilityName: Machine Gun
+  m_Name: DebtRail
+  m_EditorClassIdentifier: 
+  _abilityName: Debt-Collector Rail
   _isSingleUse: 0
-  _cooldownDuration: 0.1
-  _projectilePrefab: {fileID: 3955307233564228219, guid: c3a01e70ac931823a9b477ec82c71594, type: 3}
+  _cooldownDuration: 1
+  _projectilePrefab: {fileID: 7608970228137800377, guid: 65c908cb4a830d09ea89115e7e7171b4, type: 3}
   fireVFX: []
-  spread: 5
+  spread: 0

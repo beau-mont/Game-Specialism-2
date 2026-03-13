@@ -10,20 +10,36 @@ using UnityEngine;
 public class AOEDamagePayload : AbstractPayload
 {
     public AnimationCurve baseDamage;
+    public bool matchY;
     public override void HitEffect(GameObject projectile, GameObject target, PayloadMultipliers mod)
     {
         float radiusMult = 1 + mod.GlobalMultiplier + mod.RadiusMultiplier;
         float damageMult = 1 + mod.GlobalMultiplier + mod.DamageMultiplier;
+        Vector3 adjustedProjectilePos = new(projectile.transform.position.x, target.transform.position.y, projectile.transform.position.z);
         DamageableList.objects.RemoveAll(a => a == null); // make sure the list is gucci
-        GameObject[] hitObjects = DamageableList.objects.Where(a => (a.transform.position - projectile.transform.position).magnitude < baseDamage.keys.Last().time * radiusMult).ToArray();
-        foreach(var hit in hitObjects)
+        GameObject[] hitObjects;
+        if (matchY)
+            hitObjects = DamageableList.objects.Where(a => (a.transform.position - adjustedProjectilePos).magnitude < baseDamage.keys.Last().time * radiusMult).ToArray();
+        else
+            hitObjects = DamageableList.objects.Where(a => (a.transform.position - projectile.transform.position).magnitude < baseDamage.keys.Last().time * radiusMult).ToArray();
+        foreach (var hit in hitObjects)
         {
             if (hit == projectile.GetComponent<AbilityDecorator>().owner) // prevents self damage
                 return;
             if (hit.TryGetComponent<IDamageable>(out var damageable))
             {
-                Debug.Log($"explosion dealt {baseDamage.Evaluate((projectile.transform.position - projectile.transform.position).magnitude) * damageMult} damage");
-                damageable.ModifyHealth(baseDamage.Evaluate((projectile.transform.position - projectile.transform.position).magnitude) * damageMult);
+                if (matchY)
+                {
+                    float damageToDeal = baseDamage.Evaluate((adjustedProjectilePos - hit.transform.position).magnitude / radiusMult) * damageMult;
+                    damageable.ModifyHealth(damageToDeal);
+                    Debug.Log($"adjusted pos {adjustedProjectilePos} projectile pos {projectile.transform.position} hit pos {hit.transform.position}");
+                    Debug.Log($"explosion dealt {damageToDeal} damage to {hit.name}");
+                }
+                else
+                {
+                    Debug.Log($"explosion dealt {baseDamage.Evaluate((projectile.transform.position - projectile.transform.position).magnitude / radiusMult) * damageMult} damage");
+                    damageable.ModifyHealth(baseDamage.Evaluate((projectile.transform.position - projectile.transform.position).magnitude / radiusMult) * damageMult);
+                }
             }
         }
     }
