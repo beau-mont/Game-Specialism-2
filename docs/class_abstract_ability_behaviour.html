@@ -84,10 +84,10 @@ $(document).ready(function(){initNavTree('class_abstract_ability_behaviour.html'
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#properties">Properties</a> &#124;
 <a href="class_abstract_ability_behaviour-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">AbstractAbilityBehaviour Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">AbstractAbilityBehaviour Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -98,9 +98,10 @@ Inheritance diagram for AbstractAbilityBehaviour:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_abstract_ability_behaviour__inherit__graph.png" border="0" usemap="#a_abstract_ability_behaviour_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_abstract_ability_behaviour_inherit__map" id="a_abstract_ability_behaviour_inherit__map">
-<area shape="rect" title="An abstract class defining a method for processing an abilities behaviour." alt="" coords="15,131,306,237"/>
-<area shape="rect" href="class_simple_ability_behaviour.html" title="Flies in a straight line, it moves upwards at speed * Multiplier" alt="" coords="5,285,316,392"/>
-<area shape="rect" title=" " alt="" coords="96,5,225,83"/>
+<area shape="rect" title="An abstract class defining a method for processing an abilities behaviour." alt="" coords="154,131,425,223"/>
+<area shape="rect" href="class_beam_behaviour.html" title="Flies in a straight line, it moves upwards at speed * Multiplier" alt="" coords="5,271,277,451"/>
+<area shape="rect" href="class_simple_projectile_behaviour.html" title="Flies in a straight line, it moves upwards at speed * Multiplier" alt="" coords="301,278,573,443"/>
+<area shape="rect" title=" " alt="" coords="227,5,351,83"/>
 </map>
 </div>
 <div class="dynheader">
@@ -108,21 +109,21 @@ Collaboration diagram for AbstractAbilityBehaviour:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_abstract_ability_behaviour__coll__graph.png" border="0" usemap="#a_abstract_ability_behaviour_coll__map" alt="Collaboration graph"/></div>
 <map name="a_abstract_ability_behaviour_coll__map" id="a_abstract_ability_behaviour_coll__map">
-<area shape="rect" title="An abstract class defining a method for processing an abilities behaviour." alt="" coords="5,131,296,237"/>
-<area shape="rect" title=" " alt="" coords="86,5,215,83"/>
+<area shape="rect" title="An abstract class defining a method for processing an abilities behaviour." alt="" coords="5,131,276,223"/>
+<area shape="rect" title=" " alt="" coords="79,5,203,83"/>
 </map>
 </div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:ad7d8e8d10ca5486aa0a495e8ef3952e5"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_abstract_ability_behaviour.html#ad7d8e8d10ca5486aa0a495e8ef3952e5">Process</a> (GameObject ability, Rigidbody2D rb, <a class="el" href="class_ability_behaviour_multipliers.html">AbilityBehaviourMultipliers</a> mod)</td></tr>
-<tr class="separator:ad7d8e8d10ca5486aa0a495e8ef3952e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:a0de13578fef633396d1a84a93409738c"><td class="memItemLeft" align="right" valign="top">abstract <a class="el" href="class_ability_behaviour_multipliers.html">AbilityBehaviourMultipliers</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_abstract_ability_behaviour.html#a0de13578fef633396d1a84a93409738c">Multipliers</a><code> [get, set]</code></td></tr>
+<tr class="separator:a0de13578fef633396d1a84a93409738c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An abstract class defining a method for processing an abilities behaviour. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="ad7d8e8d10ca5486aa0a495e8ef3952e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7d8e8d10ca5486aa0a495e8ef3952e5">&#9670;&nbsp;</a></span>Process()</h2>
+</div><h2 class="groupheader">Property Documentation</h2>
+<a id="a0de13578fef633396d1a84a93409738c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0de13578fef633396d1a84a93409738c">&#9670;&nbsp;</a></span>Multipliers</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -131,46 +132,15 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">abstract void AbstractAbilityBehaviour.Process </td>
-          <td>(</td>
-          <td class="paramtype">GameObject&#160;</td>
-          <td class="paramname"><em>ability</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Rigidbody2D&#160;</td>
-          <td class="paramname"><em>rb</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_ability_behaviour_multipliers.html">AbilityBehaviourMultipliers</a>&#160;</td>
-          <td class="paramname"><em>mod</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname">abstract <a class="el" href="class_ability_behaviour_multipliers.html">AbilityBehaviourMultipliers</a> AbstractAbilityBehaviour.Multipliers</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="class_simple_ability_behaviour.html#a03241ba3942d7de17b2bf3da1c1ce4c7">SimpleAbilityBehaviour</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_abstract_ability_behaviour_ad7d8e8d10ca5486aa0a495e8ef3952e5_icgraph.png" border="0" usemap="#aclass_abstract_ability_behaviour_ad7d8e8d10ca5486aa0a495e8ef3952e5_icgraph" alt=""/></div>
-<map name="aclass_abstract_ability_behaviour_ad7d8e8d10ca5486aa0a495e8ef3952e5_icgraph" id="aclass_abstract_ability_behaviour_ad7d8e8d10ca5486aa0a495e8ef3952e5_icgraph">
-<area shape="rect" title=" " alt="" coords="232,5,469,32"/>
-<area shape="rect" href="class_ability_decorator.html#a93c3fb6cdb0d7765ab8668394fa52197" title=" " alt="" coords="5,5,184,32"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -183,7 +153,7 @@ Here is the caller graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_abstract_ability_behaviour.html">AbstractAbilityBehaviour</a></li>
-    <li class="footer">Generated on Wed Feb 18 2026 17:36:00 for Game Specialism 2 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Mar 16 2026 17:04:27 for Game Specialism 2 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

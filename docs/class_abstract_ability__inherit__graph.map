@@ -1,6 +1,7 @@
 <map id="AbstractAbility" name="AbstractAbility">
-<area shape="rect" id="node1" title="abstract class for abilities." alt="" coords="159,131,441,472"/>
+<area shape="rect" id="node1" title="abstract class for abilities." alt="" coords="312,131,595,472"/>
 <area shape="rect" id="node3" href="$class_charged_projectile_ability.html" title="A container for an ability that charges up before firing" alt="" coords="5,520,288,1023"/>
 <area shape="rect" id="node4" href="$class_projectile_ability.html" title="A container for a generic full auto projectile ability" alt="" coords="312,542,595,1001"/>
-<area shape="rect" id="node2" title=" " alt="" coords="235,5,365,83"/>
+<area shape="rect" id="node5" href="$class_shotgun_ability.html" title="A container for a generic full auto projectile ability" alt="" coords="619,535,901,1008"/>
+<area shape="rect" id="node2" title=" " alt="" coords="389,5,518,83"/>
 </map>

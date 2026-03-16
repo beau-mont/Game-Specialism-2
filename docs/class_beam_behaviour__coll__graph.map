@@ -1,0 +1,6 @@
+<map id="BeamBehaviour" name="BeamBehaviour">
+<area shape="rect" id="node1" title="Flies in a straight line, it moves upwards at speed * Multiplier" alt="" coords="153,375,425,525"/>
+<area shape="rect" id="node2" href="$class_abstract_ability_behaviour.html" title="An abstract class defining a method for processing an abilities behaviour." alt="" coords="5,176,276,268"/>
+<area shape="rect" id="node3" title=" " alt="" coords="79,5,203,83"/>
+<area shape="rect" id="node4" href="$class_ability_behaviour_multipliers.html" title="Projectile modifier container, this is passed to projectiles so they can implement what they need...." alt="" coords="301,132,575,312"/>
+</map>

@@ -1,10 +1,10 @@
 <map id="AbilityDecorator" name="AbilityDecorator">
-<area shape="rect" id="node1" title="AbilityDecorator combines functionality from a list of AbstractPayload&#39;s and an AbstractAbilityBehavi..." alt="" coords="679,389,938,584"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,191,129,268"/>
-<area shape="rect" id="node3" href="$class_abstract_payload.html" title="An abstract class defining a method for all payloads to use" alt="" coords="154,183,519,275"/>
-<area shape="rect" id="node4" title=" " alt="" coords="600,5,729,83"/>
-<area shape="rect" id="node7" href="$class_pooled_v_f_x.html" title="Defines a basic implementation of pooling for all other objects." alt="" coords="544,176,785,283"/>
-<area shape="rect" id="node8" href="$class_abstract_ability_behaviour.html" title="An abstract class defining a method for processing an abilities behaviour." alt="" coords="810,176,1101,283"/>
-<area shape="rect" id="node5" href="$class_ability_behaviour_multipliers.html" title="Projectile modifier container, this is passed to projectiles so they can implement what they need...." alt="" coords="1125,139,1399,319"/>
-<area shape="rect" id="node6" href="$class_payload_multipliers.html" title="Payload modifier container, this is passed to payloads so they can implement what they need...." alt="" coords="1424,132,1641,327"/>
+<area shape="rect" id="node1" title="AbilityDecorator combines functionality from a list of AbstractPayload&#39;s and an AbstractAbilityBehavi..." alt="" coords="656,389,950,657"/>
+<area shape="rect" id="node2" title=" " alt="" coords="176,5,300,83"/>
+<area shape="rect" id="node3" href="$class_abstract_payload.html" title="An abstract class defining a method for all payloads to use" alt="" coords="55,183,420,275"/>
+<area shape="rect" id="node8" href="$class_abstract_ability_behaviour.html" title="An abstract class defining a method for processing an abilities behaviour." alt="" coords="445,183,716,275"/>
+<area shape="rect" id="node4" href="$class_ability_behaviour_multipliers.html" title="Projectile modifier container, this is passed to projectiles so they can implement what they need...." alt="" coords="740,139,1015,319"/>
+<area shape="rect" id="node5" href="$class_payload_multipliers.html" title="Payload modifier container, this is passed to payloads so they can implement what they need...." alt="" coords="1040,132,1257,327"/>
+<area shape="rect" id="node6" href="$class_pooled_v_f_x.html" title="Defines a basic implementation of pooling for all other objects." alt="" coords="1281,176,1522,283"/>
+<area shape="rect" id="node7" title=" " alt="" coords="1337,5,1466,83"/>
 </map>

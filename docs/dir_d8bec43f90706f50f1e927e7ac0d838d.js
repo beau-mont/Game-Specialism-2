@@ -12,5 +12,8 @@ var dir_d8bec43f90706f50f1e927e7ac0d838d =
     ] ],
     [ "ProjectileAbility.cs", "_projectile_ability_8cs.html", [
       [ "ProjectileAbility", "class_projectile_ability.html", "class_projectile_ability" ]
+    ] ],
+    [ "ShotgunAbility.cs", "_shotgun_ability_8cs.html", [
+      [ "ShotgunAbility", "class_shotgun_ability.html", "class_shotgun_ability" ]
     ] ]
 ];

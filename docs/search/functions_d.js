@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['separation_395',['Separation',['../class_boid_controller.html#a43cf509ca820998a0e45223e55970ddb',1,'BoidController']]],
-  ['setability_396',['SetAbility',['../class_player_ability_user.html#a4050d8becd876585556d33116276929f',1,'PlayerAbilityUser.SetAbility(string ability)'],['../class_player_ability_user.html#a953224bdedde72bb6e9a6afb7acb8fcc',1,'PlayerAbilityUser.SetAbility(AbstractAbility ability)'],['../class_player_ability_user.html#a0d8103024261a334115f5735fcbf45d4',1,'PlayerAbilityUser.SetAbility(AbilityContainer ability)'],['../interface_i_ability_user.html#a7e1bf104651535e5bb55c9913140cddb',1,'IAbilityUser.SetAbility()']]],
-  ['spawnwave_397',['SpawnWave',['../class_game_controller.html#abb0857d7934e8d9f95f7fe3f19d03baa',1,'GameController']]],
-  ['start_398',['Start',['../class_player_ability_user.html#ab534a57f34c1af7c3d0c2577d884c328',1,'PlayerAbilityUser.Start()'],['../class_boid_forcefield.html#a00ee072a3edd55a54868a0d625e603a5',1,'BoidForcefield.Start()'],['../class_damage_threshold.html#ac030161951bb02f497dbb5e6f6ecec3f',1,'DamageThreshold.Start()'],['../class_sound_threshold.html#a2f1d456533e85c5039cfab5356e53910',1,'SoundThreshold.Start()'],['../class_player_controller.html#ae1117d9c4da3193181cddad2c814e467',1,'PlayerController.Start()'],['../class_upgrade_manager.html#a46964307daddb87555a856e61e863a1f',1,'UpgradeManager.Start()'],['../class_debug_ability_display.html#a926d58ec84e15e259a56ae014a7c9427',1,'DebugAbilityDisplay.Start()']]]
+  ['tryfire_463',['TryFire',['../class_projectile_ability.html#a0bcc3c7fe4c0e9996ee3db4ee3341129',1,'ProjectileAbility.TryFire()'],['../class_shotgun_ability.html#a54a5eee05dba3e92a9e4fa1cf0c8fb33',1,'ShotgunAbility.TryFire()']]]
 ];

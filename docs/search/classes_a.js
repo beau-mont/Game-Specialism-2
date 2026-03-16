@@ -1,6 +1,9 @@
 var searchData=
 [
-  ['upgrade_311',['Upgrade',['../class_upgrade.html',1,'']]],
-  ['upgrademanager_312',['UpgradeManager',['../class_upgrade_manager.html',1,'']]],
-  ['upgradetree_313',['UpgradeTree',['../class_upgrade_tree.html',1,'']]]
+  ['scalevfx_359',['ScaleVFX',['../class_scale_v_f_x.html',1,'']]],
+  ['sfx_5fcomponent_360',['SFX_Component',['../class_s_f_x___component.html',1,'']]],
+  ['shotgunability_361',['ShotgunAbility',['../class_shotgun_ability.html',1,'']]],
+  ['simplepickup_362',['SimplePickup',['../class_simple_pickup.html',1,'']]],
+  ['simpleprojectilebehaviour_363',['SimpleProjectileBehaviour',['../class_simple_projectile_behaviour.html',1,'']]],
+  ['soundthreshold_364',['SoundThreshold',['../class_sound_threshold.html',1,'']]]
 ];

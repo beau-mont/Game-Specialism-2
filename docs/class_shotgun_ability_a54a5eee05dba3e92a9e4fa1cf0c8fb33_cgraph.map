@@ -1,0 +1,5 @@
+<map id="ShotgunAbility.TryFire" name="ShotgunAbility.TryFire">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,168,32"/>
+<area shape="rect" id="node2" href="$class_abstract_ability.html#a3a929b05e7f37c77cbbfb7ef85380fbf" title=" " alt="" coords="216,5,445,32"/>
+<area shape="rect" id="node3" href="$class_abstract_ability.html#a6a4deecf17e6f7c4769a399e6d035194" title=" " alt="" coords="493,5,728,32"/>
+</map>
