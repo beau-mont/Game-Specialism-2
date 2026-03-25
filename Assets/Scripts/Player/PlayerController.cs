@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.InputSystem;
 
 /// <summary>
@@ -22,6 +23,10 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
     public List<DamageThreshold> DamageThresholds { get => _damageThresholds; set => _damageThresholds = value; }
     [Header("Settings")]
     public float baseMoveSpeed;
+    public float maxX;
+    public float maxY;
+    public float minX;
+    public float minY;
     [Header("VFX")]
     [SerializeField] private List<PooledVFX> deathVFX;
     private Rigidbody2D rb;
@@ -81,6 +86,10 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
         {
             Debug.LogWarning($"No rigidbody on player");
         }
+        if (transform.position.x > maxX) transform.position = new Vector3(maxX, transform.position.y, transform.position.z);
+        if (transform.position.x < minX) transform.position = new Vector3(minX, transform.position.y, transform.position.z);
+        if (transform.position.y > maxY) transform.position = new Vector3(transform.position.x, maxY, transform.position.z);
+        if (transform.position.y < minY) transform.position = new Vector3(transform.position.x, minY, transform.position.z);
     }
 
     void ProcessAbilities()
@@ -136,6 +145,7 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
             if (vfx == null) continue;
             GameObject temp = vfx.GetPooledObject();
             temp.transform.SetPositionAndRotation(transform.position, transform.rotation);
+            temp.SetActive(true);
         }
         gameObject.SetActive(false);
     }

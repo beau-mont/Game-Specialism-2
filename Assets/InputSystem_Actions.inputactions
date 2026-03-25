@@ -43,15 +43,6 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Special",
-                    "type": "Button",
-                    "id": "8a224e65-d663-4733-b542-ffa92ef2d4cc",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
                     "name": "Pause",
                     "type": "Button",
                     "id": "08a0bb0f-8611-40cf-a85d-4d681a9013b2",
@@ -208,7 +199,7 @@
                 {
                     "name": "",
                     "id": "b3c1c7f0-bd20-4ee7-a0f1-899b24bca6d7",
-                    "path": "<Keyboard>/#(I)",
+                    "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
@@ -301,39 +292,6 @@
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
                     "action": "Pause",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "3bf87b1b-a1a4-4226-a1cd-c22ef015cc9e",
-                    "path": "<Gamepad>/buttonNorth",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Gamepad",
-                    "action": "Special",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "5e182c12-0f33-46d9-8a9c-b05e1d9b70d0",
-                    "path": "<Mouse>/forwardButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Keyboard&Mouse",
-                    "action": "Special",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "38c4a730-2734-4c86-81fc-bd3f70b7f8f1",
-                    "path": "<Keyboard>/#(J)",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Keyboard&Mouse",
-                    "action": "Special",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

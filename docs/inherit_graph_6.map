@@ -1,19 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$interface_i_ability_user.html" title="ability user interface" alt="" coords="29,5,127,32"/>
-<area shape="rect" id="node2" href="$class_player_ability_user.html" title="A monoBehavior that manages the players abilities" alt="" coords="222,5,357,32"/>
-<area shape="rect" id="node3" href="$interface_i_damageable.html" title="An interface for damageable entities." alt="" coords="23,107,133,133"/>
-<area shape="rect" id="node4" href="$class_boid_entity.html" title=" " alt="" coords="245,107,334,133"/>
-<area shape="rect" id="node5" href="$class_generic_enemy_controller.html" title="A generic enemy controller to implement IDamageable for prototyping. this is likely to be reworked or..." alt="" coords="199,157,380,184"/>
-<area shape="rect" id="node6" href="$class_player_controller.html" title="The player controller, this provides behaviors for the player. currently depends on AbilityUser thoug..." alt="" coords="226,56,353,83"/>
-<area shape="rect" id="node7" href="$interface_i_damage_threshold.html" title="An interface for damage threshold effects. the purpose of this is to allow methods to be called when ..." alt="" coords="5,56,151,83"/>
-<area shape="rect" id="node8" title=" " alt="" coords="16,309,140,336"/>
-<area shape="rect" id="node9" href="$class_ability_decorator.html" title="AbilityDecorator combines functionality from a list of AbstractPayload&#39;s and an AbstractAbilityBehavi..." alt="" coords="225,360,353,387"/>
-<area shape="rect" id="node10" href="$class_boid_controller.html" title=" " alt="" coords="232,411,347,437"/>
-<area shape="rect" id="node11" href="$class_boid_forcefield.html" title=" " alt="" coords="232,461,347,488"/>
-<area shape="rect" id="node12" href="$class_debug_ability_display.html" title=" " alt="" coords="212,512,367,539"/>
-<area shape="rect" id="node13" href="$class_game_controller.html" title="A basic game controller script for managing game state and whatnot" alt="" coords="227,563,352,589"/>
-<area shape="rect" id="node14" href="$class_s_f_x___component.html" title=" " alt="" coords="225,613,354,640"/>
-<area shape="rect" id="node15" href="$class_simple_pickup.html" title="A simple pickup monoBehaviour, this is likely to be removed or reworked later for real functionality." alt="" coords="235,208,344,235"/>
-<area shape="rect" id="node16" href="$class_upgrade_manager.html" title=" " alt="" coords="222,259,357,285"/>
-<area shape="rect" id="node17" href="$class_v_f_x___component.html" title="a monoBehavior that executes a list of VFXStrategies it is provided." alt="" coords="224,309,355,336"/>
+<area shape="rect" id="node1" href="$class_payload_multipliers.html" title="Payload modifier container, this is passed to payloads so they can implement what they need...." alt="" coords="5,5,148,32"/>
 </map>

@@ -45,6 +45,7 @@ public class PlayerMultipliers
 {
     public float GlobalMultiplier;
     public float MoveSpeedMultiplier;
+    public float MaxHealthMultiplier;
     public AbilityMultipliers AbilityMultipliers;
 
     // Overload + operator to add two multipliers
@@ -53,7 +54,8 @@ public class PlayerMultipliers
         {
             GlobalMultiplier = a.GlobalMultiplier + b.GlobalMultiplier,
             MoveSpeedMultiplier = a.MoveSpeedMultiplier + b.MoveSpeedMultiplier,
-            AbilityMultipliers = a.AbilityMultipliers + b.AbilityMultipliers
+            AbilityMultipliers = a.AbilityMultipliers + b.AbilityMultipliers,
+            MaxHealthMultiplier = a.MaxHealthMultiplier + b.MaxHealthMultiplier
         };
         return mult;
     }
@@ -64,7 +66,8 @@ public class PlayerMultipliers
         {
             GlobalMultiplier = a.GlobalMultiplier - b.GlobalMultiplier,
             MoveSpeedMultiplier = a.MoveSpeedMultiplier - b.MoveSpeedMultiplier,
-            AbilityMultipliers = a.AbilityMultipliers - b.AbilityMultipliers
+            AbilityMultipliers = a.AbilityMultipliers - b.AbilityMultipliers,
+            MaxHealthMultiplier = a.MaxHealthMultiplier - b.MaxHealthMultiplier
         };
         return mult;
     }

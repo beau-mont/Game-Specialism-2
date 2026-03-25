@@ -2,13 +2,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
-public class BoidEntity : MonoBehaviour, IDamageable
+public class BoidEntity : MonoBehaviour
 {
     public Rigidbody2D rb;
     public BoidController boidSystem;
-    [SerializeField] private float maxHealthMod;
-    [SerializeField] private float maxHealth;
-    public float health;
     public List<BoidEntity> neighbors;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -16,7 +13,6 @@ public class BoidEntity : MonoBehaviour, IDamageable
     {
         DamageableList.objects.Add(gameObject);
         rb = GetComponent<Rigidbody2D>();
-        health = maxHealth + maxHealthMod;
     }
 
     // Update is called once per frame
@@ -42,28 +38,6 @@ public class BoidEntity : MonoBehaviour, IDamageable
         {
             boid.neighbors.Remove(this);
         }
-    }
-
-    public void ModifyMaxHealth(float amount)
-    {
-        maxHealthMod += amount;
-    }
-
-    public void ModifyHealth(float amount)
-    {
-        health -= amount;
-        if (health > maxHealth + maxHealthMod) health = maxHealth + maxHealthMod;
-        if (health <= 0f) Kill();
-    }
-
-    public void ResetMaxHealth()
-    {
-        
-    }
-
-    public void Kill()
-    {
-        gameObject.SetActive(false);
     }
 
     void OnDisable()

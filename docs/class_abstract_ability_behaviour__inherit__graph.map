@@ -1,5 +1,6 @@
 <map id="AbstractAbilityBehaviour" name="AbstractAbilityBehaviour">
-<area shape="rect" id="node1" title="An abstract class defining a method for processing an abilities behaviour." alt="" coords="15,131,306,237"/>
-<area shape="rect" id="node3" href="$class_simple_ability_behaviour.html" title="Flies in a straight line, it moves upwards at speed * Multiplier" alt="" coords="5,285,316,392"/>
-<area shape="rect" id="node2" title=" " alt="" coords="96,5,225,83"/>
+<area shape="rect" id="node1" title="An abstract class defining a method for processing an abilities behaviour." alt="" coords="154,131,425,223"/>
+<area shape="rect" id="node3" href="$class_beam_behaviour.html" title="Flies in a straight line, it moves upwards at speed * Multiplier" alt="" coords="5,271,277,451"/>
+<area shape="rect" id="node4" href="$class_simple_projectile_behaviour.html" title="Flies in a straight line, it moves upwards at speed * Multiplier" alt="" coords="301,278,573,443"/>
+<area shape="rect" id="node2" title=" " alt="" coords="227,5,351,83"/>
 </map>

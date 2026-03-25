@@ -10,6 +10,7 @@ var class_boid_entity =
     [ "ResetMaxHealth", "class_boid_entity.html#a202dd015fbb4890f65d8debffaa08c15", null ],
     [ "Update", "class_boid_entity.html#a71494d8ad8d85a7df817e51e751101f9", null ],
     [ "boidSystem", "class_boid_entity.html#aa9b62d6556aff15ccf37c0a319ca7fc2", null ],
+    [ "deathVFX", "class_boid_entity.html#a2fca8ecf602f01da155da772f18a5e9f", null ],
     [ "health", "class_boid_entity.html#a4445363a0c14c76ffb366c17a276c452", null ],
     [ "maxHealth", "class_boid_entity.html#aebc87956238cfb2f60117ba77c45807f", null ],
     [ "maxHealthMod", "class_boid_entity.html#a4f967a171025645f7a09f1536aa06e8e", null ],

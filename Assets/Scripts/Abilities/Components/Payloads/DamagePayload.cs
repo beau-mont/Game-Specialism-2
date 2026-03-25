@@ -8,11 +8,12 @@ public class DamagePayload : AbstractPayload
     public float damage;
     public override void HitEffect(GameObject projectile, GameObject target, PayloadMultipliers mod)
     {
-        float mult = 1 + mod.GlobalMultiplier + mod.DamageMultiplier;
+        float mult = 1;
+        if (mod != null) mult += mod.GlobalMultiplier + mod.DamageMultiplier;
         if (target.TryGetComponent<IDamageable>(out var damageable))
         {
             damageable.ModifyHealth(damage * mult);
-            Debug.Log($"dealt {damage * mult} damage");
+            //Debug.Log($"dealt {damage * mult} damage");
         }
     }
 }

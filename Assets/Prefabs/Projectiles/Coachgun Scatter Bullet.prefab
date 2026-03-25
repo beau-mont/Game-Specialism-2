@@ -112,6 +112,10 @@ MonoBehaviour:
   - {fileID: 3736586907269382681}
   abilityBehaviour: {fileID: 4005018137031753962}
   hitVFX: []
+  spawnVFXAtTarget: 0
+  destroyOnHit: 1
+  triggerCollider: 0
+  abilityCollider: {fileID: 3419647642516771709}
   payloadMultipliers:
     GlobalMultiplier: 0
     DamageMultiplier: 0
@@ -136,7 +140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e42782eae781fe9918255bbf1cf9b4d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 1
+  damage: 0.5
 --- !u!114 &4005018137031753962
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -173,7 +177,7 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
@@ -249,7 +253,7 @@ MonoBehaviour:
     serializedVersion: 2
     key0: {r: 1, g: 1, b: 1, a: 1}
     key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0.041394174}
+    key2: {r: 0, g: 0, b: 0, a: 0}
     key3: {r: 0, g: 0, b: 0, a: 0}
     key4: {r: 0, g: 0, b: 0, a: 0}
     key5: {r: 0, g: 0, b: 0, a: 0}
@@ -264,9 +268,9 @@ MonoBehaviour:
     ctime6: 0
     ctime7: 0
     atime0: 0
-    atime1: 30146
-    atime2: 50192
-    atime3: 65535
+    atime1: 52428
+    atime2: 65535
+    atime3: 0
     atime4: 0
     atime5: 0
     atime6: 0
@@ -274,7 +278,7 @@ MonoBehaviour:
     m_Mode: 0
     m_ColorSpace: -1
     m_NumColorKeys: 2
-    m_NumAlphaKeys: 4
+    m_NumAlphaKeys: 3
   sr: {fileID: 4616381055437364159}
 --- !u!114 &7092858415776320798
 MonoBehaviour:

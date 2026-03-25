@@ -1,0 +1,5 @@
+<map id="AbilityDecorator.OnTriggerEnter2D" name="AbilityDecorator.OnTriggerEnter2D">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,251,32"/>
+<area shape="rect" id="node2" href="$class_ability_decorator.html#a7bcb9db876902a0a6f817f33ff3dd97e" title=" " alt="" coords="299,5,499,32"/>
+<area shape="rect" id="node3" href="$class_abstract_payload.html#ac3fb5fede379afcab5e3de9f349eab92" title="Applies its unique payload effect to the target, making use of PayloadMultipliers." alt="" coords="547,5,733,32"/>
+</map>

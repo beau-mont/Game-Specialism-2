@@ -22,6 +22,10 @@ public class AbilityDecorator : MonoBehaviour // GRAAAAAAAH I FUCKING LOVE DOCUM
     [SerializeField] private AbstractPayload[] payloads;
     [SerializeField] private AbstractAbilityBehaviour abilityBehaviour;
     [SerializeField] private PooledVFX[] hitVFX;
+    [SerializeField] private bool spawnVFXAtTarget;
+    [SerializeField] private bool destroyOnHit;
+    [SerializeField] private bool triggerCollider;
+    public Collider2D abilityCollider;
     [Header("Modifiers")]
     public PayloadMultipliers payloadMultipliers;
     public AbilityBehaviourMultipliers abilityBehaviourMultipliers;
@@ -44,7 +48,7 @@ public class AbilityDecorator : MonoBehaviour // GRAAAAAAAH I FUCKING LOVE DOCUM
     void Update()
     {
         if (abilityBehaviour)
-            abilityBehaviour.Process(gameObject, rb, abilityBehaviourMultipliers);
+            abilityBehaviour.Multipliers = abilityBehaviourMultipliers;
         if (lifetime != 0 && Time.time > spawnTime + lifetime) gameObject.SetActive(false);
     }
 
@@ -55,6 +59,19 @@ public class AbilityDecorator : MonoBehaviour // GRAAAAAAAH I FUCKING LOVE DOCUM
 
     void OnCollisionEnter2D(Collision2D other)
     {
+        if (triggerCollider) return;
+        ProcessHit(other.collider);
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (!triggerCollider) return;
+        ProcessHit(other);
+    }
+
+    public void ProcessHit(Collider2D other)
+    {
+        if (other.gameObject == owner) return; // don't trigger on the owner of the ability
         foreach (AbstractPayload payload in payloads)
         {
             payload.HitEffect(gameObject, other.gameObject, payloadMultipliers);
@@ -63,9 +80,13 @@ public class AbilityDecorator : MonoBehaviour // GRAAAAAAAH I FUCKING LOVE DOCUM
         {
             GameObject tempEffect = effect.GetPooledObject();
             tempEffect.GetComponent<VFXComponent>().multipliers = payloadMultipliers;
-            tempEffect.transform.SetPositionAndRotation(transform.position, transform.rotation);
+            if (spawnVFXAtTarget) tempEffect.transform.SetPositionAndRotation(other.transform.position, transform.rotation);
+            else tempEffect.transform.SetPositionAndRotation(transform.position, transform.rotation);
             tempEffect.SetActive(true);
         }
-        gameObject.SetActive(false); // deactivate projectile on hit
+        if (TryGetComponent<IDamageable>(out var damageable))
+            damageable.Kill(); // kill
+        if (destroyOnHit)
+            gameObject.SetActive(false); // deactivate projectile on hit
     }
 }

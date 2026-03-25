@@ -1,5 +1,6 @@
 using System;
 using System.Linq;
+using TMPro;
 using Unity.Mathematics;
 using Unity.VisualScripting;
 using UnityEditor;
@@ -20,18 +21,12 @@ public class FadeVFX : VFXStrategy
     private float startTime;
     void OnEnable()
     {
-        if (!sr) sr = GetComponent<SpriteRenderer>();
         startTime = Time.time;
-        startColor = sr.color;
+        if (sr) startColor = sr.color;
     }
 
     void Update()
     {
-        if (!sr)
-        {
-            Debug.LogError($"no sprite renderer detected on {gameObject.name}");
-            return;
-        }
         if (Time.time < startTime) return;
         sr.color = gradient.Evaluate((Time.time - startTime) / fadeTime);
     }

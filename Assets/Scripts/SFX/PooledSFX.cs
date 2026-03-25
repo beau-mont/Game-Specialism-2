@@ -7,10 +7,10 @@ using System.Collections.Generic;
 [CreateAssetMenu(fileName = "PooledSFX", menuName = "SFX/PooledSFX"), System.Serializable]
 public class PooledSFX : ScriptableObject
 {
-    [SerializeField] private static GameObject SFXPrefab;
-    private static List<GameObject> SFXPool;
+    [SerializeField] private GameObject SFXPrefab;
+    private List<GameObject> SFXPool;
 
-    public static GameObject GetPooledObject() // try fetch an inactive object from the pool
+    public GameObject GetPooledObject() // try fetch an inactive object from the pool
     {
         SFXPool ??= new List<GameObject>(); // initialize pool if not already
         SFXPool.RemoveAll(proj => proj == null);
@@ -25,7 +25,7 @@ public class PooledSFX : ScriptableObject
         return CreateNewObject();
     }
 
-    private static GameObject CreateNewObject() // create a new object and add it to the pool
+    private GameObject CreateNewObject() // create a new object and add it to the pool
     {
         GameObject newObj = Instantiate(SFXPrefab);
         SFXPool.Add(newObj);

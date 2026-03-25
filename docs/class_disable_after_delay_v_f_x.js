@@ -1,7 +1,10 @@
 var class_disable_after_delay_v_f_x =
 [
-    [ "Begin", "class_disable_after_delay_v_f_x.html#aae50a8a68a40014b08b96258186fba23", null ],
-    [ "End", "class_disable_after_delay_v_f_x.html#affb7c8e65b5ffa5de00beb78e94d8a0a", null ],
-    [ "Process", "class_disable_after_delay_v_f_x.html#a379ae4fde180b3f2488b3e10c0410d14", null ],
-    [ "Delay", "class_disable_after_delay_v_f_x.html#a131de6c8de5a1473929379107f2a9b2c", null ]
+    [ "OnDisable", "class_disable_after_delay_v_f_x.html#a9d47fb17a5816d19c65ab753a46c1732", null ],
+    [ "OnEnable", "class_disable_after_delay_v_f_x.html#a4d1113455f422862d24c954c5feb3cc0", null ],
+    [ "Update", "class_disable_after_delay_v_f_x.html#a94daf00c88f45214687b995c3c227974", null ],
+    [ "_multipliers", "class_disable_after_delay_v_f_x.html#a2f6c07f5c13c4579abb7718bb5d1a68a", null ],
+    [ "Delay", "class_disable_after_delay_v_f_x.html#a131de6c8de5a1473929379107f2a9b2c", null ],
+    [ "startTime", "class_disable_after_delay_v_f_x.html#aff042fefbce5d0dd1815c71a44b2676c", null ],
+    [ "Multipliers", "class_disable_after_delay_v_f_x.html#a6d88bf3ea0c71f8839c2a652be0a98b7", null ]
 ];

@@ -1,5 +1,6 @@
 <map id="DisableAfterDelayVFX" name="DisableAfterDelayVFX">
-<area shape="rect" id="node1" title="A concrete implementation of a VFXStrategy, disables the entity after a set delay." alt="" coords="5,300,276,421"/>
-<area shape="rect" id="node2" href="$class_v_f_x_strategy.html" title="Abstract class defining VFXStrategy methods. TODO: make this an interface(?)" alt="" coords="6,131,275,252"/>
-<area shape="rect" id="node3" title=" " alt="" coords="76,5,205,83"/>
+<area shape="rect" id="node1" title="A concrete implementation of a VFXStrategy, disables the entity after a set delay." alt="" coords="185,389,400,540"/>
+<area shape="rect" id="node2" href="$class_v_f_x_strategy.html" title="Abstract class defining VFXStrategy methods." alt="" coords="5,183,220,275"/>
+<area shape="rect" id="node3" title=" " alt="" coords="51,5,175,83"/>
+<area shape="rect" id="node4" href="$class_payload_multipliers.html" title="Payload modifier container, this is passed to payloads so they can implement what they need...." alt="" coords="244,132,461,327"/>
 </map>

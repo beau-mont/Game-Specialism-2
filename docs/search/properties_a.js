@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['upgradename_409',['UpgradeName',['../class_ability_upgrade.html#a4ed805d9892d98869cdf60aa0545501c',1,'AbilityUpgrade.UpgradeName()'],['../class_damage_boost.html#a00a19add306d5a983e376082eea04a40',1,'DamageBoost.UpgradeName()'],['../class_passive_upgrade.html#a498c979faf2476c6bd6bdb05b21be29c',1,'PassiveUpgrade.UpgradeName()']]]
+  ['targetlayers_634',['TargetLayers',['../class_player_ability_user.html#a2a7c381ff5925ff621ce5a50929b66dc',1,'PlayerAbilityUser.TargetLayers()'],['../interface_i_ability_user.html#aa5d32f737a5a5d7015b4a36bf291ba27',1,'IAbilityUser.TargetLayers()']]]
 ];

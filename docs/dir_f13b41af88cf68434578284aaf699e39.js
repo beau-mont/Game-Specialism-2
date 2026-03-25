@@ -8,7 +8,7 @@ var dir_f13b41af88cf68434578284aaf699e39 =
     [ "SFX", "dir_f6c6feaaec07cdc2425c57c0e3b26019.html", "dir_f6c6feaaec07cdc2425c57c0e3b26019" ],
     [ "UI", "dir_4ae35e2d0d203079e26c83ccaec95743.html", "dir_4ae35e2d0d203079e26c83ccaec95743" ],
     [ "VFX", "dir_629949e35dfdf722565369645ab82dc7.html", "dir_629949e35dfdf722565369645ab82dc7" ],
-    [ "WaveFactory", "dir_a181214453ae90165b7d7e2851ebd805.html", "dir_a181214453ae90165b7d7e2851ebd805" ],
+    [ "Wave System", "dir_be2309129943314b8f73745319d4e3f7.html", "dir_be2309129943314b8f73745319d4e3f7" ],
     [ "GameController.cs", "_game_controller_8cs.html", [
       [ "GameController", "class_game_controller.html", "class_game_controller" ],
       [ "Wave", "class_wave.html", "class_wave" ]

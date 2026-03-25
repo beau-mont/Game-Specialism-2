@@ -1,4 +1,9 @@
 var searchData=
 [
-  ['begin_362',['Begin',['../class_disable_after_delay_v_f_x.html#aae50a8a68a40014b08b96258186fba23',1,'DisableAfterDelayVFX.Begin()'],['../class_fade_v_f_x.html#a8b65a3a7ae820d31fe726e8f7389fae6',1,'FadeVFX.Begin()'],['../class_scale_v_f_x.html#a71cfdbfd9e933c9f61e31766fa897dac',1,'ScaleVFX.Begin()'],['../class_v_f_x_strategy.html#a32cd85c3a869fa6acae000b48f7f387f',1,'VFXStrategy.Begin()']]]
+  ['checkdamagethresholds_426',['CheckDamageThresholds',['../class_generic_enemy_controller.html#a7d2509b24c9bf623569f9327603a69d2',1,'GenericEnemyController.CheckDamageThresholds()'],['../interface_i_damage_threshold.html#ace0d9a54b0807551d23d7b7b739637c7',1,'IDamageThreshold.CheckDamageThresholds()'],['../class_player_controller.html#a085293fc43a0320e14ab82e6b053aa4d',1,'PlayerController.CheckDamageThresholds()']]],
+  ['checklevelup_427',['CheckLevelUp',['../class_e_x_p_controller.html#ad509486de0a76c3c57916f10d10e4cfb',1,'EXPController']]],
+  ['cohesion_428',['Cohesion',['../class_boid_controller.html#adea93059159cdb830fe86a3508c60f0a',1,'BoidController']]],
+  ['createnewobject_429',['CreateNewObject',['../class_abstract_ability.html#a6a4deecf17e6f7c4769a399e6d035194',1,'AbstractAbility.CreateNewObject()'],['../class_pooled_boids.html#a367ba263734d093d92a7df37e567e859',1,'PooledBoids.CreateNewObject()'],['../class_pooled_s_f_x.html#abc7cd7113b885b30c9c5d221a7e15d7a',1,'PooledSFX.CreateNewObject()'],['../class_pooled_v_f_x.html#aeed6ad3be9378f774135169f1255278e',1,'PooledVFX.CreateNewObject()']]],
+  ['createwave_430',['CreateWave',['../class_concrete_base_wave_factory.html#a415b5bd6be5077d8501abc7d0e23c99e',1,'ConcreteBaseWaveFactory.CreateWave()'],['../class_concrete_boss_factory.html#a50bbec1c2bf10d27509cb35e34f78da3',1,'ConcreteBossFactory.CreateWave()'],['../class_i_wave_factory.html#a85ec700ca49a548a48c30d2e64cfd926',1,'IWaveFactory.CreateWave()']]],
+  ['cycleability_431',['CycleAbility',['../class_player_ability_user.html#a02a0e245f13375ca962642ba153bbd7a',1,'PlayerAbilityUser.CycleAbility()'],['../interface_i_ability_user.html#af5fd546588ae17f7b09a717c01e2361c',1,'IAbilityUser.CycleAbility()']]]
 ];

@@ -84,24 +84,26 @@ $(document).ready(function(){initNavTree('class_fade_v_f_x.html',''); initResiza
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#properties">Properties</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_fade_v_f_x-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">FadeVFX Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A <a class="el" href="class_v_f_x_strategy.html" title="Abstract class defining VFXStrategy methods. TODO: make this an interface(?)">VFXStrategy</a> for fading out a spriteRenderer along an animation curve.  
+<p>A <a class="el" href="class_v_f_x_strategy.html" title="Abstract class defining VFXStrategy methods.">VFXStrategy</a> for fading out a spriteRenderer along an animation curve.  
  <a href="class_fade_v_f_x.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for FadeVFX:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_fade_v_f_x__inherit__graph.png" border="0" usemap="#a_fade_v_f_x_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_fade_v_f_x_inherit__map" id="a_fade_v_f_x_inherit__map">
-<area shape="rect" title="A VFXStrategy for fading out a spriteRenderer along an animation curve." alt="" coords="5,300,276,436"/>
-<area shape="rect" href="class_v_f_x_strategy.html" title="Abstract class defining VFXStrategy methods. TODO: make this an interface(?)" alt="" coords="6,131,275,252"/>
-<area shape="rect" title=" " alt="" coords="76,5,205,83"/>
+<area shape="rect" title="A VFXStrategy for fading out a spriteRenderer along an animation curve." alt="" coords="5,271,237,480"/>
+<area shape="rect" href="class_v_f_x_strategy.html" title="Abstract class defining VFXStrategy methods." alt="" coords="14,131,229,223"/>
+<area shape="rect" title=" " alt="" coords="59,5,183,83"/>
 </map>
 </div>
 <div class="dynheader">
@@ -109,36 +111,53 @@ Collaboration diagram for FadeVFX:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_fade_v_f_x__coll__graph.png" border="0" usemap="#a_fade_v_f_x_coll__map" alt="Collaboration graph"/></div>
 <map name="a_fade_v_f_x_coll__map" id="a_fade_v_f_x_coll__map">
-<area shape="rect" title="A VFXStrategy for fading out a spriteRenderer along an animation curve." alt="" coords="5,300,276,436"/>
-<area shape="rect" href="class_v_f_x_strategy.html" title="Abstract class defining VFXStrategy methods. TODO: make this an interface(?)" alt="" coords="6,131,275,252"/>
-<area shape="rect" title=" " alt="" coords="76,5,205,83"/>
+<area shape="rect" title="A VFXStrategy for fading out a spriteRenderer along an animation curve." alt="" coords="185,389,400,584"/>
+<area shape="rect" href="class_v_f_x_strategy.html" title="Abstract class defining VFXStrategy methods." alt="" coords="5,183,220,275"/>
+<area shape="rect" title=" " alt="" coords="51,5,175,83"/>
+<area shape="rect" href="class_payload_multipliers.html" title="Payload modifier container, this is passed to payloads so they can implement what they need...." alt="" coords="244,132,461,327"/>
 </map>
 </div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a8b65a3a7ae820d31fe726e8f7389fae6"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fade_v_f_x.html#a8b65a3a7ae820d31fe726e8f7389fae6">Begin</a> (<a class="el" href="class_v_f_x___data.html">VFX_Data</a> args)</td></tr>
-<tr class="memdesc:a8b65a3a7ae820d31fe726e8f7389fae6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the starting conditions for the VFX  <a href="class_fade_v_f_x.html#a8b65a3a7ae820d31fe726e8f7389fae6">More...</a><br /></td></tr>
-<tr class="separator:a8b65a3a7ae820d31fe726e8f7389fae6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad653abaf3e60fed3dfb2206b396e7aea"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fade_v_f_x.html#ad653abaf3e60fed3dfb2206b396e7aea">Process</a> (<a class="el" href="class_v_f_x___data.html">VFX_Data</a> args)</td></tr>
-<tr class="memdesc:ad653abaf3e60fed3dfb2206b396e7aea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Process the VFX  <a href="class_fade_v_f_x.html#ad653abaf3e60fed3dfb2206b396e7aea">More...</a><br /></td></tr>
-<tr class="separator:ad653abaf3e60fed3dfb2206b396e7aea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58bfc53f5ca0000d9b47a96163599b22"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fade_v_f_x.html#a58bfc53f5ca0000d9b47a96163599b22">End</a> (<a class="el" href="class_v_f_x___data.html">VFX_Data</a> args)</td></tr>
-<tr class="memdesc:a58bfc53f5ca0000d9b47a96163599b22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the VFX object to starting condition  <a href="class_fade_v_f_x.html#a58bfc53f5ca0000d9b47a96163599b22">More...</a><br /></td></tr>
-<tr class="separator:a58bfc53f5ca0000d9b47a96163599b22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a4b00596baa7116c908deb0ed8f0e2176"><td class="memItemLeft" align="right" valign="top">AnimationCurve&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fade_v_f_x.html#a4b00596baa7116c908deb0ed8f0e2176">fadeCurve</a></td></tr>
-<tr class="separator:a4b00596baa7116c908deb0ed8f0e2176"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebc6ee9f8f269589e99735b514fd0eb9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fade_v_f_x.html#aebc6ee9f8f269589e99735b514fd0eb9">fadeTime</a></td></tr>
+<tr class="separator:aebc6ee9f8f269589e99735b514fd0eb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8536b122d2823359443f2f0fd6e8bda1"><td class="memItemLeft" align="right" valign="top">Gradient&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fade_v_f_x.html#a8536b122d2823359443f2f0fd6e8bda1">gradient</a></td></tr>
 <tr class="separator:a8536b122d2823359443f2f0fd6e8bda1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc3d8af4a2a8c74baf394eaca3537238"><td class="memItemLeft" align="right" valign="top">SpriteRenderer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fade_v_f_x.html#acc3d8af4a2a8c74baf394eaca3537238">sr</a></td></tr>
+<tr class="separator:acc3d8af4a2a8c74baf394eaca3537238"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:aa858053daaa675ed33cf26a724644cd2"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="class_payload_multipliers.html">PayloadMultipliers</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fade_v_f_x.html#aa858053daaa675ed33cf26a724644cd2">Multipliers</a><code> [get, set]</code></td></tr>
+<tr class="separator:aa858053daaa675ed33cf26a724644cd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_class_v_f_x_strategy"><td colspan="2" onclick="javascript:toggleInherit('properties_class_v_f_x_strategy')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_v_f_x_strategy.html">VFXStrategy</a></td></tr>
+<tr class="memitem:a0be385bea4aa514c0609c3e03729cd24 inherit properties_class_v_f_x_strategy"><td class="memItemLeft" align="right" valign="top">abstract <a class="el" href="class_payload_multipliers.html">PayloadMultipliers</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_v_f_x_strategy.html#a0be385bea4aa514c0609c3e03729cd24">Multipliers</a><code> [get, set]</code></td></tr>
+<tr class="separator:a0be385bea4aa514c0609c3e03729cd24 inherit properties_class_v_f_x_strategy"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ac23f244a191db7dac23aab500bf7c40c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fade_v_f_x.html#ac23f244a191db7dac23aab500bf7c40c">OnEnable</a> ()</td></tr>
+<tr class="separator:ac23f244a191db7dac23aab500bf7c40c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91f9054ca3598edba01dc05fd1b81aad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fade_v_f_x.html#a91f9054ca3598edba01dc05fd1b81aad">Update</a> ()</td></tr>
+<tr class="separator:a91f9054ca3598edba01dc05fd1b81aad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa35f01efc537b45f1771c15681cf2c99"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fade_v_f_x.html#aa35f01efc537b45f1771c15681cf2c99">OnDisable</a> ()</td></tr>
+<tr class="separator:aa35f01efc537b45f1771c15681cf2c99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a0afa6214eb362e2fe17209c654501250"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_payload_multipliers.html">PayloadMultipliers</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fade_v_f_x.html#a0afa6214eb362e2fe17209c654501250">_multipliers</a> = new()</td></tr>
+<tr class="separator:a0afa6214eb362e2fe17209c654501250"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07657f3534811cf108d966c05c9a95f8"><td class="memItemLeft" align="right" valign="top">Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fade_v_f_x.html#a07657f3534811cf108d966c05c9a95f8">startColor</a></td></tr>
+<tr class="separator:a07657f3534811cf108d966c05c9a95f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a059cba1b75b559df97d6b8679ba340e2"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fade_v_f_x.html#a059cba1b75b559df97d6b8679ba340e2">startTime</a></td></tr>
+<tr class="separator:a059cba1b75b559df97d6b8679ba340e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A <a class="el" href="class_v_f_x_strategy.html" title="Abstract class defining VFXStrategy methods. TODO: make this an interface(?)">VFXStrategy</a> for fading out a spriteRenderer along an animation curve. </p>
+<div class="textblock"><p>A <a class="el" href="class_v_f_x_strategy.html" title="Abstract class defining VFXStrategy methods.">VFXStrategy</a> for fading out a spriteRenderer along an animation curve. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a8b65a3a7ae820d31fe726e8f7389fae6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b65a3a7ae820d31fe726e8f7389fae6">&#9670;&nbsp;</a></span>Begin()</h2>
+<a id="aa35f01efc537b45f1771c15681cf2c99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa35f01efc537b45f1771c15681cf2c99">&#9670;&nbsp;</a></span>OnDisable()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -147,34 +166,23 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">override void FadeVFX.Begin </td>
+          <td class="memname">void FadeVFX.OnDisable </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_v_f_x___data.html">VFX_Data</a>&#160;</td>
-          <td class="paramname"><em>args</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Set the starting conditions for the VFX </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">args</td><td>VFX_data, update the class when you need to move more information here.</td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Implements <a class="el" href="class_v_f_x_strategy.html#a32cd85c3a869fa6acae000b48f7f387f">VFXStrategy</a>.</p>
-
 </div>
 </div>
-<a id="a58bfc53f5ca0000d9b47a96163599b22"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a58bfc53f5ca0000d9b47a96163599b22">&#9670;&nbsp;</a></span>End()</h2>
+<a id="ac23f244a191db7dac23aab500bf7c40c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac23f244a191db7dac23aab500bf7c40c">&#9670;&nbsp;</a></span>OnEnable()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -183,34 +191,23 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">override void FadeVFX.End </td>
+          <td class="memname">void FadeVFX.OnEnable </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_v_f_x___data.html">VFX_Data</a>&#160;</td>
-          <td class="paramname"><em>args</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reset the VFX object to starting condition </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">args</td><td>VFX_data, update the class when you need to move more information here.</td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Implements <a class="el" href="class_v_f_x_strategy.html#a9ac305cd8ebb02c4f65b75bd631429eb">VFXStrategy</a>.</p>
-
 </div>
 </div>
-<a id="ad653abaf3e60fed3dfb2206b396e7aea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad653abaf3e60fed3dfb2206b396e7aea">&#9670;&nbsp;</a></span>Process()</h2>
+<a id="a91f9054ca3598edba01dc05fd1b81aad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91f9054ca3598edba01dc05fd1b81aad">&#9670;&nbsp;</a></span>Update()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -219,41 +216,52 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">override void FadeVFX.Process </td>
+          <td class="memname">void FadeVFX.Update </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_v_f_x___data.html">VFX_Data</a>&#160;</td>
-          <td class="paramname"><em>args</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Process the VFX </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">args</td><td>VFX_data, update the class when you need to move more information here.</td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Implements <a class="el" href="class_v_f_x_strategy.html#afc7b5f111efb44b6311ab6629311187e">VFXStrategy</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a4b00596baa7116c908deb0ed8f0e2176"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b00596baa7116c908deb0ed8f0e2176">&#9670;&nbsp;</a></span>fadeCurve</h2>
+<a id="a0afa6214eb362e2fe17209c654501250"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0afa6214eb362e2fe17209c654501250">&#9670;&nbsp;</a></span>_multipliers</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_payload_multipliers.html">PayloadMultipliers</a> FadeVFX._multipliers = new()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aebc6ee9f8f269589e99735b514fd0eb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebc6ee9f8f269589e99735b514fd0eb9">&#9670;&nbsp;</a></span>fadeTime</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">AnimationCurve FadeVFX.fadeCurve</td>
+          <td class="memname">float FadeVFX.fadeTime</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -274,6 +282,87 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="acc3d8af4a2a8c74baf394eaca3537238"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc3d8af4a2a8c74baf394eaca3537238">&#9670;&nbsp;</a></span>sr</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SpriteRenderer FadeVFX.sr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a07657f3534811cf108d966c05c9a95f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07657f3534811cf108d966c05c9a95f8">&#9670;&nbsp;</a></span>startColor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Color FadeVFX.startColor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a059cba1b75b559df97d6b8679ba340e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a059cba1b75b559df97d6b8679ba340e2">&#9670;&nbsp;</a></span>startTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float FadeVFX.startTime</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="aa858053daaa675ed33cf26a724644cd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa858053daaa675ed33cf26a724644cd2">&#9670;&nbsp;</a></span>Multipliers</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override <a class="el" href="class_payload_multipliers.html">PayloadMultipliers</a> FadeVFX.Multipliers</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>Assets/Scripts/VFX/ConcreteVFX/<a class="el" href="_fade_v_f_x_8cs.html">FadeVFX.cs</a></li>
 </ul>
@@ -283,7 +372,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_fade_v_f_x.html">FadeVFX</a></li>
-    <li class="footer">Generated on Wed Feb 18 2026 17:36:00 for Game Specialism 2 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Mar 16 2026 17:04:27 for Game Specialism 2 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

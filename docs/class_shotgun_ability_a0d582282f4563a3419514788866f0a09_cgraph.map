@@ -1,0 +1,6 @@
+<map id="ShotgunAbility.HoldAbility" name="ShotgunAbility.HoldAbility">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,196,32"/>
+<area shape="rect" id="node2" href="$class_shotgun_ability.html#a54a5eee05dba3e92a9e4fa1cf0c8fb33" title=" " alt="" coords="244,5,407,32"/>
+<area shape="rect" id="node3" href="$class_abstract_ability.html#a3a929b05e7f37c77cbbfb7ef85380fbf" title=" " alt="" coords="455,5,684,32"/>
+<area shape="rect" id="node4" href="$class_abstract_ability.html#a6a4deecf17e6f7c4769a399e6d035194" title=" " alt="" coords="732,5,967,32"/>
+</map>

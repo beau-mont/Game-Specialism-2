@@ -1,0 +1,6 @@
+<map id="VFXComponent" name="VFXComponent">
+<area shape="rect" id="node1" title="a monoBehavior that executes a list of VFXStrategies it is provided." alt="" coords="129,389,264,467"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,129,83"/>
+<area shape="rect" id="node3" href="$class_v_f_x_strategy.html" title="Abstract class defining VFXStrategy methods." alt="" coords="89,183,304,275"/>
+<area shape="rect" id="node4" href="$class_payload_multipliers.html" title="Payload modifier container, this is passed to payloads so they can implement what they need...." alt="" coords="328,132,545,327"/>
+</map>

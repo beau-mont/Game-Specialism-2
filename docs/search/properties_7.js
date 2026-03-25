@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['projectilepool_539',['ProjectilePool',['../class_abstract_ability.html#a75ee87babf3450395fa183dacdc2449e',1,'AbstractAbility.ProjectilePool()'],['../class_charged_projectile_ability.html#a14f99d5a34a91780359e5350368810bb',1,'ChargedProjectileAbility.ProjectilePool()'],['../class_projectile_ability.html#a901a7883f697057cf570aa747cf2e49e',1,'ProjectileAbility.ProjectilePool()']]],
-  ['projectileprefab_540',['ProjectilePrefab',['../class_abstract_ability.html#a28e3d806f266fd701d74b4a4901216a0',1,'AbstractAbility.ProjectilePrefab()'],['../class_charged_projectile_ability.html#a7363e68b37f72cff966a381883876ba4',1,'ChargedProjectileAbility.ProjectilePrefab()'],['../class_projectile_ability.html#a783c1a841df03e9673ff6ba93c9e459c',1,'ProjectileAbility.ProjectilePrefab()']]]
+  ['lowthreshold_629',['LowThreshold',['../class_damage_threshold.html#a2d0b06927bfdb7ee56dbde295f3b4f52',1,'DamageThreshold.LowThreshold()'],['../class_sound_threshold.html#af3fa2bd57b55474b69a600caa657c71a',1,'SoundThreshold.LowThreshold()']]]
 ];

@@ -1,4 +1,5 @@
 <map id="IWaveFactory.CreateWave" name="IWaveFactory.CreateWave">
-<area shape="rect" id="node1" title=" " alt="" coords="260,5,451,32"/>
-<area shape="rect" id="node2" href="$class_game_controller.html#abb0857d7934e8d9f95f7fe3f19d03baa" title=" " alt="" coords="5,5,212,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="483,5,673,32"/>
+<area shape="rect" id="node2" href="$class_game_controller.html#a1afdb7a85d1e310ccbf696f38c63faab" title=" " alt="" coords="228,5,435,32"/>
+<area shape="rect" id="node3" href="$class_game_controller.html#a5a89277529cadb49af7d55eba3bbf056" title=" " alt="" coords="5,5,180,32"/>
 </map>

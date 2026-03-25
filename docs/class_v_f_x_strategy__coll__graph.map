@@ -1,4 +1,4 @@
 <map id="VFXStrategy" name="VFXStrategy">
-<area shape="rect" id="node1" title="Abstract class defining VFXStrategy methods. TODO: make this an interface(?)" alt="" coords="5,131,275,252"/>
-<area shape="rect" id="node2" title=" " alt="" coords="75,5,205,83"/>
+<area shape="rect" id="node1" title="Abstract class defining VFXStrategy methods." alt="" coords="5,131,220,223"/>
+<area shape="rect" id="node2" title=" " alt="" coords="51,5,175,83"/>
 </map>
