@@ -42,8 +42,8 @@ public class BoidController : MonoBehaviour
 
     void OnDisable()
     {
-        GameObject[] boidsToDisable = boids.ToArray();
-        foreach (GameObject boid in boidsToDisable)
+        var boidsCopy = new List<GameObject>(boids);
+        foreach (GameObject boid in boidsCopy)
         {
             boid.SetActive(false);
         }

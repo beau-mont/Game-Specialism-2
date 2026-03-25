@@ -19,7 +19,8 @@ public class SimpleProjectileBehaviour : AbstractAbilityBehaviour
 
     void Update()
     {
-        float mult = 1 + Multipliers.GlobalMultiplier + Multipliers.SpeedMultiplier;
+        float mult = 1;
+        if (Multipliers != null) mult += Multipliers.GlobalMultiplier + Multipliers.SpeedMultiplier;
         if (rb) rb.linearVelocity = mult * speed * transform.up;
         else Debug.LogWarning($"No Rigidbody2d found on projectile {gameObject.name}");
     }

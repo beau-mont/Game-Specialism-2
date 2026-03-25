@@ -13,8 +13,13 @@ public class AOEDamagePayload : AbstractPayload
     public bool matchY;
     public override void HitEffect(GameObject projectile, GameObject target, PayloadMultipliers mod)
     {
-        float radiusMult = 1 + mod.GlobalMultiplier + mod.RadiusMultiplier;
-        float damageMult = 1 + mod.GlobalMultiplier + mod.DamageMultiplier;
+        float radiusMult = 1;
+        float damageMult = 1;
+        if (mod != null)
+        {
+            radiusMult += mod.GlobalMultiplier + mod.RadiusMultiplier;
+            damageMult += mod.GlobalMultiplier + mod.DamageMultiplier;
+        }
         Vector3 adjustedProjectilePos = new(projectile.transform.position.x, target.transform.position.y, projectile.transform.position.z);
         DamageableList.objects.RemoveAll(a => a == null); // make sure the list is gucci
         GameObject[] hitObjects;

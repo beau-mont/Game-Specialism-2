@@ -5,17 +5,17 @@ public abstract class OnDamageProc : MonoBehaviour
 {
     protected void OnEnable()
     {
-        if (TryGetComponent<PlayerController>(out var playerController))
+        if (TryGetComponent<PlayerEventController>(out var eventController))
         {
-            playerController.OnDamage += ProcEffect;
+            eventController.OnDamage += ProcEffect;
         }
     }
 
     protected void OnDisable()
     {
-        if (TryGetComponent<PlayerController>(out var playerController))
+        if (TryGetComponent<PlayerEventController>(out var eventController))
         {
-            playerController.OnDamage -= ProcEffect;
+            eventController.OnDamage -= ProcEffect;
         }
     }
 

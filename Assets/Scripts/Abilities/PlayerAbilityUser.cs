@@ -139,14 +139,15 @@ public class PlayerAbilityUser : MonoBehaviour, IAbilityUser
 /// <summary>
 /// ability user interface
 /// </summary>
+[SerializeField]
 public interface IAbilityUser
 {
     LayerMask TargetLayers { get; }
     LayerMask IgnoreLayers { get; }
     AbilityContainer CurrentAbility { get; set; }
     void AddAbility(AbstractAbility ability);
-    void RemoveAbility(AbstractAbility ability);
-    void SetAbility(string ability);
+    void RemoveAbility(AbilityContainer ability);
+    void SetAbility(AbilityContainer ability);
     void CycleAbility();
     void ActivateAbility();
     void HoldAbility();

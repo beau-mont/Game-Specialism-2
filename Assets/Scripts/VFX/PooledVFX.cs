@@ -24,6 +24,7 @@ public class PooledVFX : ScriptableObject
         }
         return CreateNewObject();
     }
+    
     private GameObject CreateNewObject() // create a new object and add it to the pool
     {
         GameObject newObj = Instantiate(VFXPrefab);

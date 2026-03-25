@@ -61,6 +61,7 @@ MonoBehaviour:
   spawnVFXAtTarget: 1
   destroyOnHit: 0
   triggerCollider: 1
+  abilityCollider: {fileID: 1580089063536225315}
   payloadMultipliers:
     GlobalMultiplier: 0
     DamageMultiplier: 0

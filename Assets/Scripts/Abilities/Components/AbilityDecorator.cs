@@ -25,6 +25,7 @@ public class AbilityDecorator : MonoBehaviour // GRAAAAAAAH I FUCKING LOVE DOCUM
     [SerializeField] private bool spawnVFXAtTarget;
     [SerializeField] private bool destroyOnHit;
     [SerializeField] private bool triggerCollider;
+    public Collider2D abilityCollider;
     [Header("Modifiers")]
     public PayloadMultipliers payloadMultipliers;
     public AbilityBehaviourMultipliers abilityBehaviourMultipliers;
@@ -70,6 +71,7 @@ public class AbilityDecorator : MonoBehaviour // GRAAAAAAAH I FUCKING LOVE DOCUM
 
     public void ProcessHit(Collider2D other)
     {
+        if (other.gameObject == owner) return; // don't trigger on the owner of the ability
         foreach (AbstractPayload payload in payloads)
         {
             payload.HitEffect(gameObject, other.gameObject, payloadMultipliers);

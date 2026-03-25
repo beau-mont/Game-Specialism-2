@@ -13,12 +13,12 @@ GameObject:
   - component: {fileID: 4104207082835157248}
   - component: {fileID: 5273209428443540650}
   m_Layer: 0
-  m_Name: BoidPattern1
+  m_Name: TumbleBugPattern1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6537674449696446510
 Transform:
   m_ObjectHideFlags: 0

@@ -5,17 +5,17 @@ public abstract class OnKillSpecialProc : MonoBehaviour
 {
     protected void OnEnable()
     {
-        if (TryGetComponent<PlayerController>(out var playerController))
+        if (TryGetComponent<PlayerEventController>(out var eventController))
         {
-            playerController.OnKill += ProcEffect;
+            eventController.OnKillSpecial += ProcEffect;
         }
     }
 
     protected void OnDisable()
     {
-        if (TryGetComponent<PlayerController>(out var playerController))
+        if (TryGetComponent<PlayerEventController>(out var eventController))
         {
-            playerController.OnKill -= ProcEffect;
+            eventController.OnKillSpecial -= ProcEffect;
         }
     }
 

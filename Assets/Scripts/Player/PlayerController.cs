@@ -36,12 +36,6 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
     InputAction parryAction;
     InputAction specialAction;
     InputAction pauseAction;
-    public UnityAction OnDamage;
-    public UnityAction<bool> OnParry; // bool is true if parry was successful, false if it missed.
-    public UnityAction OnKillSpecial;
-    public UnityAction OnParrySpecial;
-    public UnityAction OnQuickStep;
-    public UnityAction OnKill;
 
     void Start()
     {
@@ -151,6 +145,7 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
             if (vfx == null) continue;
             GameObject temp = vfx.GetPooledObject();
             temp.transform.SetPositionAndRotation(transform.position, transform.rotation);
+            temp.SetActive(true);
         }
         gameObject.SetActive(false);
     }

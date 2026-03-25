@@ -5,17 +5,17 @@ public abstract class OnParrySpecialProc : MonoBehaviour
 {
     protected void OnEnable()
     {
-        if (TryGetComponent<PlayerController>(out var playerController))
+        if (TryGetComponent<PlayerEventController>(out var eventController))
         {
-            playerController.OnParrySpecial += ProcEffect;
+            eventController.OnParrySpecial += ProcEffect;
         }
     }
 
     protected void OnDisable()
     {
-        if (TryGetComponent<PlayerController>(out var playerController))
+        if (TryGetComponent<PlayerEventController>(out var eventController))
         {
-            playerController.OnParrySpecial -= ProcEffect;
+            eventController.OnParrySpecial -= ProcEffect;
         }
     }
 

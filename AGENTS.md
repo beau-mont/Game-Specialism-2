@@ -4,11 +4,11 @@
 - Active scene:
   - Name: SampleScene
   - Tags:
-    - Untagged, Respawn, Finish, EditorOnly, MainCamera, Player, GameController, Enemy, Power Up, Projectile
+    - Untagged, Respawn, Finish, EditorOnly, MainCamera, Player, GameController, Enemy, Power Up, Projectile, ParryBox
   - Layers:
-    - Default, TransparentFX, Ignore Raycast, Water, UI, Enemy, Player, Projectile, EnemyProjectile
+    - Default, TransparentFX, Ignore Raycast, Water, UI, Enemy, Player, Projectile, EnemyProjectile, ParryBox
 - Active game object:
-  - Name: Player
-  - Tag: Player
-  - Layer: Player
+  - Name: Left Border
+  - Tag: Untagged
+  - Layer: UI
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->
