@@ -1,17 +1,17 @@
 <map id="GenericEnemyController" name="GenericEnemyController">
-<area shape="rect" id="node1" title="A generic enemy controller to implement IDamageable for prototyping. this is likely to be reworked or..." alt="" coords="5,1675,344,1913"/>
+<area shape="rect" id="node1" title="A generic enemy controller to implement IDamageable for prototyping. this is likely to be reworked or..." alt="" coords="5,1645,344,1884"/>
 <area shape="rect" id="node2" title=" " alt="" coords="318,895,442,973"/>
-<area shape="rect" id="node6" href="$class_upgrade_manager.html" title=" " alt="" coords="418,1094,689,1215"/>
-<area shape="rect" id="node13" href="$class_player_controller.html" title="The player controller, this provides behaviors for the player. currently depends on AbilityUser thoug..." alt="" coords="368,1513,707,2075"/>
-<area shape="rect" id="node3" href="$interface_i_damageable.html" title="An interface for damageable entities." alt="" coords="79,1329,342,1451"/>
-<area shape="rect" id="node4" href="$class_player_data.html" title="Data about the player that other objects may need to access. there should only be one instance of thi..." alt="" coords="537,1344,735,1436"/>
-<area shape="rect" id="node5" title=" " alt="" coords="886,557,1015,634"/>
+<area shape="rect" id="node6" href="$class_upgrade_manager.html" title=" " alt="" coords="418,1101,689,1223"/>
+<area shape="rect" id="node13" href="$class_player_controller.html" title="The player controller, this provides behaviors for the player. currently depends on AbilityUser thoug..." alt="" coords="368,1528,707,2001"/>
+<area shape="rect" id="node3" href="$interface_i_damageable.html" title="An interface for damageable entities." alt="" coords="79,1344,342,1465"/>
+<area shape="rect" id="node4" href="$class_player_data.html" title="Data about the player that other objects may need to access. there should only be one instance of thi..." alt="" coords="537,1359,735,1451"/>
+<area shape="rect" id="node5" title=" " alt="" coords="893,557,1022,634"/>
 <area shape="rect" id="node12" href="$class_upgrade.html" title=" " alt="" coords="606,733,813,825"/>
 <area shape="rect" id="node7" href="$class_player_multipliers.html" title=" " alt="" coords="457,520,751,671"/>
 <area shape="rect" id="node8" href="$class_ability_multipliers.html" title="Ability multiplier container, stores a list of multipliers/modifiers that is passed to an ability to ..." alt="" coords="500,263,708,457"/>
 <area shape="rect" id="node9" href="$class_ability_behaviour_multipliers.html" title="Projectile modifier container, this is passed to projectiles so they can implement what they need...." alt="" coords="332,13,607,193"/>
 <area shape="rect" id="node10" href="$class_payload_multipliers.html" title="Payload modifier container, this is passed to payloads so they can implement what they need...." alt="" coords="631,5,849,200"/>
 <area shape="rect" id="node11" href="$class_upgrade_tree.html" title=" " alt="" coords="605,888,784,980"/>
-<area shape="rect" id="node14" href="$interface_i_damage_threshold.html" title="An interface for damage threshold effects. the purpose of this is to allow methods to be called when ..." alt="" coords="760,1351,1099,1429"/>
-<area shape="rect" id="node15" href="$interface_i_ability_user.html" title="ability user interface" alt="" coords="713,1043,980,1267"/>
+<area shape="rect" id="node14" href="$interface_i_damage_threshold.html" title="An interface for damage threshold effects. the purpose of this is to allow methods to be called when ..." alt="" coords="760,1366,1099,1443"/>
+<area shape="rect" id="node15" href="$interface_i_ability_user.html" title="ability user interface" alt="" coords="713,1043,988,1281"/>
 </map>

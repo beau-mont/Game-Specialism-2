@@ -1,0 +1,4 @@
+<map id="GenericDamageable.Kill" name="GenericDamageable.Kill">
+<area shape="rect" id="node1" title="Kills the object." alt="" coords="5,5,185,32"/>
+<area shape="rect" id="node2" href="$class_generic_damageable.html#a8d2367c8a0646368ba342182c9e4be4c" title=" " alt="" coords="233,5,452,32"/>
+</map>

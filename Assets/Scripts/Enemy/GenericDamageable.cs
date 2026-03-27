@@ -16,6 +16,8 @@ public class GenericDamageable : MonoBehaviour, IDamageable
 
     public void Kill()
     {
+        var eventController = FindFirstObjectByType<PlayerEventController>();
+        if (eventController != null) eventController.OnKill.Invoke();
         SpawnFX(deathVFX, deathSFX);
         gameObject.SetActive(false); 
     }

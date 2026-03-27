@@ -1,4 +1,5 @@
 <map id="AbstractAbility.DeactivateAbility" name="AbstractAbility.DeactivateAbility">
-<area shape="rect" id="node1" title=" " alt="" coords="304,5,537,32"/>
-<area shape="rect" id="node2" href="$class_player_ability_user.html#ac17ffc4e079e543df1009127c7bfa3be" title=" " alt="" coords="5,5,256,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="308,31,541,57"/>
+<area shape="rect" id="node2" href="$class_player_ability_user.html#ac17ffc4e079e543df1009127c7bfa3be" title=" " alt="" coords="7,5,258,32"/>
+<area shape="rect" id="node3" href="$class_enemy_ability_user.html#ac3b67fcef83c778f3744d5062ec7b344" title=" " alt="" coords="5,56,260,83"/>
 </map>

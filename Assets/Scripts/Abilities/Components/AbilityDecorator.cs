@@ -35,6 +35,15 @@ public class AbilityDecorator : MonoBehaviour // GRAAAAAAAH I FUCKING LOVE DOCUM
     [SerializeField] private float lifetime = 1f;
     private float spawnTime;
 
+    public void OnParry()
+    {
+        spawnTime = Time.time; // reset lifetime on parry
+        if (TryGetComponent<VFXComponent>(out var vfx))
+        {
+            vfx.OnParry(); // reset VFX on the parried object
+        }
+    }
+
     void OnEnable()
     {
         spawnTime = Time.time;
@@ -65,6 +74,11 @@ public class AbilityDecorator : MonoBehaviour // GRAAAAAAAH I FUCKING LOVE DOCUM
 
     void OnTriggerEnter2D(Collider2D other)
     {
+        if (other.gameObject.CompareTag("ParryBox")) 
+        {
+            other.GetComponent<ParryBox>().ParryProjectile(gameObject); // parry the projectile if it hits a parry box
+            return; // don't trigger on parry boxes
+        }
         if (!triggerCollider) return;
         ProcessHit(other);
     }

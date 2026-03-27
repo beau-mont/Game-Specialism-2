@@ -1,7 +1,8 @@
 <map id="VFXStrategy" name="VFXStrategy">
-<area shape="rect" id="node1" title="Abstract class defining VFXStrategy methods." alt="" coords="270,131,485,223"/>
+<area shape="rect" id="node1" title="Abstract class defining VFXStrategy methods." alt="" coords="398,131,613,223"/>
 <area shape="rect" id="node3" href="$class_disable_after_delay_v_f_x.html" title="A concrete implementation of a VFXStrategy, disables the entity after a set delay." alt="" coords="5,293,237,458"/>
-<area shape="rect" id="node4" href="$class_fade_v_f_x.html" title="A VFXStrategy for fading out a spriteRenderer along an animation curve." alt="" coords="261,271,493,480"/>
-<area shape="rect" id="node5" href="$class_scale_v_f_x.html" title="A VFXStrategy to scale an object along an animation curve." alt="" coords="517,271,749,480"/>
-<area shape="rect" id="node2" title=" " alt="" coords="315,5,439,83"/>
+<area shape="rect" id="node4" href="$class_fade_text_v_f_x.html" title="A VFXStrategy for fading out a spriteRenderer along an animation curve." alt="" coords="261,271,493,480"/>
+<area shape="rect" id="node5" href="$class_fade_v_f_x.html" title="A VFXStrategy for fading out a spriteRenderer along an animation curve." alt="" coords="517,271,749,480"/>
+<area shape="rect" id="node6" href="$class_scale_v_f_x.html" title="A VFXStrategy to scale an object along an animation curve." alt="" coords="773,271,1005,480"/>
+<area shape="rect" id="node2" title=" " alt="" coords="443,5,567,83"/>
 </map>

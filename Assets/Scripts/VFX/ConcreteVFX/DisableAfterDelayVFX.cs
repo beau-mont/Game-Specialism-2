@@ -11,16 +11,16 @@ public class DisableAfterDelayVFX : VFXStrategy
     private PayloadMultipliers _multipliers = new();
     public override PayloadMultipliers Multipliers { get => _multipliers; set => _multipliers = value; }
     public float Delay;
-    private float startTime;
+    public override float StartTime { get; set; }
     private void OnEnable()
     {
-        startTime = Time.time;
+        StartTime = Time.time;
     }
 
     void Update()
     {
-        if (Time.time < startTime) return;
-        if (Time.time > startTime + Delay)
+        if (Time.time < StartTime) return;
+        if (Time.time > StartTime + Delay)
         {
             // Debug.Log($"VFX Disabling {args.User.name}");
             gameObject.SetActive(false);

@@ -8,7 +8,7 @@
   - Layers:
     - Default, TransparentFX, Ignore Raycast, Water, UI, Enemy, Player, Projectile, EnemyProjectile, ParryBox
 - Active game object:
-  - Name: Left Border
+  - Name: RailFireParticles
   - Tag: Untagged
-  - Layer: UI
+  - Layer: Default
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->

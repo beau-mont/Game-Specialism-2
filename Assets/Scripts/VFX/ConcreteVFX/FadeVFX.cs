@@ -18,17 +18,17 @@ public class FadeVFX : VFXStrategy
     public Gradient gradient;
     public SpriteRenderer sr;
     private Color startColor;
-    private float startTime;
+    public override float StartTime { get; set; }
     void OnEnable()
     {
-        startTime = Time.time;
+        StartTime = Time.time;
         if (sr) startColor = sr.color;
     }
 
     void Update()
     {
-        if (Time.time < startTime) return;
-        sr.color = gradient.Evaluate((Time.time - startTime) / fadeTime);
+        if (Time.time < StartTime) return;
+        sr.color = gradient.Evaluate((Time.time - StartTime) / fadeTime);
     }
 
     void OnDisable()

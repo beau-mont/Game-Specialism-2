@@ -108,7 +108,7 @@ MonoBehaviour:
   cohesionWeight: 1.5
   separationWeight: 2
   separationDistance: 1.5
-  boidCount: 50
+  boidCount: 15
   boidPool: {fileID: 11400000, guid: 9ddfdff2bdee2727ea664e2a960e3c38, type: 2}
   spawnRadius: 1
   boids: []

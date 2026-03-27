@@ -18,17 +18,18 @@ public class ParryBox : MonoBehaviour
         }
     }
 
-    void ParryProjectile(GameObject projectile)
+    public void ParryProjectile(GameObject projectile)
     {
         LayerMask includeLayers = GetComponentInParent<PlayerAbilityUser>().TargetLayers;
         LayerMask excludeLayers = GetComponentInParent<PlayerAbilityUser>().IgnoreLayers;
 
-        projectile.transform.rotation = projectile.transform.rotation * Quaternion.Euler(0, 180, 0);
+        projectile.transform.rotation = projectile.transform.rotation * Quaternion.Euler(0, 0, 180);
         projectile.GetComponent<Rigidbody2D>().linearVelocity *= -1;
-        projectile.tag = "Projectile";
-        projectile.layer = LayerMask.NameToLayer("Projectile");
+        // projectile.tag = "Projectile";
+        // projectile.layer = LayerMask.NameToLayer("Projectile");
         AbilityDecorator decorator = projectile.GetComponent<AbilityDecorator>();
         decorator.owner = transform.parent.gameObject; // set owner to player for damage attribution
+        decorator.OnParry(); // reset lifetime and VFX on the parried projectile
         if (includeLayers != 0 || excludeLayers != 0)
         {
             decorator.abilityCollider.includeLayers = includeLayers;

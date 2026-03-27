@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1e04c61765fcc53bbdf96af40e031e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minAttackInterval: 5
+  minAttackInterval: 2.5
   maxAttackInterval: 10
   holdAttackTime: 0
   playerData: {fileID: 11400000, guid: f45cb763de2a96db4a09887ee31eb15a, type: 2}
@@ -121,7 +121,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.2, z: 0.1}
+  m_LocalScale: {x: 0.065, y: 0.065, z: 0.065}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6585206924758298432}
@@ -171,7 +171,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 472ef0250b1e7af6cb9aa8766fc2890a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
