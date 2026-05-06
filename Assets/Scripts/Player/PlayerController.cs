@@ -181,8 +181,11 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
         {
             yield return new WaitForSeconds(waitTime);
         }
-        SceneManager.LoadSceneAsync(1, LoadSceneMode.Single);
-        yield break;
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(1, LoadSceneMode.Single);
+        while (!asyncLoad.isDone)
+        {
+            yield return null;
+        }
     }
     #endregion
 }
