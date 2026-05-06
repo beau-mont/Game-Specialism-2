@@ -129,7 +129,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   strategies:
   - {fileID: 2505232476998080067}
-  - {fileID: 0}
+  - {fileID: 8181784771501699286}
   - {fileID: 3663512252854659063}
   multipliers:
     GlobalMultiplier: 0
@@ -149,6 +149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fadeTime: 1
+  loop: 1
   intensityCurve:
     serializedVersion: 2
     m_Curve:

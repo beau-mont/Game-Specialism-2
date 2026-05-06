@@ -7,6 +7,8 @@ public class BoidController : MonoBehaviour
     // [Header("Global Player Data")]
     // [SerializeField] private PlayerData playerData;
     [Header("Boid Settings")]
+    public int suicideThreshold = 5;
+    public PlayerData playerData;
     public GameObject followTarget;
     [SerializeField] private float maxSpeed = 5f;
     [SerializeField] private float noiseMultiplier = 1f;
@@ -60,6 +62,11 @@ public class BoidController : MonoBehaviour
         foreach (GameObject boid in boids)
         {
             EvaluateBoid(boid);
+        }
+
+        if (boids.Count <= suicideThreshold)
+        {
+            targetPosition = playerData.Player.transform.position;
         }
 
         if (boids.Count <= 0)
