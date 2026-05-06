@@ -59,15 +59,17 @@ public class BoidController : MonoBehaviour
             targetPosition = followTarget.transform.position;
         else
             targetPosition = Vector3.zero;
-        foreach (GameObject boid in boids)
-        {
-            EvaluateBoid(boid);
-        }
 
         if (boids.Count <= suicideThreshold)
         {
             targetPosition = playerData.Player.transform.position;
         }
+        foreach (GameObject boid in boids)
+        {
+            EvaluateBoid(boid);
+        }
+
+        
 
         if (boids.Count <= 0)
         {
