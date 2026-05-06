@@ -126,6 +126,7 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
         currentHealth -= value;
         if (currentHealth <= 0f) Kill();
         if (currentHealth > (MaxHealth + maxHealthMod)) currentHealth = MaxHealth + maxHealthMod;
+        FindFirstObjectByType<HealthBarUI>().SetHealthDisplay(currentHealth / (MaxHealth + maxHealthMod));
         CheckDamageThresholds();
     }
 
