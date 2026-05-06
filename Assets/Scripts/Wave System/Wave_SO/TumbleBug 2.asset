@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65ba7480c1ee0d33a9a67ad9d02ebe8a, type: 3}
   m_Name: TumbleBug 2
   m_EditorClassIdentifier: 
-  WaveName: TumbleBug 2
+  WaveName: '- Wave Two -'
   enemySpawns:
   - SpawnLocation: {x: 10, y: 10, z: 0}
     SpawnRotation: {x: 0, y: 0, z: 0, w: 0}

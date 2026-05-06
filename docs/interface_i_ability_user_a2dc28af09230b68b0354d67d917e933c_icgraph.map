@@ -1,5 +1,7 @@
 <map id="IAbilityUser.HoldAbility" name="IAbilityUser.HoldAbility">
-<area shape="rect" id="node1" title=" " alt="" coords="512,5,685,32"/>
-<area shape="rect" id="node2" href="$class_player_controller.html#ab0fd365fe8fabadee83e233fbb425a5f" title=" " alt="" coords="231,5,464,32"/>
-<area shape="rect" id="node3" href="$class_player_controller.html#ae8bc83dffb99867a04be016473ed2c43" title=" " alt="" coords="5,5,183,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="551,31,724,57"/>
+<area shape="rect" id="node2" href="$class_generic_shooter_enemy.html#af47a8ce64bd6c56a616c86b5f1b8526b" title=" " alt="" coords="281,5,491,32"/>
+<area shape="rect" id="node4" href="$class_player_controller.html#ab0fd365fe8fabadee83e233fbb425a5f" title=" " alt="" coords="269,56,503,83"/>
+<area shape="rect" id="node3" href="$class_generic_shooter_enemy.html#a8bc03f21de1bdc8a7a55e7e5d2adbb83" title=" " alt="" coords="5,5,221,32"/>
+<area shape="rect" id="node5" href="$class_player_controller.html#ae8bc83dffb99867a04be016473ed2c43" title=" " alt="" coords="25,56,202,83"/>
 </map>

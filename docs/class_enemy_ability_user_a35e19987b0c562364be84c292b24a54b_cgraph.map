@@ -1,0 +1,6 @@
+<map id="EnemyAbilityUser.ActivateAbility" name="EnemyAbilityUser.ActivateAbility">
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,244,57"/>
+<area shape="rect" id="node2" href="$class_abstract_ability.html#acc0bda6c4172a3e7904d9c010e0d3db2" title=" " alt="" coords="294,5,510,32"/>
+<area shape="rect" id="node3" href="$class_enemy_ability_user.html#a68561a37fc0d4da20ff42eb3591d694a" title=" " alt="" coords="292,56,512,83"/>
+<area shape="rect" id="node4" href="$class_enemy_ability_user.html#abe20d4e723fd22a53ec086e5f485655c" title=" " alt="" coords="560,56,765,83"/>
+</map>

@@ -9,45 +9,43 @@ using TMPro;
 public class GameController : MonoBehaviour
 {
     [SerializeField] public List<Wave> waves;
-    private List<GameObject> activeEnemies = new();
+    [SerializeField]private List<GameObject> activeEnemies = new();
     public int waveIndex = 0; // temporary variable to control what wave to spawn, later will be controlled by game logic
     public PlayerData playerData;
     public GameObject canvas;
 
-    void OnEnable()
+    void Start()
     {
-        var sceneController = FindFirstObjectByType<SceneController>();
-        if (sceneController)
-            waveIndex = sceneController.waveIndex;
-        StartCoroutine(WaveEnumerator(waves[waveIndex]));
+        PlayerEventController eventController = FindFirstObjectByType<PlayerEventController>();
+        if (eventController != null)
+        {
+            eventController.OnKill += CheckWaveCompletion;
+        }
+        CheckWaveCompletion();
     }
 
-    // Update is called once per frame
-    void Update()
+    void CheckWaveCompletion()
     {
-        // #if UNITY_EDITOR
-        // if (Input.GetKeyDown(KeyCode.Space)) // temporary input to spawn waves, later will be controlled by game logic
-        // {
-        //     if (waveIndex < waves.Count)
-        //     {
-        //         SpawnWave(waves[waveIndex]);
-        //         waveIndex++;
-        //     }
-        //     else
-        //     {
-        //         Debug.Log("No more waves to spawn.");
-        //     }
-        // }
-        // #endif
-
         activeEnemies.RemoveAll(a => a == null || !a.activeInHierarchy);
         if (activeEnemies.Count == 0 && waveIndex < waves.Count && waves[waveIndex].SpawnedWave) // temporary win condition, later will be controlled by game logic
         {
-            waveIndex++;
-            var sceneController = FindFirstObjectByType<SceneController>();
-        if (sceneController)
-            sceneController.waveIndex = waveIndex;
+            DisplayWaveName(waves[waveIndex]);
             StartCoroutine(WaveEnumerator(waves[waveIndex]));
+            waveIndex++;
+        }
+    }
+
+    void DisplayWaveName(Wave wave)
+    {
+        if (wave.DisplayPrefab != null && this.isActiveAndEnabled)
+        {
+            GameObject displayInstance = Instantiate(wave.DisplayPrefab, canvas.transform);
+            displayInstance.GetComponent<TextMeshProUGUI>().text = wave.waveData.WaveName;
+            displayInstance.SetActive(true);
+        }
+        else
+        {
+            Debug.LogWarning($"No display prefab assigned for wave {wave.waveData.name}");
         }
     }
 
@@ -74,13 +72,9 @@ public class GameController : MonoBehaviour
 
     private IEnumerator WaveEnumerator(Wave wave)
     {
-        var display = Instantiate(waves[waveIndex].DisplayPrefab, canvas.transform);
-        display.GetComponent<TextMeshProUGUI>().text = waves[waveIndex].DisplayName;
-        display.SetActive(true);
-        if (wave.NameDisplayTime > 0)
+        if (wave.SpawnDelay > 0)
         {
-            // Display wave name
-            yield return new WaitForSeconds(wave.NameDisplayTime);
+            yield return new WaitForSeconds(wave.SpawnDelay);
         }
         SpawnWave(wave);
         yield break;
@@ -96,7 +90,5 @@ public class Wave
     public WaveData waveData;
     public IWaveFactory factory;
     public GameObject DisplayPrefab;
-    public float NameDisplayTime;
-    public string DisplayName;
-    public bool SpawnedWave;
+    public float SpawnDelay;
 }

@@ -1,5 +1,5 @@
 <map id="PlayerController" name="PlayerController">
-<area shape="rect" id="node1" title="The player controller, this provides behaviors for the player. currently depends on AbilityUser thoug..." alt="" coords="115,175,454,751"/>
+<area shape="rect" id="node1" title="The player controller, this provides behaviors for the player. currently depends on AbilityUser thoug..." alt="" coords="115,175,454,663"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,27,129,105"/>
 <area shape="rect" id="node3" href="$interface_i_damageable.html" title="An interface for damageable entities." alt="" coords="153,5,416,127"/>
 <area shape="rect" id="node4" href="$interface_i_damage_threshold.html" title="An interface for damage threshold effects. the purpose of this is to allow methods to be called when ..." alt="" coords="441,27,779,105"/>

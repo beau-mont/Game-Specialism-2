@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1e04c61765fcc53bbdf96af40e031e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minAttackInterval: 5
+  minAttackInterval: 2.5
   maxAttackInterval: 10
   holdAttackTime: 0
   playerData: {fileID: 11400000, guid: f45cb763de2a96db4a09887ee31eb15a, type: 2}

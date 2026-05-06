@@ -18,17 +18,17 @@ public class FadeTextVFX : VFXStrategy
     public Gradient gradient;
     public TextMeshProUGUI text;
     private Color textStartColor;
-    private float startTime;
+    public override float StartTime { get; set; }
     void OnEnable()
     {
-        startTime = Time.time;
+        StartTime = Time.time;
         if (text) textStartColor = text.color;
     }
 
     void Update()
     {
-        if (Time.time < startTime) return;
-        text.color = gradient.Evaluate((Time.time - startTime) / fadeTime);
+        if (Time.time < StartTime) return;
+        text.color = gradient.Evaluate((Time.time - StartTime) / fadeTime);
     }
 
     void OnDisable()

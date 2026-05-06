@@ -19,10 +19,10 @@ public class FadeVFX : VFXStrategy
     public Gradient gradient;
     public SpriteRenderer sr;
     private Color startColor;
-    private float startTime;
+    public override float StartTime { get; set; }
     void OnEnable()
     {
-        startTime = Time.time;
+        StartTime = Time.time;
         if (sr) startColor = sr.color;
     }
 

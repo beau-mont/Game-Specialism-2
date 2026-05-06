@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: 472ef0250b1e7af6cb9aa8766fc2890a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1271688991335995298
+    second: tumblebug_0
+  - first:
+      213: 8830267627295215723
+    second: tumblebug_1
+  - first:
+      213: -4968309835038963097
+    second: tumblebug_2
+  - first:
+      213: -7127510216815098168
+    second: tumblebug_3
+  - first:
+      213: -7833595813737863495
+    second: tumblebug_4
+  - first:
+      213: 8656488831295908516
+    second: tumblebug_5
+  - first:
+      213: 8783733082875908058
+    second: tumblebug_6
+  - first:
+      213: 7872403061454300455
+    second: tumblebug_7
+  - first:
+      213: -654834174813586907
+    second: tumblebug_8
+  - first:
+      213: -5538562543717370880
+    second: tumblebug_9
+  - first:
+      213: -6691819280387828938
+    second: tumblebug_10
+  - first:
+      213: -7135032805189455689
+    second: tumblebug_11
+  - first:
+      213: 8576460543812904512
+    second: tumblebug_12
+  - first:
+      213: -3374882603086802666
+    second: tumblebug_13
+  - first:
+      213: -9099807046233993346
+    second: tumblebug_14
+  - first:
+      213: 498988483467316972
+    second: tumblebug_15
+  - first:
+      213: -7098330388902883497
+    second: tumblebug_16
+  - first:
+      213: 8055723860323606910
+    second: tumblebug_17
+  - first:
+      213: -961103134999502233
+    second: tumblebug_18
+  - first:
+      213: -3458645583869171108
+    second: tumblebug_19
+  - first:
+      213: -907170043051080690
+    second: tumblebug_20
+  - first:
+      213: 5630848014553424321
+    second: tumblebug_21
+  - first:
+      213: 5543102082684679851
+    second: tumblebug_22
+  - first:
+      213: 2737313567693126455
+    second: tumblebug_23
+  - first:
+      213: 7910302280520152617
+    second: tumblebug_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tumblebug_0
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 691
+        width: 201
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e58a4ae999d0a5ee0800000000000000
+      internalID: -1271688991335995298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tumblebug_1
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 647
+        width: 183
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b60109c4f996b8a70800000000000000
+      internalID: 8830267627295215723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tumblebug_2
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 630
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a4c6c37840d0bb0800000000000000
+      internalID: -4968309835038963097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tumblebug_3
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 611
+        width: 64
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c6c4c1983ff51d90800000000000000
+      internalID: -7127510216815098168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tumblebug_4
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 600
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b6ea209c1a794390800000000000000
+      internalID: -7833595813737863495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tumblebug_5
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 611
+        width: 64
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aa678f5ab6022870800000000000000
+      internalID: 8656488831295908516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tumblebug_6
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 630
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf4aae53b616e970800000000000000
+      internalID: 8783733082875908058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tumblebug_7
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 596
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7256ea6efd4604d60800000000000000
+      internalID: 7872403061454300455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tumblebug_8
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 563
+        width: 175
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a337799cf89e6f0800000000000000
+      internalID: -654834174813586907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tumblebug_9
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 596
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 004317706b21323b0800000000000000
+      internalID: -5538562543717370880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tumblebug_10
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 551
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6339f5bb1d1e123a0800000000000000
+      internalID: -6691819280387828938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tumblebug_11
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 531
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b07ce977754bfc90800000000000000
+      internalID: -7135032805189455689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tumblebug_12
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 531
+        width: 79
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0462f10bc65b50770800000000000000
+      internalID: 8576460543812904512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tumblebug_13
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 551
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6119d5447220a21d0800000000000000
+      internalID: -3374882603086802666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tumblebug_14
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 490
+        width: 15
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f40ac44bdf6b180800000000000000
+      internalID: -9099807046233993346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tumblebug_15
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 179
+        width: 301
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee8418c163cce600800000000000000
+      internalID: 498988483467316972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tumblebug_16
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 490
+        width: 15
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75f451fae1aad7d90800000000000000
+      internalID: -7098330388902883497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tumblebug_17
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 467
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e712a3f7b2eabcf60800000000000000
+      internalID: 8055723860323606910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tumblebug_18
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 409
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76227d57ac979a2f0800000000000000
+      internalID: -961103134999502233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tumblebug_19
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 409
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a21898a2c6000d0800000000000000
+      internalID: -3458645583869171108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tumblebug_20
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 467
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e048019f6a51963f0800000000000000
+      internalID: -907170043051080690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tumblebug_21
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 238
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c1abab8f6ac42e40800000000000000
+      internalID: 5630848014553424321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tumblebug_22
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 238
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6f520c9fd0dec40800000000000000
+      internalID: 5543102082684679851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tumblebug_23
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 171
+        width: 83
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73bb439df24ecf520800000000000000
+      internalID: 2737313567693126455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tumblebug_24
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 171
+        width: 83
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926bd58730a07cd60800000000000000
+      internalID: 7910302280520152617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tumblebug_0: -1271688991335995298
+      tumblebug_1: 8830267627295215723
+      tumblebug_10: -6691819280387828938
+      tumblebug_11: -7135032805189455689
+      tumblebug_12: 8576460543812904512
+      tumblebug_13: -3374882603086802666
+      tumblebug_14: -9099807046233993346
+      tumblebug_15: 498988483467316972
+      tumblebug_16: -7098330388902883497
+      tumblebug_17: 8055723860323606910
+      tumblebug_18: -961103134999502233
+      tumblebug_19: -3458645583869171108
+      tumblebug_2: -4968309835038963097
+      tumblebug_20: -907170043051080690
+      tumblebug_21: 5630848014553424321
+      tumblebug_22: 5543102082684679851
+      tumblebug_23: 2737313567693126455
+      tumblebug_24: 7910302280520152617
+      tumblebug_3: -7127510216815098168
+      tumblebug_4: -7833595813737863495
+      tumblebug_5: 8656488831295908516
+      tumblebug_6: 8783733082875908058
+      tumblebug_7: 7872403061454300455
+      tumblebug_8: -654834174813586907
+      tumblebug_9: -5538562543717370880
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,4 +1,6 @@
 <map id="GameController.SpawnWave" name="GameController.SpawnWave">
-<area shape="rect" id="node1" title=" " alt="" coords="228,5,435,32"/>
-<area shape="rect" id="node2" href="$class_game_controller.html#a5a89277529cadb49af7d55eba3bbf056" title=" " alt="" coords="5,5,180,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="827,5,1033,32"/>
+<area shape="rect" id="node2" href="$class_game_controller.html#aadaf323ec57f0455d0998c07edf72339" title=" " alt="" coords="539,5,779,32"/>
+<area shape="rect" id="node3" href="$class_game_controller.html#a120c07bbb9f21f8dfb02883afb79a369" title=" " alt="" coords="212,5,491,32"/>
+<area shape="rect" id="node4" href="$class_game_controller.html#a97788a7aa0f09c8d748781683e5f045b" title=" " alt="" coords="5,5,164,32"/>
 </map>

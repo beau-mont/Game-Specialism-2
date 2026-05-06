@@ -13,31 +13,6 @@ public class UpgradeManager : MonoBehaviour
     void Start()
     {
         playerData.PlayerUpgradeManager = this;
-        // PlayerMultipliers = new PlayerMultipliers 
-        // {
-        //     GlobalMultiplier = 0f, 
-        //     MoveSpeedMultiplier = 0f, 
-        //     AbilityMultipliers = new AbilityMultipliers
-        //     {
-        //         GlobalMultiplier = 0f,
-        //         AccuracyMultiplier = 0f,
-        //         CooldownMultiplier = 0f,
-        //         BonusProjectiles = 0,
-        //         PayloadMultipliers = new PayloadMultipliers
-        //         {
-        //             GlobalMultiplier = 0f,
-        //             DamageMultiplier = 0f,
-        //             RadiusMultiplier = 0f,
-        //             BurnMultiplier = 0f
-        //         },
-        //         AbilityBehaviourMultipliers = new AbilityBehaviourMultipliers
-        //         {
-        //             GlobalMultiplier = 0f,
-        //             SpeedMultiplier = 0f,
-        //             HomingMultiplier = 0f
-        //         }
-        //     }
-        // };
         foreach (var upgrade in obtainedUpgrades)
         {
             PlayerMultipliers += upgrade.AddMultipliers;

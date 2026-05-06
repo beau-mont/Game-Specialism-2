@@ -8,6 +8,7 @@ var class_ability_decorator =
     [ "Update", "class_ability_decorator.html#a93c3fb6cdb0d7765ab8668394fa52197", null ],
     [ "abilityBehaviour", "class_ability_decorator.html#ab885820c19cb107afa743deff145ef27", null ],
     [ "abilityBehaviourMultipliers", "class_ability_decorator.html#ab0ce09eeddaa93e7b5fbd76105e33f26", null ],
+    [ "abilityCollider", "class_ability_decorator.html#a702253f4da6ea4bb1ecf58a7dda7fe7f", null ],
     [ "destroyOnHit", "class_ability_decorator.html#af62949da635c89f2852f3670affb6a9c", null ],
     [ "hitVFX", "class_ability_decorator.html#aa3833ebf27d389275b219a42dd2a8919", null ],
     [ "lifetime", "class_ability_decorator.html#af2f735116302f49c97e004a734a766c4", null ],

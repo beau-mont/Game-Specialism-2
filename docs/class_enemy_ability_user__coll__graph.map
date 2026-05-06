@@ -1,0 +1,8 @@
+<map id="EnemyAbilityUser" name="EnemyAbilityUser">
+<area shape="rect" id="node1" title=" " alt="" coords="154,837,429,1164"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,617,129,694"/>
+<area shape="rect" id="node3" href="$interface_i_ability_user.html" title="ability user interface" alt="" coords="154,536,429,775"/>
+<area shape="rect" id="node4" href="$class_ability_container.html" title=" " alt="" coords="453,602,660,709"/>
+<area shape="rect" id="node5" href="$class_abstract_ability.html" title="abstract class for abilities." alt="" coords="415,132,698,473"/>
+<area shape="rect" id="node6" title=" " alt="" coords="492,5,621,83"/>
+</map>

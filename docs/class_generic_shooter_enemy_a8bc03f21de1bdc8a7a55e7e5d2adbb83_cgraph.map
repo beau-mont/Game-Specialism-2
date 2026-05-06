@@ -1,0 +1,8 @@
+<map id="GenericShooterEnemy.Update" name="GenericShooterEnemy.Update">
+<area shape="rect" id="node1" title=" " alt="" coords="5,81,221,108"/>
+<area shape="rect" id="node2" href="$class_generic_shooter_enemy.html#af47a8ce64bd6c56a616c86b5f1b8526b" title=" " alt="" coords="289,56,500,83"/>
+<area shape="rect" id="node6" href="$class_generic_shooter_enemy.html#a95bdc7f908f475a5ec5056d16ebf6d55" title=" " alt="" coords="269,107,520,133"/>
+<area shape="rect" id="node3" href="$interface_i_ability_user.html#afeb22843c92ada33a71482739e68780b" title=" " alt="" coords="577,5,774,32"/>
+<area shape="rect" id="node4" href="$interface_i_ability_user.html#a53140cd3f175aee525323e673181bcea" title=" " alt="" coords="568,56,783,83"/>
+<area shape="rect" id="node5" href="$interface_i_ability_user.html#a2dc28af09230b68b0354d67d917e933c" title=" " alt="" coords="589,107,762,133"/>
+</map>

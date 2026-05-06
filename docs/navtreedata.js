@@ -32,7 +32,8 @@ var NAVTREE =
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", null ],
-        [ "Variables", "functions_vars.html", null ],
+        [ "Variables", "functions_vars.html", "functions_vars" ],
+        [ "Enumerations", "functions_enum.html", null ],
         [ "Properties", "functions_prop.html", null ]
       ] ]
     ] ],
@@ -45,8 +46,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_a_o_e_damage_payload_8cs.html",
-"class_generic_enemy_controller.html#a7d2509b24c9bf623569f9327603a69d2",
-"dir_be2309129943314b8f73745319d4e3f7.html"
+"class_fade_text_v_f_x.html#abae51bb63c2b18290be08f0f808c4a0b",
+"class_shotgun_ability.html#a514426364e14dcd69bf5b1b0ab08a369"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

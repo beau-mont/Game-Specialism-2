@@ -2,11 +2,15 @@ var dir_c7fafc839a0585736011c21bdabf2a37 =
 [
     [ "EXP", "dir_65a95104c7a319201c19b001b568299c.html", "dir_65a95104c7a319201c19b001b568299c" ],
     [ "New Upgrades", "dir_0740bcd3ee1f7c8f16f1c25616caf471.html", "dir_0740bcd3ee1f7c8f16f1c25616caf471" ],
+    [ "Parry", "dir_653ab8e17a63807353d076456277d3ed.html", "dir_653ab8e17a63807353d076456277d3ed" ],
     [ "PlayerController.cs", "_player_controller_8cs.html", [
       [ "PlayerController", "class_player_controller.html", "class_player_controller" ]
     ] ],
     [ "PlayerData.cs", "_player_data_8cs.html", [
       [ "PlayerData", "class_player_data.html", "class_player_data" ]
+    ] ],
+    [ "PlayerEventController.cs", "_player_event_controller_8cs.html", [
+      [ "PlayerEventController", "class_player_event_controller.html", "class_player_event_controller" ]
     ] ],
     [ "UpgradeManager.cs", "_upgrade_manager_8cs.html", [
       [ "UpgradeManager", "class_upgrade_manager.html", "class_upgrade_manager" ],

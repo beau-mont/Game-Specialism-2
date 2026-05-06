@@ -1,4 +1,4 @@
 <map id="PooledSFX" name="PooledSFX">
-<area shape="rect" id="node1" title="a static class that can be used to fetch SFX" alt="" coords="5,131,287,237"/>
-<area shape="rect" id="node2" title=" " alt="" coords="81,5,211,83"/>
+<area shape="rect" id="node1" title="a static class that can be used to fetch SFX" alt="" coords="5,131,247,237"/>
+<area shape="rect" id="node2" title=" " alt="" coords="61,5,191,83"/>
 </map>

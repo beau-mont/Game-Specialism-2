@@ -47,6 +47,8 @@ public class BoidController : MonoBehaviour
         {
             boid.SetActive(false);
         }
+        var eventController = FindFirstObjectByType<PlayerEventController>();
+        if (eventController != null) eventController.OnKill.Invoke();
     }
 
     void FixedUpdate()

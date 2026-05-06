@@ -8,7 +8,7 @@
   - Layers:
     - Default, TransparentFX, Ignore Raycast, Water, UI, Enemy, Player, Projectile, EnemyProjectile, ParryBox
 - Active game object:
-  - Name: TumbleBugPattern2(Clone)
+  - Name: RailFireParticles
   - Tag: Untagged
   - Layer: Default
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->
