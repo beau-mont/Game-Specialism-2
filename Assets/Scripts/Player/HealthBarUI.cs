@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class HealthBarUI : MonoBehaviour
 {
@@ -7,10 +8,13 @@ public class HealthBarUI : MonoBehaviour
     private float targetX;
     public float LerpSpeed = 10f;
     public RectTransform rectTransform;
-    
+    private float health;
+
     public void SetHealthDisplay(float healthPercent)
     {
-        targetX = Mathf.Lerp(EmptyPosX, FullPosX, healthPercent);
+        health = healthPercent;
+        targetX = Mathf.Lerp(EmptyPosX, FullPosX, health);
+        FindFirstObjectByType<PostProcessingController>().abberationIntensity = health;
     }
 
     private void Update()

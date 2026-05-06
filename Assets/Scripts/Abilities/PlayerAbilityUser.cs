@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UIElements;
 
 /// <summary>
@@ -17,6 +18,8 @@ public class PlayerAbilityUser : MonoBehaviour, IAbilityUser
     public LayerMask TargetLayers { get => _TargetLayers; }
     [SerializeField] private LayerMask _IgnoreLayers;
     public LayerMask IgnoreLayers { get => _IgnoreLayers; }
+    public UnityEvent weapon1;
+    public UnityEvent weapon2;
 
     void Start()
     {
@@ -108,10 +111,14 @@ public class PlayerAbilityUser : MonoBehaviour, IAbilityUser
     {
         if (availableAbilities.Any(a => a.Ability == ability)) CurrentAbility = availableAbilities.FirstOrDefault(a => a.Ability == ability);
         else Debug.LogWarning($"attempt to set invalid ability");
+        if (availableAbilities.IndexOf(CurrentAbility) == 0) weapon1.Invoke();
+        else weapon2.Invoke();
     }
 
     public void SetAbility(AbilityContainer ability)
     {
+        if (availableAbilities.IndexOf(ability) == 0) weapon1.Invoke();
+        else weapon2.Invoke();
         CurrentAbility = ability;
     }
 
