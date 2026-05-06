@@ -101,6 +101,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 382744091df1bc4ad91bd5cbea15f190, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  suicideThreshold: 5
+  playerData: {fileID: 11400000, guid: f45cb763de2a96db4a09887ee31eb15a, type: 2}
   followTarget: {fileID: 8669806100855643754}
   maxSpeed: 7
   noiseMultiplier: 0.5
@@ -108,7 +110,7 @@ MonoBehaviour:
   cohesionWeight: 1.5
   separationWeight: 2
   separationDistance: 1.5
-  boidCount: 25
+  boidCount: 40
   boidPool: {fileID: 11400000, guid: 70b61425313def725853a5fe65bce948, type: 2}
   spawnRadius: 1
   boids: []

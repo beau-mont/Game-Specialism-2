@@ -1,0 +1,1079 @@
+fileFormatVersion: 2
+guid: d27fb8c7da39cd984b482a8132be5f03
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3869302730567072324
+    second: gatling cart_0
+  - first:
+      213: -2386510474651428092
+    second: gatling cart_1
+  - first:
+      213: 3625618742011209115
+    second: gatling cart_2
+  - first:
+      213: -6270193043870995969
+    second: gatling cart_3
+  - first:
+      213: -8954212335295356163
+    second: gatling cart_4
+  - first:
+      213: -2112255771358937112
+    second: gatling cart_5
+  - first:
+      213: -6644735830572115751
+    second: gatling cart_6
+  - first:
+      213: 58671977537711862
+    second: gatling cart_7
+  - first:
+      213: -5934910904727242839
+    second: gatling cart_8
+  - first:
+      213: -7345960583551377536
+    second: gatling cart_9
+  - first:
+      213: -877182608348746902
+    second: gatling cart_10
+  - first:
+      213: 7239501220061176777
+    second: gatling cart_11
+  - first:
+      213: -6938295198842007580
+    second: gatling cart_12
+  - first:
+      213: 6954771373790215827
+    second: gatling cart_13
+  - first:
+      213: -7538176021397895504
+    second: gatling cart_14
+  - first:
+      213: 3364994564980629040
+    second: gatling cart_15
+  - first:
+      213: 8452867521427948658
+    second: gatling cart_16
+  - first:
+      213: -5587463773796125843
+    second: gatling cart_17
+  - first:
+      213: 6037715885843410374
+    second: gatling cart_18
+  - first:
+      213: 6130120696444338988
+    second: gatling cart_19
+  - first:
+      213: -507778172986080834
+    second: gatling cart_20
+  - first:
+      213: -4195911290803259541
+    second: gatling cart_21
+  - first:
+      213: 6964859630805515164
+    second: gatling cart_22
+  - first:
+      213: -1224625530391296056
+    second: gatling cart_23
+  - first:
+      213: -7400996221542124832
+    second: gatling cart_24
+  - first:
+      213: -4802088968726745025
+    second: gatling cart_25
+  - first:
+      213: 5351154056290188706
+    second: gatling cart_26
+  - first:
+      213: 4982835727347734357
+    second: gatling cart_27
+  - first:
+      213: 1440117574778337763
+    second: gatling cart_28
+  - first:
+      213: -2461138552381706515
+    second: gatling cart_29
+  - first:
+      213: -3757225344698591630
+    second: gatling cart_30
+  - first:
+      213: -8749936067582601572
+    second: gatling cart_31
+  - first:
+      213: 1311984529638418969
+    second: gatling cart_32
+  - first:
+      213: -4340104663061545468
+    second: gatling cart_33
+  - first:
+      213: 7308770238312898142
+    second: gatling cart_34
+  - first:
+      213: 8389688989210456196
+    second: gatling cart_35
+  - first:
+      213: 7874770419849236957
+    second: gatling cart_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gatling cart_0
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 2031
+        width: 75
+        height: 548
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a36ef355682b530800000000000000
+      internalID: 3869302730567072324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatling cart_1
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 2009
+        width: 134
+        height: 571
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b17a91e5961eed0800000000000000
+      internalID: -2386510474651428092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatling cart_2
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 2424
+        width: 209
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b95a3985909c05230800000000000000
+      internalID: 3625618742011209115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatling cart_3
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 2493
+        width: 180
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff9a1f2c5accbf8a0800000000000000
+      internalID: -6270193043870995969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatling cart_4
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 2424
+        width: 209
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df2ac4f825f3cb380800000000000000
+      internalID: -8954212335295356163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatling cart_5
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 2009
+        width: 135
+        height: 571
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8efb1613192cfa2e0800000000000000
+      internalID: -2112255771358937112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatling cart_6
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 2031
+        width: 75
+        height: 548
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d85078a7f729c3a0800000000000000
+      internalID: -6644735830572115751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatling cart_7
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 1857
+        width: 399
+        height: 521
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fea76b4ad170d000800000000000000
+      internalID: 58671977537711862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatling cart_8
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 2093
+        width: 446
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7f3260af5f2ada0800000000000000
+      internalID: -5934910904727242839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatling cart_9
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 2181
+        width: 620
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f166315c7ed0a90800000000000000
+      internalID: -7345960583551377536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatling cart_10
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 2129
+        width: 528
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6be832b01f93d3f0800000000000000
+      internalID: -877182608348746902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatling cart_11
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 2181
+        width: 620
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c3e0ccc000e77460800000000000000
+      internalID: 7239501220061176777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatling cart_12
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 2093
+        width: 446
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef493ef64936bf90800000000000000
+      internalID: -6938295198842007580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatling cart_13
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 1857
+        width: 400
+        height: 522
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39e32dc67bf448060800000000000000
+      internalID: 6954771373790215827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatling cart_14
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 1462
+        width: 872
+        height: 606
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b60636f8d4036790800000000000000
+      internalID: -7538176021397895504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatling cart_15
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 2005
+        width: 646
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03e5ac47abcd2be20800000000000000
+      internalID: 3364994564980629040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatling cart_16
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1683
+        width: 228
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 274462cb93e9e4570800000000000000
+      internalID: 8452867521427948658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatling cart_17
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 1490
+        width: 270
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d63b4872d475572b0800000000000000
+      internalID: -5587463773796125843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatling cart_18
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 1490
+        width: 270
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cded66eb964ac350800000000000000
+      internalID: 6037715885843410374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatling cart_19
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 1683
+        width: 228
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c23c5dd6b40921550800000000000000
+      internalID: 6130120696444338988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatling cart_20
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1419
+        width: 65
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb1c776217204f8f0800000000000000
+      internalID: -507778172986080834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatling cart_21
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1497
+        width: 316
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b67fe9279e025c5c0800000000000000
+      internalID: -4195911290803259541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatling cart_22
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1403
+        width: 57
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9bfe9ccee628a060800000000000000
+      internalID: 6964859630805515164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatling cart_23
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 1392
+        width: 49
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c707268191410fe0800000000000000
+      internalID: -1224625530391296056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatling cart_24
+      rect:
+        serializedVersion: 2
+        x: 1588
+        y: 1497
+        width: 316
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e239fe06216a4990800000000000000
+      internalID: -7400996221542124832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatling cart_25
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 1392
+        width: 49
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f307837868d8b5db0800000000000000
+      internalID: -4802088968726745025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatling cart_26
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 1403
+        width: 57
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad3197334e134a40800000000000000
+      internalID: 5351154056290188706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatling cart_27
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 1419
+        width: 66
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 557dfae91b6962540800000000000000
+      internalID: 4982835727347734357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatling cart_28
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 1384
+        width: 45
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e9b57fdd435cf310800000000000000
+      internalID: 1440117574778337763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatling cart_29
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1379
+        width: 25
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deee44ab68748ddd0800000000000000
+      internalID: -2461138552381706515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatling cart_30
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1371
+        width: 61
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2765524a477abdbc0800000000000000
+      internalID: -3757225344698591630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatling cart_31
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1214
+        width: 136
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c965c54718bf19680800000000000000
+      internalID: -8749936067582601572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatling cart_32
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1163
+        width: 306
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ae7ef7afa153210800000000000000
+      internalID: 1311984529638418969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatling cart_33
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1214
+        width: 136
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e3336cdc9d4c3c0800000000000000
+      internalID: -4340104663061545468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatling cart_34
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 1371
+        width: 61
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5e5697eec7fd6560800000000000000
+      internalID: 7308770238312898142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatling cart_35
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 1379
+        width: 25
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48035e96fa92e6470800000000000000
+      internalID: 8389688989210456196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatling cart_36
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 1384
+        width: 44
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd11eda79fdc84d60800000000000000
+      internalID: 7874770419849236957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gatling cart_0: 3869302730567072324
+      gatling cart_1: -2386510474651428092
+      gatling cart_10: -877182608348746902
+      gatling cart_11: 7239501220061176777
+      gatling cart_12: -6938295198842007580
+      gatling cart_13: 6954771373790215827
+      gatling cart_14: -7538176021397895504
+      gatling cart_15: 3364994564980629040
+      gatling cart_16: 8452867521427948658
+      gatling cart_17: -5587463773796125843
+      gatling cart_18: 6037715885843410374
+      gatling cart_19: 6130120696444338988
+      gatling cart_2: 3625618742011209115
+      gatling cart_20: -507778172986080834
+      gatling cart_21: -4195911290803259541
+      gatling cart_22: 6964859630805515164
+      gatling cart_23: -1224625530391296056
+      gatling cart_24: -7400996221542124832
+      gatling cart_25: -4802088968726745025
+      gatling cart_26: 5351154056290188706
+      gatling cart_27: 4982835727347734357
+      gatling cart_28: 1440117574778337763
+      gatling cart_29: -2461138552381706515
+      gatling cart_3: -6270193043870995969
+      gatling cart_30: -3757225344698591630
+      gatling cart_31: -8749936067582601572
+      gatling cart_32: 1311984529638418969
+      gatling cart_33: -4340104663061545468
+      gatling cart_34: 7308770238312898142
+      gatling cart_35: 8389688989210456196
+      gatling cart_36: 7874770419849236957
+      gatling cart_4: -8954212335295356163
+      gatling cart_5: -2112255771358937112
+      gatling cart_6: -6644735830572115751
+      gatling cart_7: 58671977537711862
+      gatling cart_8: -5934910904727242839
+      gatling cart_9: -7345960583551377536
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

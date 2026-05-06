@@ -1,0 +1,4 @@
+<map id="EnemyAbilityUser.HoldAbility" name="EnemyAbilityUser.HoldAbility">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,220,32"/>
+<area shape="rect" id="node2" href="$class_abstract_ability.html#af92b8e79db78b223dc0bd4719769f759" title=" " alt="" coords="268,5,460,32"/>
+</map>

@@ -132,40 +132,47 @@ $(document).ready(function(){initNavTree('hierarchy.html',''); initResizable(); 
 </td></tr>
 <tr><td><img src="inherit_graph_5.png" border="0" usemap="#a_i_ability_user" alt=""/>
 <map name="a_i_ability_user" id="a_i_ability_user">
-<area shape="rect" href="interface_i_ability_user.html" title="ability user interface" alt="" coords="29,5,127,32"/>
-<area shape="rect" href="class_player_ability_user.html" title="A monoBehavior that manages the players abilities" alt="" coords="223,5,358,32"/>
-<area shape="rect" href="interface_i_damageable.html" title="An interface for damageable entities." alt="" coords="23,107,133,133"/>
-<area shape="rect" href="class_boid_entity.html" title=" " alt="" coords="246,157,335,184"/>
-<area shape="rect" href="class_generic_enemy_controller.html" title="A generic enemy controller to implement IDamageable for prototyping. this is likely to be reworked or..." alt="" coords="200,107,381,133"/>
-<area shape="rect" href="class_player_controller.html" title="The player controller, this provides behaviors for the player. currently depends on AbilityUser thoug..." alt="" coords="227,56,354,83"/>
-<area shape="rect" href="interface_i_damage_threshold.html" title="An interface for damage threshold effects. the purpose of this is to allow methods to be called when ..." alt="" coords="5,56,151,83"/>
-<area shape="rect" title=" " alt="" coords="16,563,140,589"/>
-<area shape="rect" href="class_ability_decorator.html" title="AbilityDecorator combines functionality from a list of AbstractPayload&#39;s and an AbstractAbilityBehavi..." alt="" coords="227,816,355,843"/>
-<area shape="rect" href="class_abstract_ability_behaviour.html" title="An abstract class defining a method for processing an abilities behaviour." alt="" coords="199,867,383,893"/>
-<area shape="rect" href="class_abstract_payload.html" title="An abstract class defining a method for all payloads to use" alt="" coords="227,917,354,944"/>
-<area shape="rect" href="class_boid_controller.html" title=" " alt="" coords="233,968,348,995"/>
-<area shape="rect" href="class_boid_forcefield.html" title=" " alt="" coords="233,1019,348,1045"/>
-<area shape="rect" href="class_debug_ability_display.html" title=" " alt="" coords="213,1069,368,1096"/>
-<area shape="rect" href="class_e_x_p_controller.html" title=" " alt="" coords="235,1120,346,1147"/>
-<area shape="rect" href="class_game_controller.html" title="A basic game controller script for managing game state and whatnot" alt="" coords="228,208,353,235"/>
-<area shape="rect" href="class_on_damage_proc.html" title=" " alt="" coords="229,259,352,285"/>
-<area shape="rect" href="class_on_kill_proc.html" title=" " alt="" coords="246,309,335,336"/>
-<area shape="rect" href="class_on_kill_special_proc.html" title=" " alt="" coords="223,360,359,387"/>
-<area shape="rect" href="class_on_parry_proc.html" title=" " alt="" coords="240,411,341,437"/>
-<area shape="rect" href="class_on_parry_special_proc.html" title=" " alt="" coords="217,461,365,488"/>
-<area shape="rect" href="class_on_quick_step_proc.html" title=" " alt="" coords="223,512,358,539"/>
-<area shape="rect" href="class_s_f_x___component.html" title=" " alt="" coords="226,563,355,589"/>
-<area shape="rect" href="class_simple_pickup.html" title="A simple pickup monoBehaviour, this is likely to be removed or reworked later for real functionality." alt="" coords="236,613,345,640"/>
-<area shape="rect" href="class_upgrade_manager.html" title=" " alt="" coords="223,664,358,691"/>
-<area shape="rect" href="class_v_f_x_component.html" title="a monoBehavior that executes a list of VFXStrategies it is provided." alt="" coords="229,715,352,741"/>
-<area shape="rect" href="class_v_f_x_strategy.html" title="Abstract class defining VFXStrategy methods." alt="" coords="239,765,342,792"/>
-<area shape="rect" href="class_beam_behaviour.html" title="Flies in a straight line, it moves upwards at speed * Multiplier" alt="" coords="465,816,591,843"/>
-<area shape="rect" href="class_simple_projectile_behaviour.html" title="Flies in a straight line, it moves upwards at speed * Multiplier" alt="" coords="431,867,625,893"/>
-<area shape="rect" href="class_a_o_e_damage_payload.html" title="THIS IS SO CURSED PLEASE GOD CHANGE THIS LATER" alt="" coords="451,917,605,944"/>
-<area shape="rect" href="class_damage_payload.html" title="A basic damage payload. deals damage * Multiplier to any IDamageable it hits." alt="" coords="464,968,592,995"/>
-<area shape="rect" href="class_disable_after_delay_v_f_x.html" title="A concrete implementation of a VFXStrategy, disables the entity after a set delay." alt="" coords="445,664,611,691"/>
-<area shape="rect" href="class_fade_v_f_x.html" title="A VFXStrategy for fading out a spriteRenderer along an animation curve." alt="" coords="489,715,567,741"/>
-<area shape="rect" href="class_scale_v_f_x.html" title="A VFXStrategy to scale an object along an animation curve." alt="" coords="487,765,569,792"/>
+<area shape="rect" href="interface_i_ability_user.html" title="ability user interface" alt="" coords="29,31,127,57"/>
+<area shape="rect" href="class_enemy_ability_user.html" title=" " alt="" coords="221,5,360,32"/>
+<area shape="rect" href="class_player_ability_user.html" title="A monoBehavior that manages the players abilities" alt="" coords="223,56,358,83"/>
+<area shape="rect" href="interface_i_damageable.html" title="An interface for damageable entities." alt="" coords="23,157,133,184"/>
+<area shape="rect" href="class_generic_damageable.html" title=" " alt="" coords="213,208,368,235"/>
+<area shape="rect" href="class_generic_enemy_controller.html" title="A generic enemy controller to implement IDamageable for prototyping. this is likely to be reworked or..." alt="" coords="200,157,381,184"/>
+<area shape="rect" href="class_player_controller.html" title="The player controller, this provides behaviors for the player. currently depends on AbilityUser thoug..." alt="" coords="227,107,354,133"/>
+<area shape="rect" href="interface_i_damage_threshold.html" title="An interface for damage threshold effects. the purpose of this is to allow methods to be called when ..." alt="" coords="5,107,151,133"/>
+<area shape="rect" title=" " alt="" coords="16,715,140,741"/>
+<area shape="rect" href="class_ability_decorator.html" title="AbilityDecorator combines functionality from a list of AbstractPayload&#39;s and an AbstractAbilityBehavi..." alt="" coords="227,1019,355,1045"/>
+<area shape="rect" href="class_abstract_ability_behaviour.html" title="An abstract class defining a method for processing an abilities behaviour." alt="" coords="199,1069,383,1096"/>
+<area shape="rect" href="class_abstract_payload.html" title="An abstract class defining a method for all payloads to use" alt="" coords="227,1120,354,1147"/>
+<area shape="rect" href="class_boid_controller.html" title=" " alt="" coords="233,1171,348,1197"/>
+<area shape="rect" href="class_boid_entity.html" title=" " alt="" coords="246,1221,335,1248"/>
+<area shape="rect" href="class_boid_forcefield.html" title=" " alt="" coords="233,1272,348,1299"/>
+<area shape="rect" href="class_debug_ability_display.html" title=" " alt="" coords="213,1323,368,1349"/>
+<area shape="rect" href="class_e_x_p_controller.html" title=" " alt="" coords="235,1373,346,1400"/>
+<area shape="rect" href="class_game_controller.html" title="A basic game controller script for managing game state and whatnot" alt="" coords="228,1424,353,1451"/>
+<area shape="rect" href="class_generic_shooter_enemy.html" title="fuck doing generic shit for this highkey" alt="" coords="207,259,374,285"/>
+<area shape="rect" href="class_on_damage_proc.html" title=" " alt="" coords="229,309,352,336"/>
+<area shape="rect" href="class_on_kill_proc.html" title=" " alt="" coords="246,360,335,387"/>
+<area shape="rect" href="class_on_kill_special_proc.html" title=" " alt="" coords="223,411,359,437"/>
+<area shape="rect" href="class_on_parry_proc.html" title=" " alt="" coords="240,461,341,488"/>
+<area shape="rect" href="class_on_parry_special_proc.html" title=" " alt="" coords="217,512,365,539"/>
+<area shape="rect" href="class_on_quick_step_proc.html" title=" " alt="" coords="223,563,358,589"/>
+<area shape="rect" href="class_parry_ability.html" title=" " alt="" coords="242,613,339,640"/>
+<area shape="rect" href="class_parry_box.html" title=" " alt="" coords="251,664,331,691"/>
+<area shape="rect" href="class_player_event_controller.html" title=" " alt="" coords="209,715,373,741"/>
+<area shape="rect" href="class_s_f_x___component.html" title=" " alt="" coords="226,765,355,792"/>
+<area shape="rect" href="class_simple_pickup.html" title="A simple pickup monoBehaviour, this is likely to be removed or reworked later for real functionality." alt="" coords="236,816,345,843"/>
+<area shape="rect" href="class_upgrade_manager.html" title=" " alt="" coords="223,867,358,893"/>
+<area shape="rect" href="class_v_f_x_component.html" title="a monoBehavior that executes a list of VFXStrategies it is provided." alt="" coords="229,917,352,944"/>
+<area shape="rect" href="class_v_f_x_strategy.html" title="Abstract class defining VFXStrategy methods." alt="" coords="239,968,342,995"/>
+<area shape="rect" href="class_beam_behaviour.html" title="Flies in a straight line, it moves upwards at speed * Multiplier" alt="" coords="465,1044,591,1071"/>
+<area shape="rect" href="class_simple_projectile_behaviour.html" title="Flies in a straight line, it moves upwards at speed * Multiplier" alt="" coords="431,1095,625,1121"/>
+<area shape="rect" href="class_a_o_e_damage_payload.html" title="THIS IS SO CURSED PLEASE GOD CHANGE THIS LATER" alt="" coords="451,1145,605,1172"/>
+<area shape="rect" href="class_damage_payload.html" title="A basic damage payload. deals damage * Multiplier to any IDamageable it hits." alt="" coords="464,1196,592,1223"/>
+<area shape="rect" href="class_disable_after_delay_v_f_x.html" title="A concrete implementation of a VFXStrategy, disables the entity after a set delay." alt="" coords="445,841,611,868"/>
+<area shape="rect" href="class_fade_text_v_f_x.html" title="A VFXStrategy for fading out a spriteRenderer along an animation curve." alt="" coords="475,892,581,919"/>
+<area shape="rect" href="class_fade_v_f_x.html" title="A VFXStrategy for fading out a spriteRenderer along an animation curve." alt="" coords="489,943,567,969"/>
+<area shape="rect" href="class_scale_v_f_x.html" title="A VFXStrategy to scale an object along an animation curve." alt="" coords="487,993,569,1020"/>
 </map>
 </td></tr>
 <tr><td><img src="inherit_graph_6.png" border="0" usemap="#a_payload_multipliers" alt=""/>
@@ -199,7 +206,7 @@ $(document).ready(function(){initNavTree('hierarchy.html',''); initResizable(); 
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Mar 16 2026 17:04:27 for Game Specialism 2 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Wed Mar 25 2026 17:12:38 for Game Specialism 2 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

@@ -15,20 +15,22 @@ public class FadeVFX : VFXStrategy
     private PayloadMultipliers _multipliers = new();
     public override PayloadMultipliers Multipliers { get => _multipliers; set => _multipliers = value; }
     public float fadeTime;
+    public bool loop = false;
     public Gradient gradient;
     public SpriteRenderer sr;
     private Color startColor;
-    private float startTime;
+    public override float StartTime { get; set; }
     void OnEnable()
     {
-        startTime = Time.time;
+        StartTime = Time.time;
         if (sr) startColor = sr.color;
     }
 
     void Update()
     {
-        if (Time.time < startTime) return;
-        sr.color = gradient.Evaluate((Time.time - startTime) / fadeTime);
+        if (Time.time < StartTime) return;
+        if (Time.time > StartTime + fadeTime && loop) StartTime = Time.time;
+        sr.color = gradient.Evaluate((Time.time - StartTime) / fadeTime);
     }
 
     void OnDisable()

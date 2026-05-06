@@ -8,8 +8,8 @@ public class EXPController : MonoBehaviour
     [field: SerializeField] public int PlayerLevel { get; private set; }
     [field: SerializeField] public int[] EXPThresholds { get; private set; }
 
-    public UnityAction<int> OnLevelUp;
-    public UnityAction<int> OnEXPChange;
+    public UnityEvent<int> OnLevelUp;
+    public UnityEvent<int> OnEXPChange;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

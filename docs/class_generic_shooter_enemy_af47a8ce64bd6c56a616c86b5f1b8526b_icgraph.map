@@ -1,0 +1,4 @@
+<map id="GenericShooterEnemy.Attack" name="GenericShooterEnemy.Attack">
+<area shape="rect" id="node1" title=" " alt="" coords="269,5,480,32"/>
+<area shape="rect" id="node2" href="$class_generic_shooter_enemy.html#a8bc03f21de1bdc8a7a55e7e5d2adbb83" title=" " alt="" coords="5,5,221,32"/>
+</map>

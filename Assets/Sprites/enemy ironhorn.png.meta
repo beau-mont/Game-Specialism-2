@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: d8faf400b9be71d21afc9086b5532be8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7706086662850855214
+    second: enemy ironhorn_0
+  - first:
+      213: 5337602178978635579
+    second: enemy ironhorn_1
+  - first:
+      213: 5715065589936249749
+    second: enemy ironhorn_2
+  - first:
+      213: -6526701105592820156
+    second: enemy ironhorn_3
+  - first:
+      213: -8867762598618587314
+    second: enemy ironhorn_4
+  - first:
+      213: -3552903960427549189
+    second: enemy ironhorn_5
+  - first:
+      213: 1753350557569244269
+    second: enemy ironhorn_6
+  - first:
+      213: 256656004096702409
+    second: enemy ironhorn_7
+  - first:
+      213: -2596658913769392142
+    second: enemy ironhorn_8
+  - first:
+      213: -5213411748553262438
+    second: enemy ironhorn_9
+  - first:
+      213: -3250375710167819051
+    second: enemy ironhorn_10
+  - first:
+      213: -398373046770133476
+    second: enemy ironhorn_11
+  - first:
+      213: -790287192007738221
+    second: enemy ironhorn_12
+  - first:
+      213: -6325626903149683646
+    second: enemy ironhorn_13
+  - first:
+      213: -8819220377782263491
+    second: enemy ironhorn_14
+  - first:
+      213: 5038162564399272435
+    second: enemy ironhorn_15
+  - first:
+      213: 7551079562279741392
+    second: enemy ironhorn_16
+  - first:
+      213: -98902220240022497
+    second: enemy ironhorn_17
+  - first:
+      213: 3141279667316857106
+    second: enemy ironhorn_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemy ironhorn_0
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 2154
+        width: 297
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de366c320b7e0590800000000000000
+      internalID: -7706086662850855214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy ironhorn_1
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 2386
+        width: 128
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3f5f56e6e8f21a40800000000000000
+      internalID: 5337602178978635579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy ironhorn_2
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 2092
+        width: 406
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59b5534dfddff4f40800000000000000
+      internalID: 5715065589936249749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy ironhorn_3
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 2326
+        width: 370
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44e9df5acef7c65a0800000000000000
+      internalID: -6526701105592820156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy ironhorn_4
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 2154
+        width: 297
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f18d466e06fe480800000000000000
+      internalID: -8867762598618587314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy ironhorn_5
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 2386
+        width: 128
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd23ad0cac81bec0800000000000000
+      internalID: -3552903960427549189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy ironhorn_6
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1627
+        width: 412
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6cd5aeda07255810800000000000000
+      internalID: 1753350557569244269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy ironhorn_7
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1815
+        width: 497
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c7b7a1a643df8300800000000000000
+      internalID: 256656004096702409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy ironhorn_8
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1320
+        width: 982
+        height: 787
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f77ce1c970d6fbd0800000000000000
+      internalID: -2596658913769392142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy ironhorn_9
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 1767
+        width: 594
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a72a3f2ad36a7b0800000000000000
+      internalID: -5213411748553262438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy ironhorn_10
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1815
+        width: 497
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc93e8438854e2d0800000000000000
+      internalID: -3250375710167819051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy ironhorn_11
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 1627
+        width: 412
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c161d2b13d1b87af0800000000000000
+      internalID: -398373046770133476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy ironhorn_12
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1459
+        width: 195
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39c76d96cf55805f0800000000000000
+      internalID: -790287192007738221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy ironhorn_13
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1341
+        width: 93
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24cdb10a8dbd638a0800000000000000
+      internalID: -6325626903149683646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy ironhorn_14
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1285
+        width: 512
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d31e66aeac5db9580800000000000000
+      internalID: -8819220377782263491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy ironhorn_15
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 1285
+        width: 512
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f190b3b8262be540800000000000000
+      internalID: 5038162564399272435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy ironhorn_16
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 1459
+        width: 195
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d76564cad2dac860800000000000000
+      internalID: 7551079562279741392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy ironhorn_17
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 1341
+        width: 93
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f14981764f0a0aef0800000000000000
+      internalID: -98902220240022497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy ironhorn_18
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 1083
+        width: 588
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2191496d631189b20800000000000000
+      internalID: 3141279667316857106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      enemy ironhorn_0: -7706086662850855214
+      enemy ironhorn_1: 5337602178978635579
+      enemy ironhorn_10: -3250375710167819051
+      enemy ironhorn_11: -398373046770133476
+      enemy ironhorn_12: -790287192007738221
+      enemy ironhorn_13: -6325626903149683646
+      enemy ironhorn_14: -8819220377782263491
+      enemy ironhorn_15: 5038162564399272435
+      enemy ironhorn_16: 7551079562279741392
+      enemy ironhorn_17: -98902220240022497
+      enemy ironhorn_18: 3141279667316857106
+      enemy ironhorn_2: 5715065589936249749
+      enemy ironhorn_3: -6526701105592820156
+      enemy ironhorn_4: -8867762598618587314
+      enemy ironhorn_5: -3552903960427549189
+      enemy ironhorn_6: 1753350557569244269
+      enemy ironhorn_7: 256656004096702409
+      enemy ironhorn_8: -2596658913769392142
+      enemy ironhorn_9: -5213411748553262438
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

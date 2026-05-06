@@ -1,10 +1,8 @@
 <map id="BoidEntity" name="BoidEntity">
-<area shape="rect" id="node1" title=" " alt="" coords="275,856,552,1139"/>
-<area shape="rect" id="node2" title=" " alt="" coords="125,5,249,83"/>
-<area shape="rect" id="node6" href="$class_boid_controller.html" title=" " alt="" coords="151,393,423,793"/>
-<area shape="rect" id="node7" href="$class_boid_forcefield.html" title=" " alt="" coords="125,132,249,239"/>
-<area shape="rect" id="node3" href="$interface_i_damageable.html" title="An interface for damageable entities." alt="" coords="569,533,831,654"/>
-<area shape="rect" id="node4" href="$class_pooled_v_f_x.html" title="Defines a basic implementation of pooling for all other objects." alt="" coords="463,263,705,369"/>
-<area shape="rect" id="node5" title=" " alt="" coords="491,5,621,83"/>
-<area shape="rect" id="node8" href="$class_pooled_boids.html" title=" " alt="" coords="325,132,566,239"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,764,256,944"/>
+<area shape="rect" id="node2" title=" " alt="" coords="109,5,233,83"/>
+<area shape="rect" id="node3" href="$class_boid_controller.html" title=" " alt="" coords="147,301,419,701"/>
+<area shape="rect" id="node4" href="$class_boid_forcefield.html" title=" " alt="" coords="209,132,333,239"/>
+<area shape="rect" id="node5" href="$class_pooled_boids.html" title=" " alt="" coords="357,132,598,239"/>
+<area shape="rect" id="node6" title=" " alt="" coords="413,5,542,83"/>
 </map>

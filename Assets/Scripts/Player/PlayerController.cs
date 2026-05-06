@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
+using System.Collections;
 
 /// <summary>
 /// The player controller, this provides behaviors for the player.
@@ -124,6 +126,7 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
         currentHealth -= value;
         if (currentHealth <= 0f) Kill();
         if (currentHealth > (MaxHealth + maxHealthMod)) currentHealth = MaxHealth + maxHealthMod;
+        FindFirstObjectByType<HealthBarUI>().SetHealthDisplay(currentHealth / (MaxHealth + maxHealthMod));
         CheckDamageThresholds();
     }
 
@@ -147,6 +150,7 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
             temp.transform.SetPositionAndRotation(transform.position, transform.rotation);
             temp.SetActive(true);
         }
+        StartCoroutine(OpenMenu(2));
         gameObject.SetActive(false);
     }
 
@@ -168,6 +172,19 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
                 threshold.End();
                 threshold.Active = false;
             } 
+        }
+    }
+
+    private IEnumerator OpenMenu(float waitTime)
+    {
+        if (waitTime > 0)
+        {
+            yield return new WaitForSeconds(waitTime);
+        }
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(1, LoadSceneMode.Single);
+        while (!asyncLoad.isDone)
+        {
+            yield return null;
         }
     }
     #endregion

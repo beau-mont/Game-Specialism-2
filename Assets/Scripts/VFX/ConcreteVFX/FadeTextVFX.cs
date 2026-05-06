@@ -15,20 +15,22 @@ public class FadeTextVFX : VFXStrategy
     private PayloadMultipliers _multipliers = new();
     public override PayloadMultipliers Multipliers { get => _multipliers; set => _multipliers = value; }
     public float fadeTime;
+    public bool loop = false;
     public Gradient gradient;
     public TextMeshProUGUI text;
     private Color textStartColor;
-    private float startTime;
+    public override float StartTime { get; set; }
     void OnEnable()
     {
-        startTime = Time.time;
+        StartTime = Time.time;
         if (text) textStartColor = text.color;
     }
 
     void Update()
     {
-        if (Time.time < startTime) return;
-        text.color = gradient.Evaluate((Time.time - startTime) / fadeTime);
+        if (Time.time < StartTime) return;
+        if (Time.time > StartTime + fadeTime && loop) StartTime = Time.time;
+        text.color = gradient.Evaluate((Time.time - StartTime) / fadeTime);
     }
 
     void OnDisable()

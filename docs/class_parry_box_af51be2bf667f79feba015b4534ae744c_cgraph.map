@@ -1,0 +1,4 @@
+<map id="ParryBox.OnCollisionEnter2D" name="ParryBox.OnCollisionEnter2D">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,216,32"/>
+<area shape="rect" id="node2" href="$class_parry_box.html#a897a6778bcfc27fec3dad97b05973fa9" title=" " alt="" coords="264,5,443,32"/>
+</map>

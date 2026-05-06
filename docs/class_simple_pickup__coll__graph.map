@@ -1,9 +1,9 @@
 <map id="SimplePickup" name="SimplePickup">
-<area shape="rect" id="node1" title="A simple pickup monoBehaviour, this is likely to be removed or reworked later for real functionality." alt="" coords="227,2067,477,2174"/>
-<area shape="rect" id="node2" title=" " alt="" coords="953,1222,1077,1299"/>
-<area shape="rect" id="node5" href="$class_upgrade_manager.html" title=" " alt="" coords="706,1421,977,1542"/>
-<area shape="rect" id="node12" href="$class_player_controller.html" title="The player controller, this provides behaviors for the player. currently depends on AbilityUser thoug..." alt="" coords="896,1840,1235,2401"/>
-<area shape="rect" id="node3" href="$class_player_data.html" title="Data about the player that other objects may need to access. there should only be one instance of thi..." alt="" coords="607,1671,806,1763"/>
+<area shape="rect" id="node1" title="A simple pickup monoBehaviour, this is likely to be removed or reworked later for real functionality." alt="" coords="229,2038,480,2145"/>
+<area shape="rect" id="node2" title=" " alt="" coords="961,1222,1085,1299"/>
+<area shape="rect" id="node5" href="$class_upgrade_manager.html" title=" " alt="" coords="714,1428,985,1549"/>
+<area shape="rect" id="node12" href="$class_player_controller.html" title="The player controller, this provides behaviors for the player. currently depends on AbilityUser thoug..." alt="" coords="904,1855,1243,2328"/>
+<area shape="rect" id="node3" href="$class_player_data.html" title="Data about the player that other objects may need to access. there should only be one instance of thi..." alt="" coords="613,1685,811,1777"/>
 <area shape="rect" id="node4" title=" " alt="" coords="313,557,442,634"/>
 <area shape="rect" id="node11" href="$class_upgrade.html" title=" " alt="" coords="494,733,701,825"/>
 <area shape="rect" id="node16" href="$class_abstract_ability.html" title="abstract class for abilities." alt="" coords="5,849,288,1191"/>
@@ -12,7 +12,7 @@
 <area shape="rect" id="node8" href="$class_ability_behaviour_multipliers.html" title="Projectile modifier container, this is passed to projectiles so they can implement what they need...." alt="" coords="375,13,649,193"/>
 <area shape="rect" id="node9" href="$class_payload_multipliers.html" title="Payload modifier container, this is passed to payloads so they can implement what they need...." alt="" coords="674,5,891,200"/>
 <area shape="rect" id="node10" href="$class_upgrade_tree.html" title=" " alt="" coords="524,1215,703,1307"/>
-<area shape="rect" id="node13" href="$interface_i_damageable.html" title="An interface for damageable entities." alt="" coords="1103,1656,1366,1777"/>
-<area shape="rect" id="node14" href="$interface_i_damage_threshold.html" title="An interface for damage threshold effects. the purpose of this is to allow methods to be called when ..." alt="" coords="1391,1678,1729,1755"/>
-<area shape="rect" id="node15" href="$interface_i_ability_user.html" title="ability user interface" alt="" coords="415,1369,681,1593"/>
+<area shape="rect" id="node13" href="$interface_i_damageable.html" title="An interface for damageable entities." alt="" coords="1111,1671,1374,1792"/>
+<area shape="rect" id="node14" href="$interface_i_damage_threshold.html" title="An interface for damage threshold effects. the purpose of this is to allow methods to be called when ..." alt="" coords="1399,1693,1737,1770"/>
+<area shape="rect" id="node15" href="$interface_i_ability_user.html" title="ability user interface" alt="" coords="415,1369,689,1608"/>
 </map>

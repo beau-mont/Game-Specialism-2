@@ -1,0 +1,4 @@
+<map id="GenericDamageable.Kill" name="GenericDamageable.Kill">
+<area shape="rect" id="node1" title="Kills the object." alt="" coords="300,5,480,32"/>
+<area shape="rect" id="node2" href="$class_generic_damageable.html#ad32845af3794205ae286865b1e35a83f" title="Removes value from currentHealth." alt="" coords="5,5,252,32"/>
+</map>

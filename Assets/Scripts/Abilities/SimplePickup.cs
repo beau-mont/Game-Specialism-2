@@ -5,6 +5,7 @@ using UnityEngine;
 /// </summary>
 public class SimplePickup : MonoBehaviour
 {
+    public Vector3 moveDir;
     public AbstractAbility  abilityToGrant;
     public Upgrade upgradeToAdd;
     [SerializeField] private PlayerData playerData;
@@ -28,5 +29,10 @@ public class SimplePickup : MonoBehaviour
     private void Disappear()
     {
         Destroy(gameObject); // replace with fancy animation or something later
+    }
+
+    void Update()
+    {
+        transform.position += moveDir * Time.deltaTime;
     }
 }

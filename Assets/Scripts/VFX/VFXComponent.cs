@@ -16,6 +16,14 @@ public class VFXComponent : MonoBehaviour
             strategy.Multipliers = multipliers;
         }
     }
+
+    public void OnParry()
+    {
+        foreach (var strategy in strategies)
+        {
+            strategy.StartTime = Time.time;
+        }
+    }
 }
 
 
@@ -25,5 +33,6 @@ public class VFXComponent : MonoBehaviour
 public abstract class VFXStrategy : MonoBehaviour
 {
     public abstract PayloadMultipliers Multipliers { get; set; }
+    public abstract float StartTime { get; set; }
 }
 

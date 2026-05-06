@@ -1,0 +1,6 @@
+<map id="GenericShooterEnemy.Attack" name="GenericShooterEnemy.Attack">
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,216,83"/>
+<area shape="rect" id="node2" href="$interface_i_ability_user.html#afeb22843c92ada33a71482739e68780b" title=" " alt="" coords="273,5,470,32"/>
+<area shape="rect" id="node3" href="$interface_i_ability_user.html#a53140cd3f175aee525323e673181bcea" title=" " alt="" coords="264,56,479,83"/>
+<area shape="rect" id="node4" href="$interface_i_ability_user.html#a2dc28af09230b68b0354d67d917e933c" title=" " alt="" coords="285,107,458,133"/>
+</map>

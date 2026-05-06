@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 
 /// <summary>
 /// A wave factory that provides behaviour for spawning a boss wave.
@@ -8,6 +9,7 @@ using System.Collections.Generic;
 [CreateAssetMenu(fileName = "BossWaveFactory", menuName = "Wave/BossWaveFactory")]
 public class ConcreteBossFactory : IWaveFactory // specialized factory for boss waves
 {
+    public PooledSFX StartSound;
     public override string FactoryName => "Boss Wave Factory";
     public override List<GameObject> CreateWave(WaveData waveData)
     {
@@ -18,6 +20,8 @@ public class ConcreteBossFactory : IWaveFactory // specialized factory for boss 
             spawnedEnemies.Add(GameObject.Instantiate(spawn.EnemyPrefab, spawn.SpawnLocation, spawn.SpawnRotation));
         }
         // Additional logic for boss waves will be added here
+        var sfx = StartSound.GetPooledObject();
+        sfx.SetActive(true);
         return spawnedEnemies;
     }
 }

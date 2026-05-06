@@ -93,13 +93,15 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 <li>ActivateAbility()
 : <a class="el" href="class_abstract_ability.html#acc0bda6c4172a3e7904d9c010e0d3db2">AbstractAbility</a>
 , <a class="el" href="class_charged_projectile_ability.html#a150a5b2b2872804efd386d2c07e4c9e5">ChargedProjectileAbility</a>
+, <a class="el" href="class_enemy_ability_user.html#a35e19987b0c562364be84c292b24a54b">EnemyAbilityUser</a>
 , <a class="el" href="interface_i_ability_user.html#afeb22843c92ada33a71482739e68780b">IAbilityUser</a>
 , <a class="el" href="class_player_ability_user.html#a55a2f5ac2285295a6d49bc4f4cfdacd3">PlayerAbilityUser</a>
 , <a class="el" href="class_projectile_ability.html#a0106b2bc60906d167700aad7c1bc16b4">ProjectileAbility</a>
 , <a class="el" href="class_shotgun_ability.html#af105acdc234f6fc2ed3e8215777d9426">ShotgunAbility</a>
 </li>
 <li>AddAbility()
-: <a class="el" href="interface_i_ability_user.html#a547874f0794614574a1a5226272dbcce">IAbilityUser</a>
+: <a class="el" href="class_enemy_ability_user.html#ad993a1fbfbf9b5c3349c4b3434bf54b7">EnemyAbilityUser</a>
+, <a class="el" href="interface_i_ability_user.html#a547874f0794614574a1a5226272dbcce">IAbilityUser</a>
 , <a class="el" href="class_player_ability_user.html#a68688b2aaea0b650de9581ecdda2c28c">PlayerAbilityUser</a>
 </li>
 <li>AddEXP()
@@ -110,6 +112,9 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 </li>
 <li>Alignment()
 : <a class="el" href="class_boid_controller.html#a6950181b2766a9eed84703c76540696d">BoidController</a>
+</li>
+<li>Attack()
+: <a class="el" href="class_generic_shooter_enemy.html#af47a8ce64bd6c56a616c86b5f1b8526b">GenericShooterEnemy</a>
 </li>
 </ul>
 
@@ -123,13 +128,16 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 <li>CheckLevelUp()
 : <a class="el" href="class_e_x_p_controller.html#ad509486de0a76c3c57916f10d10e4cfb">EXPController</a>
 </li>
+<li>CheckWaveCompletion()
+: <a class="el" href="class_game_controller.html#a120c07bbb9f21f8dfb02883afb79a369">GameController</a>
+</li>
 <li>Cohesion()
 : <a class="el" href="class_boid_controller.html#adea93059159cdb830fe86a3508c60f0a">BoidController</a>
 </li>
 <li>CreateNewObject()
 : <a class="el" href="class_abstract_ability.html#a6a4deecf17e6f7c4769a399e6d035194">AbstractAbility</a>
 , <a class="el" href="class_pooled_boids.html#a367ba263734d093d92a7df37e567e859">PooledBoids</a>
-, <a class="el" href="class_pooled_s_f_x.html#abc7cd7113b885b30c9c5d221a7e15d7a">PooledSFX</a>
+, <a class="el" href="class_pooled_s_f_x.html#a552b5383cce9acbb2389793818e33e59">PooledSFX</a>
 , <a class="el" href="class_pooled_v_f_x.html#aeed6ad3be9378f774135169f1255278e">PooledVFX</a>
 </li>
 <li>CreateWave()
@@ -138,7 +146,8 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 , <a class="el" href="class_i_wave_factory.html#a85ec700ca49a548a48c30d2e64cfd926">IWaveFactory</a>
 </li>
 <li>CycleAbility()
-: <a class="el" href="interface_i_ability_user.html#af5fd546588ae17f7b09a717c01e2361c">IAbilityUser</a>
+: <a class="el" href="class_enemy_ability_user.html#a68561a37fc0d4da20ff42eb3591d694a">EnemyAbilityUser</a>
+, <a class="el" href="interface_i_ability_user.html#af5fd546588ae17f7b09a717c01e2361c">IAbilityUser</a>
 , <a class="el" href="class_player_ability_user.html#a02a0e245f13375ca962642ba153bbd7a">PlayerAbilityUser</a>
 </li>
 </ul>
@@ -148,6 +157,7 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 <li>DeactivateAbility()
 : <a class="el" href="class_abstract_ability.html#a79c8a732979c67e0b5597e89ec2d216b">AbstractAbility</a>
 , <a class="el" href="class_charged_projectile_ability.html#ab72e75e51b6b5bff1f760021644af784">ChargedProjectileAbility</a>
+, <a class="el" href="class_enemy_ability_user.html#ac3b67fcef83c778f3744d5062ec7b344">EnemyAbilityUser</a>
 , <a class="el" href="interface_i_ability_user.html#a53140cd3f175aee525323e673181bcea">IAbilityUser</a>
 , <a class="el" href="class_player_ability_user.html#ac17ffc4e079e543df1009127c7bfa3be">PlayerAbilityUser</a>
 , <a class="el" href="class_projectile_ability.html#a3d51556a86cd49dd0a5d1180ee4b0c9a">ProjectileAbility</a>
@@ -159,6 +169,9 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 <li>DisplayUpgrades()
 : <a class="el" href="class_debug_ability_display.html#a2c93e8453e25fa90d908b1a03977c170">DebugAbilityDisplay</a>
 </li>
+<li>DisplayWaveName()
+: <a class="el" href="class_game_controller.html#ad95bcdc8ce8c332bcd24fe36167dd54a">GameController</a>
+</li>
 </ul>
 
 
@@ -166,6 +179,9 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 <li>End()
 : <a class="el" href="class_damage_threshold.html#abb9e25ee8483e31a715a266188039b90">DamageThreshold</a>
 , <a class="el" href="class_sound_threshold.html#ab7ff90d0cd57dbd742a7adbb9cd7e30b">SoundThreshold</a>
+</li>
+<li>EndParry()
+: <a class="el" href="class_parry_ability.html#a11986194e3554f1b1ce10357e3e2fbd9">ParryAbility</a>
 </li>
 <li>EvaluateBoid()
 : <a class="el" href="class_boid_controller.html#af50494df2ccdbe34f8804813f90c72d5">BoidController</a>
@@ -184,7 +200,7 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 <li>GetPooledObject()
 : <a class="el" href="class_abstract_ability.html#a3a929b05e7f37c77cbbfb7ef85380fbf">AbstractAbility</a>
 , <a class="el" href="class_pooled_boids.html#a57fe215c0dff72c3466914e192a60964">PooledBoids</a>
-, <a class="el" href="class_pooled_s_f_x.html#aee25a89c251afbe36fba10157a01c019">PooledSFX</a>
+, <a class="el" href="class_pooled_s_f_x.html#a612520b0a3730a53394027dcdc48d8a2">PooledSFX</a>
 , <a class="el" href="class_pooled_v_f_x.html#a910349b167038e6df64d75e793a5c1d4">PooledVFX</a>
 </li>
 </ul>
@@ -199,6 +215,7 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 <li>HoldAbility()
 : <a class="el" href="class_abstract_ability.html#af92b8e79db78b223dc0bd4719769f759">AbstractAbility</a>
 , <a class="el" href="class_charged_projectile_ability.html#a47313039a9ef5455aad4338fd2ebf580">ChargedProjectileAbility</a>
+, <a class="el" href="class_enemy_ability_user.html#a72373a89d4084121debd83990ee133ad">EnemyAbilityUser</a>
 , <a class="el" href="interface_i_ability_user.html#a2dc28af09230b68b0354d67d917e933c">IAbilityUser</a>
 , <a class="el" href="class_player_ability_user.html#a5675a8eac9745ed0ef21e34ba8d1a395">PlayerAbilityUser</a>
 , <a class="el" href="class_projectile_ability.html#a625e1cabf5a84fd3ba9231df10dd6109">ProjectileAbility</a>
@@ -209,7 +226,7 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 
 <h3><a id="index_k"></a>- k -</h3><ul>
 <li>Kill()
-: <a class="el" href="class_boid_entity.html#adf74d863673364777f5a7846bedb3a0f">BoidEntity</a>
+: <a class="el" href="class_generic_damageable.html#a715364928fcdbc36d68ef57477ac2f10">GenericDamageable</a>
 , <a class="el" href="class_generic_enemy_controller.html#a21b235171815a20d28f4ccc839e0c56e">GenericEnemyController</a>
 , <a class="el" href="interface_i_damageable.html#a5c07ef96ce628fbb0c2ab5d552730bde">IDamageable</a>
 , <a class="el" href="class_player_controller.html#a1951a5a9cade0b01ac33e1e24a77a9d0">PlayerController</a>
@@ -219,13 +236,13 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 
 <h3><a id="index_m"></a>- m -</h3><ul>
 <li>ModifyHealth()
-: <a class="el" href="class_boid_entity.html#a3232e68c9e4c779404a265e5f3c3d65f">BoidEntity</a>
+: <a class="el" href="class_generic_damageable.html#ad32845af3794205ae286865b1e35a83f">GenericDamageable</a>
 , <a class="el" href="class_generic_enemy_controller.html#a11d2125c574c6038518ba69bddc2c3ef">GenericEnemyController</a>
 , <a class="el" href="interface_i_damageable.html#a1293ee80748b016b517da5b51451c048">IDamageable</a>
 , <a class="el" href="class_player_controller.html#a394ad75e9c15037e9081511ead5e7038">PlayerController</a>
 </li>
 <li>ModifyMaxHealth()
-: <a class="el" href="class_boid_entity.html#aebb02ecdfa9bcf6bd3ed9fbaeba4d6e9">BoidEntity</a>
+: <a class="el" href="class_generic_damageable.html#a0f9b1d1e05bfafafcaadbd589fc64241">GenericDamageable</a>
 , <a class="el" href="class_generic_enemy_controller.html#acceb80be80c8b5624625dda048ae11e3">GenericEnemyController</a>
 , <a class="el" href="interface_i_damageable.html#a1067f1e6ea3bb83f302b3c272474a2b9">IDamageable</a>
 , <a class="el" href="class_player_controller.html#a4800c35de23de2289c6b8b5e4ed0229d">PlayerController</a>
@@ -236,12 +253,14 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 <h3><a id="index_o"></a>- o -</h3><ul>
 <li>OnCollisionEnter2D()
 : <a class="el" href="class_ability_decorator.html#a28f8c22cac321a60a269c486963899d6">AbilityDecorator</a>
+, <a class="el" href="class_parry_box.html#af51be2bf667f79feba015b4534ae744c">ParryBox</a>
 </li>
 <li>OnDisable()
 : <a class="el" href="class_ability_decorator.html#a27fe935ea702ef033dd188f0f64e5873">AbilityDecorator</a>
 , <a class="el" href="class_boid_controller.html#ae730175fee31d1048eeabc68890e2262">BoidController</a>
 , <a class="el" href="class_boid_entity.html#aac3f09ab149e6c66986713795d452763">BoidEntity</a>
 , <a class="el" href="class_disable_after_delay_v_f_x.html#a9d47fb17a5816d19c65ab753a46c1732">DisableAfterDelayVFX</a>
+, <a class="el" href="class_fade_text_v_f_x.html#a96c28979ebfe964a20f1a53e0ddf3d5c">FadeTextVFX</a>
 , <a class="el" href="class_fade_v_f_x.html#aa35f01efc537b45f1771c15681cf2c99">FadeVFX</a>
 , <a class="el" href="class_generic_enemy_controller.html#a09ba2d5d2b47c8bb4bbc4e9cdfec5607">GenericEnemyController</a>
 , <a class="el" href="class_on_damage_proc.html#a0ee1548c8bf246d0d015f611fceb104a">OnDamageProc</a>
@@ -260,6 +279,7 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 , <a class="el" href="class_boid_controller.html#aa4164237bb01a473f8fa618cef71e1d0">BoidController</a>
 , <a class="el" href="class_boid_entity.html#ad97d124809a1ea1dcfcea8ef4c30350b">BoidEntity</a>
 , <a class="el" href="class_disable_after_delay_v_f_x.html#a4d1113455f422862d24c954c5feb3cc0">DisableAfterDelayVFX</a>
+, <a class="el" href="class_fade_text_v_f_x.html#ae5015f87280c57f190ff4ff72bea6eb4">FadeTextVFX</a>
 , <a class="el" href="class_fade_v_f_x.html#ac23f244a191db7dac23aab500bf7c40c">FadeVFX</a>
 , <a class="el" href="class_generic_enemy_controller.html#adb97a9f06fb4314674de10901753f915">GenericEnemyController</a>
 , <a class="el" href="class_on_damage_proc.html#a8288e835ed64c74fe65cc6f9a8f6f42a">OnDamageProc</a>
@@ -277,6 +297,7 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 <li>OnTriggerEnter2D()
 : <a class="el" href="class_ability_decorator.html#a1ca3dd61cc22cec3bedf96fc14fa8324">AbilityDecorator</a>
 , <a class="el" href="class_boid_entity.html#a69bf6aece1bd3b71e6469eb1667599a6">BoidEntity</a>
+, <a class="el" href="class_parry_box.html#a7622c115232678c666eea662ce184c44">ParryBox</a>
 , <a class="el" href="class_simple_pickup.html#a5d617f2b6c7aa08ab9ed6474b74bf3ae">SimplePickup</a>
 </li>
 <li>OnTriggerExit2D()
@@ -298,6 +319,9 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 
 
 <h3><a id="index_p"></a>- p -</h3><ul>
+<li>ParryProjectile()
+: <a class="el" href="class_parry_box.html#a897a6778bcfc27fec3dad97b05973fa9">ParryBox</a>
+</li>
 <li>ProcEffect()
 : <a class="el" href="class_on_damage_proc.html#aacbe50b00d7734e0f8e03575e1f5ca01">OnDamageProc</a>
 , <a class="el" href="class_on_kill_proc.html#aa1f46872ffacc9fe21f494be9ac0cb4d">OnKillProc</a>
@@ -323,14 +347,15 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 : <a class="el" href="class_boid_controller.html#a7fc6b03f177ae6d549dc8febf99654c7">BoidController</a>
 </li>
 <li>RemoveAbility()
-: <a class="el" href="interface_i_ability_user.html#add06f11fa55df3acacbcbee67725d52f">IAbilityUser</a>
+: <a class="el" href="class_enemy_ability_user.html#aba10a6da96cbc88825291ae9405e915d">EnemyAbilityUser</a>
+, <a class="el" href="interface_i_ability_user.html#a5cea88ec2706c10b56883b88cd901db9">IAbilityUser</a>
 , <a class="el" href="class_player_ability_user.html#a9643b6bc74f342fb6b0b44737b2dcdb9">PlayerAbilityUser</a>
 </li>
 <li>RemoveUpgrade()
 : <a class="el" href="class_upgrade_manager.html#a2953a0d45a5481eb61407471c3e72577">UpgradeManager</a>
 </li>
 <li>ResetMaxHealth()
-: <a class="el" href="class_boid_entity.html#a202dd015fbb4890f65d8debffaa08c15">BoidEntity</a>
+: <a class="el" href="class_generic_damageable.html#ae5398c6f0e47d37d272ccc6083c36ed0">GenericDamageable</a>
 , <a class="el" href="class_generic_enemy_controller.html#a37a682f5729c88b3cf005368c1d60b06">GenericEnemyController</a>
 , <a class="el" href="interface_i_damageable.html#a82412dde16916265c1ecc2eabdf08234">IDamageable</a>
 , <a class="el" href="class_player_controller.html#a6b9793f6acc8c0774ef4eac3fc2a2595">PlayerController</a>
@@ -343,8 +368,12 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 : <a class="el" href="class_boid_controller.html#a43cf509ca820998a0e45223e55970ddb">BoidController</a>
 </li>
 <li>SetAbility()
-: <a class="el" href="interface_i_ability_user.html#a7e1bf104651535e5bb55c9913140cddb">IAbilityUser</a>
+: <a class="el" href="class_enemy_ability_user.html#abe20d4e723fd22a53ec086e5f485655c">EnemyAbilityUser</a>
+, <a class="el" href="interface_i_ability_user.html#aabe05907cb67a48bd013827bd06f42fe">IAbilityUser</a>
 , <a class="el" href="class_player_ability_user.html#a4050d8becd876585556d33116276929f">PlayerAbilityUser</a>
+</li>
+<li>SpawnFX()
+: <a class="el" href="class_generic_damageable.html#a8d2367c8a0646368ba342182c9e4be4c">GenericDamageable</a>
 </li>
 <li>SpawnWave()
 : <a class="el" href="class_game_controller.html#a1afdb7a85d1e310ccbf696f38c63faab">GameController</a>
@@ -353,11 +382,18 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 : <a class="el" href="class_boid_forcefield.html#a00ee072a3edd55a54868a0d625e603a5">BoidForcefield</a>
 , <a class="el" href="class_damage_threshold.html#ac030161951bb02f497dbb5e6f6ecec3f">DamageThreshold</a>
 , <a class="el" href="class_debug_ability_display.html#a926d58ec84e15e259a56ae014a7c9427">DebugAbilityDisplay</a>
+, <a class="el" href="class_enemy_ability_user.html#ad486b3fca0a27e11d7e526131332bfa9">EnemyAbilityUser</a>
 , <a class="el" href="class_e_x_p_controller.html#acce6f7880bc532e4c406ab5edfa324b8">EXPController</a>
+, <a class="el" href="class_game_controller.html#a97788a7aa0f09c8d748781683e5f045b">GameController</a>
+, <a class="el" href="class_generic_shooter_enemy.html#a11c7c0b0ed39dba87ed65448d65d63c7">GenericShooterEnemy</a>
+, <a class="el" href="class_parry_ability.html#a69b01ef9a04e14ce6a77e451bdd2a294">ParryAbility</a>
 , <a class="el" href="class_player_ability_user.html#ab534a57f34c1af7c3d0c2577d884c328">PlayerAbilityUser</a>
 , <a class="el" href="class_player_controller.html#ae1117d9c4da3193181cddad2c814e467">PlayerController</a>
 , <a class="el" href="class_sound_threshold.html#a2f1d456533e85c5039cfab5356e53910">SoundThreshold</a>
 , <a class="el" href="class_upgrade_manager.html#a46964307daddb87555a856e61e863a1f">UpgradeManager</a>
+</li>
+<li>StartParry()
+: <a class="el" href="class_parry_ability.html#a8a718d9594866eb41e9a0fee839d0aae">ParryAbility</a>
 </li>
 </ul>
 
@@ -378,11 +414,23 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 , <a class="el" href="class_boid_forcefield.html#acdf1e3517e0adb761ae39972e6a246d9">BoidForcefield</a>
 , <a class="el" href="class_debug_ability_display.html#acc632c183807dbb384723fe8d6e2e791">DebugAbilityDisplay</a>
 , <a class="el" href="class_disable_after_delay_v_f_x.html#a94daf00c88f45214687b995c3c227974">DisableAfterDelayVFX</a>
+, <a class="el" href="class_fade_text_v_f_x.html#a96e2fe94860169a83d784348dce79f09">FadeTextVFX</a>
 , <a class="el" href="class_fade_v_f_x.html#a91f9054ca3598edba01dc05fd1b81aad">FadeVFX</a>
-, <a class="el" href="class_game_controller.html#a5a89277529cadb49af7d55eba3bbf056">GameController</a>
+, <a class="el" href="class_generic_shooter_enemy.html#a8bc03f21de1bdc8a7a55e7e5d2adbb83">GenericShooterEnemy</a>
+, <a class="el" href="class_parry_ability.html#a71b63609ca434d99a624e5aa8be7297c">ParryAbility</a>
 , <a class="el" href="class_player_controller.html#ae8bc83dffb99867a04be016473ed2c43">PlayerController</a>
 , <a class="el" href="class_scale_v_f_x.html#adf905e2799e2519e275abef28f5db2b3">ScaleVFX</a>
 , <a class="el" href="class_simple_projectile_behaviour.html#a7bbf5e0e064c4422a0d723d1e8199a70">SimpleProjectileBehaviour</a>
+</li>
+<li>UpdateState()
+: <a class="el" href="class_generic_shooter_enemy.html#a95bdc7f908f475a5ec5056d16ebf6d55">GenericShooterEnemy</a>
+</li>
+</ul>
+
+
+<h3><a id="index_w"></a>- w -</h3><ul>
+<li>WaveEnumerator()
+: <a class="el" href="class_game_controller.html#aadaf323ec57f0455d0998c07edf72339">GameController</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -390,7 +438,7 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Mar 16 2026 17:04:27 for Game Specialism 2 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Wed Mar 25 2026 17:12:38 for Game Specialism 2 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

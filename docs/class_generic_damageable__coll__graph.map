@@ -1,0 +1,8 @@
+<map id="GenericDamageable" name="GenericDamageable">
+<area shape="rect" id="node1" title=" " alt="" coords="229,345,501,525"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,154,129,231"/>
+<area shape="rect" id="node3" href="$interface_i_damageable.html" title="An interface for damageable entities." alt="" coords="153,132,416,253"/>
+<area shape="rect" id="node4" href="$class_pooled_v_f_x.html" title="Defines a basic implementation of pooling for all other objects." alt="" coords="440,139,681,246"/>
+<area shape="rect" id="node5" title=" " alt="" coords="628,5,757,83"/>
+<area shape="rect" id="node6" href="$class_pooled_s_f_x.html" title="a static class that can be used to fetch SFX" alt="" coords="705,139,947,246"/>
+</map>
