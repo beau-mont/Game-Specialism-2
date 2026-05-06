@@ -1,0 +1,1027 @@
+fileFormatVersion: 2
+guid: da6c7acdc400395e0aaff1db4552920e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3154485383404335
+    second: sawbuck sniper_0
+  - first:
+      213: 6574301072856087849
+    second: sawbuck sniper_1
+  - first:
+      213: 1234387805513063412
+    second: sawbuck sniper_2
+  - first:
+      213: 9057091616821560214
+    second: sawbuck sniper_3
+  - first:
+      213: 4659350663595560583
+    second: sawbuck sniper_4
+  - first:
+      213: -7891905467707729880
+    second: sawbuck sniper_5
+  - first:
+      213: 3334325039092748382
+    second: sawbuck sniper_6
+  - first:
+      213: -5782977890834517589
+    second: sawbuck sniper_7
+  - first:
+      213: -1287072851378392426
+    second: sawbuck sniper_8
+  - first:
+      213: 3144215563079801066
+    second: sawbuck sniper_9
+  - first:
+      213: -5650232185708661116
+    second: sawbuck sniper_10
+  - first:
+      213: -6332671096083686709
+    second: sawbuck sniper_11
+  - first:
+      213: -7887884378327408160
+    second: sawbuck sniper_12
+  - first:
+      213: -233605389738608538
+    second: sawbuck sniper_13
+  - first:
+      213: 2223573494053526923
+    second: sawbuck sniper_14
+  - first:
+      213: -9215252899609289703
+    second: sawbuck sniper_15
+  - first:
+      213: 2290936200712323800
+    second: sawbuck sniper_16
+  - first:
+      213: 466233052662055546
+    second: sawbuck sniper_17
+  - first:
+      213: -1784105027411363568
+    second: sawbuck sniper_18
+  - first:
+      213: 3154377141114084874
+    second: sawbuck sniper_19
+  - first:
+      213: 2862020822479217160
+    second: sawbuck sniper_20
+  - first:
+      213: 2202007313459984301
+    second: sawbuck sniper_21
+  - first:
+      213: 1715394216657229832
+    second: sawbuck sniper_22
+  - first:
+      213: 7897149111832642630
+    second: sawbuck sniper_23
+  - first:
+      213: -3274909665629904125
+    second: sawbuck sniper_24
+  - first:
+      213: -5510079296659801408
+    second: sawbuck sniper_25
+  - first:
+      213: -6203130653231344852
+    second: sawbuck sniper_26
+  - first:
+      213: 4174477794098904006
+    second: sawbuck sniper_27
+  - first:
+      213: 1844687399675988093
+    second: sawbuck sniper_28
+  - first:
+      213: -4720862825713894369
+    second: sawbuck sniper_29
+  - first:
+      213: 8363447586891123881
+    second: sawbuck sniper_30
+  - first:
+      213: -3904679956449012710
+    second: sawbuck sniper_31
+  - first:
+      213: 1093426380885489650
+    second: sawbuck sniper_32
+  - first:
+      213: 5790599512029964644
+    second: sawbuck sniper_33
+  - first:
+      213: -6833544626919536702
+    second: sawbuck sniper_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sawbuck sniper_0
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 2218
+        width: 142
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b1abcdcf43b0000800000000000000
+      internalID: 3154485383404335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sawbuck sniper_1
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 2054
+        width: 87
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d7e0e5efb9c3b50800000000000000
+      internalID: 6574301072856087849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sawbuck sniper_2
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 2119
+        width: 72
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb1ea64b2d612110800000000000000
+      internalID: 1234387805513063412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sawbuck sniper_3
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 2119
+        width: 73
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69341d6c6d041bd70800000000000000
+      internalID: 9057091616821560214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sawbuck sniper_4
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 2054
+        width: 87
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e08930eb659a040800000000000000
+      internalID: 4659350663595560583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sawbuck sniper_5
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 1507
+        width: 258
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 828515c4ac15a7290800000000000000
+      internalID: -7891905467707729880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sawbuck sniper_6
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1997
+        width: 112
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5050d005f6e54e20800000000000000
+      internalID: 3334325039092748382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sawbuck sniper_7
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 1997
+        width: 113
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba1fed07f3cbebfa0800000000000000
+      internalID: -5782977890834517589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sawbuck sniper_8
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 1839
+        width: 62
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 692ba859f06632ee0800000000000000
+      internalID: -1287072851378392426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sawbuck sniper_9
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1780
+        width: 56
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae850a6556f72ab20800000000000000
+      internalID: 3144215563079801066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sawbuck sniper_10
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 1780
+        width: 56
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4863b5863c75691b0800000000000000
+      internalID: -5650232185708661116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sawbuck sniper_11
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 1839
+        width: 62
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca5c86a035dd18a0800000000000000
+      internalID: -6332671096083686709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sawbuck sniper_12
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 1647
+        width: 65
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e1217023fa988290800000000000000
+      internalID: -7887884378327408160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sawbuck sniper_13
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 1444
+        width: 46
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 668730fb22112ccf0800000000000000
+      internalID: -233605389738608538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sawbuck sniper_14
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 1444
+        width: 46
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8dd805df48bbde10800000000000000
+      internalID: 2223573494053526923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sawbuck sniper_15
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 1647
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c5663ff48dc1080800000000000000
+      internalID: -9215252899609289703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sawbuck sniper_16
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 1447
+        width: 76
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d28a8e265a0bcf10800000000000000
+      internalID: 2290936200712323800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sawbuck sniper_17
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 1349
+        width: 135
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a72c77ebd74687600800000000000000
+      internalID: 466233052662055546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sawbuck sniper_18
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 1349
+        width: 135
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 019382f1ee59d37e0800000000000000
+      internalID: -1784105027411363568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sawbuck sniper_19
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 1446
+        width: 77
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e97b71c4996cb20800000000000000
+      internalID: 3154377141114084874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sawbuck sniper_20
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 1389
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80225af36c0f7b720800000000000000
+      internalID: 2862020822479217160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sawbuck sniper_21
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 1329
+        width: 94
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da7389f1cf91f8e10800000000000000
+      internalID: 2202007313459984301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sawbuck sniper_22
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1388
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8081d9593fd4ec710800000000000000
+      internalID: 1715394216657229832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sawbuck sniper_23
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1108
+        width: 148
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644831db64f489d60800000000000000
+      internalID: 7897149111832642630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sawbuck sniper_24
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 1268
+        width: 90
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 303e2a4a20f2d82d0800000000000000
+      internalID: -3274909665629904125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sawbuck sniper_25
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 1108
+        width: 148
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cabb56c2144883b0800000000000000
+      internalID: -5510079296659801408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sawbuck sniper_26
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 1235
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c231fc6598d0ae9a0800000000000000
+      internalID: -6203130653231344852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sawbuck sniper_27
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 1235
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cb7508bf69bee930800000000000000
+      internalID: 4174477794098904006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sawbuck sniper_28
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1077
+        width: 116
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d78835b9a65a99910800000000000000
+      internalID: 1844687399675988093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sawbuck sniper_29
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 998
+        width: 73
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1cf9ffa5402c7eb0800000000000000
+      internalID: -4720862825713894369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sawbuck sniper_30
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1077
+        width: 116
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac4e32d44fe01470800000000000000
+      internalID: 8363447586891123881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sawbuck sniper_31
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 963
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a14d44a744acfc9c0800000000000000
+      internalID: -3904679956449012710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sawbuck sniper_32
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 963
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f778bc0081ac2f00800000000000000
+      internalID: 1093426380885489650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sawbuck sniper_33
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 894
+        width: 68
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 469a81783975c5050800000000000000
+      internalID: 5790599512029964644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sawbuck sniper_34
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 779
+        width: 59
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c78ea31e5f5a21a0800000000000000
+      internalID: -6833544626919536702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sawbuck sniper_0: 3154485383404335
+      sawbuck sniper_1: 6574301072856087849
+      sawbuck sniper_10: -5650232185708661116
+      sawbuck sniper_11: -6332671096083686709
+      sawbuck sniper_12: -7887884378327408160
+      sawbuck sniper_13: -233605389738608538
+      sawbuck sniper_14: 2223573494053526923
+      sawbuck sniper_15: -9215252899609289703
+      sawbuck sniper_16: 2290936200712323800
+      sawbuck sniper_17: 466233052662055546
+      sawbuck sniper_18: -1784105027411363568
+      sawbuck sniper_19: 3154377141114084874
+      sawbuck sniper_2: 1234387805513063412
+      sawbuck sniper_20: 2862020822479217160
+      sawbuck sniper_21: 2202007313459984301
+      sawbuck sniper_22: 1715394216657229832
+      sawbuck sniper_23: 7897149111832642630
+      sawbuck sniper_24: -3274909665629904125
+      sawbuck sniper_25: -5510079296659801408
+      sawbuck sniper_26: -6203130653231344852
+      sawbuck sniper_27: 4174477794098904006
+      sawbuck sniper_28: 1844687399675988093
+      sawbuck sniper_29: -4720862825713894369
+      sawbuck sniper_3: 9057091616821560214
+      sawbuck sniper_30: 8363447586891123881
+      sawbuck sniper_31: -3904679956449012710
+      sawbuck sniper_32: 1093426380885489650
+      sawbuck sniper_33: 5790599512029964644
+      sawbuck sniper_34: -6833544626919536702
+      sawbuck sniper_4: 4659350663595560583
+      sawbuck sniper_5: -7891905467707729880
+      sawbuck sniper_6: 3334325039092748382
+      sawbuck sniper_7: -5782977890834517589
+      sawbuck sniper_8: -1287072851378392426
+      sawbuck sniper_9: 3144215563079801066
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

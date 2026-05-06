@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
+using System.Collections;
 
 /// <summary>
 /// The player controller, this provides behaviors for the player.
@@ -147,6 +149,7 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
             temp.transform.SetPositionAndRotation(transform.position, transform.rotation);
             temp.SetActive(true);
         }
+        StartCoroutine(OpenMenu(2));
         gameObject.SetActive(false);
     }
 
@@ -169,6 +172,16 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
                 threshold.Active = false;
             } 
         }
+    }
+
+    private IEnumerator OpenMenu(float waitTime)
+    {
+        if (waitTime > 0)
+        {
+            yield return new WaitForSeconds(waitTime);
+        }
+        SceneManager.LoadSceneAsync(1, LoadSceneMode.Single);
+        yield break;
     }
     #endregion
 }

@@ -1,0 +1,897 @@
+fileFormatVersion: 2
+guid: f8044e315a8f8ce7ca2554274b3067de
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3719914108499393471
+    second: gunship w out line_0
+  - first:
+      213: 852351595060055284
+    second: gunship w out line_1
+  - first:
+      213: 4099649483488470583
+    second: gunship w out line_2
+  - first:
+      213: 3968043131338563270
+    second: gunship w out line_3
+  - first:
+      213: -5546367095909934645
+    second: gunship w out line_4
+  - first:
+      213: -5642895172383526712
+    second: gunship w out line_5
+  - first:
+      213: -3724085272453437593
+    second: gunship w out line_6
+  - first:
+      213: -3943910232369692152
+    second: gunship w out line_7
+  - first:
+      213: 2974838108981914138
+    second: gunship w out line_8
+  - first:
+      213: -5873248735747447281
+    second: gunship w out line_9
+  - first:
+      213: 8204128669740988483
+    second: gunship w out line_10
+  - first:
+      213: 8774062871112447516
+    second: gunship w out line_11
+  - first:
+      213: 5445792470316511151
+    second: gunship w out line_12
+  - first:
+      213: -2598694084274275695
+    second: gunship w out line_13
+  - first:
+      213: -6668565398864513097
+    second: gunship w out line_14
+  - first:
+      213: -5442476407021388505
+    second: gunship w out line_15
+  - first:
+      213: -3098876932596388618
+    second: gunship w out line_16
+  - first:
+      213: -2509285852888364032
+    second: gunship w out line_17
+  - first:
+      213: -3841924028948421200
+    second: gunship w out line_18
+  - first:
+      213: 6738660461502081929
+    second: gunship w out line_19
+  - first:
+      213: 4846635055224975154
+    second: gunship w out line_20
+  - first:
+      213: 965556144257164058
+    second: gunship w out line_21
+  - first:
+      213: 6658652987392097159
+    second: gunship w out line_22
+  - first:
+      213: -5341942387357648343
+    second: gunship w out line_23
+  - first:
+      213: 5688446979359941798
+    second: gunship w out line_24
+  - first:
+      213: -6048513083442253154
+    second: gunship w out line_25
+  - first:
+      213: 1501146996454220809
+    second: gunship w out line_26
+  - first:
+      213: 5275142808016106970
+    second: gunship w out line_27
+  - first:
+      213: -2160257371904059904
+    second: gunship w out line_28
+  - first:
+      213: -9048316428287268937
+    second: gunship w out line_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gunship w out line_0
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 3117
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1440ee7c3d5306cc0800000000000000
+      internalID: -3719914108499393471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunship w out line_1
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 3117
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fcca4f724924db00800000000000000
+      internalID: 852351595060055284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunship w out line_2
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 2593
+        width: 194
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 736a1fefb71e4e830800000000000000
+      internalID: 4099649483488470583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunship w out line_3
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 2558
+        width: 144
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ce1dd05432511730800000000000000
+      internalID: 3968043131338563270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunship w out line_4
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 2605
+        width: 134
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc99f5e13885703b0800000000000000
+      internalID: -5546367095909934645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunship w out line_5
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 2605
+        width: 134
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c03051fcb860b1b0800000000000000
+      internalID: -5642895172383526712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunship w out line_6
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 2558
+        width: 144
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 767262efc24615cc0800000000000000
+      internalID: -3724085272453437593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunship w out line_7
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 2593
+        width: 194
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80283951a8a6449c0800000000000000
+      internalID: -3943910232369692152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunship w out line_8
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 1593
+        width: 652
+        height: 885
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a692eaf7fb84920800000000000000
+      internalID: 2974838108981914138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunship w out line_9
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1591
+        width: 109
+        height: 613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06e24484670e7ea0800000000000000
+      internalID: -5873248735747447281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunship w out line_10
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 1591
+        width: 109
+        height: 613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 348728bce8bead170800000000000000
+      internalID: 8204128669740988483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunship w out line_11
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1564
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c16f99db1bbb3c970800000000000000
+      internalID: 8774062871112447516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunship w out line_12
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 1565
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf66b11667539b40800000000000000
+      internalID: 5445792470316511151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunship w out line_13
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1193
+        width: 117
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a3ce2bf759febd0800000000000000
+      internalID: -2598694084274275695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunship w out line_14
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 1210
+        width: 162
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b7383fe91f7473a0800000000000000
+      internalID: -6668565398864513097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunship w out line_15
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 1210
+        width: 494
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72dbb051b807874b0800000000000000
+      internalID: -5442476407021388505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunship w out line_16
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 1210
+        width: 162
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fca0fd29d39ef4d0800000000000000
+      internalID: -3098876932596388618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunship w out line_17
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 1193
+        width: 117
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00c0da2cfc93d2dd0800000000000000
+      internalID: -2509285852888364032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunship w out line_18
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 889
+        width: 418
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b5ed78737ebeaac0800000000000000
+      internalID: -3841924028948421200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunship w out line_19
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1031
+        width: 560
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b2dcd9cf7848d50800000000000000
+      internalID: 6738660461502081929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunship w out line_20
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 889
+        width: 418
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23fe3a677e4b24340800000000000000
+      internalID: 4846635055224975154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunship w out line_21
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 758
+        width: 434
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a13e42d8238566d00800000000000000
+      internalID: 965556144257164058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunship w out line_22
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 855
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b791cec99486c50800000000000000
+      internalID: 6658652987392097159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunship w out line_23
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 814
+        width: 102
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92af1f693bb9dd5b0800000000000000
+      internalID: -5341942387357648343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunship w out line_24
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 814
+        width: 101
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a4a468936c61fe40800000000000000
+      internalID: 5688446979359941798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunship w out line_25
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 290
+        width: 198
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e923f12a56d5f0ca0800000000000000
+      internalID: -6048513083442253154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunship w out line_26
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 221
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9046c476d3525d410800000000000000
+      internalID: 1501146996454220809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunship w out line_27
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 126
+        width: 107
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5b14b5f62153940800000000000000
+      internalID: 5275142808016106970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunship w out line_28
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 126
+        width: 107
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0065d34ad593502e0800000000000000
+      internalID: -2160257371904059904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunship w out line_29
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 221
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b72b94062ced6280800000000000000
+      internalID: -9048316428287268937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gunship w out line_0: -3719914108499393471
+      gunship w out line_1: 852351595060055284
+      gunship w out line_10: 8204128669740988483
+      gunship w out line_11: 8774062871112447516
+      gunship w out line_12: 5445792470316511151
+      gunship w out line_13: -2598694084274275695
+      gunship w out line_14: -6668565398864513097
+      gunship w out line_15: -5442476407021388505
+      gunship w out line_16: -3098876932596388618
+      gunship w out line_17: -2509285852888364032
+      gunship w out line_18: -3841924028948421200
+      gunship w out line_19: 6738660461502081929
+      gunship w out line_2: 4099649483488470583
+      gunship w out line_20: 4846635055224975154
+      gunship w out line_21: 965556144257164058
+      gunship w out line_22: 6658652987392097159
+      gunship w out line_23: -5341942387357648343
+      gunship w out line_24: 5688446979359941798
+      gunship w out line_25: -6048513083442253154
+      gunship w out line_26: 1501146996454220809
+      gunship w out line_27: 5275142808016106970
+      gunship w out line_28: -2160257371904059904
+      gunship w out line_29: -9048316428287268937
+      gunship w out line_3: 3968043131338563270
+      gunship w out line_4: -5546367095909934645
+      gunship w out line_5: -5642895172383526712
+      gunship w out line_6: -3724085272453437593
+      gunship w out line_7: -3943910232369692152
+      gunship w out line_8: 2974838108981914138
+      gunship w out line_9: -5873248735747447281
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

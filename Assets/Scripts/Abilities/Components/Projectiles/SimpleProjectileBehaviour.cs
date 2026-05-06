@@ -21,7 +21,6 @@ public class SimpleProjectileBehaviour : AbstractAbilityBehaviour
     {
         float mult = 1;
         if (Multipliers != null) mult += Multipliers.GlobalMultiplier + Multipliers.SpeedMultiplier;
-        if (rb) rb.linearVelocity = mult * speed * transform.up;
-        else Debug.LogWarning($"No Rigidbody2d found on projectile {gameObject.name}");
+        transform.position += (mult * speed * transform.up) * Time.deltaTime;
     }
 }

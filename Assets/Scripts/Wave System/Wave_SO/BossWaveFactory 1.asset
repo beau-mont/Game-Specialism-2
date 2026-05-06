@@ -12,3 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12eed71e4617340bea76baa46d696620, type: 3}
   m_Name: BossWaveFactory 1
   m_EditorClassIdentifier: 
+  StartSound: {fileID: 11400000, guid: ef1963ae3e270c035a13c93ef4cc8585, type: 2}
