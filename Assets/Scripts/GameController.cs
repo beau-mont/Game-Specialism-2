@@ -21,7 +21,10 @@ public class GameController : MonoBehaviour
         {
             eventController.OnKill += CheckWaveCompletion;
         }
-        CheckWaveCompletion();
+        var sceneController = FindFirstObjectByType<SceneController>();
+        if (sceneController) waveIndex = sceneController.waveIndex;
+        DisplayWaveName(waves[waveIndex]);
+        StartCoroutine(WaveEnumerator(waves[waveIndex]));
     }
 
     void CheckWaveCompletion()
@@ -29,9 +32,11 @@ public class GameController : MonoBehaviour
         activeEnemies.RemoveAll(a => a == null || !a.activeInHierarchy);
         if (activeEnemies.Count == 0 && waveIndex < waves.Count && waves[waveIndex].SpawnedWave) // temporary win condition, later will be controlled by game logic
         {
+            waveIndex++;
             DisplayWaveName(waves[waveIndex]);
             StartCoroutine(WaveEnumerator(waves[waveIndex]));
-            waveIndex++;
+            var sceneController = FindFirstObjectByType<SceneController>();
+            if (sceneController) sceneController.waveIndex = waveIndex;
         }
     }
 
@@ -91,4 +96,5 @@ public class Wave
     public IWaveFactory factory;
     public GameObject DisplayPrefab;
     public float SpawnDelay;
+    public bool SpawnedWave;
 }

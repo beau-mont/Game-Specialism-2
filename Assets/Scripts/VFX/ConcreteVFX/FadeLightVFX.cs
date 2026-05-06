@@ -15,6 +15,7 @@ public class FadeLightVFX : VFXStrategy
     private PayloadMultipliers _multipliers = new();
     public override PayloadMultipliers Multipliers { get => _multipliers; set => _multipliers = value; }
     public float fadeTime;
+    public bool loop = false;
     public AnimationCurve intensityCurve;
     public Gradient gradient;
     public Light2D light2D;
@@ -34,6 +35,7 @@ public class FadeLightVFX : VFXStrategy
     void Update()
     {
         if (Time.time < StartTime) return;
+        if (Time.time > StartTime + fadeTime && loop) StartTime = Time.time;
         light2D.color = gradient.Evaluate((Time.time - StartTime) / fadeTime);
         light2D.intensity = startIntensity * intensityCurve.Evaluate((Time.time - StartTime) / fadeTime);
     }

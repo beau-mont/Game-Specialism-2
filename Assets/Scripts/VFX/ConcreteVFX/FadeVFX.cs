@@ -28,9 +28,9 @@ public class FadeVFX : VFXStrategy
 
     void Update()
     {
-        if (Time.time < startTime) return;
-        if (Time.time > startTime + fadeTime && loop) startTime = Time.time;
-        sr.color = gradient.Evaluate((Time.time - startTime) / fadeTime);
+        if (Time.time < StartTime) return;
+        if (Time.time > StartTime + fadeTime && loop) StartTime = Time.time;
+        sr.color = gradient.Evaluate((Time.time - StartTime) / fadeTime);
     }
 
     void OnDisable()

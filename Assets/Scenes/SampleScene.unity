@@ -401,7 +401,6 @@ MonoBehaviour:
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
   m_RenderPostProcessing: 1
-  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -1673,60 +1672,51 @@ MonoBehaviour:
   - waveData: {fileID: 11400000, guid: d59ebb5290390b15dacf6806040d5184, type: 2}
     factory: {fileID: 11400000, guid: a606a997a77876d7099b72b4e20e0a6d, type: 2}
     DisplayPrefab: {fileID: 4276504329537314434, guid: a9c597da6c12cacbbbd3ebea5bac30f0, type: 3}
-    NameDisplayTime: 2
-    DisplayName: '- Level One - - Wave One -'
+    SpawnDelay: 3
     SpawnedWave: 0
   - waveData: {fileID: 11400000, guid: d87ad2684d6cc0eeb910b103d116bf73, type: 2}
     factory: {fileID: 11400000, guid: a606a997a77876d7099b72b4e20e0a6d, type: 2}
     DisplayPrefab: {fileID: 4276504329537314434, guid: a9c597da6c12cacbbbd3ebea5bac30f0, type: 3}
-    NameDisplayTime: 2
-    DisplayName: '- Level One - - Wave Two -'
+    SpawnDelay: 2
     SpawnedWave: 0
   - waveData: {fileID: 11400000, guid: fe1cc73680acc8e89a26c77b2914bb08, type: 2}
     factory: {fileID: 11400000, guid: 3a255943497ef2de98a4d257e84f44d6, type: 2}
     DisplayPrefab: {fileID: 4276504329537314434, guid: a9c597da6c12cacbbbd3ebea5bac30f0, type: 3}
-    NameDisplayTime: 2
-    DisplayName: '- Level One - - Wave Three -'
+    SpawnDelay: 3
     SpawnedWave: 0
-  - waveData: {fileID: 11400000, guid: fe1cc73680acc8e89a26c77b2914bb08, type: 2}
+  - waveData: {fileID: 11400000, guid: f4d1ec87a75d7528c9d3b4b1b30bc136, type: 2}
     factory: {fileID: 11400000, guid: a606a997a77876d7099b72b4e20e0a6d, type: 2}
     DisplayPrefab: {fileID: 4276504329537314434, guid: a9c597da6c12cacbbbd3ebea5bac30f0, type: 3}
-    NameDisplayTime: 2
-    DisplayName: '- Level Two - - Wave One -'
+    SpawnDelay: 3
     SpawnedWave: 0
-  - waveData: {fileID: 11400000, guid: fe1cc73680acc8e89a26c77b2914bb08, type: 2}
+  - waveData: {fileID: 11400000, guid: 38577263b163bd997b0bf575f4fe0f18, type: 2}
     factory: {fileID: 11400000, guid: a606a997a77876d7099b72b4e20e0a6d, type: 2}
     DisplayPrefab: {fileID: 4276504329537314434, guid: a9c597da6c12cacbbbd3ebea5bac30f0, type: 3}
-    NameDisplayTime: 2
-    DisplayName: '- Level Two - - Wave Two -'
+    SpawnDelay: 2
     SpawnedWave: 0
-  - waveData: {fileID: 11400000, guid: fe1cc73680acc8e89a26c77b2914bb08, type: 2}
+  - waveData: {fileID: 11400000, guid: 8f14453c71d5855a18ddd3caa5a2aee4, type: 2}
     factory: {fileID: 11400000, guid: a606a997a77876d7099b72b4e20e0a6d, type: 2}
     DisplayPrefab: {fileID: 4276504329537314434, guid: a9c597da6c12cacbbbd3ebea5bac30f0, type: 3}
-    NameDisplayTime: 2
-    DisplayName: '- Level Two - - Wave Three -'
+    SpawnDelay: 3
     SpawnedWave: 0
-  - waveData: {fileID: 11400000, guid: fe1cc73680acc8e89a26c77b2914bb08, type: 2}
+  - waveData: {fileID: 11400000, guid: 8f14453c71d5855a18ddd3caa5a2aee4, type: 2}
     factory: {fileID: 11400000, guid: a606a997a77876d7099b72b4e20e0a6d, type: 2}
     DisplayPrefab: {fileID: 4276504329537314434, guid: a9c597da6c12cacbbbd3ebea5bac30f0, type: 3}
-    NameDisplayTime: 2
-    DisplayName: '- Level Three - - Wave One -'
+    SpawnDelay: 3
     SpawnedWave: 0
-  - waveData: {fileID: 11400000, guid: fe1cc73680acc8e89a26c77b2914bb08, type: 2}
+  - waveData: {fileID: 11400000, guid: 8f14453c71d5855a18ddd3caa5a2aee4, type: 2}
     factory: {fileID: 11400000, guid: a606a997a77876d7099b72b4e20e0a6d, type: 2}
     DisplayPrefab: {fileID: 4276504329537314434, guid: a9c597da6c12cacbbbd3ebea5bac30f0, type: 3}
-    NameDisplayTime: 2
-    DisplayName: '- Level Three - - Wave Two -'
+    SpawnDelay: 2
     SpawnedWave: 0
-  - waveData: {fileID: 11400000, guid: fe1cc73680acc8e89a26c77b2914bb08, type: 2}
+  - waveData: {fileID: 11400000, guid: 8f14453c71d5855a18ddd3caa5a2aee4, type: 2}
     factory: {fileID: 11400000, guid: a606a997a77876d7099b72b4e20e0a6d, type: 2}
     DisplayPrefab: {fileID: 4276504329537314434, guid: a9c597da6c12cacbbbd3ebea5bac30f0, type: 3}
-    NameDisplayTime: 2
-    DisplayName: '- Level Three - - Wave Three -'
+    SpawnDelay: 3
     SpawnedWave: 0
+  activeEnemies: []
   waveIndex: 0
   playerData: {fileID: 11400000, guid: f45cb763de2a96db4a09887ee31eb15a, type: 2}
-  canvas: {fileID: 2083039508}
   canvas: {fileID: 2083039508}
 --- !u!1 &1470080599
 GameObject:
@@ -2637,7 +2627,6 @@ SceneRoots:
   - {fileID: 2069228696}
   - {fileID: 1670948102}
   - {fileID: 519420032}
-  - {fileID: 619394802}
   - {fileID: 689472441}
   - {fileID: 725414469}
   - {fileID: 318737999}

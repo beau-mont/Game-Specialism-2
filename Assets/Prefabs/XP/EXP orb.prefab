@@ -129,7 +129,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   strategies:
   - {fileID: 2505232476998080067}
-  - {fileID: 8181784771501699286}
+  - {fileID: 0}
   - {fileID: 3663512252854659063}
   multipliers:
     GlobalMultiplier: 0
@@ -145,11 +145,34 @@ MonoBehaviour:
   m_GameObject: {fileID: 6080315945651747736}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0cc0ad66ae205ab399d2ac250dede7b, type: 3}
+  m_Script: {fileID: 11500000, guid: 01a0008dd1d6e03b1b71310367649818, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   fadeTime: 1
-  loop: 1
+  intensityCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   gradient:
     serializedVersion: 2
     key0: {r: 1, g: 1, b: 1, a: 1}
@@ -180,7 +203,7 @@ MonoBehaviour:
     m_ColorSpace: -1
     m_NumColorKeys: 5
     m_NumAlphaKeys: 2
-  light2d: {fileID: 6703690391447388936}
+  light2D: {fileID: 6703690391447388936}
 --- !u!114 &2505232476998080067
 MonoBehaviour:
   m_ObjectHideFlags: 0
