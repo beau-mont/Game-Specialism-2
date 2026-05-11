@@ -1359,7 +1359,7 @@ MonoBehaviour:
   playerData: {fileID: 11400000, guid: f45cb763de2a96db4a09887ee31eb15a, type: 2}
   maxCharge: 20
   charge: 0
-  killSpecialDisplay: {fileID: 0}
+  killSpecialDisplay: {fileID: 1522580050}
 --- !u!1 &725414465
 GameObject:
   m_ObjectHideFlags: 0
@@ -2076,7 +2076,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 75, y: -361}
-  m_SizeDelta: {x: -191, y: 100}
+  m_SizeDelta: {x: -206, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1419205784
 MonoBehaviour:
@@ -2461,7 +2461,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0.000015258789}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1522580052

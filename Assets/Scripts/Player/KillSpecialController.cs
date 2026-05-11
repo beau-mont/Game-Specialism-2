@@ -52,6 +52,7 @@ public class KillSpecialController : MonoBehaviour
         {
             playerData.Player.GetComponent<PlayerAbilityUser>().ActivateKillSpecial();
             charge = 0;
+            display.targetFill = 0;
         }
     }
 }
