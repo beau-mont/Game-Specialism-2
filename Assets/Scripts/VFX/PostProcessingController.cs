@@ -9,8 +9,8 @@ public class PostProcessingController : MonoBehaviour
     public Volume postProcessingVolume;
     public float bloomIntensity = 0f;
     public float bloomThreshold = 0.9f;
-    public float abberationIntensity;
-    public float LerpSpeed = 5f;
+    public float abberationIntensity = 1;
+    public float LerpSpeed = 2.5f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -25,6 +25,7 @@ public class PostProcessingController : MonoBehaviour
         bloom.threshold.value = Mathf.Lerp(bloom.threshold.value, bloomThreshold, Time.deltaTime * LerpSpeed);
 
         postProcessingVolume.profile.TryGet(out ChromaticAberration aberration);
-        aberration.intensity.value = Mathf.Lerp(aberration.intensity.value, abberationIntensity / 2f, Time.deltaTime * LerpSpeed);
+        float targetAbberation = Mathf.Lerp(0.75f, 0f, abberationIntensity);
+        aberration.intensity.value = Mathf.Lerp(aberration.intensity.value, targetAbberation, Time.deltaTime * LerpSpeed);
     }
 }

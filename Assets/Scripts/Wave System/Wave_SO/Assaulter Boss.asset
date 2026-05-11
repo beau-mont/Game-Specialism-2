@@ -20,6 +20,6 @@ MonoBehaviour:
   - SpawnLocation: {x: 10, y: 10, z: 0}
     SpawnRotation: {x: 0, y: 0, z: 0, w: 0}
     EnemyPrefab: {fileID: 8669806100855643754, guid: 90a7057760e4148b48d02c28e14bf4a2, type: 3}
-  - SpawnLocation: {x: -10, y: 10, z: 0}
-    SpawnRotation: {x: 0, y: 0, z: 0, w: 0}
+  - SpawnLocation: {x: -10, y: 4, z: 0}
+    SpawnRotation: {x: 0, y: 0, z: 1, w: -0.00000004371139}
     EnemyPrefab: {fileID: 5084835651695873781, guid: 9b81628b1e91d2b289a9bf8108a9c3d3, type: 3}

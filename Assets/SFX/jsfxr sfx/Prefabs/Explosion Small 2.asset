@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a13a1814f896ff3e8d8fb76a63eb314, type: 3}
+  m_Name: Explosion Small 2
+  m_EditorClassIdentifier: 
+  SFXPrefab: {fileID: 1879713132428830384, guid: a5bde24a0fa364ca4b53b938b65817a6, type: 3}

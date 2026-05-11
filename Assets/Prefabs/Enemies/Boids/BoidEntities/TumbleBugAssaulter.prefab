@@ -69,7 +69,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 832
   availableAbilities:
-  - Ability: {fileID: 11400000, guid: df4669665d37f39ad9c0c80b4f57a02e, type: 2}
+  - Ability: {fileID: 11400000, guid: 7a89d0733d2875bfcb31d1f0b71a0f3e, type: 2}
     LastFired: 0
     IncludeLayers:
       serializedVersion: 2
@@ -242,6 +242,7 @@ MonoBehaviour:
   - {fileID: 3635165347321473602}
   abilityBehaviour: {fileID: 0}
   hitVFX: []
+  hitSFX: []
   spawnVFXAtTarget: 0
   destroyOnHit: 1
   triggerCollider: 0
@@ -290,8 +291,10 @@ MonoBehaviour:
   damageSFX: []
   deathVFX:
   - {fileID: 11400000, guid: b0f9f7ff6a6de514382e31d45b62080a, type: 2}
-  - {fileID: 11400000, guid: 523ad5489a00b6145a3738fd7cb40f18, type: 2}
-  deathSFX: []
+  deathSFX:
+  - {fileID: 11400000, guid: b78a35c376a2e0ed79b06d88f1d95a10, type: 2}
+  - {fileID: 11400000, guid: d83497dcc8eea7fcf8aaecc5acaa641e, type: 2}
+  - {fileID: 11400000, guid: 71ffb3febd7933c0892d639e3f377330, type: 2}
   healVFX: []
   healSFX: []
 --- !u!58 &900679708095513947
@@ -382,10 +385,10 @@ MonoBehaviour:
   m_LightType: 2
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
-  m_Color: {r: 0, g: 1, b: 0.7372549, a: 1}
-  m_Intensity: 1
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 2
   m_LightVolumeIntensity: 0.5
-  m_LightVolumeEnabled: 1
+  m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 00000000
   m_LightCookieSprite: {fileID: 21300000, guid: 461360ebe214c7fc2aa6e0631122d4f8, type: 3}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}

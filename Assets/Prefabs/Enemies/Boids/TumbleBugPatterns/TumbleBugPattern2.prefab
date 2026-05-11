@@ -102,15 +102,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   suicideThreshold: 5
+  suicideTargetWeightMult: 2
   playerData: {fileID: 11400000, guid: f45cb763de2a96db4a09887ee31eb15a, type: 2}
   followTarget: {fileID: 8669806100855643754}
-  maxSpeed: 7
+  maxSpeed: 15
   noiseMultiplier: 0.5
   alignmentWeight: 4
   cohesionWeight: 1.5
   separationWeight: 2
   separationDistance: 1.5
-  boidCount: 15
+  targetWeightMult: 3
+  boidCount: 40
   boidPool: {fileID: 11400000, guid: 9ddfdff2bdee2727ea664e2a960e3c38, type: 2}
   spawnRadius: 1
   boids: []

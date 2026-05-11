@@ -2,6 +2,7 @@ using Unity.Mathematics;
 using UnityEngine;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Linq;
 
 /// <summary>
 /// A container for an ability that charges up before firing
@@ -30,6 +31,7 @@ public class ChargedProjectileAbility : AbstractAbility
     [SerializeField] private float maxScaleMult = 1f;
     public PooledVFX[] chargeVFX;
     public PooledVFX[] fireVFX;
+    public PooledSFX[] fireSFX;
 
     public override void ActivateAbility(GameObject user, AbilityMultipliers abilityMultipliers, AbilityContainer abilityContainer)
     {
@@ -91,6 +93,14 @@ public class ChargedProjectileAbility : AbstractAbility
                 comp.multipliers = abilityMultipliers.PayloadMultipliers;
             temp.SetActive(true);
         }
+
+        if (fireSFX.Count() > 0)
+        {
+            GameObject tempSFX = fireSFX[UnityEngine.Random.Range(0, fireSFX.Count())].GetPooledObject();
+            tempSFX.transform.SetPositionAndRotation(user.transform.position, user.transform.rotation);
+            tempSFX.SetActive(true);
+        }
+
         projectile.SetActive(true);
     }
 }

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65ba7480c1ee0d33a9a67ad9d02ebe8a, type: 3}
+  m_Name: Level 4-3
+  m_EditorClassIdentifier: 
+  WaveName: '- Final Wave -'
+  enemySpawns:
+  - SpawnLocation: {x: -10, y: 0, z: 0}
+    SpawnRotation: {x: 0, y: 0, z: 1, w: -0.00000004371139}
+    EnemyPrefab: {fileID: 3984304288870712635, guid: 885b36280e88e73d0b566e9868a5c5ab, type: 3}
+  - SpawnLocation: {x: 10, y: 0, z: 0}
+    SpawnRotation: {x: 0, y: 0, z: 1, w: -0.00000004371139}
+    EnemyPrefab: {fileID: 3830338538862847053, guid: 798412e497f45d473a491758b08dec55, type: 3}
+  - SpawnLocation: {x: -10, y: 4, z: 0}
+    SpawnRotation: {x: 0, y: 0, z: 1, w: -0.00000004371139}
+    EnemyPrefab: {fileID: 3403922750096751056, guid: be610ccfd0dfc5282bb71cbc18de0bd6, type: 3}
+  - SpawnLocation: {x: 10, y: 4, z: 0}
+    SpawnRotation: {x: 0, y: 0, z: 1, w: -0.00000004371139}
+    EnemyPrefab: {fileID: 3127719862288458161, guid: eb377269237d0a462835ef03b5c8742d, type: 3}
+  - SpawnLocation: {x: 0, y: 10, z: 0}
+    SpawnRotation: {x: 0, y: 0, z: 1, w: -0.00000004371139}
+    EnemyPrefab: {fileID: 8749069777770661347, guid: 507401768af2bd9d4b9082d4666d2eff, type: 3}
+  - SpawnLocation: {x: 0, y: 10, z: 0}
+    SpawnRotation: {x: 0, y: 0, z: 1, w: -0.00000004371139}
+    EnemyPrefab: {fileID: 1005565167479934708, guid: 4f172f0e566c8596184e4fe6c9d97731, type: 3}

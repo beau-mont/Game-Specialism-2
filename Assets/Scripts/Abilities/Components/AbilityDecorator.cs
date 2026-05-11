@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 /// <summary>
@@ -22,6 +23,7 @@ public class AbilityDecorator : MonoBehaviour // GRAAAAAAAH I FUCKING LOVE DOCUM
     [SerializeField] private AbstractPayload[] payloads;
     [SerializeField] private AbstractAbilityBehaviour abilityBehaviour;
     [SerializeField] private PooledVFX[] hitVFX;
+    [SerializeField] private PooledSFX[] hitSFX;
     [SerializeField] private bool spawnVFXAtTarget;
     [SerializeField] private bool destroyOnHit;
     [SerializeField] private bool triggerCollider;
@@ -98,6 +100,14 @@ public class AbilityDecorator : MonoBehaviour // GRAAAAAAAH I FUCKING LOVE DOCUM
             else tempEffect.transform.SetPositionAndRotation(transform.position, transform.rotation);
             tempEffect.SetActive(true);
         }
+
+        if (hitSFX.Count() > 0)
+        {
+            GameObject tempSFX = hitSFX[UnityEngine.Random.Range(0, hitSFX.Count())].GetPooledObject();
+            tempSFX.transform.SetPositionAndRotation(transform.position, transform.rotation);
+            tempSFX.SetActive(true);
+        }
+
         if (TryGetComponent<IDamageable>(out var damageable))
             damageable.Kill(); // kill
         if (destroyOnHit)

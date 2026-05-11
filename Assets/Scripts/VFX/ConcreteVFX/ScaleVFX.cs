@@ -23,7 +23,8 @@ public class ScaleVFX : VFXStrategy
     void Update()
     {
         //if (Time.time < StartTime) return;
-        float mult = 1 + Multipliers.GlobalMultiplier + Multipliers.RadiusMultiplier;
+        float mult = 1;
+        if (Multipliers != null) mult += Multipliers.GlobalMultiplier + Multipliers.RadiusMultiplier;
         float xScaleValue = startScale.x * (xScaleCurve.Evaluate(Time.time - StartTime) * mult);
         float yScaleValue = startScale.y * (yScaleCurve.Evaluate(Time.time - StartTime) * mult);
         float zScaleValue = startScale.z * (zScaleCurve.Evaluate(Time.time - StartTime) * mult);

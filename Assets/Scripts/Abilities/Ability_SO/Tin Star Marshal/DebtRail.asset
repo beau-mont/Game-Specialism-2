@@ -18,4 +18,6 @@ MonoBehaviour:
   _projectilePrefab: {fileID: 7608970228137800377, guid: 65c908cb4a830d09ea89115e7e7171b4, type: 3}
   fireVFX:
   - {fileID: 11400000, guid: 653d03b53f621c67a8f77eb428a07f62, type: 2}
+  fireSFX:
+  - {fileID: 11400000, guid: b4b19546dbb7364e19a5669aef72f06f, type: 2}
   spread: 0

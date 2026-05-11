@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Linq;
 
 /// <summary>
 /// A container for a generic full auto projectile ability
@@ -22,6 +23,7 @@ public class ProjectileAbility : AbstractAbility
     protected override List<GameObject> ProjectilePool { get => _projectilePool; set => _projectilePool = value; }
     [Header("Custom Variables")]
     public List<PooledVFX> fireVFX;
+    public PooledSFX[] fireSFX;
     public float spread;
 
     public override void ActivateAbility(GameObject user, AbilityMultipliers abilityMultipliers, AbilityContainer abilityContainer)
@@ -68,6 +70,13 @@ public class ProjectileAbility : AbstractAbility
             if (temp.TryGetComponent<VFXComponent>(out var comp))
                 comp.multipliers = abilityMultipliers.PayloadMultipliers;
             temp.SetActive(true);
+        }
+
+        if (fireSFX.Count() > 0)
+        {
+            GameObject tempSFX = fireSFX[UnityEngine.Random.Range(0, fireSFX.Count())].GetPooledObject();
+            tempSFX.transform.SetPositionAndRotation(user.transform.position, user.transform.rotation);
+            tempSFX.SetActive(true);
         }
     }
 }

@@ -24,6 +24,9 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
     [SerializeReference, SerializeField] private List<DamageThreshold> _damageThresholds;
     public List<DamageThreshold> DamageThresholds { get => _damageThresholds; set => _damageThresholds = value; }
     [Header("Settings")]
+    public float healInterval;
+    private float lastHeal;
+    public float healAmount;
     public float baseMoveSpeed;
     public float maxX;
     public float maxY;
@@ -76,6 +79,12 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
     {
         ProcessAbilities();
         ProcessMovement();
+
+        if (lastHeal + healInterval < Time.time)
+        {
+            ModifyHealth(-healAmount);
+            lastHeal = Time.time;
+        }
     }
 
     void ProcessMovement()
@@ -150,7 +159,7 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
             temp.transform.SetPositionAndRotation(transform.position, transform.rotation);
             temp.SetActive(true);
         }
-        StartCoroutine(OpenMenu(2));
+        StartCoroutine(OpenMenu(3));
         gameObject.SetActive(false);
     }
 
@@ -181,7 +190,7 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
         {
             yield return new WaitForSeconds(waitTime);
         }
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(1, LoadSceneMode.Single);
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("Menu", LoadSceneMode.Single);
         while (!asyncLoad.isDone)
         {
             yield return null;

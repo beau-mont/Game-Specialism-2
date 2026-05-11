@@ -1,3 +1,4 @@
+using System.Linq;
 using UnityEngine;
 
 public class GenericDamageable : MonoBehaviour, IDamageable
@@ -50,12 +51,9 @@ public class GenericDamageable : MonoBehaviour, IDamageable
             temp.transform.SetPositionAndRotation(transform.position, transform.rotation);
             temp.SetActive(true);
         }
-        foreach (var sfx in sfxArray)
-        {
-            if (sfx == null) continue;
-            GameObject temp = sfx.GetPooledObject();
-            temp.transform.SetPositionAndRotation(transform.position, transform.rotation);
-            temp.SetActive(true);
-        }
+        if (sfxArray.Count() == 0) return;
+        GameObject tempSFX = sfxArray[Random.Range(0, sfxArray.Count())].GetPooledObject();
+        tempSFX.transform.SetPositionAndRotation(transform.position, transform.rotation);
+        tempSFX.SetActive(true);
     }
 }

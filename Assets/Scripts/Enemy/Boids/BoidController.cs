@@ -8,6 +8,7 @@ public class BoidController : MonoBehaviour
     // [SerializeField] private PlayerData playerData;
     [Header("Boid Settings")]
     public int suicideThreshold = 5;
+    [SerializeField] private float suicideTargetWeightMult = 1f;
     public PlayerData playerData;
     public GameObject followTarget;
     [SerializeField] private float maxSpeed = 5f;
@@ -16,6 +17,7 @@ public class BoidController : MonoBehaviour
     [SerializeField] private float cohesionWeight = 1f;
     [SerializeField] private float separationWeight = 1f;
     [SerializeField] private float separationDistance = 1f;
+    [SerializeField] private float targetWeightMult = 1f;
     [Header("Boid Spawning")]
     [SerializeField] private int boidCount = 50;
     [SerializeField] private PooledBoids boidPool;
@@ -154,7 +156,8 @@ public class BoidController : MonoBehaviour
             COM /= neighbors.Count;
         }
         Vector2 targetLocalPos = (Vector2)boid.transform.InverseTransformPoint(targetPosition);
-        COM += targetLocalPos;
+        if (boids.Count <= suicideThreshold) COM += suicideTargetWeightMult * targetWeightMult * targetLocalPos;
+        else COM += targetLocalPos * targetWeightMult;
         
         Vector2 worldCOM = (Vector2)boid.transform.TransformPoint(COM);
         COM = worldCOM;

@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class ParryAbility : MonoBehaviour
 {
@@ -11,11 +12,14 @@ public class ParryAbility : MonoBehaviour
     private float parryStartTime;
     private float lastParryTime;
     InputAction parryAction;
+    [SerializeField] private GameObject parryIndicator;
+    private Image image;
 
     public PooledVFX[] parryVFX;
 
     void Start()
     {
+        image = parryIndicator.GetComponent<Image>();
         parryAction = InputSystem.actions.FindAction("Parry");
     }
 
@@ -29,6 +33,15 @@ public class ParryAbility : MonoBehaviour
         if (isParrying && Time.time - parryStartTime > parryWindow)
         {
             EndParry();
+        }
+
+        if (Time.time - lastParryTime > parryCooldown)
+        {
+            image.color = new Color(1f, 1f, 1f, 1f);
+        }
+        else
+        {
+            image.color = new Color(1f, 1f, 1f, 0.75f);
         }
 
         parryBoxInstance.transform.position = transform.position; // Keep parry box aligned with player

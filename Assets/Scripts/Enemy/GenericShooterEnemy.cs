@@ -11,6 +11,7 @@ public class GenericShooterEnemy : MonoBehaviour
     [SerializeField] private float maxAttackInterval;
     [SerializeField] private float holdAttackTime;
     [SerializeField] private PlayerData playerData;
+    [SerializeField] private float lerpSpeed = 5f;
     public bool facePlayer;
     private float nextAttack;
     private AssaulterBoidState state;
@@ -33,7 +34,8 @@ public class GenericShooterEnemy : MonoBehaviour
         {
             if (playerData != null)
             {
-                transform.up = playerData.Player.transform.position - transform.position;
+                Vector3 targetVec = playerData.Player.transform.position - transform.position;
+                transform.up = Vector3.Lerp(transform.up, targetVec, Time.deltaTime * lerpSpeed);
             }
             else
             {

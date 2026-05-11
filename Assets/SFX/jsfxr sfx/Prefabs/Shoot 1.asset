@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a13a1814f896ff3e8d8fb76a63eb314, type: 3}
+  m_Name: Shoot 1
+  m_EditorClassIdentifier: 
+  SFXPrefab: {fileID: 7955894020824942561, guid: 7f9874753c9c790a49b84b6f239801f2, type: 3}

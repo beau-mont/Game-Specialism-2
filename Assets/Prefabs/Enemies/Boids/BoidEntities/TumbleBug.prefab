@@ -154,6 +154,7 @@ MonoBehaviour:
   - {fileID: -8469056320575346214}
   abilityBehaviour: {fileID: 0}
   hitVFX: []
+  hitSFX: []
   spawnVFXAtTarget: 0
   destroyOnHit: 1
   triggerCollider: 0
@@ -202,7 +203,10 @@ MonoBehaviour:
   damageSFX: []
   deathVFX:
   - {fileID: 11400000, guid: b0f9f7ff6a6de514382e31d45b62080a, type: 2}
-  deathSFX: []
+  deathSFX:
+  - {fileID: 11400000, guid: b78a35c376a2e0ed79b06d88f1d95a10, type: 2}
+  - {fileID: 11400000, guid: d83497dcc8eea7fcf8aaecc5acaa641e, type: 2}
+  - {fileID: 11400000, guid: 71ffb3febd7933c0892d639e3f377330, type: 2}
   healVFX: []
   healSFX: []
 --- !u!58 &-4372110128637472834
@@ -294,9 +298,9 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 0.80784315, g: 1, b: 0, a: 1}
-  m_Intensity: 0.75
+  m_Intensity: 2
   m_LightVolumeIntensity: 0.25
-  m_LightVolumeEnabled: 1
+  m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 00000000
   m_LightCookieSprite: {fileID: 21300000, guid: 25509520534f5bf7999cf3d3fa845949, type: 3}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}

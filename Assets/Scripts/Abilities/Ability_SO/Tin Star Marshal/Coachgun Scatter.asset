@@ -16,6 +16,9 @@ MonoBehaviour:
   _isSingleUse: 0
   _cooldownDuration: 0.5
   _projectilePrefab: {fileID: 5026910479251447630, guid: b91d864005838074e9857c40269ac85c, type: 3}
-  fireVFX: []
+  fireVFX:
+  - {fileID: 11400000, guid: 553c1cdcb3383be96883d3c455a93505, type: 2}
+  fireSFX:
+  - {fileID: 11400000, guid: b7bccb926d02d18f799668deb04a5fe1, type: 2}
   pelletCount: 6
   spreadPerPellet: 2.5
