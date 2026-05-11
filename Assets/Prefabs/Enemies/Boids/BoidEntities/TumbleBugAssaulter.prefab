@@ -49,6 +49,7 @@ MonoBehaviour:
   maxAttackInterval: 10
   holdAttackTime: 0
   playerData: {fileID: 11400000, guid: f45cb763de2a96db4a09887ee31eb15a, type: 2}
+  lerpSpeed: 5
   facePlayer: 1
 --- !u!114 &8534431356112377528
 MonoBehaviour:
@@ -287,6 +288,7 @@ MonoBehaviour:
   health: 2
   maxHealth: 2
   maxHealthModifier: 0
+  procKill: 0
   damageVFX: []
   damageSFX: []
   deathVFX:

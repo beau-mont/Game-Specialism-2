@@ -7,6 +7,7 @@ public class GenericDamageable : MonoBehaviour, IDamageable
     [SerializeField] private float health;
     [SerializeField] private float maxHealth;
     [SerializeField] private float maxHealthModifier;
+    [SerializeField] private bool procKill = true;
     [Header("VFX/SFX")]
     public PooledVFX[] damageVFX;
     public PooledSFX[] damageSFX;
@@ -17,10 +18,11 @@ public class GenericDamageable : MonoBehaviour, IDamageable
 
     public void Kill()
     {
-        var eventController = FindFirstObjectByType<PlayerEventController>();
-        if (eventController != null) eventController.OnKill.Invoke();
         SpawnFX(deathVFX, deathSFX);
         gameObject.SetActive(false); 
+        if (!procKill) return;
+        var eventController = FindFirstObjectByType<PlayerEventController>();
+        if (eventController != null) eventController.OnKill.Invoke();
     }
 
     public void ModifyHealth(float value)

@@ -199,6 +199,7 @@ MonoBehaviour:
   health: 2
   maxHealth: 2
   maxHealthModifier: 0
+  procKill: 0
   damageVFX: []
   damageSFX: []
   deathVFX:

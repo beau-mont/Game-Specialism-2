@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d4a483e066dd6ae2b23b961e254a9ff, type: 3}
+  m_Name: Kill Special
+  m_EditorClassIdentifier: 
+  _abilityName: Kill Special
+  _isSingleUse: 0
+  _cooldownDuration: 0.1
+  _projectilePrefab: {fileID: 2929807929390787003, guid: 15bf53a2c11b37300bb6d5bd0609f08e, type: 3}
+  fireVFX:
+  - {fileID: 11400000, guid: 7f3f55dc832500d19a24a9cb0b5f9c2b, type: 2}
+  fireSFX:
+  - {fileID: 11400000, guid: 11b86d754e8fd141ba7815c908f71191, type: 2}
+  - {fileID: 11400000, guid: 02052b7377cd6ec7691e835d3b293196, type: 2}
+  spread: 0

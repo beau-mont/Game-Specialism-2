@@ -1,0 +1,263 @@
+fileFormatVersion: 2
+guid: 195e32b28f029b462a004ae541a24087
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6717884257390833292
+    second: Shield_0
+  - first:
+      213: -7947067082740497745
+    second: Shield_1
+  - first:
+      213: -4098029715399502762
+    second: Shield_2
+  - first:
+      213: -407368442477547055
+    second: Shield_3
+  - first:
+      213: -8418880130915447063
+    second: Shield_4
+  - first:
+      213: -7904321528907490436
+    second: Shield_5
+  - first:
+      213: 2341536110440916619
+    second: Shield_6
+  - first:
+      213: 4637961900233290276
+    second: Shield_7
+  - first:
+      213: -8791351738350567763
+    second: Shield_8
+  - first:
+      213: 4178837475672097676
+    second: Shield_9
+  - first:
+      213: -4139967499187289690
+    second: Shield_10
+  - first:
+      213: -1724066967173290298
+    second: Shield_11
+  - first:
+      213: 2593205199409498848
+    second: Shield_12
+  - first:
+      213: -5621012540882060733
+    second: Shield_13
+  - first:
+      213: -3116242569157118883
+    second: Shield_14
+  - first:
+      213: 612823546732255015
+    second: Shield_15
+  - first:
+      213: 5529015764518027307
+    second: Shield_16
+  - first:
+      213: 7117384378876116084
+    second: Shield_17
+  - first:
+      213: -4921259342409278095
+    second: Shield_18
+  - first:
+      213: 6341517827957361620
+    second: Shield_19
+  - first:
+      213: 6245830438149059186
+    second: Shield_20
+  - first:
+      213: 7546075876720601745
+    second: Shield_21
+  - first:
+      213: -1052069229693800646
+    second: Shield_22
+  - first:
+      213: 6381559947035851302
+    second: Shield_23
+  - first:
+      213: 5325189672063782776
+    second: Shield_24
+  - first:
+      213: 7672910636318473952
+    second: Shield_25
+  - first:
+      213: -4039519424374130496
+    second: Shield_26
+  - first:
+      213: -2534685989245856344
+    second: Shield_27
+  - first:
+      213: 2814747734217260628
+    second: Shield_28
+  - first:
+      213: -891032645926009243
+    second: Shield_29
+  - first:
+      213: -5443933442421158190
+    second: Shield_30
+  - first:
+      213: -4904233506061657768
+    second: Shield_31
+  - first:
+      213: -8540623953450902946
+    second: Shield_32
+  - first:
+      213: -8046847363665507399
+    second: Shield_33
+  - first:
+      213: -5257168947442879873
+    second: Shield_34
+  - first:
+      213: -5994575193740574529
+    second: Shield_35
+  - first:
+      213: -1232605599224602989
+    second: Shield_36
+  - first:
+      213: -872444175396510644
+    second: Shield_37
+  - first:
+      213: -6158263351642659031
+    second: Shield_38
+  - first:
+      213: -6809286561004986876
+    second: Shield_39
+  - first:
+      213: -2289293709603572260
+    second: Shield_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Shield_0
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 703
+        width: 2042
+        height: 1926
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471d70c5cd745c2a0800000000000000
+      internalID: -6717884257390833292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Shield_0: -6717884257390833292
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

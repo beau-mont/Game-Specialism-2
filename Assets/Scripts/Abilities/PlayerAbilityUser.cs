@@ -13,6 +13,7 @@ public class PlayerAbilityUser : MonoBehaviour, IAbilityUser
     [SerializeField] private List<AbilityContainer> availableAbilities;
     [SerializeField] private AbilityContainer _CurrentAbility;
     public AbilityContainer CurrentAbility { get => _CurrentAbility; set => _CurrentAbility = value; }
+    [SerializeField] private AbilityContainer killSpecialAbility;
     [SerializeField] private PlayerData playerData;
     [SerializeField] private LayerMask _TargetLayers;
     public LayerMask TargetLayers { get => _TargetLayers; }
@@ -24,6 +25,15 @@ public class PlayerAbilityUser : MonoBehaviour, IAbilityUser
     void Start()
     {
         playerData.PlayerAbilityUser = this; // add yourself to the player data
+    }
+
+    public void ActivateKillSpecial()
+    {
+        if (!killSpecialAbility.Ability) return;
+
+        killSpecialAbility.IncludeLayers = TargetLayers;
+        killSpecialAbility.ExcludeLayers = IgnoreLayers;
+        killSpecialAbility.Ability.ActivateAbility(playerData.Player, playerData.PlayerUpgradeManager.PlayerMultipliers.AbilityMultipliers, killSpecialAbility);
     }
 
     public void ActivateAbility()

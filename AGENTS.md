@@ -8,7 +8,7 @@
   - Layers:
     - Default, TransparentFX, Ignore Raycast, Water, UI, Enemy, Player, Projectile, EnemyProjectile, ParryBox, Pickup
 - Active game object:
-  - Name: Kill Special Bar
+  - Name: Weapon 2
   - Tag: Untagged
   - Layer: UI
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->

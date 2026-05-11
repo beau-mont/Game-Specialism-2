@@ -39,7 +39,6 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
     InputAction attackAction;
     InputAction switchAction;
     InputAction parryAction;
-    InputAction specialAction;
     InputAction pauseAction;
 
     void Start()
@@ -49,7 +48,6 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
         attackAction = InputSystem.actions.FindAction("Attack");
         switchAction = InputSystem.actions.FindAction("Switch");
         parryAction = InputSystem.actions.FindAction("Parry");
-        specialAction = InputSystem.actions.FindAction("Special");
         pauseAction = InputSystem.actions.FindAction("Pause");
     }
 
