@@ -13,6 +13,8 @@ public class ParryAbility : MonoBehaviour
     private float lastParryTime;
     InputAction parryAction;
     [SerializeField] private GameObject parryIndicator;
+    private float targetAlpha;
+    public float lerpSpeed = 5f;
     private Image image;
 
     public PooledVFX[] parryVFX;
@@ -37,12 +39,14 @@ public class ParryAbility : MonoBehaviour
 
         if (Time.time - lastParryTime > parryCooldown)
         {
-            image.color = new Color(1f, 1f, 1f, 1f);
+            targetAlpha = 1f;
         }
         else
         {
-            image.color = new Color(1f, 1f, 1f, 0.75f);
+            targetAlpha = 0.5f;
         }
+
+        image.color = new Color(0f, 1f, 1f, Mathf.Lerp(image.color.a, targetAlpha, Time.deltaTime * lerpSpeed));
 
         parryBoxInstance.transform.position = transform.position; // Keep parry box aligned with player
     }

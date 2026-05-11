@@ -1,7 +1,10 @@
+using System.Linq;
 using UnityEngine;
 
 public class ParryBox : MonoBehaviour
 {
+    [SerializeField] private PooledVFX[] parryVFX;
+    [SerializeField] private PooledSFX[] parrySFX;
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("EnemyProjectile"))
@@ -27,16 +30,39 @@ public class ParryBox : MonoBehaviour
         projectile.GetComponent<Rigidbody2D>().linearVelocity *= -1;
         // projectile.tag = "Projectile";
         // projectile.layer = LayerMask.NameToLayer("Projectile");
-        AbilityDecorator decorator = projectile.GetComponent<AbilityDecorator>();
-        decorator.owner = transform.parent.gameObject; // set owner to player for damage attribution
-        decorator.OnParry(); // reset lifetime and VFX on the parried projectile
-        if (includeLayers != 0 || excludeLayers != 0)
+        if (!projectile.GetComponent<BoidEntity>())
         {
-            decorator.abilityCollider.includeLayers = includeLayers;
-            decorator.abilityCollider.excludeLayers = excludeLayers;
+            AbilityDecorator decorator = projectile.GetComponent<AbilityDecorator>();
+            decorator.owner = transform.parent.gameObject; // set owner to player for damage attribution
+            decorator.OnParry(); // reset lifetime and VFX on the parried projectile
+            if (includeLayers != 0 || excludeLayers != 0)
+            {
+                decorator.abilityCollider.includeLayers = includeLayers;
+                decorator.abilityCollider.excludeLayers = excludeLayers;
+            }
+
+            foreach(var vfx in parryVFX)
+            {
+                if (vfx == null) continue;
+                GameObject temp = vfx.GetPooledObject();
+                temp.transform.SetPositionAndRotation(projectile.transform.position, projectile.transform.rotation);
+                temp.SetActive(true);
+            }
+
+            if (parrySFX.Count() != 0)
+            {
+                GameObject tempSFX = parrySFX[Random.Range(0, parrySFX.Count())].GetPooledObject();
+                tempSFX.transform.SetPositionAndRotation(transform.position, transform.rotation);
+                tempSFX.SetActive(true);
+            }
+
+            Debug.Log("Parried projectile: " + projectile.name);
+        }
+        else
+        {
+            Debug.Log($"Parried boid {projectile.gameObject.name}");
         }
 
-        Debug.Log("Parried projectile: " + projectile.name);
         GetComponentInParent<PlayerEventController>().OnParry?.Invoke(true); // invoke parry event with success = true
     }
 }

@@ -8,9 +8,12 @@ public class KillSpecialController : MonoBehaviour
     public int charge;
     InputAction switchAction;
     InputAction parryAction;
+    public GameObject killSpecialDisplay;
+    private KillSpecialDisplay display;
 
     void OnEnable() // lowkenuinely hyjacking the proc system to count kills cause im lazy
     {
+        display = killSpecialDisplay.GetComponent<KillSpecialDisplay>();
         if (TryGetComponent<PlayerEventController>(out var eventController))
         {
             eventController.OnKill += AddKill;
@@ -29,7 +32,8 @@ public class KillSpecialController : MonoBehaviour
     {
         charge++;
         Debug.Log($"KILL PROC");
-        FindFirstObjectByType<KillSpecialDisplay>().targetFill = Mathf.Clamp(charge / maxCharge, 0, 1);
+        if (display) display.targetFill = Mathf.Clamp((float)charge / (float)maxCharge, 0, 1);
+        else Debug.LogWarning($"no display found for {gameObject.name}'s kill special controller");
     }
 
     void Start()

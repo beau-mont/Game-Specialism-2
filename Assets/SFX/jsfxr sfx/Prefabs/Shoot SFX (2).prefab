@@ -146,5 +146,5 @@ MonoBehaviour:
   disableWhenNotPlaying: 1
   useRandom: 1
   randVolume: {x: 0.65, y: 1}
-  randPitch: {x: 0.85, y: 1.15}
+  randPitch: {x: 0.75, y: 1.25}
   randPan: {x: -0.25, y: 0.25}
