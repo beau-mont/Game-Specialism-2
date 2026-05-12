@@ -118,6 +118,10 @@ MonoBehaviour:
   spawnRadius: 1
   boids: []
   forcefields: []
+  deathVFX:
+  - {fileID: 11400000, guid: 523ad5489a00b6145a3738fd7cb40f18, type: 2}
+  - {fileID: 11400000, guid: 523ad5489a00b6145a3738fd7cb40f18, type: 2}
+  - {fileID: 11400000, guid: 523ad5489a00b6145a3738fd7cb40f18, type: 2}
 --- !u!95 &5273209428443540650
 Animator:
   serializedVersion: 7
