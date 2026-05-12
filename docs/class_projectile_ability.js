@@ -9,6 +9,7 @@ var class_projectile_ability =
     [ "_isSingleUse", "class_projectile_ability.html#af8fd93039143295c18b34dd6bd267f21", null ],
     [ "_projectilePool", "class_projectile_ability.html#aaf987695b573ddf640a05c59299fb5b2", null ],
     [ "_projectilePrefab", "class_projectile_ability.html#a463aa32f65323a02c6c3371bd52bcbfd", null ],
+    [ "fireSFX", "class_projectile_ability.html#a5a930fd6badb5f8d43e21ddbd187db65", null ],
     [ "fireVFX", "class_projectile_ability.html#aafe6fe3ec50b73f95cb7447173c41c2d", null ],
     [ "spread", "class_projectile_ability.html#ae451721cacd2688836e76c0b209bc742", null ],
     [ "AbilityName", "class_projectile_ability.html#a77729cfb2778a0104c429750bb8ba839", null ],

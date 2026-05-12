@@ -1,0 +1,14 @@
+digraph "GenericEnemyController.ModifyHealth"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="GenericEnemyController.ModifyHealth",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Removes value from currentHealth."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="GenericEnemyController.CheckDamage\lThresholds",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_generic_enemy_controller.html#a7d2509b24c9bf623569f9327603a69d2",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="GenericEnemyController.Kill",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_generic_enemy_controller.html#a21b235171815a20d28f4ccc839e0c56e",tooltip="Kills the object."];
+}

@@ -1,0 +1,14 @@
+digraph "ProjectileAbility.TryFire"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="ProjectileAbility.TryFire",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="ProjectileAbility.ActivateAbility",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_projectile_ability.html#a0106b2bc60906d167700aad7c1bc16b4",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="ProjectileAbility.HoldAbility",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_projectile_ability.html#a625e1cabf5a84fd3ba9231df10dd6109",tooltip=" "];
+}

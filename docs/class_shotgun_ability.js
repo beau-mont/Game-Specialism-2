@@ -9,6 +9,7 @@ var class_shotgun_ability =
     [ "_isSingleUse", "class_shotgun_ability.html#a90c14d3005fd0ad510cfb8b18cadbe2e", null ],
     [ "_projectilePool", "class_shotgun_ability.html#ad5ef778e5d84f246eaa1812077e37155", null ],
     [ "_projectilePrefab", "class_shotgun_ability.html#a514426364e14dcd69bf5b1b0ab08a369", null ],
+    [ "fireSFX", "class_shotgun_ability.html#a785a33868bb7b079990b819fa802d5e4", null ],
     [ "fireVFX", "class_shotgun_ability.html#a3633b1458ae7eaf9da4dd2a911db41a2", null ],
     [ "pelletCount", "class_shotgun_ability.html#a4033b0dfbb001772e690d24e58907543", null ],
     [ "spreadPerPellet", "class_shotgun_ability.html#ac6597638f772ecb05c30d903ff477665", null ],

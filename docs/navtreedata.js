@@ -24,14 +24,14 @@
 */
 var NAVTREE =
 [
-  [ "Game Specialism 2", "index.html", [
+  [ "Temporary Frequency", "index.html", [
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", "functions_dup" ],
-        [ "Functions", "functions_func.html", null ],
+        [ "Functions", "functions_func.html", "functions_func" ],
         [ "Variables", "functions_vars.html", "functions_vars" ],
         [ "Enumerations", "functions_enum.html", null ],
         [ "Properties", "functions_prop.html", null ]
@@ -46,8 +46,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_a_o_e_damage_payload_8cs.html",
-"class_fade_text_v_f_x.html#abae51bb63c2b18290be08f0f808c4a0b",
-"class_shotgun_ability.html#a514426364e14dcd69bf5b1b0ab08a369"
+"class_e_x_p_controller.html#a5606700a03e33344560dbbb071875a70",
+"class_payload_multipliers.html#ab95e7a47f6f39f1bd15536049a614ae6",
+"dir_119c6b51ac9e4468112c20d6b6bf54dc.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

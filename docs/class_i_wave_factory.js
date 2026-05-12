@@ -1,5 +1,6 @@
 var class_i_wave_factory =
 [
-    [ "CreateWave", "class_i_wave_factory.html#a85ec700ca49a548a48c30d2e64cfd926", null ],
-    [ "FactoryName", "class_i_wave_factory.html#ae62e75f883c5c5b581d55681c9ff4332", null ]
+    [ "CreateWave", "class_i_wave_factory.html#ae8bc47ba89f9a5ea12b12adb3360b528", null ],
+    [ "FactoryName", "class_i_wave_factory.html#ac637b2b0baf4c105ee601f2aa909241a", null ],
+    [ "MaxHealthMod", "class_i_wave_factory.html#a27e2b96d8f1f184008d4c22d99d7e89f", null ]
 ];

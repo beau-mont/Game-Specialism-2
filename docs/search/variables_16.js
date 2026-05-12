@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['yscalecurve_720',['yScaleCurve',['../class_scale_v_f_x.html#a31bc515b069bb53ee6b71b96ef509d78',1,'ScaleVFX']]]
+  ['xscalecurve_0',['xScaleCurve',['../class_scale_v_f_x.html#a76e41a239cfd5c791300eb47761ea674',1,'ScaleVFX']]]
 ];

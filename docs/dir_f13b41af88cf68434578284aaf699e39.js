@@ -1,6 +1,5 @@
 var dir_f13b41af88cf68434578284aaf699e39 =
 [
-    [ "[OBSOLETE]", "dir_dfa5d4e9c8a981741b4d1d918bfbc21e.html", "dir_dfa5d4e9c8a981741b4d1d918bfbc21e" ],
     [ "Abilities", "dir_ebe48340aecbad4981a51369f14ec615.html", "dir_ebe48340aecbad4981a51369f14ec615" ],
     [ "Enemy", "dir_4b8640857bf8216535587707011924da.html", "dir_4b8640857bf8216535587707011924da" ],
     [ "Misc", "dir_baf85a528212cb5cb397bfd05e0bd3c6.html", "dir_baf85a528212cb5cb397bfd05e0bd3c6" ],
@@ -9,8 +8,5 @@ var dir_f13b41af88cf68434578284aaf699e39 =
     [ "UI", "dir_4ae35e2d0d203079e26c83ccaec95743.html", "dir_4ae35e2d0d203079e26c83ccaec95743" ],
     [ "VFX", "dir_629949e35dfdf722565369645ab82dc7.html", "dir_629949e35dfdf722565369645ab82dc7" ],
     [ "Wave System", "dir_be2309129943314b8f73745319d4e3f7.html", "dir_be2309129943314b8f73745319d4e3f7" ],
-    [ "GameController.cs", "_game_controller_8cs.html", [
-      [ "GameController", "class_game_controller.html", "class_game_controller" ],
-      [ "Wave", "class_wave.html", "class_wave" ]
-    ] ]
+    [ "GameController.cs", "_game_controller_8cs.html", "_game_controller_8cs" ]
 ];

@@ -1,9 +1,9 @@
 var class_damage_threshold =
 [
-    [ "Action", "class_damage_threshold.html#ad3a5103dd470a4795fb521d379e290a9", null ],
-    [ "End", "class_damage_threshold.html#abb9e25ee8483e31a715a266188039b90", null ],
-    [ "Start", "class_damage_threshold.html#ac030161951bb02f497dbb5e6f6ecec3f", null ],
-    [ "Active", "class_damage_threshold.html#ab711508b909bc1a5421f17000c54e6ae", null ],
-    [ "HighThreshold", "class_damage_threshold.html#acac95c2cdd795235bc9b2ab36ab19cc0", null ],
-    [ "LowThreshold", "class_damage_threshold.html#a2d0b06927bfdb7ee56dbde295f3b4f52", null ]
+    [ "Action", "class_damage_threshold.html#a9f961d7566913c04108294c5a4d49cf2", null ],
+    [ "End", "class_damage_threshold.html#aae445b8be73e1f37938afb8996ce53f1", null ],
+    [ "Start", "class_damage_threshold.html#a31bb37371aa3c317b6c72de0d061d712", null ],
+    [ "Active", "class_damage_threshold.html#a0221ce08295dee123198646341f86f25", null ],
+    [ "HighThreshold", "class_damage_threshold.html#a6972a1bfdda6aa0ccc0d620c416eeef0", null ],
+    [ "LowThreshold", "class_damage_threshold.html#a01d2c5d148e7a97b62424bf4b4535246", null ]
 ];

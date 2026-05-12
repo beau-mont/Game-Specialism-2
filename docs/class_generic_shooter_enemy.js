@@ -13,6 +13,7 @@ var class_generic_shooter_enemy =
     [ "abilityUser", "class_generic_shooter_enemy.html#a2b688ea769a1d91b0825526c7a72b8a9", null ],
     [ "facePlayer", "class_generic_shooter_enemy.html#ae7b895432d5b05c420a52d2c01e08ba7", null ],
     [ "holdAttackTime", "class_generic_shooter_enemy.html#a6c9927b3001efb91ec235461aaa971b1", null ],
+    [ "lerpSpeed", "class_generic_shooter_enemy.html#a7694384e4403c576ab7ffca34cefdb12", null ],
     [ "maxAttackInterval", "class_generic_shooter_enemy.html#a5a706937158022bdfd768587f423aad0", null ],
     [ "minAttackInterval", "class_generic_shooter_enemy.html#aa041a00b3c320dfe31350584a14b8b11", null ],
     [ "nextAttack", "class_generic_shooter_enemy.html#a488d1b021bab735ab25b3c4dfa8cc697", null ],

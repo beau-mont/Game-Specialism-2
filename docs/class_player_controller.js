@@ -16,6 +16,10 @@ var class_player_controller =
     [ "baseMoveSpeed", "class_player_controller.html#a879b71c2f584dcbe2ead4d8e9bd86bd2", null ],
     [ "currentHealth", "class_player_controller.html#ae5aeb12c3428a159217f344f65e0157c", null ],
     [ "deathVFX", "class_player_controller.html#a4be2ae284cb114d1c538b701e44c86e6", null ],
+    [ "healAmount", "class_player_controller.html#aa69fca496c51c7e13c1b6b604ea23679", null ],
+    [ "healInterval", "class_player_controller.html#a26e8d76d4908fc1238a718a3837d8fcc", null ],
+    [ "lastHeal", "class_player_controller.html#acb4428a9b599224698e1c73a1abac516", null ],
+    [ "lives", "class_player_controller.html#a650dbebdf1307ffc8daade7aad973469", null ],
     [ "MaxHealth", "class_player_controller.html#aa11a30203d2caa2193fff366f6ed66fa", null ],
     [ "maxHealthMod", "class_player_controller.html#adf6caf6f3e827555d5eaf870f5e70c7c", null ],
     [ "maxX", "class_player_controller.html#afc1262b95da1e8a5b7e486c892a23c83", null ],
@@ -27,7 +31,6 @@ var class_player_controller =
     [ "pauseAction", "class_player_controller.html#a7c0b712e88eedb672bc333ef48d9ca5f", null ],
     [ "playerData", "class_player_controller.html#a7d17e5310468c24a4ab15ac696e61cec", null ],
     [ "rb", "class_player_controller.html#af656c35d14d18c09958ce86e6fb874d1", null ],
-    [ "specialAction", "class_player_controller.html#a9c4f093b6edcc0bfb7525530e91d0735", null ],
     [ "switchAction", "class_player_controller.html#aecc16a05d7e8611476066696a8777f0b", null ],
     [ "DamageThresholds", "class_player_controller.html#a5bd47048b9758cc293de924006a10cff", null ]
 ];

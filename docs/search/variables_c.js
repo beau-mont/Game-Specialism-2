@@ -1,6 +1,25 @@
 var searchData=
 [
-  ['neighbors_642',['neighbors',['../class_boid_entity.html#a8babe84720764fd749577f9b4879f422',1,'BoidEntity']]],
-  ['nextattack_643',['nextAttack',['../class_generic_shooter_enemy.html#a488d1b021bab735ab25b3c4dfa8cc697',1,'GenericShooterEnemy']]],
-  ['noisemultiplier_644',['noiseMultiplier',['../class_boid_controller.html#a5259d85aaff48dbd2c1225679d203657',1,'BoidController']]]
+  ['matchy_0',['matchY',['../class_a_o_e_damage_payload.html#a858ea2e813970fb5a2710bece3c28106',1,'AOEDamagePayload']]],
+  ['maxattackinterval_1',['maxAttackInterval',['../class_generic_shooter_enemy.html#a5a706937158022bdfd768587f423aad0',1,'GenericShooterEnemy']]],
+  ['maxcharge_2',['maxCharge',['../class_kill_special_controller.html#ae606120066c72743ba42c0d7fdd84741',1,'KillSpecialController']]],
+  ['maxchargeduration_3',['maxChargeDuration',['../class_charged_projectile_ability.html#affa32d5dc7509b3dadf910600d2a200e',1,'ChargedProjectileAbility']]],
+  ['maxdamagemult_4',['maxDamageMult',['../class_charged_projectile_ability.html#a907dbbdae53fde6a1a2947164583bd41',1,'ChargedProjectileAbility']]],
+  ['maxhealth_5',['maxhealth',['../class_generic_enemy_controller.html#a696d8831614c056c0b8ecf6b0ebd6a74',1,'GenericEnemyController.MaxHealth'],['../class_player_controller.html#aa11a30203d2caa2193fff366f6ed66fa',1,'PlayerController.MaxHealth'],['../class_generic_damageable.html#ad6e37bf0af4d4dfea13160aa3abae45b',1,'GenericDamageable.maxHealth']]],
+  ['maxhealthmod_6',['maxhealthmod',['../class_generic_enemy_controller.html#a25c3e3219d684be91c249b0c29b4c204',1,'GenericEnemyController.maxHealthMod'],['../class_player_controller.html#adf6caf6f3e827555d5eaf870f5e70c7c',1,'PlayerController.maxHealthMod'],['../class_player_data.html#a489be92b9d6a03a385a4a9b76de188d7',1,'PlayerData.MaxHealthMod']]],
+  ['maxhealthmodifier_7',['maxHealthModifier',['../class_generic_damageable.html#abe8c3c0f10924530c1e62d09db17429b',1,'GenericDamageable']]],
+  ['maxhealthmultiplier_8',['MaxHealthMultiplier',['../class_player_multipliers.html#ae8aab95736d84ac03364279a28b90005',1,'PlayerMultipliers']]],
+  ['maxscalemult_9',['maxScaleMult',['../class_charged_projectile_ability.html#a00510b85fac644eddbf424858bdb0785',1,'ChargedProjectileAbility']]],
+  ['maxspeed_10',['maxSpeed',['../class_boid_controller.html#abec030bc6f540265bc013394141c672b',1,'BoidController']]],
+  ['maxspeedmult_11',['maxSpeedMult',['../class_charged_projectile_ability.html#a089a9bec44b10b62b05940bf42a4cafe',1,'ChargedProjectileAbility']]],
+  ['maxx_12',['maxX',['../class_player_controller.html#afc1262b95da1e8a5b7e486c892a23c83',1,'PlayerController']]],
+  ['maxy_13',['maxY',['../class_player_controller.html#a686cdf7aee2254a6c6f7bf09cb543ea6',1,'PlayerController']]],
+  ['minattackinterval_14',['minAttackInterval',['../class_generic_shooter_enemy.html#aa041a00b3c320dfe31350584a14b8b11',1,'GenericShooterEnemy']]],
+  ['minx_15',['minX',['../class_player_controller.html#a7b8b16f91f4d248727bee11dc735fe1a',1,'PlayerController']]],
+  ['miny_16',['minY',['../class_player_controller.html#afe758a88e7ce82ea157d08e898bb2072',1,'PlayerController']]],
+  ['mixer_17',['mixer',['../class_set_mixer.html#ae99230f6e7d7151302f68518c35e9448',1,'SetMixer.mixer'],['../class_volume_reader.html#aaf998c8bd38570b95a3cfdca8182e743',1,'VolumeReader.mixer']]],
+  ['moveaction_18',['moveAction',['../class_player_controller.html#af99cddccf0395badc734b368261b7d85',1,'PlayerController']]],
+  ['movedir_19',['moveDir',['../class_simple_pickup.html#a6352ab74f82ffc94c9819fa96d767bd2',1,'SimplePickup']]],
+  ['movespeedmultiplier_20',['MoveSpeedMultiplier',['../class_player_multipliers.html#ad10e4c949524303091fc2bb7f2128071',1,'PlayerMultipliers']]],
+  ['multipliers_21',['multipliers',['../class_v_f_x_component.html#adcd07205bca359c3ed25899cbf1c0bfc',1,'VFXComponent']]]
 ];

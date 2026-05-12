@@ -1,0 +1,18 @@
+digraph "Assets/Scripts/Abilities"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_f13b41af88cf68434578284aaf699e39 {
+    graph [ bgcolor="#edeff3", pencolor="grey50", label="Scripts", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_f13b41af88cf68434578284aaf699e39.html",tooltip=""]
+  subgraph clusterdir_ebe48340aecbad4981a51369f14ec615 {
+    graph [ bgcolor="#edeff3", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_ebe48340aecbad4981a51369f14ec615.html",tooltip=""]
+    dir_ebe48340aecbad4981a51369f14ec615 [shape=plaintext, label="Abilities"];
+  dir_d8bec43f90706f50f1e927e7ac0d838d [label="AbilityClasses", fillcolor="#a5b1c2", color="grey25", style="filled", URL="dir_d8bec43f90706f50f1e927e7ac0d838d.html",tooltip=""];
+  dir_941d3f33cb34dd2946470b7c4b7f5a4a [label="Components", fillcolor="#a5b1c2", color="grey25", style="filled", URL="dir_941d3f33cb34dd2946470b7c4b7f5a4a.html",tooltip=""];
+  }
+  }
+}

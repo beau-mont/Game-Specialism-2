@@ -1,0 +1,13 @@
+digraph "Assets/Scripts/Wave System/Interface"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_be2309129943314b8f73745319d4e3f7 {
+    graph [ bgcolor="#edeff3", pencolor="grey50", label="Wave System", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_be2309129943314b8f73745319d4e3f7.html",tooltip=""]
+  dir_4ff7c29bf521a550915c7e4b35bd0a94 [label="Interface", fillcolor="#edeff3", color="grey25", style="filled,bold", URL="dir_4ff7c29bf521a550915c7e4b35bd0a94.html",tooltip=""];
+  }
+}

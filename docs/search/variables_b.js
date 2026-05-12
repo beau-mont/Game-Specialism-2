@@ -1,23 +1,11 @@
 var searchData=
 [
-  ['matchy_622',['matchY',['../class_a_o_e_damage_payload.html#a858ea2e813970fb5a2710bece3c28106',1,'AOEDamagePayload']]],
-  ['maxattackinterval_623',['maxAttackInterval',['../class_generic_shooter_enemy.html#a5a706937158022bdfd768587f423aad0',1,'GenericShooterEnemy']]],
-  ['maxchargeduration_624',['maxChargeDuration',['../class_charged_projectile_ability.html#affa32d5dc7509b3dadf910600d2a200e',1,'ChargedProjectileAbility']]],
-  ['maxdamagemult_625',['maxDamageMult',['../class_charged_projectile_ability.html#a907dbbdae53fde6a1a2947164583bd41',1,'ChargedProjectileAbility']]],
-  ['maxhealth_626',['maxHealth',['../class_generic_damageable.html#ad6e37bf0af4d4dfea13160aa3abae45b',1,'GenericDamageable']]],
-  ['maxhealth_627',['MaxHealth',['../class_generic_enemy_controller.html#a696d8831614c056c0b8ecf6b0ebd6a74',1,'GenericEnemyController.MaxHealth()'],['../class_player_controller.html#aa11a30203d2caa2193fff366f6ed66fa',1,'PlayerController.MaxHealth()']]],
-  ['maxhealthmod_628',['maxHealthMod',['../class_generic_enemy_controller.html#a25c3e3219d684be91c249b0c29b4c204',1,'GenericEnemyController.maxHealthMod()'],['../class_player_controller.html#adf6caf6f3e827555d5eaf870f5e70c7c',1,'PlayerController.maxHealthMod()']]],
-  ['maxhealthmodifier_629',['maxHealthModifier',['../class_generic_damageable.html#abe8c3c0f10924530c1e62d09db17429b',1,'GenericDamageable']]],
-  ['maxhealthmultiplier_630',['MaxHealthMultiplier',['../class_player_multipliers.html#ae8aab95736d84ac03364279a28b90005',1,'PlayerMultipliers']]],
-  ['maxscalemult_631',['maxScaleMult',['../class_charged_projectile_ability.html#a00510b85fac644eddbf424858bdb0785',1,'ChargedProjectileAbility']]],
-  ['maxspeed_632',['maxSpeed',['../class_boid_controller.html#abec030bc6f540265bc013394141c672b',1,'BoidController']]],
-  ['maxspeedmult_633',['maxSpeedMult',['../class_charged_projectile_ability.html#a089a9bec44b10b62b05940bf42a4cafe',1,'ChargedProjectileAbility']]],
-  ['maxx_634',['maxX',['../class_player_controller.html#afc1262b95da1e8a5b7e486c892a23c83',1,'PlayerController']]],
-  ['maxy_635',['maxY',['../class_player_controller.html#a686cdf7aee2254a6c6f7bf09cb543ea6',1,'PlayerController']]],
-  ['minattackinterval_636',['minAttackInterval',['../class_generic_shooter_enemy.html#aa041a00b3c320dfe31350584a14b8b11',1,'GenericShooterEnemy']]],
-  ['minx_637',['minX',['../class_player_controller.html#a7b8b16f91f4d248727bee11dc735fe1a',1,'PlayerController']]],
-  ['miny_638',['minY',['../class_player_controller.html#afe758a88e7ce82ea157d08e898bb2072',1,'PlayerController']]],
-  ['moveaction_639',['moveAction',['../class_player_controller.html#af99cddccf0395badc734b368261b7d85',1,'PlayerController']]],
-  ['movespeedmultiplier_640',['MoveSpeedMultiplier',['../class_player_multipliers.html#ad10e4c949524303091fc2bb7f2128071',1,'PlayerMultipliers']]],
-  ['multipliers_641',['multipliers',['../class_v_f_x_component.html#adcd07205bca359c3ed25899cbf1c0bfc',1,'VFXComponent']]]
+  ['lastfired_0',['LastFired',['../class_ability_container.html#ab9242561ae22ad1fd7bb5e6b60f79ffa',1,'AbilityContainer']]],
+  ['lastheal_1',['lastHeal',['../class_player_controller.html#acb4428a9b599224698e1c73a1abac516',1,'PlayerController']]],
+  ['lastparrytime_2',['lastParryTime',['../class_parry_ability.html#a0155874f4ac20e19bbf44c7a35f053e0',1,'ParryAbility']]],
+  ['lerpspeed_3',['lerpspeed',['../class_health_bar_u_i.html#a8a32720bc2a7d61e344616af210e6e81',1,'HealthBarUI.LerpSpeed'],['../class_post_processing_controller.html#aeceac499a07ec3f7f315c6d824bb51db',1,'PostProcessingController.LerpSpeed'],['../class_generic_shooter_enemy.html#a7694384e4403c576ab7ffca34cefdb12',1,'GenericShooterEnemy.lerpSpeed'],['../class_lerp_to_position.html#a465ddcef30ac252c60b1136cdedb56f9',1,'LerpToPosition.lerpSpeed'],['../class_kill_special_display.html#a5625835bb3ad957f7059aec3ec8efa1b',1,'KillSpecialDisplay.lerpSpeed'],['../class_parry_ability.html#ae2e5d83d05fd7ee7b8b0c1bd1eece81c',1,'ParryAbility.lerpSpeed']]],
+  ['lifetime_4',['lifetime',['../class_ability_decorator.html#af2f735116302f49c97e004a734a766c4',1,'AbilityDecorator']]],
+  ['light2d_5',['light2D',['../class_fade_light_v_f_x.html#a8d1be241227bbe04d18975a214cdab9c',1,'FadeLightVFX']]],
+  ['lives_6',['lives',['../class_player_controller.html#a650dbebdf1307ffc8daade7aad973469',1,'PlayerController']]],
+  ['loop_7',['loop',['../class_fade_light_v_f_x.html#ad9f6d684a97c880c9d83e760654b3f4e',1,'FadeLightVFX.loop'],['../class_fade_text_v_f_x.html#aaa565aaf15310e4cfbe43b77d40f78f3',1,'FadeTextVFX.loop'],['../class_fade_v_f_x.html#af53dbfeb267de040afea7a1317a5ea34',1,'FadeVFX.loop']]]
 ];

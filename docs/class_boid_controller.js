@@ -14,12 +14,18 @@ var class_boid_controller =
     [ "boidPool", "class_boid_controller.html#a2c8981ae0c476814e9acc43121329e38", null ],
     [ "boids", "class_boid_controller.html#a887bd57749d55ea90aabd9904eb9fd85", null ],
     [ "cohesionWeight", "class_boid_controller.html#ae9ec7849f938e36a683664fbdbc9e564", null ],
+    [ "deathVFX", "class_boid_controller.html#a3c577a2e79aa9feee6d1869e46c470a1", null ],
+    [ "difficultyMod", "class_boid_controller.html#a98a97c1bcd5aaefe56e31df7adfdd0c0", null ],
     [ "followTarget", "class_boid_controller.html#aead717d42f020cdd1dfed673e23ede11", null ],
     [ "forcefields", "class_boid_controller.html#a623fdc449fcc1ec63a5e441a1309cefe", null ],
     [ "maxSpeed", "class_boid_controller.html#abec030bc6f540265bc013394141c672b", null ],
     [ "noiseMultiplier", "class_boid_controller.html#a5259d85aaff48dbd2c1225679d203657", null ],
+    [ "playerData", "class_boid_controller.html#af136a5dc79199340719619686d01ca19", null ],
     [ "separationDistance", "class_boid_controller.html#aa2f3b1645b87f08b11c0512c416be189", null ],
     [ "separationWeight", "class_boid_controller.html#ac970fb56823a1881160b68fc352a4ad3", null ],
     [ "spawnRadius", "class_boid_controller.html#abc0ed1bf1a033754daf7b35a0c736cc9", null ],
-    [ "targetPosition", "class_boid_controller.html#aadda32ffb1b20dd90490c3d2c0a8ac23", null ]
+    [ "suicideTargetWeightMult", "class_boid_controller.html#ae8b1726d6e17d631e240219a2cf87bf1", null ],
+    [ "suicideThreshold", "class_boid_controller.html#a5a550adc1844a383ae0fbe0aa54e837f", null ],
+    [ "targetPosition", "class_boid_controller.html#aadda32ffb1b20dd90490c3d2c0a8ac23", null ],
+    [ "targetWeightMult", "class_boid_controller.html#a19eb6c25b65babd67bd67f19eb320472", null ]
 ];

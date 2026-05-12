@@ -1,6 +1,7 @@
 var class_player_ability_user =
 [
     [ "ActivateAbility", "class_player_ability_user.html#a55a2f5ac2285295a6d49bc4f4cfdacd3", null ],
+    [ "ActivateKillSpecial", "class_player_ability_user.html#a7cc0395787a5376a92b7d655ecc82036", null ],
     [ "AddAbility", "class_player_ability_user.html#a68688b2aaea0b650de9581ecdda2c28c", null ],
     [ "CycleAbility", "class_player_ability_user.html#a02a0e245f13375ca962642ba153bbd7a", null ],
     [ "DeactivateAbility", "class_player_ability_user.html#ac17ffc4e079e543df1009127c7bfa3be", null ],
@@ -16,7 +17,10 @@ var class_player_ability_user =
     [ "_IgnoreLayers", "class_player_ability_user.html#a7ff3b1e1b81c967e097c66d898eebf39", null ],
     [ "_TargetLayers", "class_player_ability_user.html#a56a9ab4b6b9a39c179d9c4dceabd33cc", null ],
     [ "availableAbilities", "class_player_ability_user.html#a22a4e90f8406ec716dd140cb05c7a621", null ],
+    [ "killSpecialAbility", "class_player_ability_user.html#a22adbb9d155318ffc49633a3e803be2c", null ],
     [ "playerData", "class_player_ability_user.html#aec78f22bd31dea95e78dca93e6e5b6ea", null ],
+    [ "weapon1", "class_player_ability_user.html#adcba21b215491f5207fd6cf9ea8c006a", null ],
+    [ "weapon2", "class_player_ability_user.html#a7c202276cc3b4dfdd5abd9bfff5bce90", null ],
     [ "CurrentAbility", "class_player_ability_user.html#a178c1d003685fc1dae18011feaed6280", null ],
     [ "IgnoreLayers", "class_player_ability_user.html#a5948585ba0815c0ff2c799927a37baae", null ],
     [ "TargetLayers", "class_player_ability_user.html#a2a7c381ff5925ff621ce5a50929b66dc", null ]

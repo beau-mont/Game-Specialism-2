@@ -1,0 +1,16 @@
+digraph "ParryHeal.ProcEffect"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="ParryHeal.ProcEffect",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PlayerController.ModifyHealth",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_player_controller.html#a394ad75e9c15037e9081511ead5e7038",tooltip="Removes value from currentHealth."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PlayerController.CheckDamageThresholds",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_player_controller.html#a085293fc43a0320e14ab82e6b053aa4d",tooltip=" "];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="PlayerController.Kill",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_player_controller.html#a1951a5a9cade0b01ac33e1e24a77a9d0",tooltip="Kills the object."];
+}

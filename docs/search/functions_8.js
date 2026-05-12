@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['modifyhealth_515',['ModifyHealth',['../class_generic_damageable.html#ad32845af3794205ae286865b1e35a83f',1,'GenericDamageable.ModifyHealth()'],['../class_generic_enemy_controller.html#a11d2125c574c6038518ba69bddc2c3ef',1,'GenericEnemyController.ModifyHealth()'],['../interface_i_damageable.html#a1293ee80748b016b517da5b51451c048',1,'IDamageable.ModifyHealth()'],['../class_player_controller.html#a394ad75e9c15037e9081511ead5e7038',1,'PlayerController.ModifyHealth()']]],
-  ['modifymaxhealth_516',['ModifyMaxHealth',['../class_generic_damageable.html#a0f9b1d1e05bfafafcaadbd589fc64241',1,'GenericDamageable.ModifyMaxHealth()'],['../class_generic_enemy_controller.html#acceb80be80c8b5624625dda048ae11e3',1,'GenericEnemyController.ModifyMaxHealth()'],['../interface_i_damageable.html#a1067f1e6ea3bb83f302b3c272474a2b9',1,'IDamageable.ModifyMaxHealth()'],['../class_player_controller.html#a4800c35de23de2289c6b8b5e4ed0229d',1,'PlayerController.ModifyMaxHealth()']]]
+  ['loadgame_0',['LoadGame',['../class_startbutton.html#a05db9e9b2dcf3185c3500328be89b3be',1,'Startbutton']]],
+  ['loadscene_1',['LoadScene',['../class_scene_controller.html#a1f2e01f79a569e3b4cd9e019d3696e3a',1,'SceneController']]]
 ];

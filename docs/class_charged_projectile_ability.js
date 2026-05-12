@@ -11,6 +11,7 @@ var class_charged_projectile_ability =
     [ "baseDamageMult", "class_charged_projectile_ability.html#a92994c5c80608f2bf7ec19c6e929bc89", null ],
     [ "baseSpeedMult", "class_charged_projectile_ability.html#a3794345e318dc43a8fc4d07595fb20ff", null ],
     [ "chargeVFX", "class_charged_projectile_ability.html#a0e5d87222600d47402add5ee67ef3fd7", null ],
+    [ "fireSFX", "class_charged_projectile_ability.html#a91d5c8818415909600d6ce5cf9f40f7b", null ],
     [ "fireVFX", "class_charged_projectile_ability.html#a25d9ea61ed7d291f288dd1c7d9604811", null ],
     [ "maxChargeDuration", "class_charged_projectile_ability.html#affa32d5dc7509b3dadf910600d2a200e", null ],
     [ "maxDamageMult", "class_charged_projectile_ability.html#a907dbbdae53fde6a1a2947164583bd41", null ],
