@@ -88,6 +88,7 @@ public class AbilityDecorator : MonoBehaviour // GRAAAAAAAH I FUCKING LOVE DOCUM
     public void ProcessHit(Collider2D other)
     {
         if (other.gameObject == owner) return; // don't trigger on the owner of the ability
+        if (other.gameObject.CompareTag("Projectile")) return; // dont trigger if we are just hitting another projectile
         foreach (AbstractPayload payload in payloads)
         {
             payload.HitEffect(gameObject, other.gameObject, payloadMultipliers);

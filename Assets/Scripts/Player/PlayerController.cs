@@ -21,6 +21,7 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
     // this means we keep a base max health but we can still modify it easily with rouge-like abilities down the road.
     [SerializeField] private float MaxHealth;
     public float currentHealth;
+    public float lives = 3f;
     [SerializeReference, SerializeField] private List<DamageThreshold> _damageThresholds;
     public List<DamageThreshold> DamageThresholds { get => _damageThresholds; set => _damageThresholds = value; }
     [Header("Settings")]
@@ -105,7 +106,7 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
     { 
         if (!playerData || playerData.PlayerAbilityUser == null) return; // if we cant use abilities then just forget aboot it
         
-        if (switchAction.WasPressedThisFrame())// TODO: Replace with a proper controller
+        if (switchAction.WasPressedThisFrame())
         {
             if (attackAction.IsPressed()) playerData.PlayerAbilityUser.DeactivateAbility();
             playerData.PlayerAbilityUser.CycleAbility();
@@ -157,7 +158,10 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
             temp.transform.SetPositionAndRotation(transform.position, transform.rotation);
             temp.SetActive(true);
         }
-        StartCoroutine(OpenMenu(3));
+        
+        if (lives <= 0) FindFirstObjectByType<GameController>().OpenMenu(5);
+        else FindFirstObjectByType<GameController>().Respawn(gameObject);
+
         gameObject.SetActive(false);
     }
 
@@ -179,19 +183,6 @@ public class PlayerController : MonoBehaviour, IDamageable, IDamageThreshold
                 threshold.End();
                 threshold.Active = false;
             } 
-        }
-    }
-
-    private IEnumerator OpenMenu(float waitTime)
-    {
-        if (waitTime > 0)
-        {
-            yield return new WaitForSeconds(waitTime);
-        }
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("Menu", LoadSceneMode.Single);
-        while (!asyncLoad.isDone)
-        {
-            yield return null;
         }
     }
     #endregion

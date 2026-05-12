@@ -43,7 +43,7 @@ public class ParryAbility : MonoBehaviour
         }
         else
         {
-            targetAlpha = 0.5f;
+            targetAlpha = 0.25f;
         }
 
         image.color = new Color(0f, 1f, 1f, Mathf.Lerp(image.color.a, targetAlpha, Time.deltaTime * lerpSpeed));

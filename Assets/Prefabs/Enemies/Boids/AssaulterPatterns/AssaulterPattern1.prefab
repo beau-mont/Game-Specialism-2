@@ -101,11 +101,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 382744091df1bc4ad91bd5cbea15f190, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  difficultyMod: 0
   suicideThreshold: 8
   suicideTargetWeightMult: 2
   playerData: {fileID: 11400000, guid: f45cb763de2a96db4a09887ee31eb15a, type: 2}
   followTarget: {fileID: 1005565167479934708}
-  maxSpeed: 15
+  maxSpeed: 10
   noiseMultiplier: 0.5
   alignmentWeight: 4
   cohesionWeight: 1.5

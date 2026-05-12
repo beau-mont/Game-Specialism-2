@@ -11,13 +11,17 @@ public class ConcreteBossFactory : IWaveFactory // specialized factory for boss 
 {
     public PooledSFX StartSound;
     public override string FactoryName => "Boss Wave Factory";
+    public override float MaxHealthMod { get; set; }
     public override List<GameObject> CreateWave(WaveData waveData)
     {
         if (!waveData) return null;
         List<GameObject> spawnedEnemies = new List<GameObject>();
         foreach (var spawn in waveData.enemySpawns)
         {
-            spawnedEnemies.Add(GameObject.Instantiate(spawn.EnemyPrefab, spawn.SpawnLocation, spawn.SpawnRotation));
+            GameObject temp = GameObject.Instantiate(spawn.EnemyPrefab, spawn.SpawnLocation, spawn.SpawnRotation);
+            if (temp.TryGetComponent<GenericDamageable>(out var damageable)) damageable.ModifyMaxHealth(MaxHealthMod);
+            if (temp.TryGetComponent<BoidController>(out var boid)) boid.difficultyMod = MaxHealthMod;
+            spawnedEnemies.Add(temp); // replace with object pooling later
         }
         // Additional logic for boss waves will be added here
         var sfx = StartSound.GetPooledObject();

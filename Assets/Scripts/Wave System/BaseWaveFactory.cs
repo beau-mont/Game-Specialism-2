@@ -9,7 +9,7 @@ using System.Collections.Generic;
 public class ConcreteBaseWaveFactory : IWaveFactory // simple instantiation factory
 {
     public override string FactoryName => "Base Wave Factory";
-    public float healthMod;
+    public override float MaxHealthMod { get; set; }
     public override List<GameObject> CreateWave(WaveData waveData) // returns a list of all enemies spawned in this wave
     {
         if (!waveData) return null;
@@ -17,8 +17,7 @@ public class ConcreteBaseWaveFactory : IWaveFactory // simple instantiation fact
         foreach (var spawn in waveData.enemySpawns)
         {
             GameObject temp = GameObject.Instantiate(spawn.EnemyPrefab, spawn.SpawnLocation, spawn.SpawnRotation);
-            temp.TryGetComponent<GenericDamageable>(out var damageable);
-            if (damageable) damageable.ModifyMaxHealth(healthMod);
+            if (temp.TryGetComponent<GenericDamageable>(out var damageable)) damageable.ModifyMaxHealth(MaxHealthMod);
             spawnedEnemies.Add(temp); // replace with object pooling later
         }
         return spawnedEnemies; // return list of spawned enemies

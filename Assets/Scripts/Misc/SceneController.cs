@@ -9,20 +9,12 @@ using UnityEngine.SceneManagement;
 
 public class SceneController : MonoBehaviour
 {
-    public string menuScene;
-    public string gameScene;
     public int waveIndex;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         DontDestroyOnLoad(this.gameObject);
-        StartCoroutine(LoadScene(menuScene));
-    }
-
-    void Update()
-    {
-        
     }
 
     IEnumerator LoadScene(string loadScene)

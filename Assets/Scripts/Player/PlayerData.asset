@@ -13,11 +13,6 @@ MonoBehaviour:
   m_Name: PlayerData
   m_EditorClassIdentifier: 
   Player: {fileID: 0}
-  PlayerAbilityUser: {fileID: 0}
-  MaxHealth: 5
-  Health: 5
-  MaxLives: 3
-  Lives: 3
-  MaxSpeed: 0
-  Acceleration: 0
-  CurrentVelocity: {x: 0, y: 0}
+  PlayerController: {fileID: 0}
+  PlayerUpgradeManager: {fileID: 0}
+  MaxHealthMod: 0

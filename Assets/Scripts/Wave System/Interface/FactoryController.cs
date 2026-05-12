@@ -5,6 +5,8 @@ using System.Reflection;
 using UnityEditor;
 using UnityEngine;
 
+// this isnt used anymore
+
 /// <summary>
 /// A static class that provides a static method to recall a wave factory by name from the asset list.
 /// </summary>

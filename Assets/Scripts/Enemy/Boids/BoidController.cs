@@ -7,6 +7,7 @@ public class BoidController : MonoBehaviour
     // [Header("Global Player Data")]
     // [SerializeField] private PlayerData playerData;
     [Header("Boid Settings")]
+    public float difficultyMod = 0;
     public int suicideThreshold = 5;
     [SerializeField] private float suicideTargetWeightMult = 1f;
     public PlayerData playerData;
@@ -27,6 +28,8 @@ public class BoidController : MonoBehaviour
     public List<GameObject> boids;
     public static List<BoidEntity> allBoids;
     public BoidForcefield[] forcefields;
+    [Header("Misc")]
+    [SerializeField] private PooledVFX[] deathVFX;
     
     void OnEnable()
     {
@@ -37,6 +40,7 @@ public class BoidController : MonoBehaviour
             newBoid.transform.SetPositionAndRotation(spawnPosition, Quaternion.identity);
             newBoid.GetComponent<BoidEntity>().rb.linearVelocity = Random.insideUnitCircle * maxSpeed;
             newBoid.GetComponent<BoidEntity>().boidSystem = this;
+            newBoid.GetComponent<GenericDamageable>().ModifyMaxHealth(difficultyMod);
             newBoid.SetActive(true);
             boids.Add(newBoid);
         }
@@ -51,6 +55,14 @@ public class BoidController : MonoBehaviour
         {
             boid.SetActive(false);
         }
+
+        foreach (var vfx in deathVFX)
+        {
+            GameObject temp = vfx.GetPooledObject();
+            temp.transform.SetPositionAndRotation(transform.position, transform.rotation);
+            temp.SetActive(true);
+        }
+
         var eventController = FindFirstObjectByType<PlayerEventController>();
         if (eventController != null) eventController.OnKill.Invoke();
     }
@@ -90,16 +102,16 @@ public class BoidController : MonoBehaviour
         List<BoidEntity> neighbors = boid.GetComponent<BoidEntity>().neighbors;
 
         Vector2 separationForce = Separation(boid, neighbors);
-        Debug.DrawRay(boid.transform.position, separationForce * 50f, Color.red);
+        //Debug.DrawRay(boid.transform.position, separationForce * 50f, Color.red);
         Vector2 alignmentForce = Alignment(boid, neighbors);
-        Debug.DrawRay(boid.transform.position, alignmentForce * 50f, Color.green);
+        //Debug.DrawRay(boid.transform.position, alignmentForce * 50f, Color.green);
         Vector2 cohesionForce = Cohesion(boid, neighbors);
-        Debug.DrawRay(boid.transform.position, cohesionForce * 50f, Color.blue);
+        //Debug.DrawRay(boid.transform.position, cohesionForce * 50f, Color.blue);
 
         BoidEntity boidEntity = boid.GetComponent<BoidEntity>();
         boidEntity.rb.linearVelocity += separationForce + alignmentForce + cohesionForce;
         boidEntity.rb.linearVelocity += ((Mathf.PerlinNoise(boid.transform.position.x, boid.transform.position.y) - 0.5f) * noiseMultiplier * (Vector2)boid.transform.right );
-        boidEntity.rb.linearVelocity = Vector2.ClampMagnitude(boidEntity.rb.linearVelocity, maxSpeed);
+        boidEntity.rb.linearVelocity = Vector2.ClampMagnitude(boidEntity.rb.linearVelocity, maxSpeed * (1 + (difficultyMod / 2.5f)));
     }
 
     private Vector2 Separation(GameObject boid, List<BoidEntity> neighbors)
@@ -124,7 +136,7 @@ public class BoidController : MonoBehaviour
             else
                 separationForce /= neighbors.Count;
         }
-        return separationWeight * Time.fixedDeltaTime * separationForce;
+        return (1 + (difficultyMod / 5f)) * separationWeight * Time.fixedDeltaTime * separationForce;
     }
 
     private Vector2 Alignment(GameObject boid, List<BoidEntity> neighbors)
@@ -139,7 +151,7 @@ public class BoidController : MonoBehaviour
             avgVelocity /= neighbors.Count;
         }
         Vector2 alignmentForce = avgVelocity - boid.GetComponent<BoidEntity>().rb.linearVelocity;
-        return alignmentWeight * Time.fixedDeltaTime * alignmentForce;
+        return (1 + (difficultyMod / 2.5f)) * alignmentWeight * Time.fixedDeltaTime * alignmentForce;
     }
 
     private Vector2 Cohesion(GameObject boid, List<BoidEntity> neighbors)
@@ -163,6 +175,6 @@ public class BoidController : MonoBehaviour
         COM = worldCOM;
 
         Vector2 cohesionForce = COM - boidPos;
-        return cohesionWeight * Time.fixedDeltaTime * cohesionForce;
+        return (1 + (difficultyMod / 2.5f)) * cohesionWeight * Time.fixedDeltaTime * cohesionForce;
     }
 }

@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 2d8825b806234fec6a71f0e71ee08dfc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3266807836037732620
+    second: ControlLayout_0
+  - first:
+      213: -7097506837277977512
+    second: ControlLayout_1
+  - first:
+      213: -7986249214998430811
+    second: ControlLayout_2
+  - first:
+      213: -955561526500716667
+    second: ControlLayout_3
+  - first:
+      213: -8600682060627154548
+    second: ControlLayout_4
+  - first:
+      213: 7571509973435497039
+    second: ControlLayout_5
+  - first:
+      213: 8737835854053528627
+    second: ControlLayout_6
+  - first:
+      213: -6620913951532987191
+    second: ControlLayout_7
+  - first:
+      213: -3540102931815379185
+    second: ControlLayout_8
+  - first:
+      213: 7035568478900687093
+    second: ControlLayout_9
+  - first:
+      213: 6700287598073646369
+    second: ControlLayout_10
+  - first:
+      213: -2941757718304173978
+    second: ControlLayout_11
+  - first:
+      213: 7786596893145980026
+    second: ControlLayout_12
+  - first:
+      213: 5543410287444303736
+    second: ControlLayout_13
+  - first:
+      213: -5341237217734374704
+    second: ControlLayout_14
+  - first:
+      213: 8506040497486526169
+    second: ControlLayout_15
+  - first:
+      213: 3631205889278670855
+    second: ControlLayout_16
+  - first:
+      213: -4628507362265272026
+    second: ControlLayout_17
+  - first:
+      213: -1825080272717372912
+    second: ControlLayout_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1000
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ControlLayout_0
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 179
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f62287d497f9a2d0800000000000000
+      internalID: -3266807836037732620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControlLayout_1
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 182
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 854d32db227908d90800000000000000
+      internalID: -7097506837277977512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControlLayout_2
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 198
+        width: 76
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5abb644e6a42b2190800000000000000
+      internalID: -7986249214998430811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControlLayout_3
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 198
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58f05ebbad92db2f0800000000000000
+      internalID: -955561526500716667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControlLayout_4
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 198
+        width: 83
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c896e36fb3d34a880800000000000000
+      internalID: -8600682060627154548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControlLayout_5
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 198
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a33fb8438631960800000000000000
+      internalID: 7571509973435497039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControlLayout_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 109
+        width: 61
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334588a0a67034970800000000000000
+      internalID: 8737835854053528627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControlLayout_7
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 101
+        width: 62
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ccc27617d9cd14a0800000000000000
+      internalID: -6620913951532987191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControlLayout_8
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 109
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f43d8c3270fdec0800000000000000
+      internalID: -3540102931815379185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControlLayout_9
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 113
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f09fc9614c53a160800000000000000
+      internalID: 7035568478900687093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControlLayout_10
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 131
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d822022143cfc50800000000000000
+      internalID: 6700287598073646369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControlLayout_11
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 131
+        width: 59
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6605739f0f6cc27d0800000000000000
+      internalID: -2941757718304173978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControlLayout_12
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 131
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c50218e9c8f0c60800000000000000
+      internalID: 7786596893145980026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControlLayout_13
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 20
+        width: 181
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f1d5349462eec40800000000000000
+      internalID: 5543410287444303736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControlLayout_14
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 35
+        width: 122
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dac8dfac0d10e5b0800000000000000
+      internalID: -5341237217734374704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControlLayout_15
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 0
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d675c9f3c68b0670800000000000000
+      internalID: 8506040497486526169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControlLayout_16
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 0
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 708f2c07482a46230800000000000000
+      internalID: 3631205889278670855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControlLayout_17
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 0
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 621f5efa31d34cfb0800000000000000
+      internalID: -4628507362265272026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControlLayout_18
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 0
+        width: 48
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 012ab1269230ca6e0800000000000000
+      internalID: -1825080272717372912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ControlLayout_0: -3266807836037732620
+      ControlLayout_1: -7097506837277977512
+      ControlLayout_10: 6700287598073646369
+      ControlLayout_11: -2941757718304173978
+      ControlLayout_12: 7786596893145980026
+      ControlLayout_13: 5543410287444303736
+      ControlLayout_14: -5341237217734374704
+      ControlLayout_15: 8506040497486526169
+      ControlLayout_16: 3631205889278670855
+      ControlLayout_17: -4628507362265272026
+      ControlLayout_18: -1825080272717372912
+      ControlLayout_2: -7986249214998430811
+      ControlLayout_3: -955561526500716667
+      ControlLayout_4: -8600682060627154548
+      ControlLayout_5: 7571509973435497039
+      ControlLayout_6: 8737835854053528627
+      ControlLayout_7: -6620913951532987191
+      ControlLayout_8: -3540102931815379185
+      ControlLayout_9: 7035568478900687093
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

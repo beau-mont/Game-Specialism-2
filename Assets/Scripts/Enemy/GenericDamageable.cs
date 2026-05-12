@@ -16,6 +16,11 @@ public class GenericDamageable : MonoBehaviour, IDamageable
     public PooledVFX[] healVFX;
     public PooledSFX[] healSFX;
 
+    void OnEnable()
+    {
+        health = maxHealth * (maxHealthModifier + 1);
+    }
+
     public void Kill()
     {
         SpawnFX(deathVFX, deathSFX);
@@ -31,7 +36,7 @@ public class GenericDamageable : MonoBehaviour, IDamageable
         if (value > 0) SpawnFX(damageVFX, damageSFX);
         else if (value < 0) SpawnFX(healVFX, healSFX);
         if (health <= 0) Kill();
-        if (health > maxHealth + maxHealthModifier) health = maxHealth + maxHealthModifier;
+        if (health > maxHealth * (maxHealthModifier + 1)) health = maxHealth * (maxHealthModifier + 1);
     }
 
     public void ModifyMaxHealth(float value)

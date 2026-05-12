@@ -24,7 +24,7 @@ public class PlayerAbilityUser : MonoBehaviour, IAbilityUser
 
     void Start()
     {
-        playerData.PlayerAbilityUser = this; // add yourself to the player data
+        playerData.PlayerAbilityUser = (IAbilityUser)this; // add yourself to the player data
     }
 
     public void ActivateKillSpecial()

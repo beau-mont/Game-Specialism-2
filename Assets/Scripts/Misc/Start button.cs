@@ -5,6 +5,6 @@ public class Startbutton : MonoBehaviour
 {
     public void LoadGame()
     {
-        SceneManager.LoadSceneAsync(2);
+        SceneManager.LoadSceneAsync(1);
     }
 }

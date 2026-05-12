@@ -285,8 +285,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70352c1088727aedc94924b8cb8d4884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 2
-  maxHealth: 2
+  health: 1.5
+  maxHealth: 1.5
   maxHealthModifier: 0
   procKill: 0
   damageVFX: []
