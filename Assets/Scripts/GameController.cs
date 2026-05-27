@@ -22,12 +22,17 @@ public class GameController : MonoBehaviour
         PlayerEventController eventController = FindFirstObjectByType<PlayerEventController>();
         if (eventController != null)
         {
-            eventController.OnKill += CheckWaveCompletion;
+            //eventController.OnKill += CheckWaveCompletion;
         }
         //var sceneController = FindFirstObjectByType<SceneController>();
         //if (sceneController) waveIndex = sceneController.waveIndex;
         DisplayWaveName(waves[waveIndex]);
         StartCoroutine(WaveEnumerator(waves[waveIndex]));
+    }
+
+    void Update()
+    {
+        CheckWaveCompletion();
     }
 
     void CheckWaveCompletion()

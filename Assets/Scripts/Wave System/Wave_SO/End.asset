@@ -13,4 +13,31 @@ MonoBehaviour:
   m_Name: End
   m_EditorClassIdentifier: 
   WaveName: Congratulations on beating the demo!
-  enemySpawns: []
+  enemySpawns:
+  - SpawnLocation: {x: 0, y: 0, z: 0}
+    SpawnRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnemyPrefab: {fileID: 1005565167479934708, guid: 0a4d98f89a864d5dc9dcf041cb03eedf, type: 3}
+  - SpawnLocation: {x: 0, y: 0, z: 0}
+    SpawnRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnemyPrefab: {fileID: 1005565167479934708, guid: 0a4d98f89a864d5dc9dcf041cb03eedf, type: 3}
+  - SpawnLocation: {x: 0, y: 0, z: 0}
+    SpawnRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnemyPrefab: {fileID: 1005565167479934708, guid: 0a4d98f89a864d5dc9dcf041cb03eedf, type: 3}
+  - SpawnLocation: {x: 0, y: 0, z: 0}
+    SpawnRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnemyPrefab: {fileID: 8669806100855643754, guid: 90a7057760e4148b48d02c28e14bf4a2, type: 3}
+  - SpawnLocation: {x: 0, y: 0, z: 0}
+    SpawnRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnemyPrefab: {fileID: 8669806100855643754, guid: 90a7057760e4148b48d02c28e14bf4a2, type: 3}
+  - SpawnLocation: {x: 0, y: 0, z: 0}
+    SpawnRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnemyPrefab: {fileID: 8669806100855643754, guid: 90a7057760e4148b48d02c28e14bf4a2, type: 3}
+  - SpawnLocation: {x: 0, y: 3, z: 0}
+    SpawnRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnemyPrefab: {fileID: 5084835651695873781, guid: 9b81628b1e91d2b289a9bf8108a9c3d3, type: 3}
+  - SpawnLocation: {x: 0, y: 7, z: 0}
+    SpawnRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnemyPrefab: {fileID: 8749069777770661347, guid: 507401768af2bd9d4b9082d4666d2eff, type: 3}
+  - SpawnLocation: {x: 0, y: 7, z: 0}
+    SpawnRotation: {x: 0, y: 0, z: 0, w: 0}
+    EnemyPrefab: {fileID: 8749069777770661347, guid: 507401768af2bd9d4b9082d4666d2eff, type: 3}
